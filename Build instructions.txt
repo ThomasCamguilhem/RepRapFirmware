@@ -1,0 +1,11 @@
+pour compiler le firmware quand l'erreur  *.elf apparait
+1. Supprimer le dossier d'output de la compilation
+2. Lancer une compilation
+	2.1 si ca compile la procédure est terminée
+	2.2 sinon continuer a l'étape 3
+3. Faire un clean
+4. ouvrir les propriétés du projet Propreties > C/C++ Build > Builder Settings
+5. Desactiver la generation automatique de makefile
+6. Ouvrir le makefile dals le dossier Duet ...
+7. rechercher et remplacer tout les  \ par des /
+8. Retourner à l'étape 2.
