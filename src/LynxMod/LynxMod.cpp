@@ -20,7 +20,8 @@
  ****************************************************************************************************/
 
 #include "LynxMod.h"
-#include "Wire.h"
+#include "SharedSpi.h"
+#include "Tasks.h"
 
 // Platform-specific includes
 //#include "Platform.h"
@@ -48,14 +49,15 @@ const int attente_cancel_reprise = 1500;// Temps d'attente ou l'utilisateur doit
 
 enum DoorState : char {
 	BP_NO_PRESS = 0,
-			BP_FIRST_PRESS = 1,
-			BP_SECOND_PRESS = 2,
-			BP_OPEN_DOOR = 3
+	BP_FIRST_PRESS = 1,
+	BP_SECOND_PRESS = 2,
+	BP_OPEN_DOOR = 3
 };
 
 #define TEMPERATURE_OUVERTURE 600.0			// Temperature pour laquelle la machine veut bien s'ouvrir
 #define DUREE_FLASH 30000 					// Duree du flash (en ms)
-#define DUREE_ENVOI 30000
+#define DUREE_TEST 30000 					// Duree du test des leds (en ms)
+#define DUREE_ENVOI 10000
 
 #define ALIVE 0x38E //0b11 1000 1110 // 910
 
@@ -63,33 +65,33 @@ enum DoorState : char {
 // Couleur ambiance
 // PORTE FERMEE : Le dernier bit est à 1
 // PORTE OUVERTE : Le dernier bit est à 0
+													                                 //  r    g    b    w
+#define PRINT_READY          0x0000008f //0b 0000 0000 0000 0000 0000 0000 1000 1111 //  0 ,  0 ,  0 , 143
+#define PRINTING_DC          0x0000008f //0b 0000 0000 0000 0000 0000 0000 1000 1111 //  0 ,  0 ,  0 , 143
+#define PRINTING_DO          0x000000ff //0b 0000 0000 0000 0000 0000 0000 1111 1111 //  0 ,  0 ,  0 , 255
+#define PRINT_PAUSED_DO      0x0000008f //0b 0000 0000 0000 0000 0000 0000 1000 1111 //  0 ,  0 ,  0 , 143
+#define PRINT_PAUSED_DC      0x000000ff //0b 0000 0000 0000 0000 0000 0000 1111 1111 //  0 ,  0 ,  0 , 255
+#define PRINT_FINISHED       0x0000008f //0b 0000 0000 0000 0000 0000 0000 1000 1111 //  0 ,  0 ,  0 , 143
+#define ERREUR_MAJEURE       0xff000000 //0b 1111 1111 0000 0000 0000 0000 0000 0000 // 255,  0 ,  0 ,  0
+#define ERROR_NO_BIG_DEAL    0xff8f0000 //0b 1111 1111 1000 1111 0000 0000 0000 0000 // 255, 143,  0 ,  0
+#define UPDATE_FIRMWARE      0x00ff8f00 //0b 0000 0000 1111 1111 1000 1111 0000 0000 //  0 , 255, 143,  0
+#define PRINT_IDLE_DC        0x0000008f //0b 0000 0000 0000 0000 0000 0000 1000 1111 //  0 ,  0 ,  0 , 143
+#define PRINT_IDLE_DO        0x000000ff //0b 0000 0000 0000 0000 0000 0000 1111 1111 //  0 ,  0 ,  0 , 255
+#define FLASH                0xffffffff //0b 1111 1111 1111 1111 1111 1111 1111 1111 // 255, 255, 255, 255
+#define TEST_LEDS            0xffffffff //0b 1111 1111 1111 1111 1111 1111 1111 1111 // 255, 255, 255, 255
+#define AMBIANCE             0x8f8f8f00 //0b 1000 1111 1000 1111 1000 1111 0000 0000 // 143, 143, 143,  0
 
-#define PRINT_READY          0x0000008f //0b10 1100 1010 // 714
-#define PRINTING_DC          0x0000008f //0b10 1110 1010 // 746
-#define PRINTING_DO          0x000000ff //0b10 1110 1010 // 746
-#define PRINT_PAUSED_DO      0x0000008f //0b10 0110 0010 // 610
-#define PRINT_PAUSED_DC      0x000000ff //0b10 0110 0010 // 610
-#define PRINT_FINISHED       0x0000008f //0b01 0101 1110 // 350
-#define ERREUR_MAJEURE       0xff000000 //0b00 1110 1010 // 234
-#define ERROR_NO_BIG_DEAL    0xff8f0000 //0b00 0110 1110 // 110
-#define UPDATE_FIRMWARE      0x00ff8f00 //0b01 0010 1010 // 298
-#define PRINT_IDLE_DC        0x0000008f //0b01 0010 0010 // 290
-#define PRINT_IDLE_DO        0x000000ff //0b01 0010 0010 // 290
-#define FLASH                0xffffffff //0b01 1010 1010 // 426
-#define TEST_LEDS            0xffffffff //0b00 1010 1100 // 172
-#define AMBIANCE             0x8f8f8f00 //0b01 0111 0100 // 372
+// Couleurs du verrou warn r g b
+#define APPUI_BP    0b0001
+#define ATTENTE_2BP 0b0010
+#define REPRISE     0b0010
+#define FILTRAGE    0b1110
+#define CANCEL      0b1111
+#define BP_OFF      0b0111
+#define PUSH        0b0010
+#define BLOQUE      0b1110
 
-// Couleurs du verrou
-#define APPUI_BP    0b0001 //0b11 0100 1010 // 842
-#define ATTENTE_2BP 0b0010 //0b11 0101 1010 // 858
-#define REPRISE     0b0010 //0b11 0111 0010 // 882
-#define FILTRAGE    0b1110 //0b11 0101 0010 // 850
-#define CANCEL      0b1111 //0b11 1000 1010 // 906
-#define BP_OFF      0b0111 //0b11 1001 0010 // 914
-#define PUSH        0b0010 //0b11 1011 0110 // 950
-#define BLOQUE      0b1110 //0b11 0001 1100 // 796
-
-// transitions
+// transitions in secs
 #define ERROR 0x00
 #define FAST 0x10
 #define MEDIUM 0x20
@@ -136,6 +138,9 @@ struct LynxMOD {
 			// Demande séquence de test des leds
 			this->V_VER = (TestLeds(false) & 0x0f);//TEST_LEDS;// 172
 		}
+		else if (this->new_color) {
+			this->V_VER = this->trame_ver;
+		}
 		else if (this->DOOR_FLAG == BP_FIRST_PRESS || this->DOOR_FLAG == BP_SECOND_PRESS) {
 			// On attend un second appui
 			if (this->IDLING) {
@@ -155,9 +160,6 @@ struct LynxMOD {
 		else if (this->opening_flag == 2) {
 			// Préparation à l'ouverture (filtrage, refroidissement, etc)
 			this->V_VER = Blink(50, 3000); //FILTRAGE
-		}
-		else if (this->new_color) {
-			this->V_VER = this->trame_ver;
 		}
 		else {
 			// Le bouton ne s'allume pas
@@ -189,8 +191,13 @@ struct LynxMOD {
 			this->V_AMB = TestLeds(true);//TEST_LEDS;// 172
 			this->delay = FAST;
 		}
-		else if (/*this->temp_max >= 80 && */1 && !this->heater_fault) {
-			// Erreur critique (pour l'instant que temperature, à voir si il y a autre chose)
+		else if (this->new_color) {
+			//reprap.GetPlatform().MessageF(MessageType::HttpMessage, "LEDs manu color");
+			this->V_AMB = this->trame_col;
+			this->delay = USER_SLOW;
+		}
+		//else if (/*this->temp_max >= 80 && */1 && !this->heater_fault) {
+		/*	// Erreur critique (pour l'instant que temperature, à voir si il y a autre chose)
 			this->V_AMB = ERREUR_MAJEURE;// 234/235
 			this->delay = ERROR;
 		}
@@ -201,12 +208,7 @@ struct LynxMOD {
 			// Erreur mineure (ex : fin de fil), pour le moment juste le heater fault
 			this->V_AMB = ERROR_NO_BIG_DEAL;
 			this->delay = FAST;
-		}
-		else if (this->new_color) {
-			//reprap.GetPlatform().MessageF(MessageType::HttpMessage,  "LEDs manu color ");
-			this->V_AMB = this->trame_col;
-			this->delay = USER_SLOW;
-		}
+		}*/
 		else if (ch == 'H' || ch == 'S') {
 			if (this->etat_porte)
 				this->V_AMB = PRINT_PAUSED_DO; // 610/611
@@ -342,6 +344,7 @@ struct LynxMOD {
 	}
 };
 
+sspi_device device;
 /* Structure qui va régir le fonctionnement de la transmission par LynxBus TM */
 unsigned int memoire = 0, nb_err = 0;
 struct Emission {
@@ -352,28 +355,114 @@ struct Emission {
 	unsigned char I2CAddr = 0;
 	unsigned int Memoire = 0, NB_SENT = 0;
 	unsigned long derniere_trame = 0;
+	unsigned int delayErr = 10;
+
+	uint16_t fletcher16(const uint8_t *data, size_t len)
+	{
+	  uint32_t c0, c1;
+	  unsigned int i;
+
+	  for (c0 = c1 = 0; len >= 5802; len -= 5802) {
+	    for (i = 0; i < 5802; ++i) {
+	      c0 = c0 + *data++;
+	      c1 = c1 + c0;
+	    }
+	    c0 = c0 % 255;
+	    c1 = c1 % 255;
+	  }
+	  for (i = 0; i < len; ++i) {
+	    c0 = c0 + *data++;
+	    c1 = c1 + c0;
+	  }
+	  c0 = c0 % 255;
+	  c1 = c1 % 255;
+	  return (c1 << 8 | c0);
+	}
 
 	void Envoi(void) {
-		if (((millis() - nb_err) >= 30000) || memoire <= 5)
+		if (((millis() - nb_err) >= delayErr*1000) || memoire <= 5)
 		{
 			if (this->data_amb != 0 && this->data_ver != 0) { // On envoi l'info 5 fois
 				this->fait = 1;
 				this->id = 0;
 			}
-
+			//unsigned long output = data;
+			//Serial.println(output, HEX);
+			// enable Slave Select
+			//digitalWrite(24, LOW);    // SS is CS5
 			unsigned int output = this->data_amb;
-			reprap.GetPlatform().InitI2c();
-			I2C_IFACE.beginTransmission(this->I2CAddr);
-			//reprap.GetPlatform().MessageF(MessageType::HttpMessage, "Sending : ");
+			Byte data[8];
 			for (unsigned int i = 0; i < sizeof(data_amb); i++)
 			{
 				//reprap.GetPlatform().MessageF(MessageType::HttpMessage,"%d ",(output & 0xFF));
-				I2C_IFACE.write((uint8_t)(output & 0xFF));
+				data[i] = ((Byte)(output & 0xFF));
 				output = (output >> 8);
 			}
+			data[4] = (this->data_ver + this->delay);
 
-			//reprap.GetPlatform().MessageF(MessageType::HttpMessage,"%d\n",(this->data_ver)+(this->delay));
-			I2C_IFACE.write(this->data_ver + this->delay);
+			uint16_t csum;
+			csum = fletcher16( data, 5);
+			data[5] = csum & 0xff;
+			data[6] = (csum >> 8) & 0xff;
+			data[7] = '\n';
+
+			spi_status_t sts;
+			{
+				MutexLocker lock(Tasks::GetSpiMutex(), 50);
+				if (!lock)
+				{
+					if (memoire <= 5)
+					{
+						reprap.GetPlatform().MessageF(MessageType::HttpMessage, "SPI transmission error :\nBus busy\n trying %d more times\n", (5-memoire));
+					} else {
+						reprap.GetPlatform().MessageF(MessageType::HttpMessage, "SPI transmission error :\nBus busy\n trying in %ds\n", delayErr);
+					}
+					memoire++;
+					//return TemperatureError::busBusy;
+				}
+
+				sspi_master_setup_device(&device);
+				delayMicroseconds(1);
+				sspi_select_device(&device);
+				delayMicroseconds(1);
+
+				sts = sspi_write_packet(data, 8);
+
+				delayMicroseconds(1);
+				sspi_deselect_device(&device);
+				delayMicroseconds(1);
+			}
+
+			if (sts != SPI_OK)
+			{
+				if (memoire <= 5)
+				{
+					reprap.GetPlatform().MessageF(MessageType::HttpMessage, "SPI transmission error :\nData not received\n trying %d more times\n", (5-memoire));
+				} else {
+					reprap.GetPlatform().MessageF(MessageType::HttpMessage, "SPI transmission error :\nData not received\n trying in %ds\n", delayErr);
+				}
+				memoire++;
+				//return TemperatureError::timeout;
+			}
+
+			//return TemperatureError::success;
+/*
+			// send test Bytes
+			for (unsigned int i = 0; i < 5; i++)
+			{
+				//reprap.GetPlatform().MessageF(MessageType::HttpMessage,"%d ",(output & 0xFF));
+				SPI->transfer((Byte)(data[i] & 0xFF));
+			    //output = (output >> 8);
+			}
+			SPI->transfer(f0);
+			SPI->transfer(f1);
+			//SPI.transfer(c0);
+			//SPI.transfer(c1);
+			SPI->transfer('\n');
+
+			// disable Slave Select
+			digitalWrite(24, HIGH); // SS is CS5 // 56-24
+
 			unsigned int endCode = I2C_IFACE.endTransmission();
 			if (endCode == 0)
 			{
@@ -418,7 +507,7 @@ struct Emission {
 					nb_err = millis();
 				}
 
-			}
+			}*/
 		}
 	}
 
@@ -474,12 +563,18 @@ LynxMOD Modlynx;
 unsigned int micros() {return millis()*1000;} //(clock()*1000000)/CLOCKS_PER_SEC;};
 
 LynxMod::LynxMod() {
-
+	// Put SCK, MOSI, SS pins into output mode
+	// also put SCK, MOSI into LOW state, and SS into HIGH state.
+	// Then put SPI hardware into Master mode and turn SPI ondevice.csPin = SpiTempSensorCsPins[relativeChannel];
+	device.csPin = LYNXMOD_SS;
+	device.csPolarity = false;						// active low chip select
+	device.spiMode = SPI_MODE_0;
+	device.clockFrequency = 1000000;
 }
 
 void LynxMod::Init()
 {
-	//Wire.begin();
+	sspi_master_init(&device, 8);
 	logger = reprap.GetPlatform().GetLogger();
 	realTime = reprap.GetPlatform().GetRealTime();
 }
@@ -509,7 +604,7 @@ void LynxMod::Spin() {
 		}
 
 		//LynxInit(lynxModTX, inputDoorState, inputDoorBP);
-		Modlynx.etat_porte = digitalRead(inputDoorState);// Porte
+		Modlynx.etat_porte = digitalRead(INPUT_DOOR_STATE);// Porte
 		LynxM968();
 		LynxM969(); // Analyse des M969 reçu
 		ComC = 0;
@@ -616,17 +711,13 @@ void LynxMod::SetTempSafeLed()
 			Modlynx.Flag_TEMP = 0;
 		}
 	}
-	IoPort::WriteAnalog(reprap.GetLynxMod().safety_led, (Modlynx.heater_fault || Modlynx.Flag_TEMP) ? 0 : 255, 0);
+	IoPort::WriteAnalog(SAFETY_LED, (Modlynx.heater_fault || Modlynx.Flag_TEMP) ? 0 : 255, 0);
 }
 
 int32_t waitInputDoorSafeLock = 0;// lynxmod flag > 0 when waiting for the door to be closed
 
 /* Permet au LynxBus TM d'envoyer les données au LynxMod */
 void LynxMod::LynxModCom(unsigned long valeur_amb, char valeur_ver, char delay) {
-	if (Transmission.I2CAddr == 0) {
-		// On défini l'adresse de transmission
-		Transmission.I2CAddr = LYNXMOD_I2C;
-	}
 
 	LynxMod_now = millis();
 	if ((LynxMod_now - LynxMod_old) >= LynxMod_synchro) { // Boucle toutes les ms
@@ -662,18 +753,19 @@ void Lock(bool cmd) {
 	if (!Modlynx.etat_porte) { // porte fermée
 		cmd = false;
 	}
-	IoPort::WriteAnalog(reprap.GetLynxMod().door_cmd, (cmd) ? 255 : 0, 0);
+	reprap.GetPlatform().MessageF(MessageType::HttpMessage, "Trying to open the door\n");
+	IoPort::WriteAnalog(DOOR_CMD, (cmd) ? 255 : 0, 0);
 }
 
 /* Gère l'ouverture de la porte */
 void LynxMod::Verrouillage() {
-	Modlynx.etat_verrou = digitalRead(inputDoorBP); // VERROU
+	Modlynx.etat_verrou = digitalRead(INPUT_DOOR_BP); // VERROU
 	char ch = reprap.GetStatusCharacter();// Status de la machine
 
 	////////////////////////////////////////////////// FERMETURE //////////////////////////////////////////////////////////
 	// Les heaters sont en logique inverse
 
-	if (Modlynx.etat_porte && !Modlynx.etat_verrou && egg_state < 10) {
+	if (/*Modlynx.etat_porte*/Modlynx.etat_verrou && !Modlynx.etat_verrou && egg_state < 10) {
 		// Porte ouverte et BP
 		egg_state = 10;
 		egg_cpt=millis();
@@ -731,6 +823,7 @@ void LynxMod::Verrouillage() {
 			}
 			// Code pour finalement ouvrir la porte
 			else if (Modlynx.etat_verrou) { // On relache le BP
+
 				Lock(false);// Il y a déjà une sécurité qui fait que le lock se relache en cas de porte ouverte
 				if (Modlynx.etat_porte) { // La porte est ouverte on se remet à zéro
 					Lock(true);
@@ -839,6 +932,7 @@ void LynxMod::Verrouillage() {
 			// SI IL FAIT PAS CHAUD : ON OUVRE
 			if (Modlynx.IDLING && (Modlynx.temp_max <= TEMPERATURE_OUVERTURE || Modlynx.heater_fault || Modlynx.temp_max == 2000)) {
 				if (!Modlynx.etat_porte) {
+					reprap.GetPlatform().MessageF(MessageType::HttpMessage, "Ouvrerture porte\n");
 					Modlynx.pushpls = true;
 					Lock(false);
 				}
@@ -1028,6 +1122,15 @@ void LynxMod::LynxM968(){
 	if (Com != ex_Com && ComC == 968)
 	{
 		switch (Com){
+		/*case 0:
+			// on force l'ouverture de la porte
+			reprap.GetPlatform().MessageF(MessageType::HttpMessage, "Bypassing safety Door oppening\n");
+			if (!Modlynx.etat_porte) {
+				reprap.GetPlatform().MessageF(MessageType::HttpMessage, "Door closed\n");
+				Modlynx.panel_open = true;
+
+			}
+			break;*/
 		case 1:
 			// On demande d'ouvrir la porte
 			logger->LogMessage(reprap.GetPlatform().GetRealTime(), ";Panel Due door opening request;\n");
@@ -1048,8 +1151,11 @@ void LynxMod::LynxM968(){
 			err = true;
 		}
 		this->ex_Com = this->Com;
-				this->ComP = 0;
-				this->Com = 0;
+		this->ComP = 0;
+		this->Com = 0;
+	}
+	if (err) {
+		reprap.GetPlatform().MessageF(MessageType::HttpMessage, "P value incorrect\n");
 	}
 }
 
@@ -1058,6 +1164,8 @@ void LynxMod::LynxM969() {
 	// Fonction qui va agir selon les données reçues par le GCode M969 SX
 	if (Com != ex_Com && ComC == 969) {
 		switch (Com) {
+		case 0:
+			reprap.GetPlatform().MessageF(MessageType::HttpMessage, "S1: allumage du flash ('luminosité max')\n S4 Test leds \nS5 P[0000-1111]: Allumage manuel LED Old\n\t R[0-255] V[0-255] B[0-255] W[0-255] L[000-1111] Allumage manuel LED New");
 		case 1:
 			// On demande d'allumer le flash
 			reprap.GetPlatform().GetLogger()->LogMessage(reprap.GetPlatform().GetRealTime(), ";Flash;\n");
@@ -1066,9 +1174,20 @@ void LynxMod::LynxM969() {
 			break;
 
 		case 2:
-			reprap.GetPlatform().MessageF(MessageType::HttpMessage, "M969 S2: Commande depreciee\n Nouvelle commande M968 S1\n");
-			this->Com = 1;
-			LynxM968();
+			// On demande d'ouvrir la porte
+			logger->LogMessage(reprap.GetPlatform().GetRealTime(), ";Panel Due door opening request;\n");
+			if (!Modlynx.etat_porte) {
+				// Si la porte est fermée
+				char ch = reprap.GetStatusCharacter();
+				if (ch != 'R' && ch != 'M' && ch != 'P') {
+					// Si la machine est en pause, on ouvre
+					Modlynx.panel_open = true;
+				}
+				else {
+					// Sinon on exécute les sécurités
+					Modlynx.DOOR_FLAG = BP_OPEN_DOOR;
+				}
+			}
 			break;
 
 		case 4:
@@ -1142,7 +1261,7 @@ void LynxMod::LynxM969() {
 					reprap.GetPlatform().MessageF(MessageType::HttpMessage, "White %lu\n",(Modlynx.trame_col & 0xff));
 					ComCol[3] = 0;
 				}
-				else err = true;
+				else { err = true;}
 				if (ComCol[4] >= 0 && ComCol[4] <=111)
 				{
 					char verr = ComCol[4];
@@ -1205,7 +1324,7 @@ void LynxMod::LynxM969() {
 	}
 	if (Modlynx.test_leds) {
 		Modlynx.test_cpt++;
-		if (Modlynx.test_cpt >= DUREE_ENVOI/Modlynx.synchro) {
+		if (Modlynx.test_cpt >= DUREE_TEST/Modlynx.synchro) {
 			Modlynx.test_leds = false;
 			this->ex_Com = 0;
 		}

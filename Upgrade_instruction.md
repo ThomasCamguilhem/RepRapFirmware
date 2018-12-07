@@ -120,4 +120,8 @@
 				platform.MessageF(MessageType::ErrorMessage, "Merci de fermer la porte avant de lancer une impression\n");
 			}
 		#endif
+
+-change version number in Version.h
+	L 12 : 
+	L 16 :
 	

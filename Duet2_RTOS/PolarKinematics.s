@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
   55              		.type	_ZN10Kinematics22SetCalibrationDefaultsEv, %function
   56              	_ZN10Kinematics22SetCalibrationDefaultsEv:
   57              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  112 0002 7047     		bx	lr
  113              		.size	_ZNK10Kinematics23AxesToHomeBeforeProbingEv, .-_ZNK10Kinematics23AxesToHomeBeforeProbingEv
  114              		.section	.text._ZNK10Kinematics13GetMotionTypeEj,"axG",%progbits,_ZNK10Kinematics13GetMotionTypeEj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 3
 
 
  115              		.align	1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  169              		.fpu fpv4-sp-d16
  170              		.type	_ZNK15PolarKinematics17HomingButtonNamesEv, %function
  171              	_ZNK15PolarKinematics17HomingButtonNamesEv:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 4
 
 
  172              		@ args = 0, pretend = 0, frame = 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  226              		.type	_ZNK15PolarKinematics11IsReachableEffb, %function
  227              	_ZNK15PolarKinematics11IsReachableEffb:
  228              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 5
 
 
  229              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  283              		@ link register save eliminated.
  284 0000 01F00303 		and	r3, r1, #3
  285 0004 032B     		cmp	r3, #3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 6
 
 
  286 0006 14BF     		ite	ne
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  340 0004 B0FA80F0 		clz	r0, r0
  341 0008 4009     		lsrs	r0, r0, #5
  342 000a 7047     		bx	lr
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 7
 
 
  343              		.size	_ZNK15PolarKinematics24IsContinuousRotationAxisEj, .-_ZNK15PolarKinematics24IsContinuousRota
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  397 004c 0020     		movs	r0, #0
  398              	.L44:
  399 004e 022F     		cmp	r7, #2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 8
 
 
  400 0050 6860     		str	r0, [r5, #4]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  454 0016 67EE877A 		vmul.f32	s15, s15, s14
  455 001a 92ED007A 		vldr.32	s14, [r2]
  456 001e 099D     		ldr	r5, [sp, #36]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 9
 
 
  457 0020 C7EEA68A 		vdiv.f32	s17, s15, s13
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  511 0008 0C46     		mov	r4, r1
  512 000a 0093     		str	r3, [sp]
  513 000c 1346     		mov	r3, r2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 10
 
 
  514 000e 0222     		movs	r2, #2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  568              		@ sp needed
  569 00aa BDEC028B 		vldm	sp!, {d8}
  570 00ae 30BD     		pop	{r4, r5, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 11
 
 
  571              	.L74:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  625 001c 1846     		moveq	r0, r3
  626 001e 02B0     		add	sp, sp, #8
  627              		@ sp needed
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 12
 
 
  628 0020 10BD     		pop	{r4, pc}
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  682              		.align	2
  683              	.L93:
  684 004c 00000000 		.word	reprap
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 13
 
 
  685              		.size	_ZNK15PolarKinematics25LimitSpeedAndAccelerationER3DDAPKf, .-_ZNK15PolarKinematics25LimitSpe
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  739 0034 20EE270A 		vmul.f32	s0, s0, s15
  740 0038 FFF7FEFF 		bl	lrintf
  741 003c AB7A     		ldrb	r3, [r5, #10]	@ zero_extendqisi2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 14
 
 
  742 003e 05EB8404 		add	r4, r5, r4, lsl #2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  796 0024 1546     		mov	r5, r2
  797 0026 0446     		mov	r4, r0
  798 0028 021D     		adds	r2, r0, #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 15
 
 
  799 002a 5321     		movs	r1, #83
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  853              		@ sp needed
  854 00c2 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  855              	.L128:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 16
 
 
  856 00c6 0CAA     		add	r2, sp, #48
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  910              		.syntax unified
  911              		.thumb
  912              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 17
 
 
  913              		.fpu fpv4-sp-d16
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  967 0008 F5EEC07A 		vcmpe.f32	s15, #0
  968 000c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  969 0010 8CBF     		ite	hi
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 18
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 18
 
 
  970 0012 67EEA77A 		vmulhi.f32	s15, s15, s15
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 1
  1009 0000 52545A55 		.ascii	"RTZUVWABC\000"
  1009      56574142 
  1009      4300
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc2EFm9c.s 			page 19
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccYyGRo8.s 			page 19
 
 
  1010              		.section	.rodata._ZNK15PolarKinematics7GetNameEb.str1.4,"aMS",%progbits,1

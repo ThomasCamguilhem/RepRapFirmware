@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
   55 0002 1AB1     		cbz	r2, .L6
   56 0004 0139     		subs	r1, r1, #1
   57 0006 C9B2     		uxtb	r1, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 2
 
 
   58 0008 FD29     		cmp	r1, #253
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  112              	.L24:
  113              		.align	2
  114              	.L23:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 3
 
 
  115 0050 00000000 		.word	reprap
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  169              	.L33:
  170 001c D4F8A006 		ldr	r0, [r4, #1696]
  171 0020 3946     		mov	r1, r7
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 4
 
 
  172 0022 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  226 0044 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
  227 0048 0199     		ldr	r1, [sp, #4]
  228 004a A069     		ldr	r0, [r4, #24]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 5
 
 
  229 004c FFF7FEFF 		bl	_ZN12OutputBuffer6AppendEPS_
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  283 0010 9842     		cmp	r0, r3
  284 0012 0CD0     		beq	.L63
  285 0014 2B46     		mov	r3, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 6
 
 
  286 0016 0024     		movs	r4, #0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  340              	.L69:
  341 001c 3846     		mov	r0, r7
  342 001e FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 7
 
 
  343 0022 DFF83880 		ldr	r8, .L70+4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  397 0032 04E0     		b	.L75
  398              	.L86:
  399 0034 53F80C5C 		ldr	r5, [r3, #-12]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 8
 
 
  400 0038 BD42     		cmp	r5, r7
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  454              		.fpu fpv4-sp-d16
  455              		.type	_ZN13HttpResponder14SendGCodeReplyEv, %function
  456              	_ZN13HttpResponder14SendGCodeReplyEv:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 9
 
 
  457              		@ args = 0, pretend = 0, frame = 8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  511 0082 FFF7FEFF 		bl	_ZNVK11OutputStack10DataLengthEv
  512 0086 1F49     		ldr	r1, .L107+20
  513 0088 0246     		mov	r2, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 10
 
 
  514 008a 3846     		mov	r0, r7
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  568              		.align	1
  569              		.p2align 2,,3
  570              		.global	_ZN13HttpResponder14ProcessMessageEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 11
 
 
  571              		.syntax unified
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  625              	.L114:
  626 0070 D4F8A426 		ldr	r2, [r4, #1700]
  627 0074 D4F8A036 		ldr	r3, [r4, #1696]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 12
 
 
  628 0078 0092     		str	r2, [sp]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  682 001e FFF7FEFF 		bl	_ZN12OutputBuffer6printfEPKcz
  683 0022 134B     		ldr	r3, .L141+8
  684 0024 A069     		ldr	r0, [r4, #24]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 13
 
 
  685 0026 134A     		ldr	r2, .L141+12
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  739 0002 D0F8CC20 		ldr	r2, [r0, #204]
  740 0006 0B2A     		cmp	r2, #11
  741 0008 00F29681 		bhi	.L144
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 14
 
 
  742 000c DFE812F0 		tbh	[pc, r2, lsl #1]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  796 007c AF01     		.2byte	(.L158-.L159)/2
  797 007e DD01     		.2byte	(.L160-.L159)/2
  798 0080 A600     		.2byte	(.L212-.L159)/2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 15
 
 
  799 0082 A600     		.2byte	(.L212-.L159)/2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  853 00f0 8500     		.2byte	(.L212-.L166)/2
  854 00f2 8500     		.2byte	(.L212-.L166)/2
  855 00f4 8500     		.2byte	(.L212-.L166)/2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 16
 
 
  856 00f6 EF01     		.2byte	(.L168-.L166)/2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  910 0162 4600     		.2byte	(.L212-.L177)/2
  911 0164 4600     		.2byte	(.L212-.L177)/2
  912 0166 4600     		.2byte	(.L212-.L177)/2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 17
 
 
  913 0168 4600     		.2byte	(.L212-.L177)/2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  967              	.L163:
  968 01e0 1046     		mov	r0, r2
  969 01e2 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 18
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 18
 
 
  970              	.L149:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1024 0284 95010000 		.word	.L210+1
  1025 0288 95010000 		.word	.L210+1
  1026 028c 95010000 		.word	.L210+1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 19
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 19
 
 
  1027 0290 95010000 		.word	.L210+1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1081 034a D0F88836 		ldr	r3, [r0, #1672]
  1082 034e 41E7     		b	.L161
  1083              	.L216:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 20
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 20
 
 
  1084 0350 D0F88836 		ldr	r3, [r0, #1672]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1138 03e8 D0F8C027 		ldr	r2, [r0, #1984]
  1139 03ec 511C     		adds	r1, r2, #1
  1140 03ee 0329     		cmp	r1, #3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 21
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 21
 
 
  1141 03f0 C0F8C017 		str	r1, [r0, #1984]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1195 0486 84F8D060 		strb	r6, [r4, #208]
  1196 048a 0132     		adds	r2, r2, #1
  1197 048c 0924     		movs	r4, #9
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 22
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 22
 
 
  1198 048e C5F8D416 		str	r1, [r5, #1748]
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1252 052a 1944     		add	r1, r1, r3
  1253 052c 40F82210 		str	r1, [r0, r2, lsl #2]
  1254 0530 C0F8CC40 		str	r4, [r0, #204]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 23
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 23
 
 
  1255 0534 4EE6     		b	.L161
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1309 05c4 0825     		movs	r5, #8
  1310 05c6 40F83120 		str	r2, [r0, r1, lsl #3]
  1311 05ca C0F8C847 		str	r4, [r0, #1992]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 24
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 24
 
 
  1312 05ce C0F8D026 		str	r2, [r0, #1744]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1366 065c 4FF4FA72 		mov	r2, #500
  1367 0660 0A49     		ldr	r1, .L219+20
  1368 0662 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 25
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 25
 
 
  1369 0666 0122     		movs	r2, #1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1423 0038 40F29980 		bls	.L222
  1424              	.L225:
  1425 003c DBF8A006 		ldr	r0, [fp, #1696]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 26
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 26
 
 
  1426 0040 3946     		mov	r1, r7
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1480 00d6 FFF7FEFF 		bl	_ZN12OutputBuffer6printfEPKcz
  1481 00da 2846     		mov	r0, r5
  1482 00dc D8F80440 		ldr	r4, [r8, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 27
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 27
 
 
  1483 00e0 FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1537 016c 4CE0     		b	.L333
  1538              	.L222:
  1539 016e 2846     		mov	r0, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 28
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 28
 
 
  1540 0170 FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1594 01f6 C9F80000 		str	r0, [r9]
  1595 01fa 05E0     		b	.L333
  1596              	.L415:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 29
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 29
 
 
  1597 01fc 2846     		mov	r0, r5
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1651 0282 304A     		ldr	r2, .L429+48
  1652 0284 8021     		movs	r1, #128
  1653 0286 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 30
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 30
 
 
  1654 028a 3046     		mov	r0, r6
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1708 030e 0027     		movs	r7, #0
  1709 0310 25E0     		b	.L257
  1710              	.L430:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 31
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 31
 
 
  1711 0312 00BF     		.align	2
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1765 03ae 2BE7     		b	.L333
  1766              	.L414:
  1767 03b0 B649     		ldr	r1, .L431+12
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 32
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 32
 
 
  1768 03b2 D9F80000 		ldr	r0, [r9]
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1822 043a 0024     		movs	r4, #0
  1823 043c 05E0     		b	.L267
  1824              	.L265:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 33
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 33
 
 
  1825 043e D5F8C437 		ldr	r3, [r5, #1988]
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1879 04ca 4AD0     		beq	.L263
  1880 04cc D9F80000 		ldr	r0, [r9]
  1881 04d0 FFF7FEFF 		bl	_ZN12OutputBuffer7ReleaseEPS_
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 34
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 34
 
 
  1882 04d4 D5F8C467 		ldr	r6, [r5, #1988]
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1936              	.L263:
  1937 0562 5349     		ldr	r1, .L431+48
  1938 0564 4046     		mov	r0, r8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 35
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 35
 
 
  1939 0566 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  1993 05fa 0021     		movs	r1, #0
  1994 05fc FFF7FEFF 		bl	strtol
  1995              	.L411:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 36
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 36
 
 
  1996 0600 D5F8C417 		ldr	r1, [r5, #1988]
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2050              	.L432:
  2051 067e 00BF     		.align	2
  2052              	.L431:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 37
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 37
 
 
  2053 0680 84010000 		.word	.LC44
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2107 0708 0023     		movs	r3, #0
  2108 070a 85F8D037 		strb	r3, [r5, #2000]
  2109 070e ECE7     		b	.L296
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 38
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 38
 
 
  2110              	.L291:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2164 0792 BBF1000F 		cmp	fp, #0
  2165 0796 43D0     		beq	.L317
  2166 0798 4C4A     		ldr	r2, .L433+4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 39
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 39
 
 
  2167 079a D5F8C437 		ldr	r3, [r5, #1988]
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2221 0818 05EBC403 		add	r3, r5, r4, lsl #3
  2222 081c 3946     		mov	r1, r7
  2223 081e F2D8     		bhi	.L427
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 40
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 40
 
 
  2224              	.L317:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2278 0898 1349     		ldr	r1, .L433+32
  2279 089a FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
  2280 089e B3E4     		b	.L333
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 41
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 41
 
 
  2281              	.L330:
@@ -2457,68 +2457,68 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2334 000e 00F08480 		beq	.L436
  2335 0012 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
  2336 0014 2F2B     		cmp	r3, #47
- 2337 0016 35D0     		beq	.L489
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 42
+ 2337 0016 35D0     		beq	.L490
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 42
 
 
- 2338 0018 A649     		ldr	r1, .L501
+ 2338 0018 AA49     		ldr	r1, .L503
  2339 001a 2846     		mov	r0, r5
  2340 001c FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2341 0020 28B9     		cbnz	r0, .L488
- 2342              	.L482:
+ 2341 0020 28B9     		cbnz	r0, .L489
+ 2342              	.L483:
  2343 0022 2846     		mov	r0, r5
  2344 0024 FFF7FEFF 		bl	strlen
  2345 0028 0330     		adds	r0, r0, #3
  2346 002a 7828     		cmp	r0, #120
  2347 002c 35D9     		bls	.L453
- 2348              	.L488:
- 2349 002e DFF8B482 		ldr	r8, .L501+48
+ 2348              	.L489:
+ 2349 002e DFF8C482 		ldr	r8, .L503+48
  2350              	.L439:
  2351 0032 D8F80430 		ldr	r3, [r8, #4]
- 2352 0036 A049     		ldr	r1, .L501+4
+ 2352 0036 A449     		ldr	r1, .L503+4
  2353 0038 D3F81C0A 		ldr	r0, [r3, #2588]
  2354 003c 2A46     		mov	r2, r5
  2355 003e 0023     		movs	r3, #0
  2356 0040 FFF7FEFF 		bl	_ZN11MassStorage8OpenFileEPKcS1_8OpenMode
  2357 0044 0646     		mov	r6, r0
  2358 0046 0028     		cmp	r0, #0
- 2359 0048 00F09380 		beq	.L490
+ 2359 0048 00F09380 		beq	.L491
  2360              	.L442:
- 2361 004c 9B49     		ldr	r1, .L501+8
+ 2361 004c 9F49     		ldr	r1, .L503+8
  2362 004e 2663     		str	r6, [r4, #48]
  2363 0050 A069     		ldr	r0, [r4, #24]
  2364 0052 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 2365 0056 9A49     		ldr	r1, .L501+12
+ 2365 0056 9E49     		ldr	r1, .L503+12
  2366 0058 2846     		mov	r0, r5
  2367 005a FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2368 005e 0028     		cmp	r0, #0
  2369 0060 76D1     		bne	.L457
- 2370 0062 9849     		ldr	r1, .L501+16
+ 2370 0062 9C49     		ldr	r1, .L503+16
  2371 0064 2846     		mov	r0, r5
  2372 0066 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2373 006a 0746     		mov	r7, r0
  2374 006c 0028     		cmp	r0, #0
- 2375 006e 40F00581 		bne	.L464
+ 2375 006e 40F00C81 		bne	.L464
  2376              	.L462:
- 2377 0072 9549     		ldr	r1, .L501+20
+ 2377 0072 9949     		ldr	r1, .L503+20
  2378 0074 2846     		mov	r0, r5
  2379 0076 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2380 007a 0028     		cmp	r0, #0
  2381 007c 00F0AE80 		beq	.L465
- 2382 0080 924A     		ldr	r2, .L501+24
+ 2382 0080 964A     		ldr	r2, .L503+24
  2383 0082 B1E0     		b	.L450
- 2384              	.L489:
+ 2384              	.L490:
  2385 0084 4B78     		ldrb	r3, [r1, #1]	@ zero_extendqisi2
  2386 0086 002B     		cmp	r3, #0
- 2387 0088 40F09280 		bne	.L491
- 2388 008c 8949     		ldr	r1, .L501
- 2389 008e 9048     		ldr	r0, .L501+28
- 2390 0090 8F4D     		ldr	r5, .L501+28
+ 2387 0088 40F09280 		bne	.L492
+ 2388 008c 8D49     		ldr	r1, .L503
+ 2389 008e 9448     		ldr	r0, .L503+28
+ 2390 0090 934D     		ldr	r5, .L503+28
  2391 0092 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2392 0096 0028     		cmp	r0, #0
- 2393 0098 C9D1     		bne	.L488
+ 2393 0098 C9D1     		bne	.L489
  2394              	.L453:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 43
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 43
 
 
  2395 009a 22AE     		add	r6, sp, #136
@@ -2527,15 +2527,15 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2398 00a4 4FF0790A 		mov	r10, #121
  2399 00a8 2946     		mov	r1, r5
  2400 00aa 01A8     		add	r0, sp, #4
- 2401 00ac DFF83482 		ldr	r8, .L501+48
+ 2401 00ac DFF84482 		ldr	r8, .L503+48
  2402 00b0 CDE9016A 		strd	r6, r10, [sp, #4]
  2403 00b4 FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
- 2404 00b8 7E49     		ldr	r1, .L501
+ 2404 00b8 8249     		ldr	r1, .L503
  2405 00ba 01A8     		add	r0, sp, #4
  2406 00bc CDE9016A 		strd	r6, r10, [sp, #4]
  2407 00c0 FFF7FEFF 		bl	_ZNK9StringRef3catEPKc
  2408 00c4 D8F80430 		ldr	r3, [r8, #4]
- 2409 00c8 7B49     		ldr	r1, .L501+4
+ 2409 00c8 7F49     		ldr	r1, .L503+4
  2410 00ca D3F81C0A 		ldr	r0, [r3, #2588]
  2411 00ce 3246     		mov	r2, r6
  2412 00d0 4B46     		mov	r3, r9
@@ -2544,33 +2544,33 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2415 00d8 0028     		cmp	r0, #0
  2416 00da AAD0     		beq	.L439
  2417 00dc 2063     		str	r0, [r4, #48]
- 2418 00de 7749     		ldr	r1, .L501+8
+ 2418 00de 7B49     		ldr	r1, .L503+8
  2419 00e0 A069     		ldr	r0, [r4, #24]
  2420 00e2 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 2421 00e6 7649     		ldr	r1, .L501+12
+ 2421 00e6 7A49     		ldr	r1, .L503+12
  2422 00e8 2846     		mov	r0, r5
  2423 00ea FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2424 00ee 0028     		cmp	r0, #0
- 2425 00f0 00F0B080 		beq	.L492
- 2426 00f4 774A     		ldr	r2, .L501+32
- 2427 00f6 7849     		ldr	r1, .L501+36
+ 2425 00f0 00F0B780 		beq	.L493
+ 2426 00f4 7B4A     		ldr	r2, .L503+32
+ 2427 00f6 7C49     		ldr	r1, .L503+36
  2428 00f8 A069     		ldr	r0, [r4, #24]
  2429 00fa FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  2430              	.L452:
- 2431 00fe 7749     		ldr	r1, .L501+40
+ 2431 00fe 7B49     		ldr	r1, .L503+40
  2432 0100 A069     		ldr	r0, [r4, #24]
  2433 0102 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
  2434 0106 3046     		mov	r0, r6
  2435 0108 A569     		ldr	r5, [r4, #24]
  2436 010a FFF7FEFF 		bl	_ZNK9FileStore6LengthEv
- 2437 010e 7449     		ldr	r1, .L501+44
+ 2437 010e 7849     		ldr	r1, .L503+44
  2438 0110 0246     		mov	r2, r0
  2439 0112 2846     		mov	r0, r5
  2440 0114 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  2441 0118 1FE0     		b	.L456
  2442              	.L436:
- 2443 011a 724B     		ldr	r3, .L501+48
- 2444 011c 7249     		ldr	r1, .L501+52
+ 2443 011a 764B     		ldr	r3, .L503+48
+ 2444 011c 7649     		ldr	r1, .L503+52
  2445 011e 5A68     		ldr	r2, [r3, #4]
  2446 0120 3B46     		mov	r3, r7
  2447 0122 D2F81C0A 		ldr	r0, [r2, #2588]
@@ -2578,29 +2578,29 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2449 0128 FFF7FEFF 		bl	_ZN11MassStorage8OpenFileEPKcS1_8OpenMode
  2450 012c 0646     		mov	r6, r0
  2451 012e 0028     		cmp	r0, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 44
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 44
 
 
- 2452 0130 61D0     		beq	.L493
+ 2452 0130 61D0     		beq	.L494
  2453 0132 2063     		str	r0, [r4, #48]
- 2454 0134 6149     		ldr	r1, .L501+8
+ 2454 0134 6549     		ldr	r1, .L503+8
  2455 0136 A069     		ldr	r0, [r4, #24]
  2456 0138 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 2457 013c 6B49     		ldr	r1, .L501+56
+ 2457 013c 6F49     		ldr	r1, .L503+56
  2458 013e A069     		ldr	r0, [r4, #24]
  2459 0140 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
- 2460 0144 5E49     		ldr	r1, .L501+12
+ 2460 0144 6249     		ldr	r1, .L503+12
  2461 0146 2846     		mov	r0, r5
  2462 0148 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2463 014c 0028     		cmp	r0, #0
- 2464 014e 38D0     		beq	.L494
+ 2464 014e 38D0     		beq	.L495
  2465              	.L457:
- 2466 0150 604A     		ldr	r2, .L501+32
- 2467 0152 6149     		ldr	r1, .L501+36
+ 2466 0150 644A     		ldr	r2, .L503+32
+ 2467 0152 6549     		ldr	r1, .L503+36
  2468 0154 A069     		ldr	r0, [r4, #24]
  2469 0156 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  2470              	.L456:
- 2471 015a 6549     		ldr	r1, .L501+60
+ 2471 015a 6949     		ldr	r1, .L503+60
  2472 015c A069     		ldr	r0, [r4, #24]
  2473 015e FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
  2474 0162 2046     		mov	r0, r4
@@ -2611,2376 +2611,2395 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 1
  2479 016c 22B0     		add	sp, sp, #136
  2480              		@ sp needed
  2481 016e BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 2482              	.L490:
- 2483 0172 6049     		ldr	r1, .L501+64
+ 2482              	.L491:
+ 2483 0172 6449     		ldr	r1, .L503+64
  2484 0174 2846     		mov	r0, r5
  2485 0176 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2486 017a 20B9     		cbnz	r0, .L445
  2487 017c 2846     		mov	r0, r5
- 2488 017e 5E49     		ldr	r1, .L501+68
+ 2488 017e 6249     		ldr	r1, .L503+68
  2489 0180 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2490 0184 58B1     		cbz	r0, .L444
  2491              	.L445:
  2492 0186 D8F80430 		ldr	r3, [r8, #4]
- 2493 018a 5C4A     		ldr	r2, .L501+72
+ 2493 018a 604A     		ldr	r2, .L503+72
  2494 018c D3F81C0A 		ldr	r0, [r3, #2588]
- 2495 0190 4949     		ldr	r1, .L501+4
+ 2495 0190 4D49     		ldr	r1, .L503+4
  2496 0192 0023     		movs	r3, #0
  2497 0194 FFF7FEFF 		bl	_ZN11MassStorage8OpenFileEPKcS1_8OpenMode
  2498 0198 0646     		mov	r6, r0
  2499 019a 0028     		cmp	r0, #0
- 2500 019c 32D1     		bne	.L495
+ 2500 019c 32D1     		bne	.L496
  2501              	.L444:
  2502 019e 2046     		mov	r0, r4
  2503 01a0 4FF4CA72 		mov	r2, #404
- 2504 01a4 5649     		ldr	r1, .L501+76
+ 2504 01a4 5A49     		ldr	r1, .L503+76
  2505 01a6 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
  2506 01aa 22B0     		add	sp, sp, #136
  2507              		@ sp needed
  2508 01ac BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 45
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 45
 
 
- 2509              	.L491:
+ 2509              	.L492:
  2510 01b0 0135     		adds	r5, r5, #1
- 2511 01b2 4049     		ldr	r1, .L501
+ 2511 01b2 4449     		ldr	r1, .L503
  2512 01b4 2846     		mov	r0, r5
  2513 01b6 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2514 01ba 0028     		cmp	r0, #0
- 2515 01bc 3FF431AF 		beq	.L482
- 2516 01c0 35E7     		b	.L488
- 2517              	.L494:
- 2518 01c2 4049     		ldr	r1, .L501+16
+ 2515 01bc 3FF431AF 		beq	.L483
+ 2516 01c0 35E7     		b	.L489
+ 2517              	.L495:
+ 2518 01c2 4449     		ldr	r1, .L503+16
  2519 01c4 2846     		mov	r0, r5
  2520 01c6 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2521 01ca 0028     		cmp	r0, #0
- 2522 01cc 56D1     		bne	.L464
- 2523 01ce 3E49     		ldr	r1, .L501+20
+ 2522 01cc 5DD1     		bne	.L464
+ 2523 01ce 4249     		ldr	r1, .L503+20
  2524 01d0 2846     		mov	r0, r5
  2525 01d2 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
  2526 01d6 0746     		mov	r7, r0
  2527 01d8 0028     		cmp	r0, #0
- 2528 01da 4FD1     		bne	.L464
+ 2528 01da 56D1     		bne	.L464
  2529              	.L465:
- 2530 01dc 4949     		ldr	r1, .L501+80
+ 2530 01dc 4D49     		ldr	r1, .L503+80
  2531 01de 2846     		mov	r0, r5
  2532 01e0 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2533 01e4 80B1     		cbz	r0, .L496
- 2534 01e6 484A     		ldr	r2, .L501+84
+ 2533 01e4 80B1     		cbz	r0, .L497
+ 2534 01e6 4C4A     		ldr	r2, .L503+84
  2535              	.L450:
- 2536 01e8 3B49     		ldr	r1, .L501+36
+ 2536 01e8 3F49     		ldr	r1, .L503+36
  2537 01ea A069     		ldr	r0, [r4, #24]
  2538 01ec FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  2539 01f0 002F     		cmp	r7, #0
  2540 01f2 84D1     		bne	.L452
  2541 01f4 B1E7     		b	.L456
- 2542              	.L493:
+ 2542              	.L494:
  2543 01f6 2046     		mov	r0, r4
  2544 01f8 4FF4CA72 		mov	r2, #404
- 2545 01fc 4349     		ldr	r1, .L501+88
+ 2545 01fc 4749     		ldr	r1, .L503+88
  2546 01fe FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
  2547 0202 B3E7     		b	.L435
- 2548              	.L495:
- 2549 0204 3D4D     		ldr	r5, .L501+72
+ 2548              	.L496:
+ 2549 0204 414D     		ldr	r5, .L503+72
  2550 0206 21E7     		b	.L442
- 2551              	.L496:
- 2552 0208 4149     		ldr	r1, .L501+92
+ 2551              	.L497:
+ 2552 0208 4549     		ldr	r1, .L503+92
  2553 020a 2846     		mov	r0, r5
  2554 020c FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2555 0210 08B1     		cbz	r0, .L497
- 2556 0212 404A     		ldr	r2, .L501+96
+ 2555 0210 08B1     		cbz	r0, .L498
+ 2556 0212 444A     		ldr	r2, .L503+96
  2557 0214 E8E7     		b	.L450
- 2558              	.L497:
- 2559 0216 4049     		ldr	r1, .L501+100
+ 2558              	.L498:
+ 2559 0216 4449     		ldr	r1, .L503+100
  2560 0218 2846     		mov	r0, r5
  2561 021a FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2562 021e 08B1     		cbz	r0, .L498
- 2563 0220 3E4A     		ldr	r2, .L501+104
+ 2562 021e 08B1     		cbz	r0, .L499
+ 2563 0220 424A     		ldr	r2, .L503+104
  2564 0222 E1E7     		b	.L450
- 2565              	.L498:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 46
+ 2565              	.L499:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 46
 
 
- 2566 0224 3449     		ldr	r1, .L501+68
+ 2566 0224 4249     		ldr	r1, .L503+108
  2567 0226 2846     		mov	r0, r5
  2568 0228 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2569 022c 08B1     		cbz	r0, .L499
- 2570              	.L471:
- 2571 022e 3C4A     		ldr	r2, .L501+108
- 2572 0230 DAE7     		b	.L450
- 2573              	.L499:
- 2574 0232 3049     		ldr	r1, .L501+64
- 2575 0234 2846     		mov	r0, r5
- 2576 0236 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2577 023a 0028     		cmp	r0, #0
- 2578 023c F7D1     		bne	.L471
- 2579 023e 3949     		ldr	r1, .L501+112
- 2580 0240 2846     		mov	r0, r5
- 2581 0242 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2582 0246 90B1     		cbz	r0, .L451
- 2583 0248 374A     		ldr	r2, .L501+116
- 2584 024a 2349     		ldr	r1, .L501+36
- 2585 024c A069     		ldr	r0, [r4, #24]
- 2586 024e FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2587 0252 54E7     		b	.L452
- 2588              	.L492:
- 2589 0254 1B49     		ldr	r1, .L501+16
- 2590 0256 2846     		mov	r0, r5
- 2591 0258 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2592 025c 0028     		cmp	r0, #0
- 2593 025e 3FF408AF 		beq	.L462
- 2594 0262 1A4A     		ldr	r2, .L501+24
- 2595 0264 1C49     		ldr	r1, .L501+36
- 2596 0266 A069     		ldr	r0, [r4, #24]
- 2597 0268 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2598 026c 47E7     		b	.L452
- 2599              	.L451:
- 2600 026e 2F49     		ldr	r1, .L501+120
- 2601 0270 2846     		mov	r0, r5
- 2602 0272 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2603 0276 38B1     		cbz	r0, .L500
- 2604              	.L474:
- 2605 0278 2D4A     		ldr	r2, .L501+124
- 2606 027a B5E7     		b	.L450
- 2607              	.L464:
- 2608 027c 134A     		ldr	r2, .L501+24
- 2609 027e 1649     		ldr	r1, .L501+36
- 2610 0280 A069     		ldr	r0, [r4, #24]
- 2611 0282 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2612 0286 68E7     		b	.L456
- 2613              	.L500:
- 2614 0288 2A49     		ldr	r1, .L501+128
- 2615 028a 2846     		mov	r0, r5
- 2616 028c FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2617 0290 0028     		cmp	r0, #0
- 2618 0292 F1D1     		bne	.L474
- 2619 0294 2849     		ldr	r1, .L501+132
- 2620 0296 2846     		mov	r0, r5
- 2621 0298 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2622 029c 0028     		cmp	r0, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 47
+ 2569 022c 08B1     		cbz	r0, .L500
+ 2570 022e 414A     		ldr	r2, .L503+112
+ 2571 0230 DAE7     		b	.L450
+ 2572              	.L500:
+ 2573 0232 3549     		ldr	r1, .L503+68
+ 2574 0234 2846     		mov	r0, r5
+ 2575 0236 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2576 023a 08B1     		cbz	r0, .L501
+ 2577              	.L472:
+ 2578 023c 3E4A     		ldr	r2, .L503+116
+ 2579 023e D3E7     		b	.L450
+ 2580              	.L501:
+ 2581 0240 3049     		ldr	r1, .L503+64
+ 2582 0242 2846     		mov	r0, r5
+ 2583 0244 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2584 0248 0028     		cmp	r0, #0
+ 2585 024a F7D1     		bne	.L472
+ 2586 024c 3B49     		ldr	r1, .L503+120
+ 2587 024e 2846     		mov	r0, r5
+ 2588 0250 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2589 0254 90B1     		cbz	r0, .L451
+ 2590 0256 3A4A     		ldr	r2, .L503+124
+ 2591 0258 2349     		ldr	r1, .L503+36
+ 2592 025a A069     		ldr	r0, [r4, #24]
+ 2593 025c FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2594 0260 4DE7     		b	.L452
+ 2595              	.L493:
+ 2596 0262 1C49     		ldr	r1, .L503+16
+ 2597 0264 2846     		mov	r0, r5
+ 2598 0266 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2599 026a 0028     		cmp	r0, #0
+ 2600 026c 3FF401AF 		beq	.L462
+ 2601 0270 1A4A     		ldr	r2, .L503+24
+ 2602 0272 1D49     		ldr	r1, .L503+36
+ 2603 0274 A069     		ldr	r0, [r4, #24]
+ 2604 0276 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2605 027a 40E7     		b	.L452
+ 2606              	.L451:
+ 2607 027c 3149     		ldr	r1, .L503+128
+ 2608 027e 2846     		mov	r0, r5
+ 2609 0280 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2610 0284 38B1     		cbz	r0, .L502
+ 2611              	.L475:
+ 2612 0286 304A     		ldr	r2, .L503+132
+ 2613 0288 AEE7     		b	.L450
+ 2614              	.L464:
+ 2615 028a 144A     		ldr	r2, .L503+24
+ 2616 028c 1649     		ldr	r1, .L503+36
+ 2617 028e A069     		ldr	r0, [r4, #24]
+ 2618 0290 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2619 0294 61E7     		b	.L456
+ 2620              	.L502:
+ 2621 0296 2D49     		ldr	r1, .L503+136
+ 2622 0298 2846     		mov	r0, r5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 47
 
 
- 2623 029e EBD1     		bne	.L474
- 2624 02a0 2846     		mov	r0, r5
- 2625 02a2 2649     		ldr	r1, .L501+136
- 2626 02a4 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
- 2627 02a8 254A     		ldr	r2, .L501+140
- 2628 02aa 264B     		ldr	r3, .L501+144
- 2629 02ac 0028     		cmp	r0, #0
- 2630 02ae 08BF     		it	eq
- 2631 02b0 1A46     		moveq	r2, r3
- 2632 02b2 99E7     		b	.L450
- 2633              	.L502:
- 2634              		.align	2
- 2635              	.L501:
- 2636 02b4 A0000000 		.word	.LC72
- 2637 02b8 A4000000 		.word	.LC73
- 2638 02bc DC000000 		.word	.LC78
- 2639 02c0 60010000 		.word	.LC80
- 2640 02c4 04020000 		.word	.LC95
- 2641 02c8 68010000 		.word	.LC81
- 2642 02cc 58000000 		.word	.LC68
- 2643 02d0 00000000 		.word	.LC62
- 2644 02d4 F8010000 		.word	.LC94
- 2645 02d8 9C010000 		.word	.LC87
- 2646 02dc C8010000 		.word	.LC92
- 2647 02e0 E0010000 		.word	.LC93
- 2648 02e4 00000000 		.word	reprap
- 2649 02e8 AC010000 		.word	.LC48
- 2650 02ec F0000000 		.word	.LC79
- 2651 02f0 B4000000 		.word	.LC4
- 2652 02f4 AC000000 		.word	.LC74
- 2653 02f8 B4000000 		.word	.LC75
- 2654 02fc 94000000 		.word	.LC71
- 2655 0300 BC000000 		.word	.LC76
- 2656 0304 70010000 		.word	.LC82
- 2657 0308 24000000 		.word	.LC65
- 2658 030c CC000000 		.word	.LC77
- 2659 0310 78010000 		.word	.LC83
- 2660 0314 34000000 		.word	.LC66
- 2661 0318 7C010000 		.word	.LC84
- 2662 031c 4C000000 		.word	.LC67
- 2663 0320 0C000000 		.word	.LC63
- 2664 0324 84010000 		.word	.LC85
- 2665 0328 8C010000 		.word	.LC86
- 2666 032c B0010000 		.word	.LC88
- 2667 0330 18000000 		.word	.LC64
- 2668 0334 B4010000 		.word	.LC89
- 2669 0338 B8010000 		.word	.LC90
- 2670 033c C0010000 		.word	.LC91
- 2671 0340 64000000 		.word	.LC69
- 2672 0344 78000000 		.word	.LC70
- 2673              		.size	_ZN13HttpResponder8SendFileEPKcb, .-_ZN13HttpResponder8SendFileEPKcb
- 2674              		.section	.text._ZN13HttpResponder16SendJsonResponseEPKc,"ax",%progbits
- 2675              		.align	1
- 2676              		.p2align 2,,3
- 2677              		.global	_ZN13HttpResponder16SendJsonResponseEPKc
- 2678              		.syntax unified
- 2679              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 48
+ 2623 029a FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2624 029e 0028     		cmp	r0, #0
+ 2625 02a0 F1D1     		bne	.L475
+ 2626 02a2 2B49     		ldr	r1, .L503+140
+ 2627 02a4 2846     		mov	r0, r5
+ 2628 02a6 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2629 02aa 0028     		cmp	r0, #0
+ 2630 02ac EBD1     		bne	.L475
+ 2631 02ae 2846     		mov	r0, r5
+ 2632 02b0 2849     		ldr	r1, .L503+144
+ 2633 02b2 FFF7FEFF 		bl	_Z14StringEndsWithPKcS0_
+ 2634 02b6 284A     		ldr	r2, .L503+148
+ 2635 02b8 284B     		ldr	r3, .L503+152
+ 2636 02ba 0028     		cmp	r0, #0
+ 2637 02bc 08BF     		it	eq
+ 2638 02be 1A46     		moveq	r2, r3
+ 2639 02c0 92E7     		b	.L450
+ 2640              	.L504:
+ 2641 02c2 00BF     		.align	2
+ 2642              	.L503:
+ 2643 02c4 B0000000 		.word	.LC73
+ 2644 02c8 B4000000 		.word	.LC74
+ 2645 02cc EC000000 		.word	.LC79
+ 2646 02d0 70010000 		.word	.LC81
+ 2647 02d4 1C020000 		.word	.LC97
+ 2648 02d8 78010000 		.word	.LC82
+ 2649 02dc 68000000 		.word	.LC69
+ 2650 02e0 00000000 		.word	.LC62
+ 2651 02e4 10020000 		.word	.LC96
+ 2652 02e8 B4010000 		.word	.LC89
+ 2653 02ec E0010000 		.word	.LC94
+ 2654 02f0 F8010000 		.word	.LC95
+ 2655 02f4 00000000 		.word	reprap
+ 2656 02f8 AC010000 		.word	.LC48
+ 2657 02fc 00010000 		.word	.LC80
+ 2658 0300 B4000000 		.word	.LC4
+ 2659 0304 BC000000 		.word	.LC75
+ 2660 0308 C4000000 		.word	.LC76
+ 2661 030c A4000000 		.word	.LC72
+ 2662 0310 CC000000 		.word	.LC77
+ 2663 0314 80010000 		.word	.LC83
+ 2664 0318 24000000 		.word	.LC65
+ 2665 031c DC000000 		.word	.LC78
+ 2666 0320 88010000 		.word	.LC84
+ 2667 0324 34000000 		.word	.LC66
+ 2668 0328 90010000 		.word	.LC85
+ 2669 032c 44000000 		.word	.LC67
+ 2670 0330 94010000 		.word	.LC86
+ 2671 0334 5C000000 		.word	.LC68
+ 2672 0338 0C000000 		.word	.LC63
+ 2673 033c 9C010000 		.word	.LC87
+ 2674 0340 A4010000 		.word	.LC88
+ 2675 0344 C8010000 		.word	.LC90
+ 2676 0348 18000000 		.word	.LC64
+ 2677 034c CC010000 		.word	.LC91
+ 2678 0350 D0010000 		.word	.LC92
+ 2679 0354 D8010000 		.word	.LC93
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 48
 
 
- 2680              		.thumb_func
- 2681              		.fpu fpv4-sp-d16
- 2682              		.type	_ZN13HttpResponder16SendJsonResponseEPKc, %function
- 2683              	_ZN13HttpResponder16SendJsonResponseEPKc:
- 2684              		@ args = 0, pretend = 0, frame = 144
- 2685              		@ frame_needed = 0, uses_anonymous_args = 0
- 2686 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
- 2687 0004 A4B0     		sub	sp, sp, #144
- 2688 0006 0D46     		mov	r5, r1
- 2689 0008 0446     		mov	r4, r0
- 2690 000a FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
- 2691 000e 0028     		cmp	r0, #0
- 2692 0010 00F0A580 		beq	.L564
- 2693              	.L505:
- 2694 0014 2046     		mov	r0, r4
- 2695 0016 FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
- 2696 001a 60B1     		cbz	r0, .L507
- 2697 001c 9449     		ldr	r1, .L570
- 2698 001e 2846     		mov	r0, r5
- 2699 0020 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2700 0024 0746     		mov	r7, r0
- 2701 0026 0028     		cmp	r0, #0
- 2702 0028 38D0     		beq	.L508
- 2703 002a 2046     		mov	r0, r4
- 2704 002c FFF7FEFF 		bl	_ZN13HttpResponder14SendGCodeReplyEv
- 2705              	.L503:
- 2706 0030 24B0     		add	sp, sp, #144
- 2707              		@ sp needed
- 2708 0032 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 2709              	.L507:
- 2710 0036 02A8     		add	r0, sp, #8
- 2711 0038 FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
- 2712 003c 0028     		cmp	r0, #0
- 2713 003e 40F09880 		bne	.L565
- 2714              	.L514:
- 2715 0042 029B     		ldr	r3, [sp, #8]
- 2716 0044 002B     		cmp	r3, #0
- 2717 0046 00F0EC80 		beq	.L520
- 2718              	.L519:
- 2719 004a 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
- 2720 004e 002B     		cmp	r3, #0
- 2721 0050 52D0     		beq	.L521
- 2722 0052 D4F8C837 		ldr	r3, [r4, #1992]
- 2723 0056 002B     		cmp	r3, #0
- 2724 0058 4ED0     		beq	.L521
- 2725 005a 864F     		ldr	r7, .L570+4
- 2726 005c 2646     		mov	r6, r4
- 2727 005e 0025     		movs	r5, #0
- 2728 0060 04E0     		b	.L525
- 2729              	.L522:
- 2730 0062 D4F8C837 		ldr	r3, [r4, #1992]
- 2731 0066 0135     		adds	r5, r5, #1
- 2732 0068 AB42     		cmp	r3, r5
- 2733 006a 45D9     		bls	.L521
- 2734              	.L525:
- 2735 006c D6F8D006 		ldr	r0, [r6, #1744]
- 2736 0070 3946     		mov	r1, r7
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 49
+ 2680 0358 74000000 		.word	.LC70
+ 2681 035c 88000000 		.word	.LC71
+ 2682              		.size	_ZN13HttpResponder8SendFileEPKcb, .-_ZN13HttpResponder8SendFileEPKcb
+ 2683              		.section	.text._ZN13HttpResponder16SendJsonResponseEPKc,"ax",%progbits
+ 2684              		.align	1
+ 2685              		.p2align 2,,3
+ 2686              		.global	_ZN13HttpResponder16SendJsonResponseEPKc
+ 2687              		.syntax unified
+ 2688              		.thumb
+ 2689              		.thumb_func
+ 2690              		.fpu fpv4-sp-d16
+ 2691              		.type	_ZN13HttpResponder16SendJsonResponseEPKc, %function
+ 2692              	_ZN13HttpResponder16SendJsonResponseEPKc:
+ 2693              		@ args = 0, pretend = 0, frame = 144
+ 2694              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2695 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 2696 0004 A4B0     		sub	sp, sp, #144
+ 2697 0006 0D46     		mov	r5, r1
+ 2698 0008 0446     		mov	r4, r0
+ 2699 000a FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
+ 2700 000e 0028     		cmp	r0, #0
+ 2701 0010 00F0A580 		beq	.L566
+ 2702              	.L507:
+ 2703 0014 2046     		mov	r0, r4
+ 2704 0016 FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
+ 2705 001a 60B1     		cbz	r0, .L509
+ 2706 001c 9449     		ldr	r1, .L572
+ 2707 001e 2846     		mov	r0, r5
+ 2708 0020 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2709 0024 0746     		mov	r7, r0
+ 2710 0026 0028     		cmp	r0, #0
+ 2711 0028 38D0     		beq	.L510
+ 2712 002a 2046     		mov	r0, r4
+ 2713 002c FFF7FEFF 		bl	_ZN13HttpResponder14SendGCodeReplyEv
+ 2714              	.L505:
+ 2715 0030 24B0     		add	sp, sp, #144
+ 2716              		@ sp needed
+ 2717 0032 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 2718              	.L509:
+ 2719 0036 02A8     		add	r0, sp, #8
+ 2720 0038 FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
+ 2721 003c 0028     		cmp	r0, #0
+ 2722 003e 40F09880 		bne	.L567
+ 2723              	.L516:
+ 2724 0042 029B     		ldr	r3, [sp, #8]
+ 2725 0044 002B     		cmp	r3, #0
+ 2726 0046 00F0EC80 		beq	.L522
+ 2727              	.L521:
+ 2728 004a 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
+ 2729 004e 002B     		cmp	r3, #0
+ 2730 0050 52D0     		beq	.L523
+ 2731 0052 D4F8C837 		ldr	r3, [r4, #1992]
+ 2732 0056 002B     		cmp	r3, #0
+ 2733 0058 4ED0     		beq	.L523
+ 2734 005a 864F     		ldr	r7, .L572+4
+ 2735 005c 2646     		mov	r6, r4
+ 2736 005e 0025     		movs	r5, #0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 49
 
 
- 2737 0072 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2738 0076 0836     		adds	r6, r6, #8
- 2739 0078 0028     		cmp	r0, #0
- 2740 007a F2D0     		beq	.L522
- 2741 007c 04EBC505 		add	r5, r4, r5, lsl #3
- 2742 0080 7D49     		ldr	r1, .L570+8
- 2743 0082 D5F8D406 		ldr	r0, [r5, #1748]
- 2744 0086 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2745 008a 7C49     		ldr	r1, .L570+12
- 2746 008c 0646     		mov	r6, r0
- 2747 008e A069     		ldr	r0, [r4, #24]
- 2748 0090 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 2749 0094 0298     		ldr	r0, [sp, #8]
- 2750 0096 0028     		cmp	r0, #0
- 2751 0098 36D1     		bne	.L523
- 2752 009a 37E0     		b	.L563
- 2753              	.L508:
- 2754 009c 7849     		ldr	r1, .L570+16
- 2755 009e 2846     		mov	r0, r5
- 2756 00a0 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2757 00a4 0646     		mov	r6, r0
- 2758 00a6 0028     		cmp	r0, #0
- 2759 00a8 40F08280 		bne	.L566
- 2760 00ac 7549     		ldr	r1, .L570+20
- 2761 00ae 2846     		mov	r0, r5
- 2762 00b0 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2763 00b4 0028     		cmp	r0, #0
- 2764 00b6 BED0     		beq	.L507
- 2765 00b8 D4F8C437 		ldr	r3, [r4, #1988]
- 2766 00bc 002B     		cmp	r3, #0
- 2767 00be BAD0     		beq	.L507
- 2768 00c0 DFF8EC81 		ldr	r8, .L570+64
- 2769 00c4 2746     		mov	r7, r4
- 2770 00c6 04E0     		b	.L513
- 2771              	.L511:
- 2772 00c8 D4F8C437 		ldr	r3, [r4, #1988]
- 2773 00cc 0136     		adds	r6, r6, #1
- 2774 00ce B342     		cmp	r3, r6
- 2775 00d0 B1D9     		bls	.L507
- 2776              	.L513:
- 2777 00d2 D7F8A006 		ldr	r0, [r7, #1696]
- 2778 00d6 4146     		mov	r1, r8
- 2779 00d8 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2780 00dc 0837     		adds	r7, r7, #8
- 2781 00de 0028     		cmp	r0, #0
- 2782 00e0 F2D0     		beq	.L511
- 2783 00e2 04EBC606 		add	r6, r4, r6, lsl #3
- 2784 00e6 D6F8A416 		ldr	r1, [r6, #1700]
- 2785 00ea 0029     		cmp	r1, #0
- 2786 00ec A3D0     		beq	.L507
- 2787 00ee 2046     		mov	r0, r4
- 2788 00f0 0022     		movs	r2, #0
- 2789 00f2 FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
- 2790 00f6 9BE7     		b	.L503
- 2791              	.L521:
- 2792 00f8 6049     		ldr	r1, .L570+12
- 2793 00fa A069     		ldr	r0, [r4, #24]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 50
+ 2737 0060 04E0     		b	.L527
+ 2738              	.L524:
+ 2739 0062 D4F8C837 		ldr	r3, [r4, #1992]
+ 2740 0066 0135     		adds	r5, r5, #1
+ 2741 0068 AB42     		cmp	r3, r5
+ 2742 006a 45D9     		bls	.L523
+ 2743              	.L527:
+ 2744 006c D6F8D006 		ldr	r0, [r6, #1744]
+ 2745 0070 3946     		mov	r1, r7
+ 2746 0072 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2747 0076 0836     		adds	r6, r6, #8
+ 2748 0078 0028     		cmp	r0, #0
+ 2749 007a F2D0     		beq	.L524
+ 2750 007c 04EBC505 		add	r5, r4, r5, lsl #3
+ 2751 0080 7D49     		ldr	r1, .L572+8
+ 2752 0082 D5F8D406 		ldr	r0, [r5, #1748]
+ 2753 0086 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2754 008a 7C49     		ldr	r1, .L572+12
+ 2755 008c 0646     		mov	r6, r0
+ 2756 008e A069     		ldr	r0, [r4, #24]
+ 2757 0090 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
+ 2758 0094 0298     		ldr	r0, [sp, #8]
+ 2759 0096 0028     		cmp	r0, #0
+ 2760 0098 36D1     		bne	.L525
+ 2761 009a 37E0     		b	.L565
+ 2762              	.L510:
+ 2763 009c 7849     		ldr	r1, .L572+16
+ 2764 009e 2846     		mov	r0, r5
+ 2765 00a0 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2766 00a4 0646     		mov	r6, r0
+ 2767 00a6 0028     		cmp	r0, #0
+ 2768 00a8 40F08280 		bne	.L568
+ 2769 00ac 7549     		ldr	r1, .L572+20
+ 2770 00ae 2846     		mov	r0, r5
+ 2771 00b0 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2772 00b4 0028     		cmp	r0, #0
+ 2773 00b6 BED0     		beq	.L509
+ 2774 00b8 D4F8C437 		ldr	r3, [r4, #1988]
+ 2775 00bc 002B     		cmp	r3, #0
+ 2776 00be BAD0     		beq	.L509
+ 2777 00c0 DFF8EC81 		ldr	r8, .L572+64
+ 2778 00c4 2746     		mov	r7, r4
+ 2779 00c6 04E0     		b	.L515
+ 2780              	.L513:
+ 2781 00c8 D4F8C437 		ldr	r3, [r4, #1988]
+ 2782 00cc 0136     		adds	r6, r6, #1
+ 2783 00ce B342     		cmp	r3, r6
+ 2784 00d0 B1D9     		bls	.L509
+ 2785              	.L515:
+ 2786 00d2 D7F8A006 		ldr	r0, [r7, #1696]
+ 2787 00d6 4146     		mov	r1, r8
+ 2788 00d8 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2789 00dc 0837     		adds	r7, r7, #8
+ 2790 00de 0028     		cmp	r0, #0
+ 2791 00e0 F2D0     		beq	.L513
+ 2792 00e2 04EBC606 		add	r6, r4, r6, lsl #3
+ 2793 00e6 D6F8A416 		ldr	r1, [r6, #1700]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 50
 
 
- 2794 00fc FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 2795 0100 0298     		ldr	r0, [sp, #8]
- 2796 0102 0028     		cmp	r0, #0
- 2797 0104 4AD0     		beq	.L567
- 2798 0106 0026     		movs	r6, #0
- 2799              	.L523:
- 2800 0108 FFF7FEFF 		bl	_ZNK12OutputBuffer6LengthEv
- 2801              	.L563:
- 2802 010c 0246     		mov	r2, r0
- 2803 010e 0546     		mov	r5, r0
- 2804 0110 5D49     		ldr	r1, .L570+24
- 2805 0112 A069     		ldr	r0, [r4, #24]
- 2806 0114 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2807 0118 5C4A     		ldr	r2, .L570+28
- 2808 011a 574B     		ldr	r3, .L570+8
- 2809 011c A069     		ldr	r0, [r4, #24]
- 2810 011e 002E     		cmp	r6, #0
- 2811 0120 18BF     		it	ne
- 2812 0122 1A46     		movne	r2, r3
- 2813              	.L526:
- 2814 0124 5A49     		ldr	r1, .L570+32
- 2815 0126 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2816 012a 0299     		ldr	r1, [sp, #8]
- 2817 012c A069     		ldr	r0, [r4, #24]
- 2818 012e FFF7FEFF 		bl	_ZN12OutputBuffer6AppendEPS_
- 2819 0132 A369     		ldr	r3, [r4, #24]
- 2820 0134 93F81521 		ldrb	r2, [r3, #277]	@ zero_extendqisi2
- 2821 0138 002A     		cmp	r2, #0
- 2822 013a 4CD1     		bne	.L568
- 2823 013c 3146     		mov	r1, r6
- 2824 013e 2046     		mov	r0, r4
- 2825 0140 FFF7FEFF 		bl	_ZN16NetworkResponder6CommitENS_14ResponderStateEb
- 2826 0144 534B     		ldr	r3, .L570+36
- 2827 0146 D3F8F430 		ldr	r3, [r3, #244]
- 2828 014a 5B07     		lsls	r3, r3, #29
- 2829 014c 7FF570AF 		bpl	.L503
- 2830 0150 2946     		mov	r1, r5
- 2831 0152 5148     		ldr	r0, .L570+40
- 2832 0154 FFF7FEFF 		bl	debugPrintf
- 2833 0158 24B0     		add	sp, sp, #144
- 2834              		@ sp needed
- 2835 015a BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 2836              	.L564:
- 2837 015e 4D48     		ldr	r0, .L570+36
- 2838 0160 FFF7FEFF 		bl	_ZNK6RepRap13NoPasswordSetEv
- 2839 0164 0028     		cmp	r0, #0
- 2840 0166 3FF455AF 		beq	.L505
- 2841 016a 2046     		mov	r0, r4
- 2842 016c FFF7FEFF 		bl	_ZN13HttpResponder12AuthenticateEv
- 2843 0170 50E7     		b	.L505
- 2844              	.L565:
- 2845 0172 2946     		mov	r1, r5
- 2846 0174 0DF10703 		add	r3, sp, #7
- 2847 0178 02AA     		add	r2, sp, #8
- 2848 017a 2046     		mov	r0, r4
- 2849 017c FFF7FEFF 		bl	_ZN13HttpResponder15GetJsonResponseEPKcRP12OutputBufferRb
- 2850 0180 0028     		cmp	r0, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 51
+ 2794 00ea 0029     		cmp	r1, #0
+ 2795 00ec A3D0     		beq	.L509
+ 2796 00ee 2046     		mov	r0, r4
+ 2797 00f0 0022     		movs	r2, #0
+ 2798 00f2 FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
+ 2799 00f6 9BE7     		b	.L505
+ 2800              	.L523:
+ 2801 00f8 6049     		ldr	r1, .L572+12
+ 2802 00fa A069     		ldr	r0, [r4, #24]
+ 2803 00fc FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
+ 2804 0100 0298     		ldr	r0, [sp, #8]
+ 2805 0102 0028     		cmp	r0, #0
+ 2806 0104 4AD0     		beq	.L569
+ 2807 0106 0026     		movs	r6, #0
+ 2808              	.L525:
+ 2809 0108 FFF7FEFF 		bl	_ZNK12OutputBuffer6LengthEv
+ 2810              	.L565:
+ 2811 010c 0246     		mov	r2, r0
+ 2812 010e 0546     		mov	r5, r0
+ 2813 0110 5D49     		ldr	r1, .L572+24
+ 2814 0112 A069     		ldr	r0, [r4, #24]
+ 2815 0114 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2816 0118 5C4A     		ldr	r2, .L572+28
+ 2817 011a 574B     		ldr	r3, .L572+8
+ 2818 011c A069     		ldr	r0, [r4, #24]
+ 2819 011e 002E     		cmp	r6, #0
+ 2820 0120 18BF     		it	ne
+ 2821 0122 1A46     		movne	r2, r3
+ 2822              	.L528:
+ 2823 0124 5A49     		ldr	r1, .L572+32
+ 2824 0126 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2825 012a 0299     		ldr	r1, [sp, #8]
+ 2826 012c A069     		ldr	r0, [r4, #24]
+ 2827 012e FFF7FEFF 		bl	_ZN12OutputBuffer6AppendEPS_
+ 2828 0132 A369     		ldr	r3, [r4, #24]
+ 2829 0134 93F81521 		ldrb	r2, [r3, #277]	@ zero_extendqisi2
+ 2830 0138 002A     		cmp	r2, #0
+ 2831 013a 4CD1     		bne	.L570
+ 2832 013c 3146     		mov	r1, r6
+ 2833 013e 2046     		mov	r0, r4
+ 2834 0140 FFF7FEFF 		bl	_ZN16NetworkResponder6CommitENS_14ResponderStateEb
+ 2835 0144 534B     		ldr	r3, .L572+36
+ 2836 0146 D3F8F430 		ldr	r3, [r3, #244]
+ 2837 014a 5B07     		lsls	r3, r3, #29
+ 2838 014c 7FF570AF 		bpl	.L505
+ 2839 0150 2946     		mov	r1, r5
+ 2840 0152 5148     		ldr	r0, .L572+40
+ 2841 0154 FFF7FEFF 		bl	debugPrintf
+ 2842 0158 24B0     		add	sp, sp, #144
+ 2843              		@ sp needed
+ 2844 015a BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 2845              	.L566:
+ 2846 015e 4D48     		ldr	r0, .L572+36
+ 2847 0160 FFF7FEFF 		bl	_ZNK6RepRap13NoPasswordSetEv
+ 2848 0164 0028     		cmp	r0, #0
+ 2849 0166 3FF455AF 		beq	.L507
+ 2850 016a 2046     		mov	r0, r4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 51
 
 
- 2851 0182 70D0     		beq	.L569
- 2852 0184 029B     		ldr	r3, [sp, #8]
- 2853 0186 002B     		cmp	r3, #0
- 2854 0188 4BD0     		beq	.L520
- 2855 018a 93F81531 		ldrb	r3, [r3, #277]	@ zero_extendqisi2
- 2856 018e 002B     		cmp	r3, #0
- 2857 0190 3FF45BAF 		beq	.L519
- 2858 0194 02A8     		add	r0, sp, #8
- 2859 0196 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 2860 019a 52E7     		b	.L514
- 2861              	.L567:
- 2862 019c 0246     		mov	r2, r0
- 2863 019e 0546     		mov	r5, r0
- 2864 01a0 3949     		ldr	r1, .L570+24
- 2865 01a2 A069     		ldr	r0, [r4, #24]
- 2866 01a4 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
- 2867 01a8 2E46     		mov	r6, r5
- 2868 01aa A069     		ldr	r0, [r4, #24]
- 2869 01ac 374A     		ldr	r2, .L570+28
- 2870 01ae B9E7     		b	.L526
- 2871              	.L566:
- 2872 01b0 24AD     		add	r5, sp, #144
- 2873 01b2 7923     		movs	r3, #121
- 2874 01b4 05F87C7D 		strb	r7, [r5, #-124]!
- 2875 01b8 03A8     		add	r0, sp, #12
- 2876 01ba 384A     		ldr	r2, .L570+44
- 2877 01bc 3849     		ldr	r1, .L570+48
- 2878 01be 0493     		str	r3, [sp, #16]
- 2879 01c0 0395     		str	r5, [sp, #12]
- 2880 01c2 FFF7FEFF 		bl	_ZN11MassStorage11CombineNameERK9StringRefPKcS4_
- 2881 01c6 3A46     		mov	r2, r7
- 2882 01c8 2946     		mov	r1, r5
- 2883 01ca 2046     		mov	r0, r4
- 2884 01cc FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
- 2885 01d0 24B0     		add	sp, sp, #144
- 2886              		@ sp needed
- 2887 01d2 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 2888              	.L568:
- 2889 01d6 04F11800 		add	r0, r4, #24
- 2890 01da FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 2891 01de FFF7FEFF 		bl	millis
- 2892 01e2 D4F8CC37 		ldr	r3, [r4, #1996]
- 2893 01e6 C01A     		subs	r0, r0, r3
- 2894 01e8 B0F57A7F 		cmp	r0, #1000
- 2895 01ec FFF420AF 		bcc	.L503
- 2896 01f0 4FF0FF32 		mov	r2, #-1
- 2897 01f4 2B49     		ldr	r1, .L570+52
- 2898 01f6 05A8     		add	r0, sp, #20
- 2899 01f8 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
- 2900 01fc 2A48     		ldr	r0, .L570+56
- 2901 01fe FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
- 2902 0202 24AB     		add	r3, sp, #144
- 2903 0204 43F8840D 		str	r0, [r3, #-132]!
- 2904 0208 1846     		mov	r0, r3
- 2905 020a FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 2906 020e 05A8     		add	r0, sp, #20
- 2907 0210 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 52
+ 2851 016c FFF7FEFF 		bl	_ZN13HttpResponder12AuthenticateEv
+ 2852 0170 50E7     		b	.L507
+ 2853              	.L567:
+ 2854 0172 2946     		mov	r1, r5
+ 2855 0174 0DF10703 		add	r3, sp, #7
+ 2856 0178 02AA     		add	r2, sp, #8
+ 2857 017a 2046     		mov	r0, r4
+ 2858 017c FFF7FEFF 		bl	_ZN13HttpResponder15GetJsonResponseEPKcRP12OutputBufferRb
+ 2859 0180 0028     		cmp	r0, #0
+ 2860 0182 70D0     		beq	.L571
+ 2861 0184 029B     		ldr	r3, [sp, #8]
+ 2862 0186 002B     		cmp	r3, #0
+ 2863 0188 4BD0     		beq	.L522
+ 2864 018a 93F81531 		ldrb	r3, [r3, #277]	@ zero_extendqisi2
+ 2865 018e 002B     		cmp	r3, #0
+ 2866 0190 3FF45BAF 		beq	.L521
+ 2867 0194 02A8     		add	r0, sp, #8
+ 2868 0196 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 2869 019a 52E7     		b	.L516
+ 2870              	.L569:
+ 2871 019c 0246     		mov	r2, r0
+ 2872 019e 0546     		mov	r5, r0
+ 2873 01a0 3949     		ldr	r1, .L572+24
+ 2874 01a2 A069     		ldr	r0, [r4, #24]
+ 2875 01a4 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
+ 2876 01a8 2E46     		mov	r6, r5
+ 2877 01aa A069     		ldr	r0, [r4, #24]
+ 2878 01ac 374A     		ldr	r2, .L572+28
+ 2879 01ae B9E7     		b	.L528
+ 2880              	.L568:
+ 2881 01b0 24AD     		add	r5, sp, #144
+ 2882 01b2 7923     		movs	r3, #121
+ 2883 01b4 05F87C7D 		strb	r7, [r5, #-124]!
+ 2884 01b8 03A8     		add	r0, sp, #12
+ 2885 01ba 384A     		ldr	r2, .L572+44
+ 2886 01bc 3849     		ldr	r1, .L572+48
+ 2887 01be 0493     		str	r3, [sp, #16]
+ 2888 01c0 0395     		str	r5, [sp, #12]
+ 2889 01c2 FFF7FEFF 		bl	_ZN11MassStorage11CombineNameERK9StringRefPKcS4_
+ 2890 01c6 3A46     		mov	r2, r7
+ 2891 01c8 2946     		mov	r1, r5
+ 2892 01ca 2046     		mov	r0, r4
+ 2893 01cc FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
+ 2894 01d0 24B0     		add	sp, sp, #144
+ 2895              		@ sp needed
+ 2896 01d2 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 2897              	.L570:
+ 2898 01d6 04F11800 		add	r0, r4, #24
+ 2899 01da FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 2900 01de FFF7FEFF 		bl	millis
+ 2901 01e2 D4F8CC37 		ldr	r3, [r4, #1996]
+ 2902 01e6 C01A     		subs	r0, r0, r3
+ 2903 01e8 B0F57A7F 		cmp	r0, #1000
+ 2904 01ec FFF420AF 		bcc	.L505
+ 2905 01f0 4FF0FF32 		mov	r2, #-1
+ 2906 01f4 2B49     		ldr	r1, .L572+52
+ 2907 01f6 05A8     		add	r0, sp, #20
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 52
 
 
- 2908 0214 2046     		mov	r0, r4
- 2909 0216 40F2F332 		movw	r2, #1011
- 2910 021a 2449     		ldr	r1, .L570+60
- 2911 021c FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
- 2912 0220 06E7     		b	.L503
- 2913              	.L520:
- 2914 0222 FFF7FEFF 		bl	millis
- 2915 0226 D4F8CC37 		ldr	r3, [r4, #1996]
- 2916 022a C01A     		subs	r0, r0, r3
- 2917 022c B0F57A7F 		cmp	r0, #1000
- 2918 0230 FFF4FEAE 		bcc	.L503
- 2919 0234 4FF0FF32 		mov	r2, #-1
- 2920 0238 1A49     		ldr	r1, .L570+52
- 2921 023a 05A8     		add	r0, sp, #20
- 2922 023c FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
- 2923 0240 1948     		ldr	r0, .L570+56
- 2924 0242 FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
- 2925 0246 24AB     		add	r3, sp, #144
- 2926 0248 43F8840D 		str	r0, [r3, #-132]!
- 2927 024c 1846     		mov	r0, r3
- 2928 024e FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 2929 0252 05A8     		add	r0, sp, #20
- 2930 0254 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
- 2931 0258 2046     		mov	r0, r4
- 2932 025a 40F2BE32 		movw	r2, #958
- 2933 025e 1349     		ldr	r1, .L570+60
- 2934 0260 FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
- 2935 0264 E4E6     		b	.L503
- 2936              	.L569:
- 2937 0266 0298     		ldr	r0, [sp, #8]
- 2938 0268 FFF7FEFF 		bl	_ZN12OutputBuffer7ReleaseEPS_
- 2939 026c E0E6     		b	.L503
- 2940              	.L571:
- 2941 026e 00BF     		.align	2
- 2942              	.L570:
- 2943 0270 14000000 		.word	.LC98
- 2944 0274 48000000 		.word	.LC103
- 2945 0278 00000000 		.word	.LC96
- 2946 027c 00000000 		.word	.LC2
- 2947 0280 1C000000 		.word	.LC99
- 2948 0284 3C000000 		.word	.LC102
- 2949 0288 A0000000 		.word	.LC3
- 2950 028c 0C000000 		.word	.LC97
- 2951 0290 54000000 		.word	.LC104
- 2952 0294 00000000 		.word	reprap
- 2953 0298 68000000 		.word	.LC105
- 2954 029c 28000000 		.word	.LC100
- 2955 02a0 34000000 		.word	.LC101
- 2956 02a4 00000000 		.word	.LANCHOR3
- 2957 02a8 00000000 		.word	.LANCHOR4
- 2958 02ac C8000000 		.word	.LC5
- 2959 02b0 98010000 		.word	.LC46
- 2960              		.size	_ZN13HttpResponder16SendJsonResponseEPKc, .-_ZN13HttpResponder16SendJsonResponseEPKc
- 2961              		.section	.text._ZN13HttpResponder14ProcessRequestEv,"ax",%progbits
- 2962              		.align	1
- 2963              		.p2align 2,,3
- 2964              		.global	_ZN13HttpResponder14ProcessRequestEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 53
+ 2908 01f8 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
+ 2909 01fc 2A48     		ldr	r0, .L572+56
+ 2910 01fe FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
+ 2911 0202 24AB     		add	r3, sp, #144
+ 2912 0204 43F8840D 		str	r0, [r3, #-132]!
+ 2913 0208 1846     		mov	r0, r3
+ 2914 020a FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 2915 020e 05A8     		add	r0, sp, #20
+ 2916 0210 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 2917 0214 2046     		mov	r0, r4
+ 2918 0216 40F2F732 		movw	r2, #1015
+ 2919 021a 2449     		ldr	r1, .L572+60
+ 2920 021c FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
+ 2921 0220 06E7     		b	.L505
+ 2922              	.L522:
+ 2923 0222 FFF7FEFF 		bl	millis
+ 2924 0226 D4F8CC37 		ldr	r3, [r4, #1996]
+ 2925 022a C01A     		subs	r0, r0, r3
+ 2926 022c B0F57A7F 		cmp	r0, #1000
+ 2927 0230 FFF4FEAE 		bcc	.L505
+ 2928 0234 4FF0FF32 		mov	r2, #-1
+ 2929 0238 1A49     		ldr	r1, .L572+52
+ 2930 023a 05A8     		add	r0, sp, #20
+ 2931 023c FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
+ 2932 0240 1948     		ldr	r0, .L572+56
+ 2933 0242 FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
+ 2934 0246 24AB     		add	r3, sp, #144
+ 2935 0248 43F8840D 		str	r0, [r3, #-132]!
+ 2936 024c 1846     		mov	r0, r3
+ 2937 024e FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 2938 0252 05A8     		add	r0, sp, #20
+ 2939 0254 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 2940 0258 2046     		mov	r0, r4
+ 2941 025a 40F2C232 		movw	r2, #962
+ 2942 025e 1349     		ldr	r1, .L572+60
+ 2943 0260 FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
+ 2944 0264 E4E6     		b	.L505
+ 2945              	.L571:
+ 2946 0266 0298     		ldr	r0, [sp, #8]
+ 2947 0268 FFF7FEFF 		bl	_ZN12OutputBuffer7ReleaseEPS_
+ 2948 026c E0E6     		b	.L505
+ 2949              	.L573:
+ 2950 026e 00BF     		.align	2
+ 2951              	.L572:
+ 2952 0270 14000000 		.word	.LC100
+ 2953 0274 48000000 		.word	.LC105
+ 2954 0278 00000000 		.word	.LC98
+ 2955 027c 00000000 		.word	.LC2
+ 2956 0280 1C000000 		.word	.LC101
+ 2957 0284 3C000000 		.word	.LC104
+ 2958 0288 A0000000 		.word	.LC3
+ 2959 028c 0C000000 		.word	.LC99
+ 2960 0290 54000000 		.word	.LC106
+ 2961 0294 00000000 		.word	reprap
+ 2962 0298 68000000 		.word	.LC107
+ 2963 029c 28000000 		.word	.LC102
+ 2964 02a0 34000000 		.word	.LC103
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 53
 
 
- 2965              		.syntax unified
- 2966              		.thumb
- 2967              		.thumb_func
- 2968              		.fpu fpv4-sp-d16
- 2969              		.type	_ZN13HttpResponder14ProcessRequestEv, %function
- 2970              	_ZN13HttpResponder14ProcessRequestEv:
- 2971              		@ args = 0, pretend = 0, frame = 40
- 2972              		@ frame_needed = 0, uses_anonymous_args = 0
- 2973 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
- 2974 0004 D0F8C037 		ldr	r3, [r0, #1984]
- 2975 0008 012B     		cmp	r3, #1
- 2976 000a 8DB0     		sub	sp, sp, #52
- 2977 000c 5ED9     		bls	.L640
- 2978 000e 8369     		ldr	r3, [r0, #24]
- 2979 0010 0446     		mov	r4, r0
- 2980 0012 93B3     		cbz	r3, .L575
- 2981              	.L578:
- 2982 0014 A649     		ldr	r1, .L649
- 2983 0016 D4F89006 		ldr	r0, [r4, #1680]
- 2984 001a FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 2985 001e 90B1     		cbz	r0, .L641
- 2986 0020 A449     		ldr	r1, .L649+4
- 2987 0022 D4F89406 		ldr	r0, [r4, #1684]
- 2988 0026 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
- 2989 002a D4F89416 		ldr	r1, [r4, #1684]
- 2990 002e 0028     		cmp	r0, #0
- 2991 0030 54D1     		bne	.L642
- 2992 0032 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
- 2993 0034 2F2B     		cmp	r3, #47
- 2994 0036 3CD0     		beq	.L643
- 2995              	.L581:
- 2996 0038 2046     		mov	r0, r4
- 2997 003a 0122     		movs	r2, #1
- 2998 003c FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
- 2999              	.L572:
- 3000 0040 0DB0     		add	sp, sp, #52
- 3001              		@ sp needed
- 3002 0042 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 3003              	.L641:
- 3004 0046 9C49     		ldr	r1, .L649+8
- 3005 0048 D4F89006 		ldr	r0, [r4, #1680]
- 3006 004c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3007 0050 E0B9     		cbnz	r0, .L644
- 3008 0052 2046     		mov	r0, r4
- 3009 0054 FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
- 3010 0058 30B1     		cbz	r0, .L586
- 3011 005a 9849     		ldr	r1, .L649+12
- 3012 005c D4F89006 		ldr	r0, [r4, #1680]
- 3013 0060 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3014 0064 0028     		cmp	r0, #0
- 3015 0066 45D1     		bne	.L645
- 3016              	.L586:
- 3017 0068 2046     		mov	r0, r4
- 3018 006a 4FF4FA72 		mov	r2, #500
- 3019 006e 9449     		ldr	r1, .L649+16
- 3020 0070 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
- 3021 0074 0DB0     		add	sp, sp, #52
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 54
+ 2965 02a4 00000000 		.word	.LANCHOR3
+ 2966 02a8 00000000 		.word	.LANCHOR4
+ 2967 02ac C8000000 		.word	.LC5
+ 2968 02b0 98010000 		.word	.LC46
+ 2969              		.size	_ZN13HttpResponder16SendJsonResponseEPKc, .-_ZN13HttpResponder16SendJsonResponseEPKc
+ 2970              		.section	.text._ZN13HttpResponder14ProcessRequestEv,"ax",%progbits
+ 2971              		.align	1
+ 2972              		.p2align 2,,3
+ 2973              		.global	_ZN13HttpResponder14ProcessRequestEv
+ 2974              		.syntax unified
+ 2975              		.thumb
+ 2976              		.thumb_func
+ 2977              		.fpu fpv4-sp-d16
+ 2978              		.type	_ZN13HttpResponder14ProcessRequestEv, %function
+ 2979              	_ZN13HttpResponder14ProcessRequestEv:
+ 2980              		@ args = 0, pretend = 0, frame = 40
+ 2981              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2982 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 2983 0004 D0F8C037 		ldr	r3, [r0, #1984]
+ 2984 0008 012B     		cmp	r3, #1
+ 2985 000a 8DB0     		sub	sp, sp, #52
+ 2986 000c 5ED9     		bls	.L642
+ 2987 000e 8369     		ldr	r3, [r0, #24]
+ 2988 0010 0446     		mov	r4, r0
+ 2989 0012 93B3     		cbz	r3, .L577
+ 2990              	.L580:
+ 2991 0014 A649     		ldr	r1, .L651
+ 2992 0016 D4F89006 		ldr	r0, [r4, #1680]
+ 2993 001a FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 2994 001e 90B1     		cbz	r0, .L643
+ 2995 0020 A449     		ldr	r1, .L651+4
+ 2996 0022 D4F89406 		ldr	r0, [r4, #1684]
+ 2997 0026 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
+ 2998 002a D4F89416 		ldr	r1, [r4, #1684]
+ 2999 002e 0028     		cmp	r0, #0
+ 3000 0030 54D1     		bne	.L644
+ 3001 0032 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
+ 3002 0034 2F2B     		cmp	r3, #47
+ 3003 0036 3CD0     		beq	.L645
+ 3004              	.L583:
+ 3005 0038 2046     		mov	r0, r4
+ 3006 003a 0122     		movs	r2, #1
+ 3007 003c FFF7FEFF 		bl	_ZN13HttpResponder8SendFileEPKcb
+ 3008              	.L574:
+ 3009 0040 0DB0     		add	sp, sp, #52
+ 3010              		@ sp needed
+ 3011 0042 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 3012              	.L643:
+ 3013 0046 9C49     		ldr	r1, .L651+8
+ 3014 0048 D4F89006 		ldr	r0, [r4, #1680]
+ 3015 004c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3016 0050 E0B9     		cbnz	r0, .L646
+ 3017 0052 2046     		mov	r0, r4
+ 3018 0054 FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
+ 3019 0058 30B1     		cbz	r0, .L588
+ 3020 005a 9849     		ldr	r1, .L651+12
+ 3021 005c D4F89006 		ldr	r0, [r4, #1680]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 54
 
 
- 3022              		@ sp needed
- 3023 0076 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 3024              	.L575:
- 3025 007a 1830     		adds	r0, r0, #24
- 3026 007c FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
- 3027 0080 0028     		cmp	r0, #0
- 3028 0082 C7D1     		bne	.L578
- 3029 0084 A060     		str	r0, [r4, #8]
- 3030 0086 0DB0     		add	sp, sp, #52
+ 3022 0060 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3023 0064 0028     		cmp	r0, #0
+ 3024 0066 45D1     		bne	.L647
+ 3025              	.L588:
+ 3026 0068 2046     		mov	r0, r4
+ 3027 006a 4FF4FA72 		mov	r2, #500
+ 3028 006e 9449     		ldr	r1, .L651+16
+ 3029 0070 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
+ 3030 0074 0DB0     		add	sp, sp, #52
  3031              		@ sp needed
- 3032 0088 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 3033              	.L644:
- 3034 008c 8D49     		ldr	r1, .L649+20
- 3035 008e A069     		ldr	r0, [r4, #24]
- 3036 0090 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
- 3037 0094 A369     		ldr	r3, [r4, #24]
- 3038 0096 93F81511 		ldrb	r1, [r3, #277]	@ zero_extendqisi2
- 3039 009a 31B3     		cbz	r1, .L584
- 3040 009c 04F11800 		add	r0, r4, #24
- 3041 00a0 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 3042 00a4 2046     		mov	r0, r4
- 3043 00a6 40F24442 		movw	r2, #1092
- 3044 00aa 8749     		ldr	r1, .L649+24
- 3045 00ac FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
- 3046 00b0 C6E7     		b	.L572
- 3047              	.L643:
- 3048 00b2 481C     		adds	r0, r1, #1
- 3049 00b4 7F49     		ldr	r1, .L649+4
- 3050 00b6 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
- 3051 00ba D4F89416 		ldr	r1, [r4, #1684]
- 3052 00be 0028     		cmp	r0, #0
- 3053 00c0 BAD0     		beq	.L581
- 3054 00c2 2046     		mov	r0, r4
- 3055 00c4 0431     		adds	r1, r1, #4
- 3056 00c6 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
- 3057 00ca B9E7     		b	.L572
- 3058              	.L640:
- 3059 00cc 4FF4FA72 		mov	r2, #500
- 3060 00d0 7E49     		ldr	r1, .L649+28
- 3061 00d2 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
- 3062 00d6 0DB0     		add	sp, sp, #52
- 3063              		@ sp needed
- 3064 00d8 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 3065              	.L642:
- 3066 00dc 2046     		mov	r0, r4
- 3067 00de 0331     		adds	r1, r1, #3
- 3068 00e0 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
- 3069 00e4 0DB0     		add	sp, sp, #52
- 3070              		@ sp needed
- 3071 00e6 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 3072              	.L584:
- 3073 00ea 2046     		mov	r0, r4
- 3074 00ec 0122     		movs	r2, #1
- 3075 00ee FFF7FEFF 		bl	_ZN16NetworkResponder6CommitENS_14ResponderStateEb
- 3076 00f2 A5E7     		b	.L572
- 3077              	.L645:
- 3078 00f4 7649     		ldr	r1, .L649+32
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 55
+ 3032 0076 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 3033              	.L577:
+ 3034 007a 1830     		adds	r0, r0, #24
+ 3035 007c FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
+ 3036 0080 0028     		cmp	r0, #0
+ 3037 0082 C7D1     		bne	.L580
+ 3038 0084 A060     		str	r0, [r4, #8]
+ 3039 0086 0DB0     		add	sp, sp, #52
+ 3040              		@ sp needed
+ 3041 0088 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 3042              	.L646:
+ 3043 008c 8D49     		ldr	r1, .L651+20
+ 3044 008e A069     		ldr	r0, [r4, #24]
+ 3045 0090 FFF7FEFF 		bl	_ZN12OutputBuffer4copyEPKc
+ 3046 0094 A369     		ldr	r3, [r4, #24]
+ 3047 0096 93F81511 		ldrb	r1, [r3, #277]	@ zero_extendqisi2
+ 3048 009a 31B3     		cbz	r1, .L586
+ 3049 009c 04F11800 		add	r0, r4, #24
+ 3050 00a0 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 3051 00a4 2046     		mov	r0, r4
+ 3052 00a6 4FF48962 		mov	r2, #1096
+ 3053 00aa 8749     		ldr	r1, .L651+24
+ 3054 00ac FFF7FEFF 		bl	_ZN16NetworkResponder28ReportOutputBufferExhaustionEPKci
+ 3055 00b0 C6E7     		b	.L574
+ 3056              	.L645:
+ 3057 00b2 481C     		adds	r0, r1, #1
+ 3058 00b4 7F49     		ldr	r1, .L651+4
+ 3059 00b6 FFF7FEFF 		bl	_Z16StringStartsWithPKcS0_
+ 3060 00ba D4F89416 		ldr	r1, [r4, #1684]
+ 3061 00be 0028     		cmp	r0, #0
+ 3062 00c0 BAD0     		beq	.L583
+ 3063 00c2 2046     		mov	r0, r4
+ 3064 00c4 0431     		adds	r1, r1, #4
+ 3065 00c6 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
+ 3066 00ca B9E7     		b	.L574
+ 3067              	.L642:
+ 3068 00cc 4FF4FA72 		mov	r2, #500
+ 3069 00d0 7E49     		ldr	r1, .L651+28
+ 3070 00d2 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
+ 3071 00d6 0DB0     		add	sp, sp, #52
+ 3072              		@ sp needed
+ 3073 00d8 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 3074              	.L644:
+ 3075 00dc 2046     		mov	r0, r4
+ 3076 00de 0331     		adds	r1, r1, #3
+ 3077 00e0 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
+ 3078 00e4 0DB0     		add	sp, sp, #52
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 55
 
 
- 3079 00f6 D4F89406 		ldr	r0, [r4, #1684]
- 3080 00fa FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3081 00fe 0028     		cmp	r0, #0
- 3082 0100 00F0A480 		beq	.L587
- 3083              	.L590:
- 3084 0104 D4F8C437 		ldr	r3, [r4, #1988]
- 3085 0108 002B     		cmp	r3, #0
- 3086 010a 00F0AB80 		beq	.L588
- 3087 010e DFF8E881 		ldr	r8, .L649+72
- 3088 0112 2746     		mov	r7, r4
- 3089 0114 2646     		mov	r6, r4
- 3090 0116 0025     		movs	r5, #0
- 3091 0118 05E0     		b	.L593
- 3092              	.L591:
- 3093 011a D4F8C437 		ldr	r3, [r4, #1988]
- 3094 011e 0135     		adds	r5, r5, #1
- 3095 0120 AB42     		cmp	r3, r5
- 3096 0122 40F29F80 		bls	.L588
- 3097              	.L593:
- 3098 0126 D6F8A006 		ldr	r0, [r6, #1696]
- 3099 012a 4146     		mov	r1, r8
- 3100 012c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3101 0130 0836     		adds	r6, r6, #8
- 3102 0132 0028     		cmp	r0, #0
- 3103 0134 F1D0     		beq	.L591
- 3104 0136 04EBC505 		add	r5, r4, r5, lsl #3
- 3105 013a D5F8A496 		ldr	r9, [r5, #1700]
- 3106 013e B9F1000F 		cmp	r9, #0
- 3107 0142 00F08F80 		beq	.L588
- 3108 0146 D4F8C837 		ldr	r3, [r4, #1992]
- 3109 014a 002B     		cmp	r3, #0
- 3110 014c 00F09180 		beq	.L594
- 3111 0150 DFF8A881 		ldr	r8, .L649+76
- 3112 0154 2646     		mov	r6, r4
- 3113 0156 0025     		movs	r5, #0
- 3114 0158 05E0     		b	.L598
- 3115              	.L595:
- 3116 015a D4F8C837 		ldr	r3, [r4, #1992]
- 3117 015e 0135     		adds	r5, r5, #1
- 3118 0160 AB42     		cmp	r3, r5
- 3119 0162 40F28680 		bls	.L594
- 3120              	.L598:
- 3121 0166 D6F8D006 		ldr	r0, [r6, #1744]
- 3122 016a 4146     		mov	r1, r8
- 3123 016c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3124 0170 0836     		adds	r6, r6, #8
- 3125 0172 0028     		cmp	r0, #0
- 3126 0174 F1D0     		beq	.L595
- 3127 0176 04EBC505 		add	r5, r4, r5, lsl #3
- 3128 017a 564E     		ldr	r6, .L649+36
- 3129 017c D5F8D406 		ldr	r0, [r5, #1748]
- 3130 0180 FFF7FEFF 		bl	atoi
- 3131 0184 7368     		ldr	r3, [r6, #4]
- 3132 0186 C4F8B400 		str	r0, [r4, #180]
- 3133 018a D3F81C0A 		ldr	r0, [r3, #2588]
- 3134 018e 5249     		ldr	r1, .L649+40
- 3135 0190 0123     		movs	r3, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 56
+ 3079              		@ sp needed
+ 3080 00e6 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 3081              	.L586:
+ 3082 00ea 2046     		mov	r0, r4
+ 3083 00ec 0122     		movs	r2, #1
+ 3084 00ee FFF7FEFF 		bl	_ZN16NetworkResponder6CommitENS_14ResponderStateEb
+ 3085 00f2 A5E7     		b	.L574
+ 3086              	.L647:
+ 3087 00f4 7649     		ldr	r1, .L651+32
+ 3088 00f6 D4F89406 		ldr	r0, [r4, #1684]
+ 3089 00fa FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3090 00fe 0028     		cmp	r0, #0
+ 3091 0100 00F0A480 		beq	.L589
+ 3092              	.L592:
+ 3093 0104 D4F8C437 		ldr	r3, [r4, #1988]
+ 3094 0108 002B     		cmp	r3, #0
+ 3095 010a 00F0AB80 		beq	.L590
+ 3096 010e DFF8E881 		ldr	r8, .L651+72
+ 3097 0112 2746     		mov	r7, r4
+ 3098 0114 2646     		mov	r6, r4
+ 3099 0116 0025     		movs	r5, #0
+ 3100 0118 05E0     		b	.L595
+ 3101              	.L593:
+ 3102 011a D4F8C437 		ldr	r3, [r4, #1988]
+ 3103 011e 0135     		adds	r5, r5, #1
+ 3104 0120 AB42     		cmp	r3, r5
+ 3105 0122 40F29F80 		bls	.L590
+ 3106              	.L595:
+ 3107 0126 D6F8A006 		ldr	r0, [r6, #1696]
+ 3108 012a 4146     		mov	r1, r8
+ 3109 012c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3110 0130 0836     		adds	r6, r6, #8
+ 3111 0132 0028     		cmp	r0, #0
+ 3112 0134 F1D0     		beq	.L593
+ 3113 0136 04EBC505 		add	r5, r4, r5, lsl #3
+ 3114 013a D5F8A496 		ldr	r9, [r5, #1700]
+ 3115 013e B9F1000F 		cmp	r9, #0
+ 3116 0142 00F08F80 		beq	.L590
+ 3117 0146 D4F8C837 		ldr	r3, [r4, #1992]
+ 3118 014a 002B     		cmp	r3, #0
+ 3119 014c 00F09180 		beq	.L596
+ 3120 0150 DFF8A881 		ldr	r8, .L651+76
+ 3121 0154 2646     		mov	r6, r4
+ 3122 0156 0025     		movs	r5, #0
+ 3123 0158 05E0     		b	.L600
+ 3124              	.L597:
+ 3125 015a D4F8C837 		ldr	r3, [r4, #1992]
+ 3126 015e 0135     		adds	r5, r5, #1
+ 3127 0160 AB42     		cmp	r3, r5
+ 3128 0162 40F28680 		bls	.L596
+ 3129              	.L600:
+ 3130 0166 D6F8D006 		ldr	r0, [r6, #1744]
+ 3131 016a 4146     		mov	r1, r8
+ 3132 016c FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3133 0170 0836     		adds	r6, r6, #8
+ 3134 0172 0028     		cmp	r0, #0
+ 3135 0174 F1D0     		beq	.L597
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 56
 
 
- 3136 0192 4A46     		mov	r2, r9
- 3137 0194 FFF7FEFF 		bl	_ZN11MassStorage8OpenFileEPKcS1_8OpenMode
- 3138 0198 0028     		cmp	r0, #0
- 3139 019a 76D0     		beq	.L646
- 3140 019c 0146     		mov	r1, r0
- 3141 019e 4A46     		mov	r2, r9
- 3142 01a0 2046     		mov	r0, r4
- 3143 01a2 FFF7FEFF 		bl	_ZN16NetworkResponder11StartUploadEP9FileStorePKc
- 3144 01a6 D4F8C437 		ldr	r3, [r4, #1988]
- 3145 01aa 002B     		cmp	r3, #0
- 3146 01ac 68D0     		beq	.L599
- 3147 01ae DFF85081 		ldr	r8, .L649+80
- 3148 01b2 0025     		movs	r5, #0
- 3149 01b4 04E0     		b	.L602
- 3150              	.L600:
- 3151 01b6 D4F8C437 		ldr	r3, [r4, #1988]
- 3152 01ba 0135     		adds	r5, r5, #1
- 3153 01bc AB42     		cmp	r3, r5
- 3154 01be 5FD9     		bls	.L599
- 3155              	.L602:
- 3156 01c0 D7F8A006 		ldr	r0, [r7, #1696]
- 3157 01c4 4146     		mov	r1, r8
- 3158 01c6 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3159 01ca 0837     		adds	r7, r7, #8
- 3160 01cc 0028     		cmp	r0, #0
- 3161 01ce F2D0     		beq	.L600
- 3162 01d0 04EBC505 		add	r5, r4, r5, lsl #3
- 3163 01d4 D5F8A456 		ldr	r5, [r5, #1700]
- 3164 01d8 002D     		cmp	r5, #0
- 3165 01da 51D0     		beq	.L599
- 3166 01dc 2422     		movs	r2, #36
- 3167 01de 0021     		movs	r1, #0
- 3168 01e0 03A8     		add	r0, sp, #12
- 3169 01e2 FFF7FEFF 		bl	memset
- 3170 01e6 03AA     		add	r2, sp, #12
- 3171 01e8 2846     		mov	r0, r5
- 3172 01ea 3C49     		ldr	r1, .L649+44
- 3173 01ec FFF7FEFF 		bl	strptime
- 3174 01f0 0028     		cmp	r0, #0
- 3175 01f2 45D0     		beq	.L599
- 3176 01f4 03A8     		add	r0, sp, #12
- 3177 01f6 FFF7FEFF 		bl	mktime
- 3178 01fa C4E93001 		strd	r0, [r4, #192]
- 3179              	.L605:
- 3180 01fe D6F8F430 		ldr	r3, [r6, #244]
- 3181 0202 5B07     		lsls	r3, r3, #29
- 3182 0204 48D4     		bmi	.L647
- 3183              	.L606:
- 3184 0206 0025     		movs	r5, #0
- 3185 0208 C4F8B850 		str	r5, [r4, #184]
- 3186 020c 2046     		mov	r0, r4
- 3187 020e FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
- 3188 0212 334B     		ldr	r3, .L649+48
- 3189 0214 1E68     		ldr	r6, [r3]
- 3190 0216 002E     		cmp	r6, #0
- 3191 0218 3FF412AF 		beq	.L572
- 3192 021c 314F     		ldr	r7, .L649+52
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 57
+ 3136 0176 04EBC505 		add	r5, r4, r5, lsl #3
+ 3137 017a 564E     		ldr	r6, .L651+36
+ 3138 017c D5F8D406 		ldr	r0, [r5, #1748]
+ 3139 0180 FFF7FEFF 		bl	atoi
+ 3140 0184 7368     		ldr	r3, [r6, #4]
+ 3141 0186 C4F8B400 		str	r0, [r4, #180]
+ 3142 018a D3F81C0A 		ldr	r0, [r3, #2588]
+ 3143 018e 5249     		ldr	r1, .L651+40
+ 3144 0190 0123     		movs	r3, #1
+ 3145 0192 4A46     		mov	r2, r9
+ 3146 0194 FFF7FEFF 		bl	_ZN11MassStorage8OpenFileEPKcS1_8OpenMode
+ 3147 0198 0028     		cmp	r0, #0
+ 3148 019a 76D0     		beq	.L648
+ 3149 019c 0146     		mov	r1, r0
+ 3150 019e 4A46     		mov	r2, r9
+ 3151 01a0 2046     		mov	r0, r4
+ 3152 01a2 FFF7FEFF 		bl	_ZN16NetworkResponder11StartUploadEP9FileStorePKc
+ 3153 01a6 D4F8C437 		ldr	r3, [r4, #1988]
+ 3154 01aa 002B     		cmp	r3, #0
+ 3155 01ac 68D0     		beq	.L601
+ 3156 01ae DFF85081 		ldr	r8, .L651+80
+ 3157 01b2 0025     		movs	r5, #0
+ 3158 01b4 04E0     		b	.L604
+ 3159              	.L602:
+ 3160 01b6 D4F8C437 		ldr	r3, [r4, #1988]
+ 3161 01ba 0135     		adds	r5, r5, #1
+ 3162 01bc AB42     		cmp	r3, r5
+ 3163 01be 5FD9     		bls	.L601
+ 3164              	.L604:
+ 3165 01c0 D7F8A006 		ldr	r0, [r7, #1696]
+ 3166 01c4 4146     		mov	r1, r8
+ 3167 01c6 FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3168 01ca 0837     		adds	r7, r7, #8
+ 3169 01cc 0028     		cmp	r0, #0
+ 3170 01ce F2D0     		beq	.L602
+ 3171 01d0 04EBC505 		add	r5, r4, r5, lsl #3
+ 3172 01d4 D5F8A456 		ldr	r5, [r5, #1700]
+ 3173 01d8 002D     		cmp	r5, #0
+ 3174 01da 51D0     		beq	.L601
+ 3175 01dc 2422     		movs	r2, #36
+ 3176 01de 0021     		movs	r1, #0
+ 3177 01e0 03A8     		add	r0, sp, #12
+ 3178 01e2 FFF7FEFF 		bl	memset
+ 3179 01e6 03AA     		add	r2, sp, #12
+ 3180 01e8 2846     		mov	r0, r5
+ 3181 01ea 3C49     		ldr	r1, .L651+44
+ 3182 01ec FFF7FEFF 		bl	strptime
+ 3183 01f0 0028     		cmp	r0, #0
+ 3184 01f2 45D0     		beq	.L601
+ 3185 01f4 03A8     		add	r0, sp, #12
+ 3186 01f6 FFF7FEFF 		bl	mktime
+ 3187 01fa C4E93001 		strd	r0, [r4, #192]
+ 3188              	.L607:
+ 3189 01fe D6F8F430 		ldr	r3, [r6, #244]
+ 3190 0202 5B07     		lsls	r3, r3, #29
+ 3191 0204 48D4     		bmi	.L649
+ 3192              	.L608:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 57
 
 
- 3193 021e 3B68     		ldr	r3, [r7]
- 3194 0220 9842     		cmp	r0, r3
- 3195 0222 43D0     		beq	.L648
- 3196 0224 2B46     		mov	r3, r5
- 3197 0226 3A46     		mov	r2, r7
- 3198              	.L609:
- 3199 0228 0133     		adds	r3, r3, #1
- 3200 022a 9E42     		cmp	r6, r3
- 3201 022c 3FF408AF 		beq	.L572
- 3202 0230 52F80C1F 		ldr	r1, [r2, #12]!
- 3203 0234 8842     		cmp	r0, r1
- 3204 0236 F7D1     		bne	.L609
- 3205              	.L607:
- 3206 0238 2269     		ldr	r2, [r4, #16]
- 3207 023a 03EB4303 		add	r3, r3, r3, lsl #1
- 3208 023e 07EB8303 		add	r3, r7, r3, lsl #2
- 3209 0242 5289     		ldrh	r2, [r2, #10]
- 3210 0244 5A81     		strh	r2, [r3, #10]	@ movhi
- 3211 0246 0122     		movs	r2, #1
- 3212 0248 1A72     		strb	r2, [r3, #8]
- 3213 024a F9E6     		b	.L572
- 3214              	.L587:
- 3215 024c D4F89406 		ldr	r0, [r4, #1684]
- 3216 0250 0378     		ldrb	r3, [r0]	@ zero_extendqisi2
- 3217 0252 2F2B     		cmp	r3, #47
- 3218 0254 06D1     		bne	.L588
- 3219 0256 0130     		adds	r0, r0, #1
- 3220 0258 1D49     		ldr	r1, .L649+32
- 3221 025a FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
- 3222 025e 0028     		cmp	r0, #0
- 3223 0260 7FF450AF 		bne	.L590
- 3224              	.L588:
- 3225 0264 2046     		mov	r0, r4
- 3226 0266 4FF4FA72 		mov	r2, #500
- 3227 026a 1F49     		ldr	r1, .L649+56
- 3228 026c FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
- 3229 0270 E6E6     		b	.L572
- 3230              	.L594:
- 3231 0272 2046     		mov	r0, r4
- 3232 0274 4FF4FA72 		mov	r2, #500
- 3233 0278 1C49     		ldr	r1, .L649+60
- 3234 027a FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
- 3235 027e DFE6     		b	.L572
- 3236              	.L599:
- 3237 0280 0022     		movs	r2, #0
- 3238 0282 0023     		movs	r3, #0
- 3239 0284 C4E93023 		strd	r2, [r4, #192]
- 3240 0288 B9E7     		b	.L605
- 3241              	.L646:
- 3242 028a 2046     		mov	r0, r4
- 3243 028c 4FF4FA72 		mov	r2, #500
- 3244 0290 1749     		ldr	r1, .L649+64
- 3245 0292 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
- 3246 0296 D3E6     		b	.L572
- 3247              	.L647:
- 3248 0298 D4F8B430 		ldr	r3, [r4, #180]
- 3249 029c 7068     		ldr	r0, [r6, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 58
+ 3193 0206 0025     		movs	r5, #0
+ 3194 0208 C4F8B850 		str	r5, [r4, #184]
+ 3195 020c 2046     		mov	r0, r4
+ 3196 020e FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
+ 3197 0212 334B     		ldr	r3, .L651+48
+ 3198 0214 1E68     		ldr	r6, [r3]
+ 3199 0216 002E     		cmp	r6, #0
+ 3200 0218 3FF412AF 		beq	.L574
+ 3201 021c 314F     		ldr	r7, .L651+52
+ 3202 021e 3B68     		ldr	r3, [r7]
+ 3203 0220 9842     		cmp	r0, r3
+ 3204 0222 43D0     		beq	.L650
+ 3205 0224 2B46     		mov	r3, r5
+ 3206 0226 3A46     		mov	r2, r7
+ 3207              	.L611:
+ 3208 0228 0133     		adds	r3, r3, #1
+ 3209 022a 9E42     		cmp	r6, r3
+ 3210 022c 3FF408AF 		beq	.L574
+ 3211 0230 52F80C1F 		ldr	r1, [r2, #12]!
+ 3212 0234 8842     		cmp	r0, r1
+ 3213 0236 F7D1     		bne	.L611
+ 3214              	.L609:
+ 3215 0238 2269     		ldr	r2, [r4, #16]
+ 3216 023a 03EB4303 		add	r3, r3, r3, lsl #1
+ 3217 023e 07EB8303 		add	r3, r7, r3, lsl #2
+ 3218 0242 5289     		ldrh	r2, [r2, #10]
+ 3219 0244 5A81     		strh	r2, [r3, #10]	@ movhi
+ 3220 0246 0122     		movs	r2, #1
+ 3221 0248 1A72     		strb	r2, [r3, #8]
+ 3222 024a F9E6     		b	.L574
+ 3223              	.L589:
+ 3224 024c D4F89406 		ldr	r0, [r4, #1684]
+ 3225 0250 0378     		ldrb	r3, [r0]	@ zero_extendqisi2
+ 3226 0252 2F2B     		cmp	r3, #47
+ 3227 0254 06D1     		bne	.L590
+ 3228 0256 0130     		adds	r0, r0, #1
+ 3229 0258 1D49     		ldr	r1, .L651+32
+ 3230 025a FFF7FEFF 		bl	_Z12StringEqualsPKcS0_
+ 3231 025e 0028     		cmp	r0, #0
+ 3232 0260 7FF450AF 		bne	.L592
+ 3233              	.L590:
+ 3234 0264 2046     		mov	r0, r4
+ 3235 0266 4FF4FA72 		mov	r2, #500
+ 3236 026a 1F49     		ldr	r1, .L651+56
+ 3237 026c FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
+ 3238 0270 E6E6     		b	.L574
+ 3239              	.L596:
+ 3240 0272 2046     		mov	r0, r4
+ 3241 0274 4FF4FA72 		mov	r2, #500
+ 3242 0278 1C49     		ldr	r1, .L651+60
+ 3243 027a FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
+ 3244 027e DFE6     		b	.L574
+ 3245              	.L601:
+ 3246 0280 0022     		movs	r2, #0
+ 3247 0282 0023     		movs	r3, #0
+ 3248 0284 C4E93023 		strd	r2, [r4, #192]
+ 3249 0288 B9E7     		b	.L607
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 58
 
 
- 3250 029e 154A     		ldr	r2, .L649+68
- 3251 02a0 0093     		str	r3, [sp]
- 3252 02a2 0121     		movs	r1, #1
- 3253 02a4 4B46     		mov	r3, r9
- 3254 02a6 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 3255 02aa ACE7     		b	.L606
- 3256              	.L648:
- 3257 02ac 2B46     		mov	r3, r5
- 3258 02ae C3E7     		b	.L607
- 3259              	.L650:
- 3260              		.align	2
- 3261              	.L649:
- 3262 02b0 18000000 		.word	.LC107
- 3263 02b4 1C000000 		.word	.LC108
- 3264 02b8 20000000 		.word	.LC109
- 3265 02bc 2C010000 		.word	.LC112
- 3266 02c0 00010000 		.word	.LC111
- 3267 02c4 28000000 		.word	.LC110
- 3268 02c8 C8000000 		.word	.LC5
- 3269 02cc 00000000 		.word	.LC106
- 3270 02d0 34010000 		.word	.LC113
- 3271 02d4 00000000 		.word	reprap
- 3272 02d8 AC010000 		.word	.LC48
- 3273 02dc 08010000 		.word	.LC35
- 3274 02e0 00000000 		.word	.LANCHOR1
- 3275 02e4 00000000 		.word	.LANCHOR2
- 3276 02e8 A8010000 		.word	.LC118
- 3277 02ec 50010000 		.word	.LC115
- 3278 02f0 6C010000 		.word	.LC116
- 3279 02f4 84010000 		.word	.LC117
- 3280 02f8 98010000 		.word	.LC46
- 3281 02fc 40010000 		.word	.LC114
- 3282 0300 00010000 		.word	.LC34
- 3283              		.size	_ZN13HttpResponder14ProcessRequestEv, .-_ZN13HttpResponder14ProcessRequestEv
- 3284              		.section	.text._ZN13HttpResponder8DoUploadEv,"ax",%progbits
- 3285              		.align	1
- 3286              		.p2align 2,,3
- 3287              		.global	_ZN13HttpResponder8DoUploadEv
- 3288              		.syntax unified
- 3289              		.thumb
- 3290              		.thumb_func
- 3291              		.fpu fpv4-sp-d16
- 3292              		.type	_ZN13HttpResponder8DoUploadEv, %function
- 3293              	_ZN13HttpResponder8DoUploadEv:
- 3294              		@ args = 0, pretend = 0, frame = 8
- 3295              		@ frame_needed = 0, uses_anonymous_args = 0
- 3296 0000 30B5     		push	{r4, r5, lr}
- 3297 0002 0446     		mov	r4, r0
- 3298 0004 0069     		ldr	r0, [r0, #16]
- 3299 0006 0368     		ldr	r3, [r0]
- 3300 0008 83B0     		sub	sp, sp, #12
- 3301 000a 01AA     		add	r2, sp, #4
- 3302 000c 5B69     		ldr	r3, [r3, #20]
- 3303 000e 6946     		mov	r1, sp
- 3304 0010 9847     		blx	r3
- 3305 0012 80B9     		cbnz	r0, .L669
- 3306              	.L652:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 59
+ 3250              	.L648:
+ 3251 028a 2046     		mov	r0, r4
+ 3252 028c 4FF4FA72 		mov	r2, #500
+ 3253 0290 1749     		ldr	r1, .L651+64
+ 3254 0292 FFF7FEFF 		bl	_ZN13HttpResponder13RejectMessageEPKcj
+ 3255 0296 D3E6     		b	.L574
+ 3256              	.L649:
+ 3257 0298 D4F8B430 		ldr	r3, [r4, #180]
+ 3258 029c 7068     		ldr	r0, [r6, #4]
+ 3259 029e 154A     		ldr	r2, .L651+68
+ 3260 02a0 0093     		str	r3, [sp]
+ 3261 02a2 0121     		movs	r1, #1
+ 3262 02a4 4B46     		mov	r3, r9
+ 3263 02a6 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 3264 02aa ACE7     		b	.L608
+ 3265              	.L650:
+ 3266 02ac 2B46     		mov	r3, r5
+ 3267 02ae C3E7     		b	.L609
+ 3268              	.L652:
+ 3269              		.align	2
+ 3270              	.L651:
+ 3271 02b0 18000000 		.word	.LC109
+ 3272 02b4 1C000000 		.word	.LC110
+ 3273 02b8 20000000 		.word	.LC111
+ 3274 02bc 2C010000 		.word	.LC114
+ 3275 02c0 00010000 		.word	.LC113
+ 3276 02c4 28000000 		.word	.LC112
+ 3277 02c8 C8000000 		.word	.LC5
+ 3278 02cc 00000000 		.word	.LC108
+ 3279 02d0 34010000 		.word	.LC115
+ 3280 02d4 00000000 		.word	reprap
+ 3281 02d8 AC010000 		.word	.LC48
+ 3282 02dc 08010000 		.word	.LC35
+ 3283 02e0 00000000 		.word	.LANCHOR1
+ 3284 02e4 00000000 		.word	.LANCHOR2
+ 3285 02e8 A8010000 		.word	.LC120
+ 3286 02ec 50010000 		.word	.LC117
+ 3287 02f0 6C010000 		.word	.LC118
+ 3288 02f4 84010000 		.word	.LC119
+ 3289 02f8 98010000 		.word	.LC46
+ 3290 02fc 40010000 		.word	.LC116
+ 3291 0300 00010000 		.word	.LC34
+ 3292              		.size	_ZN13HttpResponder14ProcessRequestEv, .-_ZN13HttpResponder14ProcessRequestEv
+ 3293              		.section	.text._ZN13HttpResponder8DoUploadEv,"ax",%progbits
+ 3294              		.align	1
+ 3295              		.p2align 2,,3
+ 3296              		.global	_ZN13HttpResponder8DoUploadEv
+ 3297              		.syntax unified
+ 3298              		.thumb
+ 3299              		.thumb_func
+ 3300              		.fpu fpv4-sp-d16
+ 3301              		.type	_ZN13HttpResponder8DoUploadEv, %function
+ 3302              	_ZN13HttpResponder8DoUploadEv:
+ 3303              		@ args = 0, pretend = 0, frame = 8
+ 3304              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3305 0000 30B5     		push	{r4, r5, lr}
+ 3306 0002 0446     		mov	r4, r0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 59
 
 
- 3307 0014 D4E92D32 		ldrd	r3, r2, [r4, #180]
- 3308 0018 9A42     		cmp	r2, r3
- 3309 001a 35D2     		bcs	.L670
- 3310 001c 2069     		ldr	r0, [r4, #16]
- 3311 001e 0368     		ldr	r3, [r0]
- 3312 0020 DB69     		ldr	r3, [r3, #28]
- 3313 0022 9847     		blx	r3
- 3314 0024 08B1     		cbz	r0, .L671
- 3315 0026 03B0     		add	sp, sp, #12
- 3316              		@ sp needed
- 3317 0028 30BD     		pop	{r4, r5, pc}
- 3318              	.L671:
- 3319 002a 2368     		ldr	r3, [r4]
- 3320 002c 2046     		mov	r0, r4
- 3321 002e 5B69     		ldr	r3, [r3, #20]
- 3322 0030 9847     		blx	r3
- 3323 0032 03B0     		add	sp, sp, #12
- 3324              		@ sp needed
- 3325 0034 30BD     		pop	{r4, r5, pc}
- 3326              	.L669:
- 3327 0036 2069     		ldr	r0, [r4, #16]
- 3328 0038 0199     		ldr	r1, [sp, #4]
- 3329 003a 0368     		ldr	r3, [r0]
- 3330 003c 9B69     		ldr	r3, [r3, #24]
- 3331 003e 9847     		blx	r3
- 3332 0040 D4F8B830 		ldr	r3, [r4, #184]
- 3333 0044 019A     		ldr	r2, [sp, #4]
- 3334 0046 1344     		add	r3, r3, r2
- 3335 0048 C4F8B830 		str	r3, [r4, #184]
- 3336 004c 2046     		mov	r0, r4
- 3337 004e FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
- 3338 0052 DDE90012 		ldrd	r1, r2, [sp]
- 3339 0056 A06B     		ldr	r0, [r4, #56]
- 3340 0058 FFF7FEFF 		bl	_ZN9FileStore5WriteEPKcj
- 3341 005c 0028     		cmp	r0, #0
- 3342 005e D9D1     		bne	.L652
- 3343 0060 1F4B     		ldr	r3, .L672
- 3344 0062 204A     		ldr	r2, .L672+4
- 3345 0064 5868     		ldr	r0, [r3, #4]
- 3346 0066 0123     		movs	r3, #1
- 3347 0068 84F8C830 		strb	r3, [r4, #200]
- 3348 006c 40F2B511 		movw	r1, #437
- 3349 0070 FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
- 3350 0074 2368     		ldr	r3, [r4]
- 3351 0076 2046     		mov	r0, r4
- 3352 0078 9B69     		ldr	r3, [r3, #24]
- 3353 007a 9847     		blx	r3
- 3354 007c 2046     		mov	r0, r4
- 3355 007e 1A49     		ldr	r1, .L672+8
- 3356 0080 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
- 3357 0084 03B0     		add	sp, sp, #12
- 3358              		@ sp needed
- 3359 0086 30BD     		pop	{r4, r5, pc}
- 3360              	.L670:
- 3361 0088 2046     		mov	r0, r4
- 3362 008a FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
- 3363 008e 174B     		ldr	r3, .L672+12
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 60
+ 3307 0004 0069     		ldr	r0, [r0, #16]
+ 3308 0006 0368     		ldr	r3, [r0]
+ 3309 0008 83B0     		sub	sp, sp, #12
+ 3310 000a 01AA     		add	r2, sp, #4
+ 3311 000c 5B69     		ldr	r3, [r3, #20]
+ 3312 000e 6946     		mov	r1, sp
+ 3313 0010 9847     		blx	r3
+ 3314 0012 80B9     		cbnz	r0, .L671
+ 3315              	.L654:
+ 3316 0014 D4E92D32 		ldrd	r3, r2, [r4, #180]
+ 3317 0018 9A42     		cmp	r2, r3
+ 3318 001a 35D2     		bcs	.L672
+ 3319 001c 2069     		ldr	r0, [r4, #16]
+ 3320 001e 0368     		ldr	r3, [r0]
+ 3321 0020 DB69     		ldr	r3, [r3, #28]
+ 3322 0022 9847     		blx	r3
+ 3323 0024 08B1     		cbz	r0, .L673
+ 3324 0026 03B0     		add	sp, sp, #12
+ 3325              		@ sp needed
+ 3326 0028 30BD     		pop	{r4, r5, pc}
+ 3327              	.L673:
+ 3328 002a 2368     		ldr	r3, [r4]
+ 3329 002c 2046     		mov	r0, r4
+ 3330 002e 5B69     		ldr	r3, [r3, #20]
+ 3331 0030 9847     		blx	r3
+ 3332 0032 03B0     		add	sp, sp, #12
+ 3333              		@ sp needed
+ 3334 0034 30BD     		pop	{r4, r5, pc}
+ 3335              	.L671:
+ 3336 0036 2069     		ldr	r0, [r4, #16]
+ 3337 0038 0199     		ldr	r1, [sp, #4]
+ 3338 003a 0368     		ldr	r3, [r0]
+ 3339 003c 9B69     		ldr	r3, [r3, #24]
+ 3340 003e 9847     		blx	r3
+ 3341 0040 D4F8B830 		ldr	r3, [r4, #184]
+ 3342 0044 019A     		ldr	r2, [sp, #4]
+ 3343 0046 1344     		add	r3, r3, r2
+ 3344 0048 C4F8B830 		str	r3, [r4, #184]
+ 3345 004c 2046     		mov	r0, r4
+ 3346 004e FFF7FEFF 		bl	_ZN13HttpResponder18CheckAuthenticatedEv
+ 3347 0052 DDE90012 		ldrd	r1, r2, [sp]
+ 3348 0056 A06B     		ldr	r0, [r4, #56]
+ 3349 0058 FFF7FEFF 		bl	_ZN9FileStore5WriteEPKcj
+ 3350 005c 0028     		cmp	r0, #0
+ 3351 005e D9D1     		bne	.L654
+ 3352 0060 1F4B     		ldr	r3, .L674
+ 3353 0062 204A     		ldr	r2, .L674+4
+ 3354 0064 5868     		ldr	r0, [r3, #4]
+ 3355 0066 0123     		movs	r3, #1
+ 3356 0068 84F8C830 		strb	r3, [r4, #200]
+ 3357 006c 40F2B511 		movw	r1, #437
+ 3358 0070 FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
+ 3359 0074 2368     		ldr	r3, [r4]
+ 3360 0076 2046     		mov	r0, r4
+ 3361 0078 9B69     		ldr	r3, [r3, #24]
+ 3362 007a 9847     		blx	r3
+ 3363 007c 2046     		mov	r0, r4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 60
 
 
- 3364 0090 1D68     		ldr	r5, [r3]
- 3365 0092 C5B1     		cbz	r5, .L655
- 3366 0094 164B     		ldr	r3, .L672+16
- 3367 0096 0022     		movs	r2, #0
- 3368 0098 04E0     		b	.L657
- 3369              	.L656:
- 3370 009a 0132     		adds	r2, r2, #1
- 3371 009c AA42     		cmp	r2, r5
- 3372 009e 03F10C03 		add	r3, r3, #12
- 3373 00a2 10D0     		beq	.L655
- 3374              	.L657:
- 3375 00a4 53F8081C 		ldr	r1, [r3, #-8]
- 3376 00a8 8142     		cmp	r1, r0
- 3377 00aa F6D1     		bne	.L656
- 3378 00ac 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
- 3379 00ae 0029     		cmp	r1, #0
- 3380 00b0 F3D0     		beq	.L656
- 3381 00b2 104D     		ldr	r5, .L672+20
- 3382 00b4 02EB4202 		add	r2, r2, r2, lsl #1
- 3383 00b8 05EB8205 		add	r5, r5, r2, lsl #2
- 3384 00bc 0023     		movs	r3, #0
- 3385 00be 2B72     		strb	r3, [r5, #8]
- 3386 00c0 FFF7FEFF 		bl	millis
- 3387 00c4 6860     		str	r0, [r5, #4]
- 3388              	.L655:
- 3389 00c6 D4E93023 		ldrd	r2, [r4, #192]
- 3390 00ca D4F8B410 		ldr	r1, [r4, #180]
- 3391 00ce 2046     		mov	r0, r4
- 3392 00d0 FFF7FEFF 		bl	_ZN16NetworkResponder12FinishUploadEmx
- 3393 00d4 2046     		mov	r0, r4
- 3394 00d6 0449     		ldr	r1, .L672+8
- 3395 00d8 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
- 3396 00dc 03B0     		add	sp, sp, #12
- 3397              		@ sp needed
- 3398 00de 30BD     		pop	{r4, r5, pc}
- 3399              	.L673:
- 3400              		.align	2
- 3401              	.L672:
- 3402 00e0 00000000 		.word	reprap
- 3403 00e4 00000000 		.word	.LC119
- 3404 00e8 7C010000 		.word	.LC43
- 3405 00ec 00000000 		.word	.LANCHOR1
- 3406 00f0 08000000 		.word	.LANCHOR2+8
- 3407 00f4 00000000 		.word	.LANCHOR2
- 3408              		.size	_ZN13HttpResponder8DoUploadEv, .-_ZN13HttpResponder8DoUploadEv
- 3409              		.section	.text._ZN13HttpResponder4SpinEv,"ax",%progbits
- 3410              		.align	1
- 3411              		.p2align 2,,3
- 3412              		.global	_ZN13HttpResponder4SpinEv
- 3413              		.syntax unified
- 3414              		.thumb
- 3415              		.thumb_func
- 3416              		.fpu fpv4-sp-d16
- 3417              		.type	_ZN13HttpResponder4SpinEv, %function
- 3418              	_ZN13HttpResponder4SpinEv:
- 3419              		@ args = 0, pretend = 0, frame = 8
- 3420              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 61
+ 3364 007e 1A49     		ldr	r1, .L674+8
+ 3365 0080 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
+ 3366 0084 03B0     		add	sp, sp, #12
+ 3367              		@ sp needed
+ 3368 0086 30BD     		pop	{r4, r5, pc}
+ 3369              	.L672:
+ 3370 0088 2046     		mov	r0, r4
+ 3371 008a FFF7FEFF 		bl	_ZNK16NetworkResponder11GetRemoteIPEv
+ 3372 008e 174B     		ldr	r3, .L674+12
+ 3373 0090 1D68     		ldr	r5, [r3]
+ 3374 0092 C5B1     		cbz	r5, .L657
+ 3375 0094 164B     		ldr	r3, .L674+16
+ 3376 0096 0022     		movs	r2, #0
+ 3377 0098 04E0     		b	.L659
+ 3378              	.L658:
+ 3379 009a 0132     		adds	r2, r2, #1
+ 3380 009c AA42     		cmp	r2, r5
+ 3381 009e 03F10C03 		add	r3, r3, #12
+ 3382 00a2 10D0     		beq	.L657
+ 3383              	.L659:
+ 3384 00a4 53F8081C 		ldr	r1, [r3, #-8]
+ 3385 00a8 8142     		cmp	r1, r0
+ 3386 00aa F6D1     		bne	.L658
+ 3387 00ac 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
+ 3388 00ae 0029     		cmp	r1, #0
+ 3389 00b0 F3D0     		beq	.L658
+ 3390 00b2 104D     		ldr	r5, .L674+20
+ 3391 00b4 02EB4202 		add	r2, r2, r2, lsl #1
+ 3392 00b8 05EB8205 		add	r5, r5, r2, lsl #2
+ 3393 00bc 0023     		movs	r3, #0
+ 3394 00be 2B72     		strb	r3, [r5, #8]
+ 3395 00c0 FFF7FEFF 		bl	millis
+ 3396 00c4 6860     		str	r0, [r5, #4]
+ 3397              	.L657:
+ 3398 00c6 D4E93023 		ldrd	r2, [r4, #192]
+ 3399 00ca D4F8B410 		ldr	r1, [r4, #180]
+ 3400 00ce 2046     		mov	r0, r4
+ 3401 00d0 FFF7FEFF 		bl	_ZN16NetworkResponder12FinishUploadEmx
+ 3402 00d4 2046     		mov	r0, r4
+ 3403 00d6 0449     		ldr	r1, .L674+8
+ 3404 00d8 FFF7FEFF 		bl	_ZN13HttpResponder16SendJsonResponseEPKc
+ 3405 00dc 03B0     		add	sp, sp, #12
+ 3406              		@ sp needed
+ 3407 00de 30BD     		pop	{r4, r5, pc}
+ 3408              	.L675:
+ 3409              		.align	2
+ 3410              	.L674:
+ 3411 00e0 00000000 		.word	reprap
+ 3412 00e4 00000000 		.word	.LC121
+ 3413 00e8 7C010000 		.word	.LC43
+ 3414 00ec 00000000 		.word	.LANCHOR1
+ 3415 00f0 08000000 		.word	.LANCHOR2+8
+ 3416 00f4 00000000 		.word	.LANCHOR2
+ 3417              		.size	_ZN13HttpResponder8DoUploadEv, .-_ZN13HttpResponder8DoUploadEv
+ 3418              		.section	.text._ZN13HttpResponder4SpinEv,"ax",%progbits
+ 3419              		.align	1
+ 3420              		.p2align 2,,3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 61
 
 
- 3421 0000 70B5     		push	{r4, r5, r6, lr}
- 3422 0002 8368     		ldr	r3, [r0, #8]
- 3423 0004 013B     		subs	r3, r3, #1
- 3424 0006 82B0     		sub	sp, sp, #8
- 3425 0008 0446     		mov	r4, r0
- 3426 000a 042B     		cmp	r3, #4
- 3427 000c 26D8     		bhi	.L687
- 3428 000e DFE803F0 		tbb	[pc, r3]
- 3429              	.L677:
- 3430 0012 03       		.byte	(.L688-.L677)/2
- 3431 0013 29       		.byte	(.L678-.L677)/2
- 3432 0014 30       		.byte	(.L679-.L677)/2
- 3433 0015 36       		.byte	(.L680-.L677)/2
- 3434 0016 3C       		.byte	(.L681-.L677)/2
- 3435 0017 00       		.p2align 1
- 3436              	.L688:
- 3437 0018 0026     		movs	r6, #0
- 3438 001a 08E0     		b	.L676
- 3439              	.L693:
- 3440 001c 9DF80710 		ldrb	r1, [sp, #7]	@ zero_extendqisi2
- 3441 0020 2046     		mov	r0, r4
- 3442 0022 FFF7FEFF 		bl	_ZN13HttpResponder14CharFromClientEc
- 3443 0026 2E46     		mov	r6, r5
- 3444 0028 0546     		mov	r5, r0
- 3445 002a 0028     		cmp	r0, #0
- 3446 002c 3ED1     		bne	.L692
- 3447              	.L676:
- 3448 002e 2069     		ldr	r0, [r4, #16]
- 3449 0030 0368     		ldr	r3, [r0]
- 3450 0032 0DF10701 		add	r1, sp, #7
- 3451 0036 1B69     		ldr	r3, [r3, #16]
- 3452 0038 9847     		blx	r3
- 3453 003a 0546     		mov	r5, r0
- 3454 003c 0028     		cmp	r0, #0
- 3455 003e EDD1     		bne	.L693
- 3456 0040 002E     		cmp	r6, #0
- 3457 0042 3DD1     		bne	.L694
- 3458 0044 2069     		ldr	r0, [r4, #16]
- 3459 0046 0368     		ldr	r3, [r0]
- 3460 0048 DB69     		ldr	r3, [r3, #28]
- 3461 004a 9847     		blx	r3
- 3462 004c 90B3     		cbz	r0, .L686
- 3463 004e FFF7FEFF 		bl	millis
- 3464 0052 6369     		ldr	r3, [r4, #20]
- 3465 0054 C01A     		subs	r0, r0, r3
- 3466 0056 B0F5FA6F 		cmp	r0, #2000
- 3467 005a 2BD2     		bcs	.L686
- 3468              	.L687:
- 3469 005c 0025     		movs	r5, #0
- 3470              	.L675:
- 3471 005e 2846     		mov	r0, r5
- 3472 0060 02B0     		add	sp, sp, #8
- 3473              		@ sp needed
- 3474 0062 70BD     		pop	{r4, r5, r6, pc}
- 3475              	.L678:
- 3476 0064 0368     		ldr	r3, [r0]
- 3477 0066 1B69     		ldr	r3, [r3, #16]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 62
+ 3421              		.global	_ZN13HttpResponder4SpinEv
+ 3422              		.syntax unified
+ 3423              		.thumb
+ 3424              		.thumb_func
+ 3425              		.fpu fpv4-sp-d16
+ 3426              		.type	_ZN13HttpResponder4SpinEv, %function
+ 3427              	_ZN13HttpResponder4SpinEv:
+ 3428              		@ args = 0, pretend = 0, frame = 8
+ 3429              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3430 0000 70B5     		push	{r4, r5, r6, lr}
+ 3431 0002 8368     		ldr	r3, [r0, #8]
+ 3432 0004 013B     		subs	r3, r3, #1
+ 3433 0006 82B0     		sub	sp, sp, #8
+ 3434 0008 0446     		mov	r4, r0
+ 3435 000a 042B     		cmp	r3, #4
+ 3436 000c 26D8     		bhi	.L689
+ 3437 000e DFE803F0 		tbb	[pc, r3]
+ 3438              	.L679:
+ 3439 0012 03       		.byte	(.L690-.L679)/2
+ 3440 0013 29       		.byte	(.L680-.L679)/2
+ 3441 0014 30       		.byte	(.L681-.L679)/2
+ 3442 0015 36       		.byte	(.L682-.L679)/2
+ 3443 0016 3C       		.byte	(.L683-.L679)/2
+ 3444 0017 00       		.p2align 1
+ 3445              	.L690:
+ 3446 0018 0026     		movs	r6, #0
+ 3447 001a 08E0     		b	.L678
+ 3448              	.L695:
+ 3449 001c 9DF80710 		ldrb	r1, [sp, #7]	@ zero_extendqisi2
+ 3450 0020 2046     		mov	r0, r4
+ 3451 0022 FFF7FEFF 		bl	_ZN13HttpResponder14CharFromClientEc
+ 3452 0026 2E46     		mov	r6, r5
+ 3453 0028 0546     		mov	r5, r0
+ 3454 002a 0028     		cmp	r0, #0
+ 3455 002c 3ED1     		bne	.L694
+ 3456              	.L678:
+ 3457 002e 2069     		ldr	r0, [r4, #16]
+ 3458 0030 0368     		ldr	r3, [r0]
+ 3459 0032 0DF10701 		add	r1, sp, #7
+ 3460 0036 1B69     		ldr	r3, [r3, #16]
+ 3461 0038 9847     		blx	r3
+ 3462 003a 0546     		mov	r5, r0
+ 3463 003c 0028     		cmp	r0, #0
+ 3464 003e EDD1     		bne	.L695
+ 3465 0040 002E     		cmp	r6, #0
+ 3466 0042 3DD1     		bne	.L696
+ 3467 0044 2069     		ldr	r0, [r4, #16]
+ 3468 0046 0368     		ldr	r3, [r0]
+ 3469 0048 DB69     		ldr	r3, [r3, #28]
+ 3470 004a 9847     		blx	r3
+ 3471 004c 90B3     		cbz	r0, .L688
+ 3472 004e FFF7FEFF 		bl	millis
+ 3473 0052 6369     		ldr	r3, [r4, #20]
+ 3474 0054 C01A     		subs	r0, r0, r3
+ 3475 0056 B0F5FA6F 		cmp	r0, #2000
+ 3476 005a 2BD2     		bcs	.L688
+ 3477              	.L689:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 62
 
 
- 3478 0068 9847     		blx	r3
- 3479 006a 0125     		movs	r5, #1
- 3480 006c 2846     		mov	r0, r5
- 3481 006e 02B0     		add	sp, sp, #8
+ 3478 005c 0025     		movs	r5, #0
+ 3479              	.L677:
+ 3480 005e 2846     		mov	r0, r5
+ 3481 0060 02B0     		add	sp, sp, #8
  3482              		@ sp needed
- 3483 0070 70BD     		pop	{r4, r5, r6, pc}
- 3484              	.L679:
- 3485 0072 FFF7FEFF 		bl	_ZN13HttpResponder8DoUploadEv
- 3486 0076 0125     		movs	r5, #1
- 3487 0078 2846     		mov	r0, r5
- 3488 007a 02B0     		add	sp, sp, #8
- 3489              		@ sp needed
- 3490 007c 70BD     		pop	{r4, r5, r6, pc}
- 3491              	.L680:
- 3492 007e FFF7FEFF 		bl	_ZN13HttpResponder14ProcessRequestEv
- 3493 0082 0125     		movs	r5, #1
- 3494 0084 2846     		mov	r0, r5
- 3495 0086 02B0     		add	sp, sp, #8
- 3496              		@ sp needed
- 3497 0088 70BD     		pop	{r4, r5, r6, pc}
- 3498              	.L681:
- 3499 008a FFF7FEFF 		bl	millis
- 3500 008e D4F8CC17 		ldr	r1, [r4, #1996]
- 3501 0092 411A     		subs	r1, r0, r1
- 3502 0094 B1F5FA6F 		cmp	r1, #2000
- 3503 0098 34BF     		ite	cc
- 3504 009a 0021     		movcc	r1, #0
- 3505 009c 0121     		movcs	r1, #1
- 3506 009e 2046     		mov	r0, r4
- 3507 00a0 FFF7FEFF 		bl	_ZN13HttpResponder12SendFileInfoEb
- 3508 00a4 0125     		movs	r5, #1
- 3509 00a6 2846     		mov	r0, r5
- 3510 00a8 02B0     		add	sp, sp, #8
- 3511              		@ sp needed
- 3512 00aa 70BD     		pop	{r4, r5, r6, pc}
- 3513              	.L692:
- 3514 00ac FFF7FEFF 		bl	millis
- 3515 00b0 6061     		str	r0, [r4, #20]
- 3516 00b2 D4E7     		b	.L675
- 3517              	.L686:
- 3518 00b4 2368     		ldr	r3, [r4]
- 3519 00b6 2046     		mov	r0, r4
- 3520 00b8 5B69     		ldr	r3, [r3, #20]
- 3521 00ba 9847     		blx	r3
- 3522 00bc 0125     		movs	r5, #1
- 3523 00be CEE7     		b	.L675
- 3524              	.L694:
- 3525 00c0 FFF7FEFF 		bl	millis
- 3526 00c4 3546     		mov	r5, r6
- 3527 00c6 6061     		str	r0, [r4, #20]
- 3528 00c8 C9E7     		b	.L675
- 3529              		.size	_ZN13HttpResponder4SpinEv, .-_ZN13HttpResponder4SpinEv
- 3530 00ca 00BF     		.section	.text._ZN13HttpResponder10InitStaticEv,"ax",%progbits
- 3531              		.align	1
- 3532              		.p2align 2,,3
- 3533              		.global	_ZN13HttpResponder10InitStaticEv
- 3534              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 63
+ 3483 0062 70BD     		pop	{r4, r5, r6, pc}
+ 3484              	.L680:
+ 3485 0064 0368     		ldr	r3, [r0]
+ 3486 0066 1B69     		ldr	r3, [r3, #16]
+ 3487 0068 9847     		blx	r3
+ 3488 006a 0125     		movs	r5, #1
+ 3489 006c 2846     		mov	r0, r5
+ 3490 006e 02B0     		add	sp, sp, #8
+ 3491              		@ sp needed
+ 3492 0070 70BD     		pop	{r4, r5, r6, pc}
+ 3493              	.L681:
+ 3494 0072 FFF7FEFF 		bl	_ZN13HttpResponder8DoUploadEv
+ 3495 0076 0125     		movs	r5, #1
+ 3496 0078 2846     		mov	r0, r5
+ 3497 007a 02B0     		add	sp, sp, #8
+ 3498              		@ sp needed
+ 3499 007c 70BD     		pop	{r4, r5, r6, pc}
+ 3500              	.L682:
+ 3501 007e FFF7FEFF 		bl	_ZN13HttpResponder14ProcessRequestEv
+ 3502 0082 0125     		movs	r5, #1
+ 3503 0084 2846     		mov	r0, r5
+ 3504 0086 02B0     		add	sp, sp, #8
+ 3505              		@ sp needed
+ 3506 0088 70BD     		pop	{r4, r5, r6, pc}
+ 3507              	.L683:
+ 3508 008a FFF7FEFF 		bl	millis
+ 3509 008e D4F8CC17 		ldr	r1, [r4, #1996]
+ 3510 0092 411A     		subs	r1, r0, r1
+ 3511 0094 B1F5FA6F 		cmp	r1, #2000
+ 3512 0098 34BF     		ite	cc
+ 3513 009a 0021     		movcc	r1, #0
+ 3514 009c 0121     		movcs	r1, #1
+ 3515 009e 2046     		mov	r0, r4
+ 3516 00a0 FFF7FEFF 		bl	_ZN13HttpResponder12SendFileInfoEb
+ 3517 00a4 0125     		movs	r5, #1
+ 3518 00a6 2846     		mov	r0, r5
+ 3519 00a8 02B0     		add	sp, sp, #8
+ 3520              		@ sp needed
+ 3521 00aa 70BD     		pop	{r4, r5, r6, pc}
+ 3522              	.L694:
+ 3523 00ac FFF7FEFF 		bl	millis
+ 3524 00b0 6061     		str	r0, [r4, #20]
+ 3525 00b2 D4E7     		b	.L677
+ 3526              	.L688:
+ 3527 00b4 2368     		ldr	r3, [r4]
+ 3528 00b6 2046     		mov	r0, r4
+ 3529 00b8 5B69     		ldr	r3, [r3, #20]
+ 3530 00ba 9847     		blx	r3
+ 3531 00bc 0125     		movs	r5, #1
+ 3532 00be CEE7     		b	.L677
+ 3533              	.L696:
+ 3534 00c0 FFF7FEFF 		bl	millis
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 63
 
 
- 3535              		.thumb
- 3536              		.thumb_func
- 3537              		.fpu fpv4-sp-d16
- 3538              		.type	_ZN13HttpResponder10InitStaticEv, %function
- 3539              	_ZN13HttpResponder10InitStaticEv:
- 3540              		@ args = 0, pretend = 0, frame = 0
- 3541              		@ frame_needed = 0, uses_anonymous_args = 0
- 3542              		@ link register save eliminated.
- 3543 0000 0148     		ldr	r0, .L696
- 3544 0002 FFF7FEBF 		b	_ZN5Mutex6CreateEv
- 3545              	.L697:
- 3546 0006 00BF     		.align	2
- 3547              	.L696:
- 3548 0008 00000000 		.word	.LANCHOR3
- 3549              		.size	_ZN13HttpResponder10InitStaticEv, .-_ZN13HttpResponder10InitStaticEv
- 3550              		.section	.text._ZN13HttpResponder16HandleGCodeReplyEPKc,"ax",%progbits
- 3551              		.align	1
- 3552              		.p2align 2,,3
- 3553              		.global	_ZN13HttpResponder16HandleGCodeReplyEPKc
- 3554              		.syntax unified
- 3555              		.thumb
- 3556              		.thumb_func
- 3557              		.fpu fpv4-sp-d16
- 3558              		.type	_ZN13HttpResponder16HandleGCodeReplyEPKc, %function
- 3559              	_ZN13HttpResponder16HandleGCodeReplyEPKc:
- 3560              		@ args = 0, pretend = 0, frame = 16
- 3561              		@ frame_needed = 0, uses_anonymous_args = 0
- 3562 0000 184B     		ldr	r3, .L718
- 3563 0002 1B68     		ldr	r3, [r3]
- 3564 0004 03B9     		cbnz	r3, .L716
- 3565 0006 7047     		bx	lr
- 3566              	.L716:
- 3567 0008 10B5     		push	{r4, lr}
- 3568 000a 84B0     		sub	sp, sp, #16
- 3569 000c 4FF0FF32 		mov	r2, #-1
- 3570 0010 1549     		ldr	r1, .L718+4
- 3571 0012 0446     		mov	r4, r0
- 3572 0014 02A8     		add	r0, sp, #8
- 3573 0016 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
- 3574 001a 1448     		ldr	r0, .L718+8
- 3575 001c FFF7FEFF 		bl	_ZNVK11OutputStack11GetLastItemEv
- 3576 0020 0190     		str	r0, [sp, #4]
- 3577 0022 10B1     		cbz	r0, .L700
- 3578 0024 90F81431 		ldrb	r3, [r0, #276]	@ zero_extendqisi2
- 3579 0028 6BB1     		cbz	r3, .L701
- 3580              	.L700:
- 3581 002a 01A8     		add	r0, sp, #4
- 3582 002c FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
- 3583 0030 20B9     		cbnz	r0, .L717
- 3584 0032 02A8     		add	r0, sp, #8
- 3585 0034 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
- 3586 0038 04B0     		add	sp, sp, #16
- 3587              		@ sp needed
- 3588 003a 10BD     		pop	{r4, pc}
- 3589              	.L717:
- 3590 003c 0B48     		ldr	r0, .L718+8
- 3591 003e 0199     		ldr	r1, [sp, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 64
+ 3535 00c4 3546     		mov	r5, r6
+ 3536 00c6 6061     		str	r0, [r4, #20]
+ 3537 00c8 C9E7     		b	.L677
+ 3538              		.size	_ZN13HttpResponder4SpinEv, .-_ZN13HttpResponder4SpinEv
+ 3539 00ca 00BF     		.section	.text._ZN13HttpResponder10InitStaticEv,"ax",%progbits
+ 3540              		.align	1
+ 3541              		.p2align 2,,3
+ 3542              		.global	_ZN13HttpResponder10InitStaticEv
+ 3543              		.syntax unified
+ 3544              		.thumb
+ 3545              		.thumb_func
+ 3546              		.fpu fpv4-sp-d16
+ 3547              		.type	_ZN13HttpResponder10InitStaticEv, %function
+ 3548              	_ZN13HttpResponder10InitStaticEv:
+ 3549              		@ args = 0, pretend = 0, frame = 0
+ 3550              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3551              		@ link register save eliminated.
+ 3552 0000 0148     		ldr	r0, .L698
+ 3553 0002 FFF7FEBF 		b	_ZN5Mutex6CreateEv
+ 3554              	.L699:
+ 3555 0006 00BF     		.align	2
+ 3556              	.L698:
+ 3557 0008 00000000 		.word	.LANCHOR3
+ 3558              		.size	_ZN13HttpResponder10InitStaticEv, .-_ZN13HttpResponder10InitStaticEv
+ 3559              		.section	.text._ZN13HttpResponder16HandleGCodeReplyEPKc,"ax",%progbits
+ 3560              		.align	1
+ 3561              		.p2align 2,,3
+ 3562              		.global	_ZN13HttpResponder16HandleGCodeReplyEPKc
+ 3563              		.syntax unified
+ 3564              		.thumb
+ 3565              		.thumb_func
+ 3566              		.fpu fpv4-sp-d16
+ 3567              		.type	_ZN13HttpResponder16HandleGCodeReplyEPKc, %function
+ 3568              	_ZN13HttpResponder16HandleGCodeReplyEPKc:
+ 3569              		@ args = 0, pretend = 0, frame = 16
+ 3570              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3571 0000 184B     		ldr	r3, .L720
+ 3572 0002 1B68     		ldr	r3, [r3]
+ 3573 0004 03B9     		cbnz	r3, .L718
+ 3574 0006 7047     		bx	lr
+ 3575              	.L718:
+ 3576 0008 10B5     		push	{r4, lr}
+ 3577 000a 84B0     		sub	sp, sp, #16
+ 3578 000c 4FF0FF32 		mov	r2, #-1
+ 3579 0010 1549     		ldr	r1, .L720+4
+ 3580 0012 0446     		mov	r4, r0
+ 3581 0014 02A8     		add	r0, sp, #8
+ 3582 0016 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
+ 3583 001a 1448     		ldr	r0, .L720+8
+ 3584 001c FFF7FEFF 		bl	_ZNVK11OutputStack11GetLastItemEv
+ 3585 0020 0190     		str	r0, [sp, #4]
+ 3586 0022 10B1     		cbz	r0, .L702
+ 3587 0024 90F81431 		ldrb	r3, [r0, #276]	@ zero_extendqisi2
+ 3588 0028 6BB1     		cbz	r3, .L703
+ 3589              	.L702:
+ 3590 002a 01A8     		add	r0, sp, #4
+ 3591 002c FFF7FEFF 		bl	_ZN12OutputBuffer8AllocateERPS_
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 64
 
 
- 3592 0040 FFF7FEFF 		bl	_ZNV11OutputStack4PushEP12OutputBuffer
- 3593 0044 0198     		ldr	r0, [sp, #4]
- 3594              	.L701:
- 3595 0046 2146     		mov	r1, r4
- 3596 0048 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
- 3597 004c 084A     		ldr	r2, .L718+12
- 3598 004e 0949     		ldr	r1, .L718+16
- 3599 0050 1368     		ldr	r3, [r2]
- 3600 0052 02A8     		add	r0, sp, #8
- 3601 0054 0133     		adds	r3, r3, #1
- 3602 0056 0024     		movs	r4, #0
- 3603 0058 1360     		str	r3, [r2]
- 3604 005a 0C60     		str	r4, [r1]
- 3605 005c FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
- 3606 0060 04B0     		add	sp, sp, #16
- 3607              		@ sp needed
- 3608 0062 10BD     		pop	{r4, pc}
- 3609              	.L719:
- 3610              		.align	2
- 3611              	.L718:
- 3612 0064 00000000 		.word	.LANCHOR1
- 3613 0068 00000000 		.word	.LANCHOR3
- 3614 006c 00000000 		.word	.LANCHOR4
- 3615 0070 00000000 		.word	.LANCHOR6
- 3616 0074 00000000 		.word	.LANCHOR5
- 3617              		.size	_ZN13HttpResponder16HandleGCodeReplyEPKc, .-_ZN13HttpResponder16HandleGCodeReplyEPKc
- 3618              		.section	.text._ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer,"ax",%progbits
- 3619              		.align	1
- 3620              		.p2align 2,,3
- 3621              		.global	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer
- 3622              		.syntax unified
- 3623              		.thumb
- 3624              		.thumb_func
- 3625              		.fpu fpv4-sp-d16
- 3626              		.type	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer, %function
- 3627              	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer:
- 3628              		@ args = 0, pretend = 0, frame = 16
- 3629              		@ frame_needed = 0, uses_anonymous_args = 0
- 3630 0000 10B5     		push	{r4, lr}
- 3631 0002 84B0     		sub	sp, sp, #16
- 3632 0004 0190     		str	r0, [sp, #4]
- 3633 0006 28B1     		cbz	r0, .L720
- 3634 0008 0E4B     		ldr	r3, .L728
- 3635 000a 1B68     		ldr	r3, [r3]
- 3636 000c 23B9     		cbnz	r3, .L727
- 3637 000e 01A8     		add	r0, sp, #4
- 3638 0010 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 3639              	.L720:
- 3640 0014 04B0     		add	sp, sp, #16
- 3641              		@ sp needed
- 3642 0016 10BD     		pop	{r4, pc}
- 3643              	.L727:
- 3644 0018 4FF0FF32 		mov	r2, #-1
- 3645 001c 02A8     		add	r0, sp, #8
- 3646 001e 0A49     		ldr	r1, .L728+4
- 3647 0020 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
- 3648 0024 0199     		ldr	r1, [sp, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 65
+ 3592 0030 20B9     		cbnz	r0, .L719
+ 3593 0032 02A8     		add	r0, sp, #8
+ 3594 0034 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 3595 0038 04B0     		add	sp, sp, #16
+ 3596              		@ sp needed
+ 3597 003a 10BD     		pop	{r4, pc}
+ 3598              	.L719:
+ 3599 003c 0B48     		ldr	r0, .L720+8
+ 3600 003e 0199     		ldr	r1, [sp, #4]
+ 3601 0040 FFF7FEFF 		bl	_ZNV11OutputStack4PushEP12OutputBuffer
+ 3602 0044 0198     		ldr	r0, [sp, #4]
+ 3603              	.L703:
+ 3604 0046 2146     		mov	r1, r4
+ 3605 0048 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
+ 3606 004c 084A     		ldr	r2, .L720+12
+ 3607 004e 0949     		ldr	r1, .L720+16
+ 3608 0050 1368     		ldr	r3, [r2]
+ 3609 0052 02A8     		add	r0, sp, #8
+ 3610 0054 0133     		adds	r3, r3, #1
+ 3611 0056 0024     		movs	r4, #0
+ 3612 0058 1360     		str	r3, [r2]
+ 3613 005a 0C60     		str	r4, [r1]
+ 3614 005c FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 3615 0060 04B0     		add	sp, sp, #16
+ 3616              		@ sp needed
+ 3617 0062 10BD     		pop	{r4, pc}
+ 3618              	.L721:
+ 3619              		.align	2
+ 3620              	.L720:
+ 3621 0064 00000000 		.word	.LANCHOR1
+ 3622 0068 00000000 		.word	.LANCHOR3
+ 3623 006c 00000000 		.word	.LANCHOR4
+ 3624 0070 00000000 		.word	.LANCHOR6
+ 3625 0074 00000000 		.word	.LANCHOR5
+ 3626              		.size	_ZN13HttpResponder16HandleGCodeReplyEPKc, .-_ZN13HttpResponder16HandleGCodeReplyEPKc
+ 3627              		.section	.text._ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer,"ax",%progbits
+ 3628              		.align	1
+ 3629              		.p2align 2,,3
+ 3630              		.global	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer
+ 3631              		.syntax unified
+ 3632              		.thumb
+ 3633              		.thumb_func
+ 3634              		.fpu fpv4-sp-d16
+ 3635              		.type	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer, %function
+ 3636              	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer:
+ 3637              		@ args = 0, pretend = 0, frame = 16
+ 3638              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3639 0000 10B5     		push	{r4, lr}
+ 3640 0002 84B0     		sub	sp, sp, #16
+ 3641 0004 0190     		str	r0, [sp, #4]
+ 3642 0006 28B1     		cbz	r0, .L722
+ 3643 0008 0E4B     		ldr	r3, .L730
+ 3644 000a 1B68     		ldr	r3, [r3]
+ 3645 000c 23B9     		cbnz	r3, .L729
+ 3646 000e 01A8     		add	r0, sp, #4
+ 3647 0010 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 3648              	.L722:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 65
 
 
- 3649 0026 0948     		ldr	r0, .L728+8
- 3650 0028 FFF7FEFF 		bl	_ZNV11OutputStack4PushEP12OutputBuffer
- 3651 002c 084A     		ldr	r2, .L728+12
- 3652 002e 0949     		ldr	r1, .L728+16
- 3653 0030 1368     		ldr	r3, [r2]
- 3654 0032 02A8     		add	r0, sp, #8
- 3655 0034 0133     		adds	r3, r3, #1
- 3656 0036 0024     		movs	r4, #0
- 3657 0038 1360     		str	r3, [r2]
- 3658 003a 0C60     		str	r4, [r1]
- 3659 003c FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
- 3660 0040 04B0     		add	sp, sp, #16
- 3661              		@ sp needed
- 3662 0042 10BD     		pop	{r4, pc}
- 3663              	.L729:
- 3664              		.align	2
- 3665              	.L728:
- 3666 0044 00000000 		.word	.LANCHOR1
- 3667 0048 00000000 		.word	.LANCHOR3
- 3668 004c 00000000 		.word	.LANCHOR4
- 3669 0050 00000000 		.word	.LANCHOR6
- 3670 0054 00000000 		.word	.LANCHOR5
- 3671              		.size	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer, .-_ZN13HttpResponder16HandleGCodeReply
- 3672              		.section	.text._ZN13HttpResponder13CheckSessionsEv,"ax",%progbits
- 3673              		.align	1
- 3674              		.p2align 2,,3
- 3675              		.global	_ZN13HttpResponder13CheckSessionsEv
- 3676              		.syntax unified
- 3677              		.thumb
- 3678              		.thumb_func
- 3679              		.fpu fpv4-sp-d16
- 3680              		.type	_ZN13HttpResponder13CheckSessionsEv, %function
- 3681              	_ZN13HttpResponder13CheckSessionsEv:
- 3682              		@ args = 0, pretend = 0, frame = 16
- 3683              		@ frame_needed = 0, uses_anonymous_args = 0
- 3684 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
- 3685 0004 DFF8F880 		ldr	r8, .L764+28
- 3686 0008 84B0     		sub	sp, sp, #16
- 3687 000a FFF7FEFF 		bl	millis
- 3688 000e D8F80020 		ldr	r2, [r8]
- 3689 0012 82B3     		cbz	r2, .L730
- 3690 0014 334B     		ldr	r3, .L764
- 3691 0016 02EB4205 		add	r5, r2, r2, lsl #1
- 3692 001a 03EB8505 		add	r5, r3, r5, lsl #2
- 3693 001e 8446     		mov	ip, r0
- 3694 0020 0C3D     		subs	r5, r5, #12
- 3695 0022 A3F10C0E 		sub	lr, r3, #12
- 3696 0026 0027     		movs	r7, #0
- 3697 0028 02E0     		b	.L732
- 3698              	.L735:
- 3699 002a 4A46     		mov	r2, r9
- 3700 002c 0C3D     		subs	r5, r5, #12
- 3701 002e 0AB3     		cbz	r2, .L734
- 3702              	.L732:
- 3703 0030 6B68     		ldr	r3, [r5, #4]
- 3704 0032 ACEB0303 		sub	r3, ip, r3
- 3705 0036 B3F5FA5F 		cmp	r3, #8000
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 66
+ 3649 0014 04B0     		add	sp, sp, #16
+ 3650              		@ sp needed
+ 3651 0016 10BD     		pop	{r4, pc}
+ 3652              	.L729:
+ 3653 0018 4FF0FF32 		mov	r2, #-1
+ 3654 001c 02A8     		add	r0, sp, #8
+ 3655 001e 0A49     		ldr	r1, .L730+4
+ 3656 0020 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
+ 3657 0024 0199     		ldr	r1, [sp, #4]
+ 3658 0026 0948     		ldr	r0, .L730+8
+ 3659 0028 FFF7FEFF 		bl	_ZNV11OutputStack4PushEP12OutputBuffer
+ 3660 002c 084A     		ldr	r2, .L730+12
+ 3661 002e 0949     		ldr	r1, .L730+16
+ 3662 0030 1368     		ldr	r3, [r2]
+ 3663 0032 02A8     		add	r0, sp, #8
+ 3664 0034 0133     		adds	r3, r3, #1
+ 3665 0036 0024     		movs	r4, #0
+ 3666 0038 1360     		str	r3, [r2]
+ 3667 003a 0C60     		str	r4, [r1]
+ 3668 003c FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 3669 0040 04B0     		add	sp, sp, #16
+ 3670              		@ sp needed
+ 3671 0042 10BD     		pop	{r4, pc}
+ 3672              	.L731:
+ 3673              		.align	2
+ 3674              	.L730:
+ 3675 0044 00000000 		.word	.LANCHOR1
+ 3676 0048 00000000 		.word	.LANCHOR3
+ 3677 004c 00000000 		.word	.LANCHOR4
+ 3678 0050 00000000 		.word	.LANCHOR6
+ 3679 0054 00000000 		.word	.LANCHOR5
+ 3680              		.size	_ZN13HttpResponder16HandleGCodeReplyEP12OutputBuffer, .-_ZN13HttpResponder16HandleGCodeReply
+ 3681              		.section	.text._ZN13HttpResponder13CheckSessionsEv,"ax",%progbits
+ 3682              		.align	1
+ 3683              		.p2align 2,,3
+ 3684              		.global	_ZN13HttpResponder13CheckSessionsEv
+ 3685              		.syntax unified
+ 3686              		.thumb
+ 3687              		.thumb_func
+ 3688              		.fpu fpv4-sp-d16
+ 3689              		.type	_ZN13HttpResponder13CheckSessionsEv, %function
+ 3690              	_ZN13HttpResponder13CheckSessionsEv:
+ 3691              		@ args = 0, pretend = 0, frame = 16
+ 3692              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3693 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
+ 3694 0004 DFF8F880 		ldr	r8, .L766+28
+ 3695 0008 84B0     		sub	sp, sp, #16
+ 3696 000a FFF7FEFF 		bl	millis
+ 3697 000e D8F80020 		ldr	r2, [r8]
+ 3698 0012 82B3     		cbz	r2, .L732
+ 3699 0014 334B     		ldr	r3, .L766
+ 3700 0016 02EB4205 		add	r5, r2, r2, lsl #1
+ 3701 001a 03EB8505 		add	r5, r3, r5, lsl #2
+ 3702 001e 8446     		mov	ip, r0
+ 3703 0020 0C3D     		subs	r5, r5, #12
+ 3704 0022 A3F10C0E 		sub	lr, r3, #12
+ 3705 0026 0027     		movs	r7, #0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 66
 
 
- 3706 003a 02F1FF39 		add	r9, r2, #-1
- 3707 003e F4D9     		bls	.L735
- 3708 0040 D8F800A0 		ldr	r10, [r8]
- 3709 0044 9245     		cmp	r10, r2
- 3710 0046 0CD9     		bls	.L736
- 3711 0048 0AEB4A06 		add	r6, r10, r10, lsl #1
- 3712 004c 0EEB8606 		add	r6, lr, r6, lsl #2
- 3713 0050 2B46     		mov	r3, r5
- 3714              	.L737:
- 3715 0052 1C46     		mov	r4, r3
- 3716 0054 53F80C0F 		ldr	r0, [r3, #12]!	@ unaligned
- 3717 0058 5968     		ldr	r1, [r3, #4]	@ unaligned
- 3718 005a 9A68     		ldr	r2, [r3, #8]	@ unaligned
- 3719 005c 9E42     		cmp	r6, r3
- 3720 005e 07C4     		stmia	r4!, {r0, r1, r2}
- 3721 0060 F7D1     		bne	.L737
- 3722              	.L736:
- 3723 0062 0AF1FF33 		add	r3, r10, #-1
- 3724 0066 4A46     		mov	r2, r9
- 3725 0068 C8F80030 		str	r3, [r8]
- 3726 006c 0137     		adds	r7, r7, #1
- 3727 006e 0C3D     		subs	r5, r5, #12
- 3728 0070 002A     		cmp	r2, #0
- 3729 0072 DDD1     		bne	.L732
- 3730              	.L734:
- 3731 0074 17B9     		cbnz	r7, .L761
- 3732              	.L730:
- 3733 0076 04B0     		add	sp, sp, #16
- 3734              		@ sp needed
- 3735 0078 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 3736              	.L761:
- 3737 007c 1A4E     		ldr	r6, .L764+4
- 3738 007e 1B49     		ldr	r1, .L764+8
- 3739 0080 4FF0FF32 		mov	r2, #-1
- 3740 0084 02A8     		add	r0, sp, #8
- 3741 0086 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
- 3742 008a 3268     		ldr	r2, [r6]
- 3743 008c D8F80030 		ldr	r3, [r8]
- 3744 0090 1744     		add	r7, r7, r2
- 3745 0092 3760     		str	r7, [r6]
- 3746 0094 D3B9     		cbnz	r3, .L762
- 3747              	.L738:
- 3748 0096 164C     		ldr	r4, .L764+12
- 3749 0098 2368     		ldr	r3, [r4]
- 3750 009a 53B1     		cbz	r3, .L740
- 3751 009c 2546     		mov	r5, r4
- 3752              	.L741:
- 3753 009e 2846     		mov	r0, r5
- 3754 00a0 FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
- 3755 00a4 0190     		str	r0, [sp, #4]
- 3756 00a6 01A8     		add	r0, sp, #4
- 3757 00a8 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
- 3758 00ac 2368     		ldr	r3, [r4]
- 3759 00ae 002B     		cmp	r3, #0
- 3760 00b0 F5D1     		bne	.L741
- 3761              	.L740:
- 3762 00b2 104B     		ldr	r3, .L764+16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 67
+ 3706 0028 02E0     		b	.L734
+ 3707              	.L737:
+ 3708 002a 4A46     		mov	r2, r9
+ 3709 002c 0C3D     		subs	r5, r5, #12
+ 3710 002e 0AB3     		cbz	r2, .L736
+ 3711              	.L734:
+ 3712 0030 6B68     		ldr	r3, [r5, #4]
+ 3713 0032 ACEB0303 		sub	r3, ip, r3
+ 3714 0036 B3F5FA5F 		cmp	r3, #8000
+ 3715 003a 02F1FF39 		add	r9, r2, #-1
+ 3716 003e F4D9     		bls	.L737
+ 3717 0040 D8F800A0 		ldr	r10, [r8]
+ 3718 0044 9245     		cmp	r10, r2
+ 3719 0046 0CD9     		bls	.L738
+ 3720 0048 0AEB4A06 		add	r6, r10, r10, lsl #1
+ 3721 004c 0EEB8606 		add	r6, lr, r6, lsl #2
+ 3722 0050 2B46     		mov	r3, r5
+ 3723              	.L739:
+ 3724 0052 1C46     		mov	r4, r3
+ 3725 0054 53F80C0F 		ldr	r0, [r3, #12]!	@ unaligned
+ 3726 0058 5968     		ldr	r1, [r3, #4]	@ unaligned
+ 3727 005a 9A68     		ldr	r2, [r3, #8]	@ unaligned
+ 3728 005c 9E42     		cmp	r6, r3
+ 3729 005e 07C4     		stmia	r4!, {r0, r1, r2}
+ 3730 0060 F7D1     		bne	.L739
+ 3731              	.L738:
+ 3732 0062 0AF1FF33 		add	r3, r10, #-1
+ 3733 0066 4A46     		mov	r2, r9
+ 3734 0068 C8F80030 		str	r3, [r8]
+ 3735 006c 0137     		adds	r7, r7, #1
+ 3736 006e 0C3D     		subs	r5, r5, #12
+ 3737 0070 002A     		cmp	r2, #0
+ 3738 0072 DDD1     		bne	.L734
+ 3739              	.L736:
+ 3740 0074 17B9     		cbnz	r7, .L763
+ 3741              	.L732:
+ 3742 0076 04B0     		add	sp, sp, #16
+ 3743              		@ sp needed
+ 3744 0078 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
+ 3745              	.L763:
+ 3746 007c 1A4E     		ldr	r6, .L766+4
+ 3747 007e 1B49     		ldr	r1, .L766+8
+ 3748 0080 4FF0FF32 		mov	r2, #-1
+ 3749 0084 02A8     		add	r0, sp, #8
+ 3750 0086 FFF7FEFF 		bl	_ZN11MutexLockerC1ERK5Mutexm
+ 3751 008a 3268     		ldr	r2, [r6]
+ 3752 008c D8F80030 		ldr	r3, [r8]
+ 3753 0090 1744     		add	r7, r7, r2
+ 3754 0092 3760     		str	r7, [r6]
+ 3755 0094 D3B9     		cbnz	r3, .L764
+ 3756              	.L740:
+ 3757 0096 164C     		ldr	r4, .L766+12
+ 3758 0098 2368     		ldr	r3, [r4]
+ 3759 009a 53B1     		cbz	r3, .L742
+ 3760 009c 2546     		mov	r5, r4
+ 3761              	.L743:
+ 3762 009e 2846     		mov	r0, r5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 67
 
 
- 3763 00b4 D3F8F430 		ldr	r3, [r3, #244]
- 3764 00b8 0022     		movs	r2, #0
- 3765 00ba 5B07     		lsls	r3, r3, #29
- 3766 00bc 3260     		str	r2, [r6]
- 3767 00be 08D4     		bmi	.L763
- 3768              	.L739:
- 3769 00c0 02A8     		add	r0, sp, #8
- 3770 00c2 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
- 3771 00c6 04B0     		add	sp, sp, #16
- 3772              		@ sp needed
- 3773 00c8 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 3774              	.L762:
- 3775 00cc 9F42     		cmp	r7, r3
- 3776 00ce F7D3     		bcc	.L739
- 3777 00d0 E1E7     		b	.L738
- 3778              	.L763:
- 3779 00d2 094B     		ldr	r3, .L764+20
- 3780 00d4 0948     		ldr	r0, .L764+24
- 3781 00d6 1968     		ldr	r1, [r3]
- 3782 00d8 C1F11401 		rsb	r1, r1, #20
- 3783 00dc FFF7FEFF 		bl	debugPrintf
- 3784 00e0 EEE7     		b	.L739
- 3785              	.L765:
- 3786 00e2 00BF     		.align	2
- 3787              	.L764:
- 3788 00e4 00000000 		.word	.LANCHOR2
- 3789 00e8 00000000 		.word	.LANCHOR5
- 3790 00ec 00000000 		.word	.LANCHOR3
- 3791 00f0 00000000 		.word	.LANCHOR4
- 3792 00f4 00000000 		.word	reprap
- 3793 00f8 00000000 		.word	_ZN12OutputBuffer17usedOutputBuffersE
- 3794 00fc 00000000 		.word	.LC120
- 3795 0100 00000000 		.word	.LANCHOR1
- 3796              		.size	_ZN13HttpResponder13CheckSessionsEv, .-_ZN13HttpResponder13CheckSessionsEv
- 3797              		.section	.text._ZN13HttpResponder17CommonDiagnosticsE11MessageType,"ax",%progbits
- 3798              		.align	1
- 3799              		.p2align 2,,3
- 3800              		.global	_ZN13HttpResponder17CommonDiagnosticsE11MessageType
- 3801              		.syntax unified
- 3802              		.thumb
- 3803              		.thumb_func
- 3804              		.fpu fpv4-sp-d16
- 3805              		.type	_ZN13HttpResponder17CommonDiagnosticsE11MessageType, %function
- 3806              	_ZN13HttpResponder17CommonDiagnosticsE11MessageType:
- 3807              		@ args = 0, pretend = 0, frame = 0
- 3808              		@ frame_needed = 0, uses_anonymous_args = 0
- 3809 0000 30B5     		push	{r4, r5, lr}
- 3810 0002 074A     		ldr	r2, .L768
- 3811 0004 074B     		ldr	r3, .L768+4
- 3812 0006 5568     		ldr	r5, [r2, #4]
- 3813 0008 1B68     		ldr	r3, [r3]
- 3814 000a 074A     		ldr	r2, .L768+8
- 3815 000c 83B0     		sub	sp, sp, #12
- 3816 000e 0824     		movs	r4, #8
- 3817 0010 0146     		mov	r1, r0
- 3818 0012 0094     		str	r4, [sp]
- 3819 0014 2846     		mov	r0, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 68
+ 3763 00a0 FFF7FEFF 		bl	_ZNV11OutputStack3PopEv
+ 3764 00a4 0190     		str	r0, [sp, #4]
+ 3765 00a6 01A8     		add	r0, sp, #4
+ 3766 00a8 FFF7FEFF 		bl	_ZN12OutputBuffer10ReleaseAllERVPS_
+ 3767 00ac 2368     		ldr	r3, [r4]
+ 3768 00ae 002B     		cmp	r3, #0
+ 3769 00b0 F5D1     		bne	.L743
+ 3770              	.L742:
+ 3771 00b2 104B     		ldr	r3, .L766+16
+ 3772 00b4 D3F8F430 		ldr	r3, [r3, #244]
+ 3773 00b8 0022     		movs	r2, #0
+ 3774 00ba 5B07     		lsls	r3, r3, #29
+ 3775 00bc 3260     		str	r2, [r6]
+ 3776 00be 08D4     		bmi	.L765
+ 3777              	.L741:
+ 3778 00c0 02A8     		add	r0, sp, #8
+ 3779 00c2 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 3780 00c6 04B0     		add	sp, sp, #16
+ 3781              		@ sp needed
+ 3782 00c8 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
+ 3783              	.L764:
+ 3784 00cc 9F42     		cmp	r7, r3
+ 3785 00ce F7D3     		bcc	.L741
+ 3786 00d0 E1E7     		b	.L740
+ 3787              	.L765:
+ 3788 00d2 094B     		ldr	r3, .L766+20
+ 3789 00d4 0948     		ldr	r0, .L766+24
+ 3790 00d6 1968     		ldr	r1, [r3]
+ 3791 00d8 C1F11401 		rsb	r1, r1, #20
+ 3792 00dc FFF7FEFF 		bl	debugPrintf
+ 3793 00e0 EEE7     		b	.L741
+ 3794              	.L767:
+ 3795 00e2 00BF     		.align	2
+ 3796              	.L766:
+ 3797 00e4 00000000 		.word	.LANCHOR2
+ 3798 00e8 00000000 		.word	.LANCHOR5
+ 3799 00ec 00000000 		.word	.LANCHOR3
+ 3800 00f0 00000000 		.word	.LANCHOR4
+ 3801 00f4 00000000 		.word	reprap
+ 3802 00f8 00000000 		.word	_ZN12OutputBuffer17usedOutputBuffersE
+ 3803 00fc 00000000 		.word	.LC122
+ 3804 0100 00000000 		.word	.LANCHOR1
+ 3805              		.size	_ZN13HttpResponder13CheckSessionsEv, .-_ZN13HttpResponder13CheckSessionsEv
+ 3806              		.section	.text._ZN13HttpResponder17CommonDiagnosticsE11MessageType,"ax",%progbits
+ 3807              		.align	1
+ 3808              		.p2align 2,,3
+ 3809              		.global	_ZN13HttpResponder17CommonDiagnosticsE11MessageType
+ 3810              		.syntax unified
+ 3811              		.thumb
+ 3812              		.thumb_func
+ 3813              		.fpu fpv4-sp-d16
+ 3814              		.type	_ZN13HttpResponder17CommonDiagnosticsE11MessageType, %function
+ 3815              	_ZN13HttpResponder17CommonDiagnosticsE11MessageType:
+ 3816              		@ args = 0, pretend = 0, frame = 0
+ 3817              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3818 0000 30B5     		push	{r4, r5, lr}
+ 3819 0002 074A     		ldr	r2, .L770
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 68
 
 
- 3820 0016 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 3821 001a 03B0     		add	sp, sp, #12
- 3822              		@ sp needed
- 3823 001c 30BD     		pop	{r4, r5, pc}
- 3824              	.L769:
- 3825 001e 00BF     		.align	2
- 3826              	.L768:
- 3827 0020 00000000 		.word	reprap
- 3828 0024 00000000 		.word	.LANCHOR1
- 3829 0028 00000000 		.word	.LC121
- 3830              		.size	_ZN13HttpResponder17CommonDiagnosticsE11MessageType, .-_ZN13HttpResponder17CommonDiagnostics
- 3831              		.section	.text.startup._GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder,"ax",%progbits
- 3832              		.align	1
- 3833              		.p2align 2,,3
- 3834              		.syntax unified
- 3835              		.thumb
- 3836              		.thumb_func
- 3837              		.fpu fpv4-sp-d16
- 3838              		.type	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder, %function
- 3839              	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder:
- 3840              		@ args = 0, pretend = 0, frame = 0
- 3841              		@ frame_needed = 0, uses_anonymous_args = 0
- 3842              		@ link register save eliminated.
- 3843 0000 0249     		ldr	r1, .L771
- 3844 0002 034A     		ldr	r2, .L771+4
- 3845 0004 0023     		movs	r3, #0
- 3846 0006 0B60     		str	r3, [r1]
- 3847 0008 1360     		str	r3, [r2]
- 3848 000a 7047     		bx	lr
- 3849              	.L772:
- 3850              		.align	2
- 3851              	.L771:
- 3852 000c 00000000 		.word	.LANCHOR4
- 3853 0010 00000000 		.word	.LANCHOR3
- 3854              		.size	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder, .-_GLOBAL__sub_I__ZN13HttpResponder
- 3855              		.section	.init_array,"aw",%init_array
- 3856              		.align	2
- 3857 0000 00000000 		.word	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder(target1)
- 3858              		.section	.text._ZN13HttpResponder12CancelUploadEv,"ax",%progbits
- 3859              		.align	1
- 3860              		.p2align 2,,3
- 3861              		.global	_ZN13HttpResponder12CancelUploadEv
- 3862              		.syntax unified
- 3863              		.thumb
- 3864              		.thumb_func
- 3865              		.fpu fpv4-sp-d16
- 3866              		.type	_ZN13HttpResponder12CancelUploadEv, %function
- 3867              	_ZN13HttpResponder12CancelUploadEv:
- 3868              		@ args = 0, pretend = 0, frame = 0
- 3869              		@ frame_needed = 0, uses_anonymous_args = 0
- 3870 0000 38B5     		push	{r3, r4, r5, lr}
- 3871 0002 0369     		ldr	r3, [r0, #16]
- 3872 0004 0546     		mov	r5, r0
- 3873 0006 E3B1     		cbz	r3, .L774
- 3874 0008 104A     		ldr	r2, .L788
- 3875 000a 1068     		ldr	r0, [r2]
- 3876 000c C8B1     		cbz	r0, .L774
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 69
+ 3820 0004 074B     		ldr	r3, .L770+4
+ 3821 0006 5568     		ldr	r5, [r2, #4]
+ 3822 0008 1B68     		ldr	r3, [r3]
+ 3823 000a 074A     		ldr	r2, .L770+8
+ 3824 000c 83B0     		sub	sp, sp, #12
+ 3825 000e 0824     		movs	r4, #8
+ 3826 0010 0146     		mov	r1, r0
+ 3827 0012 0094     		str	r4, [sp]
+ 3828 0014 2846     		mov	r0, r5
+ 3829 0016 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 3830 001a 03B0     		add	sp, sp, #12
+ 3831              		@ sp needed
+ 3832 001c 30BD     		pop	{r4, r5, pc}
+ 3833              	.L771:
+ 3834 001e 00BF     		.align	2
+ 3835              	.L770:
+ 3836 0020 00000000 		.word	reprap
+ 3837 0024 00000000 		.word	.LANCHOR1
+ 3838 0028 00000000 		.word	.LC123
+ 3839              		.size	_ZN13HttpResponder17CommonDiagnosticsE11MessageType, .-_ZN13HttpResponder17CommonDiagnostics
+ 3840              		.section	.text.startup._GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder,"ax",%progbits
+ 3841              		.align	1
+ 3842              		.p2align 2,,3
+ 3843              		.syntax unified
+ 3844              		.thumb
+ 3845              		.thumb_func
+ 3846              		.fpu fpv4-sp-d16
+ 3847              		.type	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder, %function
+ 3848              	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder:
+ 3849              		@ args = 0, pretend = 0, frame = 0
+ 3850              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3851              		@ link register save eliminated.
+ 3852 0000 0249     		ldr	r1, .L773
+ 3853 0002 034A     		ldr	r2, .L773+4
+ 3854 0004 0023     		movs	r3, #0
+ 3855 0006 0B60     		str	r3, [r1]
+ 3856 0008 1360     		str	r3, [r2]
+ 3857 000a 7047     		bx	lr
+ 3858              	.L774:
+ 3859              		.align	2
+ 3860              	.L773:
+ 3861 000c 00000000 		.word	.LANCHOR4
+ 3862 0010 00000000 		.word	.LANCHOR3
+ 3863              		.size	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder, .-_GLOBAL__sub_I__ZN13HttpResponder
+ 3864              		.section	.init_array,"aw",%init_array
+ 3865              		.align	2
+ 3866 0000 00000000 		.word	_GLOBAL__sub_I__ZN13HttpResponderC2EP16NetworkResponder(target1)
+ 3867              		.section	.text._ZN13HttpResponder12CancelUploadEv,"ax",%progbits
+ 3868              		.align	1
+ 3869              		.p2align 2,,3
+ 3870              		.global	_ZN13HttpResponder12CancelUploadEv
+ 3871              		.syntax unified
+ 3872              		.thumb
+ 3873              		.thumb_func
+ 3874              		.fpu fpv4-sp-d16
+ 3875              		.type	_ZN13HttpResponder12CancelUploadEv, %function
+ 3876              	_ZN13HttpResponder12CancelUploadEv:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 69
 
 
- 3877 000e 1C69     		ldr	r4, [r3, #16]
- 3878 0010 0F4B     		ldr	r3, .L788+4
- 3879 0012 0022     		movs	r2, #0
- 3880 0014 04E0     		b	.L776
- 3881              	.L775:
- 3882 0016 0132     		adds	r2, r2, #1
- 3883 0018 8242     		cmp	r2, r0
- 3884 001a 03F10C03 		add	r3, r3, #12
- 3885 001e 10D0     		beq	.L774
- 3886              	.L776:
- 3887 0020 53F8081C 		ldr	r1, [r3, #-8]
- 3888 0024 A142     		cmp	r1, r4
- 3889 0026 F6D1     		bne	.L775
- 3890 0028 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
- 3891 002a 0029     		cmp	r1, #0
- 3892 002c F3D0     		beq	.L775
- 3893 002e 094C     		ldr	r4, .L788+8
- 3894 0030 02EB4202 		add	r2, r2, r2, lsl #1
- 3895 0034 04EB8204 		add	r4, r4, r2, lsl #2
- 3896 0038 0023     		movs	r3, #0
- 3897 003a 2372     		strb	r3, [r4, #8]
- 3898 003c FFF7FEFF 		bl	millis
- 3899 0040 6060     		str	r0, [r4, #4]
- 3900              	.L774:
- 3901 0042 2846     		mov	r0, r5
- 3902 0044 BDE83840 		pop	{r3, r4, r5, lr}
- 3903 0048 FFF7FEBF 		b	_ZN16NetworkResponder12CancelUploadEv
- 3904              	.L789:
- 3905              		.align	2
- 3906              	.L788:
- 3907 004c 00000000 		.word	.LANCHOR1
- 3908 0050 08000000 		.word	.LANCHOR2+8
- 3909 0054 00000000 		.word	.LANCHOR2
- 3910              		.size	_ZN13HttpResponder12CancelUploadEv, .-_ZN13HttpResponder12CancelUploadEv
- 3911              		.section	.text._ZN13HttpResponder8SendDataEv,"ax",%progbits
- 3912              		.align	1
- 3913              		.p2align 2,,3
- 3914              		.global	_ZN13HttpResponder8SendDataEv
- 3915              		.syntax unified
- 3916              		.thumb
- 3917              		.thumb_func
- 3918              		.fpu fpv4-sp-d16
- 3919              		.type	_ZN13HttpResponder8SendDataEv, %function
- 3920              	_ZN13HttpResponder8SendDataEv:
- 3921              		@ args = 0, pretend = 0, frame = 0
- 3922              		@ frame_needed = 0, uses_anonymous_args = 0
- 3923 0000 10B5     		push	{r4, lr}
- 3924 0002 0446     		mov	r4, r0
- 3925 0004 FFF7FEFF 		bl	_ZN16NetworkResponder8SendDataEv
- 3926 0008 A368     		ldr	r3, [r4, #8]
- 3927 000a 012B     		cmp	r3, #1
- 3928 000c 00D0     		beq	.L793
- 3929 000e 10BD     		pop	{r4, pc}
- 3930              	.L793:
- 3931 0010 FFF7FEFF 		bl	millis
- 3932 0014 6061     		str	r0, [r4, #20]
- 3933 0016 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 70
+ 3877              		@ args = 0, pretend = 0, frame = 0
+ 3878              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3879 0000 38B5     		push	{r3, r4, r5, lr}
+ 3880 0002 0369     		ldr	r3, [r0, #16]
+ 3881 0004 0546     		mov	r5, r0
+ 3882 0006 E3B1     		cbz	r3, .L776
+ 3883 0008 104A     		ldr	r2, .L790
+ 3884 000a 1068     		ldr	r0, [r2]
+ 3885 000c C8B1     		cbz	r0, .L776
+ 3886 000e 1C69     		ldr	r4, [r3, #16]
+ 3887 0010 0F4B     		ldr	r3, .L790+4
+ 3888 0012 0022     		movs	r2, #0
+ 3889 0014 04E0     		b	.L778
+ 3890              	.L777:
+ 3891 0016 0132     		adds	r2, r2, #1
+ 3892 0018 8242     		cmp	r2, r0
+ 3893 001a 03F10C03 		add	r3, r3, #12
+ 3894 001e 10D0     		beq	.L776
+ 3895              	.L778:
+ 3896 0020 53F8081C 		ldr	r1, [r3, #-8]
+ 3897 0024 A142     		cmp	r1, r4
+ 3898 0026 F6D1     		bne	.L777
+ 3899 0028 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
+ 3900 002a 0029     		cmp	r1, #0
+ 3901 002c F3D0     		beq	.L777
+ 3902 002e 094C     		ldr	r4, .L790+8
+ 3903 0030 02EB4202 		add	r2, r2, r2, lsl #1
+ 3904 0034 04EB8204 		add	r4, r4, r2, lsl #2
+ 3905 0038 0023     		movs	r3, #0
+ 3906 003a 2372     		strb	r3, [r4, #8]
+ 3907 003c FFF7FEFF 		bl	millis
+ 3908 0040 6060     		str	r0, [r4, #4]
+ 3909              	.L776:
+ 3910 0042 2846     		mov	r0, r5
+ 3911 0044 BDE83840 		pop	{r3, r4, r5, lr}
+ 3912 0048 FFF7FEBF 		b	_ZN16NetworkResponder12CancelUploadEv
+ 3913              	.L791:
+ 3914              		.align	2
+ 3915              	.L790:
+ 3916 004c 00000000 		.word	.LANCHOR1
+ 3917 0050 08000000 		.word	.LANCHOR2+8
+ 3918 0054 00000000 		.word	.LANCHOR2
+ 3919              		.size	_ZN13HttpResponder12CancelUploadEv, .-_ZN13HttpResponder12CancelUploadEv
+ 3920              		.section	.text._ZN13HttpResponder8SendDataEv,"ax",%progbits
+ 3921              		.align	1
+ 3922              		.p2align 2,,3
+ 3923              		.global	_ZN13HttpResponder8SendDataEv
+ 3924              		.syntax unified
+ 3925              		.thumb
+ 3926              		.thumb_func
+ 3927              		.fpu fpv4-sp-d16
+ 3928              		.type	_ZN13HttpResponder8SendDataEv, %function
+ 3929              	_ZN13HttpResponder8SendDataEv:
+ 3930              		@ args = 0, pretend = 0, frame = 0
+ 3931              		@ frame_needed = 0, uses_anonymous_args = 0
+ 3932 0000 10B5     		push	{r4, lr}
+ 3933 0002 0446     		mov	r4, r0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 70
 
 
- 3934              		.size	_ZN13HttpResponder8SendDataEv, .-_ZN13HttpResponder8SendDataEv
- 3935              		.global	_ZTV13HttpResponder
- 3936              		.global	_ZN13HttpResponder15gcodeReplyMutexE
- 3937              		.global	_ZN13HttpResponder10gcodeReplyE
- 3938              		.global	_ZN13HttpResponder3seqE
- 3939              		.global	_ZN13HttpResponder13clientsServedE
- 3940              		.global	_ZN13HttpResponder11numSessionsE
- 3941              		.global	_ZN13HttpResponder8sessionsE
- 3942              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
- 3943              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
- 3944              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
- 3945              	_ZL28cpu_irq_prev_interrupt_state:
- 3946 0000 00       		.space	1
- 3947              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
- 3948              		.align	2
- 3949              		.type	_ZL32cpu_irq_critical_section_counter, %object
- 3950              		.size	_ZL32cpu_irq_critical_section_counter, 4
- 3951              	_ZL32cpu_irq_critical_section_counter:
- 3952 0000 00000000 		.space	4
- 3953              		.section	.bss._ZN13HttpResponder10gcodeReplyE,"aw",%nobits
- 3954              		.align	2
- 3955              		.set	.LANCHOR4,. + 0
- 3956              		.type	_ZN13HttpResponder10gcodeReplyE, %object
- 3957              		.size	_ZN13HttpResponder10gcodeReplyE, 20
- 3958              	_ZN13HttpResponder10gcodeReplyE:
- 3959 0000 00000000 		.space	20
- 3959      00000000 
- 3959      00000000 
- 3959      00000000 
- 3959      00000000 
- 3960              		.section	.bss._ZN13HttpResponder11numSessionsE,"aw",%nobits
- 3961              		.align	2
- 3962              		.set	.LANCHOR1,. + 0
- 3963              		.type	_ZN13HttpResponder11numSessionsE, %object
- 3964              		.size	_ZN13HttpResponder11numSessionsE, 4
- 3965              	_ZN13HttpResponder11numSessionsE:
- 3966 0000 00000000 		.space	4
- 3967              		.section	.bss._ZN13HttpResponder13clientsServedE,"aw",%nobits
- 3968              		.align	2
- 3969              		.set	.LANCHOR5,. + 0
- 3970              		.type	_ZN13HttpResponder13clientsServedE, %object
- 3971              		.size	_ZN13HttpResponder13clientsServedE, 4
- 3972              	_ZN13HttpResponder13clientsServedE:
- 3973 0000 00000000 		.space	4
- 3974              		.section	.bss._ZN13HttpResponder15gcodeReplyMutexE,"aw",%nobits
- 3975              		.align	2
- 3976              		.set	.LANCHOR3,. + 0
- 3977              		.type	_ZN13HttpResponder15gcodeReplyMutexE, %object
- 3978              		.size	_ZN13HttpResponder15gcodeReplyMutexE, 88
- 3979              	_ZN13HttpResponder15gcodeReplyMutexE:
- 3980 0000 00000000 		.space	88
- 3980      00000000 
- 3980      00000000 
- 3980      00000000 
- 3980      00000000 
- 3981              		.section	.bss._ZN13HttpResponder3seqE,"aw",%nobits
- 3982              		.align	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 71
+ 3934 0004 FFF7FEFF 		bl	_ZN16NetworkResponder8SendDataEv
+ 3935 0008 A368     		ldr	r3, [r4, #8]
+ 3936 000a 012B     		cmp	r3, #1
+ 3937 000c 00D0     		beq	.L795
+ 3938 000e 10BD     		pop	{r4, pc}
+ 3939              	.L795:
+ 3940 0010 FFF7FEFF 		bl	millis
+ 3941 0014 6061     		str	r0, [r4, #20]
+ 3942 0016 10BD     		pop	{r4, pc}
+ 3943              		.size	_ZN13HttpResponder8SendDataEv, .-_ZN13HttpResponder8SendDataEv
+ 3944              		.global	_ZTV13HttpResponder
+ 3945              		.global	_ZN13HttpResponder15gcodeReplyMutexE
+ 3946              		.global	_ZN13HttpResponder10gcodeReplyE
+ 3947              		.global	_ZN13HttpResponder3seqE
+ 3948              		.global	_ZN13HttpResponder13clientsServedE
+ 3949              		.global	_ZN13HttpResponder11numSessionsE
+ 3950              		.global	_ZN13HttpResponder8sessionsE
+ 3951              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
+ 3952              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
+ 3953              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
+ 3954              	_ZL28cpu_irq_prev_interrupt_state:
+ 3955 0000 00       		.space	1
+ 3956              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
+ 3957              		.align	2
+ 3958              		.type	_ZL32cpu_irq_critical_section_counter, %object
+ 3959              		.size	_ZL32cpu_irq_critical_section_counter, 4
+ 3960              	_ZL32cpu_irq_critical_section_counter:
+ 3961 0000 00000000 		.space	4
+ 3962              		.section	.bss._ZN13HttpResponder10gcodeReplyE,"aw",%nobits
+ 3963              		.align	2
+ 3964              		.set	.LANCHOR4,. + 0
+ 3965              		.type	_ZN13HttpResponder10gcodeReplyE, %object
+ 3966              		.size	_ZN13HttpResponder10gcodeReplyE, 20
+ 3967              	_ZN13HttpResponder10gcodeReplyE:
+ 3968 0000 00000000 		.space	20
+ 3968      00000000 
+ 3968      00000000 
+ 3968      00000000 
+ 3968      00000000 
+ 3969              		.section	.bss._ZN13HttpResponder11numSessionsE,"aw",%nobits
+ 3970              		.align	2
+ 3971              		.set	.LANCHOR1,. + 0
+ 3972              		.type	_ZN13HttpResponder11numSessionsE, %object
+ 3973              		.size	_ZN13HttpResponder11numSessionsE, 4
+ 3974              	_ZN13HttpResponder11numSessionsE:
+ 3975 0000 00000000 		.space	4
+ 3976              		.section	.bss._ZN13HttpResponder13clientsServedE,"aw",%nobits
+ 3977              		.align	2
+ 3978              		.set	.LANCHOR5,. + 0
+ 3979              		.type	_ZN13HttpResponder13clientsServedE, %object
+ 3980              		.size	_ZN13HttpResponder13clientsServedE, 4
+ 3981              	_ZN13HttpResponder13clientsServedE:
+ 3982 0000 00000000 		.space	4
+ 3983              		.section	.bss._ZN13HttpResponder15gcodeReplyMutexE,"aw",%nobits
+ 3984              		.align	2
+ 3985              		.set	.LANCHOR3,. + 0
+ 3986              		.type	_ZN13HttpResponder15gcodeReplyMutexE, %object
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 71
 
 
- 3983              		.set	.LANCHOR6,. + 0
- 3984              		.type	_ZN13HttpResponder3seqE, %object
- 3985              		.size	_ZN13HttpResponder3seqE, 4
- 3986              	_ZN13HttpResponder3seqE:
- 3987 0000 00000000 		.space	4
- 3988              		.section	.bss._ZN13HttpResponder8sessionsE,"aw",%nobits
- 3989              		.align	2
- 3990              		.set	.LANCHOR2,. + 0
- 3991              		.type	_ZN13HttpResponder8sessionsE, %object
- 3992              		.size	_ZN13HttpResponder8sessionsE, 96
- 3993              	_ZN13HttpResponder8sessionsE:
- 3994 0000 00000000 		.space	96
- 3994      00000000 
- 3994      00000000 
- 3994      00000000 
- 3994      00000000 
- 3995              		.section	.rodata._ZN13HttpResponder12SendFileInfoEb.str1.4,"aMS",%progbits,1
- 3996              		.align	2
- 3997              	.LC2:
- 3998 0000 48545450 		.ascii	"HTTP/1.1 200 OK\012Cache-Control: no-cache, no-stor"
- 3998      2F312E31 
- 3998      20323030 
- 3998      204F4B0A 
- 3998      43616368 
- 3999 0030 652C206D 		.ascii	"e, must-revalidate\012Pragma: no-cache\012Expires: "
- 3999      7573742D 
- 3999      72657661 
- 3999      6C696461 
- 3999      74650A50 
- 4000 005d 300A4163 		.ascii	"0\012Access-Control-Allow-Origin: *\012Content-Type"
- 4000      63657373 
- 4000      2D436F6E 
- 4000      74726F6C 
- 4000      2D416C6C 
- 4001 008a 3A206170 		.ascii	": application/json\012\000"
- 4001      706C6963 
- 4001      6174696F 
- 4001      6E2F6A73 
- 4001      6F6E0A00 
- 4002 009e 0000     		.space	2
- 4003              	.LC3:
- 4004 00a0 436F6E74 		.ascii	"Content-Length: %u\012\000"
- 4004      656E742D 
- 4004      4C656E67 
- 4004      74683A20 
- 4004      25750A00 
- 4005              	.LC4:
- 4006 00b4 436F6E6E 		.ascii	"Connection: close\012\012\000"
- 4006      65637469 
- 4006      6F6E3A20 
- 4006      636C6F73 
- 4006      650A0A00 
- 4007              	.LC5:
- 4008 00c8 2E2E2F73 		.ascii	"../src/Networking/HttpResponder.cpp\000"
- 4008      72632F4E 
- 4008      6574776F 
- 4008      726B696E 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 72
+ 3987              		.size	_ZN13HttpResponder15gcodeReplyMutexE, 88
+ 3988              	_ZN13HttpResponder15gcodeReplyMutexE:
+ 3989 0000 00000000 		.space	88
+ 3989      00000000 
+ 3989      00000000 
+ 3989      00000000 
+ 3989      00000000 
+ 3990              		.section	.bss._ZN13HttpResponder3seqE,"aw",%nobits
+ 3991              		.align	2
+ 3992              		.set	.LANCHOR6,. + 0
+ 3993              		.type	_ZN13HttpResponder3seqE, %object
+ 3994              		.size	_ZN13HttpResponder3seqE, 4
+ 3995              	_ZN13HttpResponder3seqE:
+ 3996 0000 00000000 		.space	4
+ 3997              		.section	.bss._ZN13HttpResponder8sessionsE,"aw",%nobits
+ 3998              		.align	2
+ 3999              		.set	.LANCHOR2,. + 0
+ 4000              		.type	_ZN13HttpResponder8sessionsE, %object
+ 4001              		.size	_ZN13HttpResponder8sessionsE, 96
+ 4002              	_ZN13HttpResponder8sessionsE:
+ 4003 0000 00000000 		.space	96
+ 4003      00000000 
+ 4003      00000000 
+ 4003      00000000 
+ 4003      00000000 
+ 4004              		.section	.rodata._ZN13HttpResponder12SendFileInfoEb.str1.4,"aMS",%progbits,1
+ 4005              		.align	2
+ 4006              	.LC2:
+ 4007 0000 48545450 		.ascii	"HTTP/1.1 200 OK\012Cache-Control: no-cache, no-stor"
+ 4007      2F312E31 
+ 4007      20323030 
+ 4007      204F4B0A 
+ 4007      43616368 
+ 4008 0030 652C206D 		.ascii	"e, must-revalidate\012Pragma: no-cache\012Expires: "
+ 4008      7573742D 
+ 4008      72657661 
+ 4008      6C696461 
+ 4008      74650A50 
+ 4009 005d 300A4163 		.ascii	"0\012Access-Control-Allow-Origin: *\012Content-Type"
+ 4009      63657373 
+ 4009      2D436F6E 
+ 4009      74726F6C 
+ 4009      2D416C6C 
+ 4010 008a 3A206170 		.ascii	": application/json\012\000"
+ 4010      706C6963 
+ 4010      6174696F 
+ 4010      6E2F6A73 
+ 4010      6F6E0A00 
+ 4011 009e 0000     		.space	2
+ 4012              	.LC3:
+ 4013 00a0 436F6E74 		.ascii	"Content-Length: %u\012\000"
+ 4013      656E742D 
+ 4013      4C656E67 
+ 4013      74683A20 
+ 4013      25750A00 
+ 4014              	.LC4:
+ 4015 00b4 436F6E6E 		.ascii	"Connection: close\012\012\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 72
 
 
- 4008      672F4874 
- 4009              		.section	.rodata._ZN13HttpResponder13CheckSessionsEv.str1.4,"aMS",%progbits,1
- 4010              		.align	2
- 4011              	.LC120:
- 4012 0000 52656C65 		.ascii	"Released gcodeReply, free buffers=%u\012\000"
- 4012      61736564 
- 4012      2067636F 
- 4012      64655265 
- 4012      706C792C 
- 4013              		.section	.rodata._ZN13HttpResponder13RejectMessageEPKcj.str1.4,"aMS",%progbits,1
- 4014              		.align	2
- 4015              	.LC13:
- 4016 0000 57656273 		.ascii	"Webserver: rejecting message with: %u %s\012\000"
- 4016      65727665 
- 4016      723A2072 
- 4016      656A6563 
- 4016      74696E67 
- 4017 002a 0000     		.space	2
- 4018              	.LC14:
- 4019 002c 48545450 		.ascii	"HTTP/1.1 %u %s\012Connection: close\012\012\000"
- 4019      2F312E31 
- 4019      20257520 
- 4019      25730A43 
- 4019      6F6E6E65 
- 4020 004f 00       		.space	1
- 4021              	.LC15:
- 4022 0050 3C68746D 		.ascii	"<html>\012<head>\012</head>\012<body>\012<p style=\""
- 4022      6C3E0A3C 
- 4022      68656164 
- 4022      3E0A3C2F 
- 4022      68656164 
- 4023 0077 666F6E74 		.ascii	"font-size: 16pt; text-align: center; margin-top:50p"
- 4023      2D73697A 
- 4023      653A2031 
- 4023      3670743B 
- 4023      20746578 
- 4024 00aa 78223E59 		.ascii	"x\">Your Duet rejected the HTTP request: \000"
- 4024      6F757220 
- 4024      44756574 
- 4024      2072656A 
- 4024      65637465 
- 4025 00d3 00       		.space	1
- 4026              	.LC16:
- 4027 00d4 25732573 		.ascii	"%s%s%s\000"
- 4027      257300
- 4028 00db 00       		.space	1
- 4029              	.LC17:
- 4030 00dc 3C2F703E 		.ascii	"</p>\012</body>\012\000"
- 4030      0A3C2F62 
- 4030      6F64793E 
- 4030      0A00
- 4031              		.section	.rodata._ZN13HttpResponder14CharFromClientEc.str1.4,"aMS",%progbits,1
- 4032              		.align	2
- 4033              	.LC18:
- 4034 0000 746F6F20 		.ascii	"too many command words\000"
- 4034      6D616E79 
- 4034      20636F6D 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 73
+ 4015      65637469 
+ 4015      6F6E3A20 
+ 4015      636C6F73 
+ 4015      650A0A00 
+ 4016              	.LC5:
+ 4017 00c8 2E2E2F73 		.ascii	"../src/Networking/HttpResponder.cpp\000"
+ 4017      72632F4E 
+ 4017      6574776F 
+ 4017      726B696E 
+ 4017      672F4874 
+ 4018              		.section	.rodata._ZN13HttpResponder13CheckSessionsEv.str1.4,"aMS",%progbits,1
+ 4019              		.align	2
+ 4020              	.LC122:
+ 4021 0000 52656C65 		.ascii	"Released gcodeReply, free buffers=%u\012\000"
+ 4021      61736564 
+ 4021      2067636F 
+ 4021      64655265 
+ 4021      706C792C 
+ 4022              		.section	.rodata._ZN13HttpResponder13RejectMessageEPKcj.str1.4,"aMS",%progbits,1
+ 4023              		.align	2
+ 4024              	.LC13:
+ 4025 0000 57656273 		.ascii	"Webserver: rejecting message with: %u %s\012\000"
+ 4025      65727665 
+ 4025      723A2072 
+ 4025      656A6563 
+ 4025      74696E67 
+ 4026 002a 0000     		.space	2
+ 4027              	.LC14:
+ 4028 002c 48545450 		.ascii	"HTTP/1.1 %u %s\012Connection: close\012\012\000"
+ 4028      2F312E31 
+ 4028      20257520 
+ 4028      25730A43 
+ 4028      6F6E6E65 
+ 4029 004f 00       		.space	1
+ 4030              	.LC15:
+ 4031 0050 3C68746D 		.ascii	"<html>\012<head>\012</head>\012<body>\012<p style=\""
+ 4031      6C3E0A3C 
+ 4031      68656164 
+ 4031      3E0A3C2F 
+ 4031      68656164 
+ 4032 0077 666F6E74 		.ascii	"font-size: 16pt; text-align: center; margin-top:50p"
+ 4032      2D73697A 
+ 4032      653A2031 
+ 4032      3670743B 
+ 4032      20746578 
+ 4033 00aa 78223E59 		.ascii	"x\">Your Duet rejected the HTTP request: \000"
+ 4033      6F757220 
+ 4033      44756574 
+ 4033      2072656A 
+ 4033      65637465 
+ 4034 00d3 00       		.space	1
+ 4035              	.LC16:
+ 4036 00d4 25732573 		.ascii	"%s%s%s\000"
+ 4036      257300
+ 4037 00db 00       		.space	1
+ 4038              	.LC17:
+ 4039 00dc 3C2F703E 		.ascii	"</p>\012</body>\012\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 73
 
 
- 4034      6D616E64 
- 4034      20776F72 
- 4035 0017 00       		.space	1
- 4036              	.LC19:
- 4037 0018 62616420 		.ascii	"bad qualifier key\000"
- 4037      7175616C 
- 4037      69666965 
- 4037      72206B65 
- 4037      7900
- 4038 002a 0000     		.space	2
- 4039              	.LC20:
- 4040 002c 746F6F20 		.ascii	"too many keys in qualifier\000"
- 4040      6D616E79 
- 4040      206B6579 
- 4040      7320696E 
- 4040      20717561 
- 4041 0047 00       		.space	1
- 4042              	.LC21:
- 4043 0048 62616420 		.ascii	"bad escape\000"
- 4043      65736361 
- 4043      706500
- 4044 0053 00       		.space	1
- 4045              	.LC22:
- 4046 0054 756E6578 		.ascii	"unexpected newline\000"
- 4046      70656374 
- 4046      6564206E 
- 4046      65776C69 
- 4046      6E6500
- 4047 0067 00       		.space	1
- 4048              	.LC23:
- 4049 0068 746F6F20 		.ascii	"too many header key-value pairs\000"
+ 4039      0A3C2F62 
+ 4039      6F64793E 
+ 4039      0A00
+ 4040              		.section	.rodata._ZN13HttpResponder14CharFromClientEc.str1.4,"aMS",%progbits,1
+ 4041              		.align	2
+ 4042              	.LC18:
+ 4043 0000 746F6F20 		.ascii	"too many command words\000"
+ 4043      6D616E79 
+ 4043      20636F6D 
+ 4043      6D616E64 
+ 4043      20776F72 
+ 4044 0017 00       		.space	1
+ 4045              	.LC19:
+ 4046 0018 62616420 		.ascii	"bad qualifier key\000"
+ 4046      7175616C 
+ 4046      69666965 
+ 4046      72206B65 
+ 4046      7900
+ 4047 002a 0000     		.space	2
+ 4048              	.LC20:
+ 4049 002c 746F6F20 		.ascii	"too many keys in qualifier\000"
  4049      6D616E79 
- 4049      20686561 
- 4049      64657220 
- 4049      6B65792D 
- 4050              	.LC24:
- 4051 0088 6F766572 		.ascii	"overflow\000"
- 4051      666C6F77 
- 4051      00
- 4052              		.section	.rodata._ZN13HttpResponder14ProcessMessageEv.str1.4,"aMS",%progbits,1
- 4053              		.align	2
- 4054              	.LC8:
- 4055 0000 48545450 		.ascii	"HTTP req, command words {\000"
- 4055      20726571 
- 4055      2C20636F 
- 4055      6D6D616E 
- 4055      6420776F 
- 4056 001a 0000     		.space	2
- 4057              	.LC9:
- 4058 001c 20257300 		.ascii	" %s\000"
- 4059              	.LC10:
- 4060 0020 207D2C20 		.ascii	" }, parameters {\000"
- 4060      70617261 
- 4060      6D657465 
- 4060      7273207B 
+ 4049      206B6579 
+ 4049      7320696E 
+ 4049      20717561 
+ 4050 0047 00       		.space	1
+ 4051              	.LC21:
+ 4052 0048 62616420 		.ascii	"bad escape\000"
+ 4052      65736361 
+ 4052      706500
+ 4053 0053 00       		.space	1
+ 4054              	.LC22:
+ 4055 0054 756E6578 		.ascii	"unexpected newline\000"
+ 4055      70656374 
+ 4055      6564206E 
+ 4055      65776C69 
+ 4055      6E6500
+ 4056 0067 00       		.space	1
+ 4057              	.LC23:
+ 4058 0068 746F6F20 		.ascii	"too many header key-value pairs\000"
+ 4058      6D616E79 
+ 4058      20686561 
+ 4058      64657220 
+ 4058      6B65792D 
+ 4059              	.LC24:
+ 4060 0088 6F766572 		.ascii	"overflow\000"
+ 4060      666C6F77 
  4060      00
- 4061 0031 000000   		.space	3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 74
+ 4061              		.section	.rodata._ZN13HttpResponder14ProcessMessageEv.str1.4,"aMS",%progbits,1
+ 4062              		.align	2
+ 4063              	.LC8:
+ 4064 0000 48545450 		.ascii	"HTTP req, command words {\000"
+ 4064      20726571 
+ 4064      2C20636F 
+ 4064      6D6D616E 
+ 4064      6420776F 
+ 4065 001a 0000     		.space	2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 74
 
 
- 4062              	.LC11:
- 4063 0034 2025733D 		.ascii	" %s=%s\000"
- 4063      257300
- 4064 003b 00       		.space	1
- 4065              	.LC12:
- 4066 003c 207D0A00 		.ascii	" }\012\000"
- 4067              		.section	.rodata._ZN13HttpResponder14ProcessRequestEv.str1.4,"aMS",%progbits,1
- 4068              		.align	2
- 4069              	.LC106:
- 4070 0000 746F6F20 		.ascii	"too few command words\000"
- 4070      66657720 
- 4070      636F6D6D 
- 4070      616E6420 
- 4070      776F7264 
- 4071 0016 0000     		.space	2
- 4072              	.LC107:
- 4073 0018 47455400 		.ascii	"GET\000"
- 4074              	.LC108:
- 4075 001c 72725F00 		.ascii	"rr_\000"
- 4076              	.LC109:
- 4077 0020 4F505449 		.ascii	"OPTIONS\000"
- 4077      4F4E5300 
- 4078              	.LC110:
- 4079 0028 48545450 		.ascii	"HTTP/1.1 200 OK\012Allow: OPTIONS, GET, POST\012Cac"
- 4079      2F312E31 
- 4079      20323030 
- 4079      204F4B0A 
- 4079      416C6C6F 
- 4080 0055 68652D43 		.ascii	"he-Control: no-cache, no-store, must-revalidate\012"
- 4080      6F6E7472 
- 4080      6F6C3A20 
- 4080      6E6F2D63 
- 4080      61636865 
- 4081 0085 50726167 		.ascii	"Pragma: no-cache\012Expires: 0\012Access-Control-Al"
- 4081      6D613A20 
- 4081      6E6F2D63 
- 4081      61636865 
- 4081      0A457870 
- 4082 00b2 6C6F772D 		.ascii	"low-Origin: *\012Access-Control-Allow-Headers: Cont"
- 4082      4F726967 
- 4082      696E3A20 
- 4082      2A0A4163 
- 4082      63657373 
- 4083 00e2 656E742D 		.ascii	"ent-Type\012Content-Length: 0\012\012\000"
- 4083      54797065 
- 4083      0A436F6E 
- 4083      74656E74 
- 4083      2D4C656E 
- 4084 00ff 00       		.space	1
+ 4066              	.LC9:
+ 4067 001c 20257300 		.ascii	" %s\000"
+ 4068              	.LC10:
+ 4069 0020 207D2C20 		.ascii	" }, parameters {\000"
+ 4069      70617261 
+ 4069      6D657465 
+ 4069      7273207B 
+ 4069      00
+ 4070 0031 000000   		.space	3
+ 4071              	.LC11:
+ 4072 0034 2025733D 		.ascii	" %s=%s\000"
+ 4072      257300
+ 4073 003b 00       		.space	1
+ 4074              	.LC12:
+ 4075 003c 207D0A00 		.ascii	" }\012\000"
+ 4076              		.section	.rodata._ZN13HttpResponder14ProcessRequestEv.str1.4,"aMS",%progbits,1
+ 4077              		.align	2
+ 4078              	.LC108:
+ 4079 0000 746F6F20 		.ascii	"too few command words\000"
+ 4079      66657720 
+ 4079      636F6D6D 
+ 4079      616E6420 
+ 4079      776F7264 
+ 4080 0016 0000     		.space	2
+ 4081              	.LC109:
+ 4082 0018 47455400 		.ascii	"GET\000"
+ 4083              	.LC110:
+ 4084 001c 72725F00 		.ascii	"rr_\000"
  4085              	.LC111:
- 4086 0100 556E6B6E 		.ascii	"Unknown message type or not authenticated\000"
- 4086      6F776E20 
- 4086      6D657373 
- 4086      61676520 
- 4086      74797065 
- 4087 012a 0000     		.space	2
- 4088              	.LC112:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 75
+ 4086 0020 4F505449 		.ascii	"OPTIONS\000"
+ 4086      4F4E5300 
+ 4087              	.LC112:
+ 4088 0028 48545450 		.ascii	"HTTP/1.1 200 OK\012Allow: OPTIONS, GET, POST\012Cac"
+ 4088      2F312E31 
+ 4088      20323030 
+ 4088      204F4B0A 
+ 4088      416C6C6F 
+ 4089 0055 68652D43 		.ascii	"he-Control: no-cache, no-store, must-revalidate\012"
+ 4089      6F6E7472 
+ 4089      6F6C3A20 
+ 4089      6E6F2D63 
+ 4089      61636865 
+ 4090 0085 50726167 		.ascii	"Pragma: no-cache\012Expires: 0\012Access-Control-Al"
+ 4090      6D613A20 
+ 4090      6E6F2D63 
+ 4090      61636865 
+ 4090      0A457870 
+ 4091 00b2 6C6F772D 		.ascii	"low-Origin: *\012Access-Control-Allow-Headers: Cont"
+ 4091      4F726967 
+ 4091      696E3A20 
+ 4091      2A0A4163 
+ 4091      63657373 
+ 4092 00e2 656E742D 		.ascii	"ent-Type\012Content-Length: 0\012\012\000"
+ 4092      54797065 
+ 4092      0A436F6E 
+ 4092      74656E74 
+ 4092      2D4C656E 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 75
 
 
- 4089 012c 504F5354 		.ascii	"POST\000"
- 4089      00
- 4090 0131 000000   		.space	3
- 4091              	.LC113:
- 4092 0134 72725F75 		.ascii	"rr_upload\000"
- 4092      706C6F61 
- 4092      6400
- 4093 013e 0000     		.space	2
- 4094              	.LC114:
- 4095 0140 436F6E74 		.ascii	"Content-Length\000"
- 4095      656E742D 
- 4095      4C656E67 
- 4095      746800
- 4096 014f 00       		.space	1
- 4097              	.LC115:
- 4098 0150 696E7661 		.ascii	"invalid POST upload request\000"
- 4098      6C696420 
- 4098      504F5354 
- 4098      2075706C 
- 4098      6F616420 
- 4099              	.LC116:
- 4100 016c 636F756C 		.ascii	"could not create file\000"
- 4100      64206E6F 
- 4100      74206372 
- 4100      65617465 
- 4100      2066696C 
- 4101 0182 0000     		.space	2
- 4102              	.LC117:
- 4103 0184 53746172 		.ascii	"Start uploading file %s length %lu\012\000"
- 4103      74207570 
- 4103      6C6F6164 
- 4103      696E6720 
- 4103      66696C65 
- 4104              	.LC118:
- 4105 01a8 6F6E6C79 		.ascii	"only rr_upload is supported for POST requests\000"
- 4105      2072725F 
- 4105      75706C6F 
- 4105      61642069 
- 4105      73207375 
- 4106              		.section	.rodata._ZN13HttpResponder14SendGCodeReplyEv.str1.4,"aMS",%progbits,1
- 4107              		.align	2
- 4108              	.LC6:
- 4109 0000 53656E64 		.ascii	"Sending G-Code reply to HTTP client %d of %d (lengt"
- 4109      696E6720 
- 4109      472D436F 
- 4109      64652072 
- 4109      65706C79 
- 4110 0033 68202575 		.ascii	"h %u)\012\000"
- 4110      290A00
- 4111 003a 0000     		.space	2
- 4112              	.LC7:
- 4113 003c 48545450 		.ascii	"HTTP/1.1 200 OK\012Cache-Control: no-cache, no-stor"
- 4113      2F312E31 
- 4113      20323030 
- 4113      204F4B0A 
- 4113      43616368 
- 4114 006c 652C206D 		.ascii	"e, must-revalidate\012Pragma: no-cache\012Expires: "
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 76
+ 4093 00ff 00       		.space	1
+ 4094              	.LC113:
+ 4095 0100 556E6B6E 		.ascii	"Unknown message type or not authenticated\000"
+ 4095      6F776E20 
+ 4095      6D657373 
+ 4095      61676520 
+ 4095      74797065 
+ 4096 012a 0000     		.space	2
+ 4097              	.LC114:
+ 4098 012c 504F5354 		.ascii	"POST\000"
+ 4098      00
+ 4099 0131 000000   		.space	3
+ 4100              	.LC115:
+ 4101 0134 72725F75 		.ascii	"rr_upload\000"
+ 4101      706C6F61 
+ 4101      6400
+ 4102 013e 0000     		.space	2
+ 4103              	.LC116:
+ 4104 0140 436F6E74 		.ascii	"Content-Length\000"
+ 4104      656E742D 
+ 4104      4C656E67 
+ 4104      746800
+ 4105 014f 00       		.space	1
+ 4106              	.LC117:
+ 4107 0150 696E7661 		.ascii	"invalid POST upload request\000"
+ 4107      6C696420 
+ 4107      504F5354 
+ 4107      2075706C 
+ 4107      6F616420 
+ 4108              	.LC118:
+ 4109 016c 636F756C 		.ascii	"could not create file\000"
+ 4109      64206E6F 
+ 4109      74206372 
+ 4109      65617465 
+ 4109      2066696C 
+ 4110 0182 0000     		.space	2
+ 4111              	.LC119:
+ 4112 0184 53746172 		.ascii	"Start uploading file %s length %lu\012\000"
+ 4112      74207570 
+ 4112      6C6F6164 
+ 4112      696E6720 
+ 4112      66696C65 
+ 4113              	.LC120:
+ 4114 01a8 6F6E6C79 		.ascii	"only rr_upload is supported for POST requests\000"
+ 4114      2072725F 
+ 4114      75706C6F 
+ 4114      61642069 
+ 4114      73207375 
+ 4115              		.section	.rodata._ZN13HttpResponder14SendGCodeReplyEv.str1.4,"aMS",%progbits,1
+ 4116              		.align	2
+ 4117              	.LC6:
+ 4118 0000 53656E64 		.ascii	"Sending G-Code reply to HTTP client %d of %d (lengt"
+ 4118      696E6720 
+ 4118      472D436F 
+ 4118      64652072 
+ 4118      65706C79 
+ 4119 0033 68202575 		.ascii	"h %u)\012\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 76
 
 
- 4114      7573742D 
- 4114      72657661 
- 4114      6C696461 
- 4114      74650A50 
- 4115 0099 300A4163 		.ascii	"0\012Access-Control-Allow-Origin: *\012Content-Type"
- 4115      63657373 
- 4115      2D436F6E 
- 4115      74726F6C 
- 4115      2D416C6C 
- 4116 00c6 3A207465 		.ascii	": text/plain\012\000"
- 4116      78742F70 
- 4116      6C61696E 
- 4116      0A00
- 4117              		.section	.rodata._ZN13HttpResponder15GetJsonResponseEPKcRP12OutputBufferRb.str1.4,"aMS",%progbits,
- 4118              		.align	2
- 4119              	.LC25:
- 4120 0000 303A2F67 		.ascii	"0:/gcodes/\000"
- 4120      636F6465 
- 4120      732F00
- 4121 000b 00       		.space	1
- 4122              	.LC26:
- 4123 000c 636F6E6E 		.ascii	"connect\000"
- 4123      65637400 
- 4124              	.LC27:
- 4125 0014 70617373 		.ascii	"password\000"
- 4125      776F7264 
- 4125      00
- 4126 001d 000000   		.space	3
- 4127              	.LC28:
- 4128 0020 7B226572 		.ascii	"{\"err\":1}\000"
- 4128      72223A31 
- 4128      7D00
- 4129 002a 0000     		.space	2
- 4130              	.LC29:
- 4131 002c 48545450 		.ascii	"HTTP client %s attempted login with incorrect passw"
- 4131      20636C69 
- 4131      656E7420 
- 4131      25732061 
- 4131      7474656D 
- 4132 005f 6F72640A 		.ascii	"ord\012\000"
- 4132      00
- 4133              	.LC30:
- 4134 0064 7B226572 		.ascii	"{\"err\":2}\000"
- 4134      72223A32 
- 4134      7D00
- 4135 006e 0000     		.space	2
- 4136              	.LC31:
- 4137 0070 48545450 		.ascii	"HTTP client %s attempted login but no more sessions"
- 4137      20636C69 
- 4137      656E7420 
- 4137      25732061 
- 4137      7474656D 
- 4138 00a3 20617661 		.ascii	" available\012\000"
- 4138      696C6162 
- 4138      6C650A00 
- 4139 00af 00       		.space	1
- 4140              	.LC32:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 77
+ 4119      290A00
+ 4120 003a 0000     		.space	2
+ 4121              	.LC7:
+ 4122 003c 48545450 		.ascii	"HTTP/1.1 200 OK\012Cache-Control: no-cache, no-stor"
+ 4122      2F312E31 
+ 4122      20323030 
+ 4122      204F4B0A 
+ 4122      43616368 
+ 4123 006c 652C206D 		.ascii	"e, must-revalidate\012Pragma: no-cache\012Expires: "
+ 4123      7573742D 
+ 4123      72657661 
+ 4123      6C696461 
+ 4123      74650A50 
+ 4124 0099 300A4163 		.ascii	"0\012Access-Control-Allow-Origin: *\012Content-Type"
+ 4124      63657373 
+ 4124      2D436F6E 
+ 4124      74726F6C 
+ 4124      2D416C6C 
+ 4125 00c6 3A207465 		.ascii	": text/plain\012\000"
+ 4125      78742F70 
+ 4125      6C61696E 
+ 4125      0A00
+ 4126              		.section	.rodata._ZN13HttpResponder15GetJsonResponseEPKcRP12OutputBufferRb.str1.4,"aMS",%progbits,
+ 4127              		.align	2
+ 4128              	.LC25:
+ 4129 0000 303A2F67 		.ascii	"0:/gcodes/\000"
+ 4129      636F6465 
+ 4129      732F00
+ 4130 000b 00       		.space	1
+ 4131              	.LC26:
+ 4132 000c 636F6E6E 		.ascii	"connect\000"
+ 4132      65637400 
+ 4133              	.LC27:
+ 4134 0014 70617373 		.ascii	"password\000"
+ 4134      776F7264 
+ 4134      00
+ 4135 001d 000000   		.space	3
+ 4136              	.LC28:
+ 4137 0020 7B226572 		.ascii	"{\"err\":1}\000"
+ 4137      72223A31 
+ 4137      7D00
+ 4138 002a 0000     		.space	2
+ 4139              	.LC29:
+ 4140 002c 48545450 		.ascii	"HTTP client %s attempted login with incorrect passw"
+ 4140      20636C69 
+ 4140      656E7420 
+ 4140      25732061 
+ 4140      7474656D 
+ 4141 005f 6F72640A 		.ascii	"ord\012\000"
+ 4141      00
+ 4142              	.LC30:
+ 4143 0064 7B226572 		.ascii	"{\"err\":2}\000"
+ 4143      72223A32 
+ 4143      7D00
+ 4144 006e 0000     		.space	2
+ 4145              	.LC31:
+ 4146 0070 48545450 		.ascii	"HTTP client %s attempted login but no more sessions"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 77
 
 
- 4141 00b0 7B226572 		.ascii	"{\"err\":0,\"sessionTimeout\":%lu,\"boardType\":\"%"
- 4141      72223A30 
- 4141      2C227365 
- 4141      7373696F 
- 4141      6E54696D 
- 4142 00dc 73227D00 		.ascii	"s\"}\000"
- 4143              	.LC33:
- 4144 00e0 48545450 		.ascii	"HTTP client %s login succeeded\012\000"
- 4144      20636C69 
- 4144      656E7420 
- 4144      2573206C 
- 4144      6F67696E 
- 4145              	.LC34:
- 4146 0100 74696D65 		.ascii	"time\000"
- 4146      00
- 4147 0105 000000   		.space	3
- 4148              	.LC35:
- 4149 0108 25592D25 		.ascii	"%Y-%m-%dT%H:%M:%S\000"
- 4149      6D2D2564 
- 4149      5425483A 
- 4149      254D3A25 
- 4149      5300
- 4150 011a 0000     		.space	2
- 4151              	.LC36:
- 4152 011c 4E6F7420 		.ascii	"Not authorized\000"
- 4152      61757468 
- 4152      6F72697A 
- 4152      656400
- 4153 012b 00       		.space	1
- 4154              	.LC37:
- 4155 012c 64697363 		.ascii	"disconnect\000"
- 4155      6F6E6E65 
- 4155      637400
- 4156 0137 00       		.space	1
- 4157              	.LC38:
- 4158 0138 7B226572 		.ascii	"{\"err\":%d}\000"
- 4158      72223A25 
- 4158      647D00
- 4159 0143 00       		.space	1
- 4160              	.LC39:
- 4161 0144 48545450 		.ascii	"HTTP client %s disconnected\012\000"
- 4161      20636C69 
- 4161      656E7420 
- 4161      25732064 
- 4161      6973636F 
- 4162 0161 000000   		.space	3
- 4163              	.LC40:
- 4164 0164 73746174 		.ascii	"status\000"
- 4164      757300
- 4165 016b 00       		.space	1
- 4166              	.LC41:
- 4167 016c 74797065 		.ascii	"type\000"
- 4167      00
- 4168 0171 000000   		.space	3
- 4169              	.LC42:
- 4170 0174 67636F64 		.ascii	"gcode\000"
- 4170      6500
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 78
+ 4146      20636C69 
+ 4146      656E7420 
+ 4146      25732061 
+ 4146      7474656D 
+ 4147 00a3 20617661 		.ascii	" available\012\000"
+ 4147      696C6162 
+ 4147      6C650A00 
+ 4148 00af 00       		.space	1
+ 4149              	.LC32:
+ 4150 00b0 7B226572 		.ascii	"{\"err\":0,\"sessionTimeout\":%lu,\"boardType\":\"%"
+ 4150      72223A30 
+ 4150      2C227365 
+ 4150      7373696F 
+ 4150      6E54696D 
+ 4151 00dc 73227D00 		.ascii	"s\"}\000"
+ 4152              	.LC33:
+ 4153 00e0 48545450 		.ascii	"HTTP client %s login succeeded\012\000"
+ 4153      20636C69 
+ 4153      656E7420 
+ 4153      2573206C 
+ 4153      6F67696E 
+ 4154              	.LC34:
+ 4155 0100 74696D65 		.ascii	"time\000"
+ 4155      00
+ 4156 0105 000000   		.space	3
+ 4157              	.LC35:
+ 4158 0108 25592D25 		.ascii	"%Y-%m-%dT%H:%M:%S\000"
+ 4158      6D2D2564 
+ 4158      5425483A 
+ 4158      254D3A25 
+ 4158      5300
+ 4159 011a 0000     		.space	2
+ 4160              	.LC36:
+ 4161 011c 4E6F7420 		.ascii	"Not authorized\000"
+ 4161      61757468 
+ 4161      6F72697A 
+ 4161      656400
+ 4162 012b 00       		.space	1
+ 4163              	.LC37:
+ 4164 012c 64697363 		.ascii	"disconnect\000"
+ 4164      6F6E6E65 
+ 4164      637400
+ 4165 0137 00       		.space	1
+ 4166              	.LC38:
+ 4167 0138 7B226572 		.ascii	"{\"err\":%d}\000"
+ 4167      72223A25 
+ 4167      647D00
+ 4168 0143 00       		.space	1
+ 4169              	.LC39:
+ 4170 0144 48545450 		.ascii	"HTTP client %s disconnected\012\000"
+ 4170      20636C69 
+ 4170      656E7420 
+ 4170      25732064 
+ 4170      6973636F 
+ 4171 0161 000000   		.space	3
+ 4172              	.LC40:
+ 4173 0164 73746174 		.ascii	"status\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 78
 
 
- 4171 017a 0000     		.space	2
- 4172              	.LC43:
- 4173 017c 75706C6F 		.ascii	"upload\000"
- 4173      616400
- 4174 0183 00       		.space	1
- 4175              	.LC44:
- 4176 0184 7B226275 		.ascii	"{\"buff\":%u}\000"
- 4176      6666223A 
- 4176      25757D00 
- 4177              	.LC45:
- 4178 0190 64656C65 		.ascii	"delete\000"
- 4178      746500
- 4179 0197 00       		.space	1
- 4180              	.LC46:
- 4181 0198 6E616D65 		.ascii	"name\000"
- 4181      00
- 4182 019d 000000   		.space	3
- 4183              	.LC47:
- 4184 01a0 66696C65 		.ascii	"filelist\000"
- 4184      6C697374 
- 4184      00
- 4185 01a9 000000   		.space	3
- 4186              	.LC48:
- 4187 01ac 303A00   		.ascii	"0:\000"
- 4188 01af 00       		.space	1
- 4189              	.LC49:
- 4190 01b0 64697200 		.ascii	"dir\000"
- 4191              	.LC50:
- 4192 01b4 66696C65 		.ascii	"files\000"
- 4192      7300
- 4193 01ba 0000     		.space	2
- 4194              	.LC51:
- 4195 01bc 66697273 		.ascii	"first\000"
- 4195      7400
- 4196 01c2 0000     		.space	2
- 4197              	.LC52:
- 4198 01c4 666C6167 		.ascii	"flagDirs\000"
- 4198      44697273 
- 4198      00
- 4199 01cd 000000   		.space	3
- 4200              	.LC53:
- 4201 01d0 66696C65 		.ascii	"fileinfo\000"
- 4201      696E666F 
- 4201      00
- 4202 01d9 000000   		.space	3
- 4203              	.LC54:
- 4204 01dc 6D6F7665 		.ascii	"move\000"
- 4204      00
- 4205 01e1 000000   		.space	3
- 4206              	.LC55:
- 4207 01e4 6F6C6400 		.ascii	"old\000"
- 4208              	.LC56:
- 4209 01e8 6E657700 		.ascii	"new\000"
- 4210              	.LC57:
- 4211 01ec 64656C65 		.ascii	"deleteexisting\000"
- 4211      74656578 
- 4211      69737469 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 79
+ 4173      757300
+ 4174 016b 00       		.space	1
+ 4175              	.LC41:
+ 4176 016c 74797065 		.ascii	"type\000"
+ 4176      00
+ 4177 0171 000000   		.space	3
+ 4178              	.LC42:
+ 4179 0174 67636F64 		.ascii	"gcode\000"
+ 4179      6500
+ 4180 017a 0000     		.space	2
+ 4181              	.LC43:
+ 4182 017c 75706C6F 		.ascii	"upload\000"
+ 4182      616400
+ 4183 0183 00       		.space	1
+ 4184              	.LC44:
+ 4185 0184 7B226275 		.ascii	"{\"buff\":%u}\000"
+ 4185      6666223A 
+ 4185      25757D00 
+ 4186              	.LC45:
+ 4187 0190 64656C65 		.ascii	"delete\000"
+ 4187      746500
+ 4188 0197 00       		.space	1
+ 4189              	.LC46:
+ 4190 0198 6E616D65 		.ascii	"name\000"
+ 4190      00
+ 4191 019d 000000   		.space	3
+ 4192              	.LC47:
+ 4193 01a0 66696C65 		.ascii	"filelist\000"
+ 4193      6C697374 
+ 4193      00
+ 4194 01a9 000000   		.space	3
+ 4195              	.LC48:
+ 4196 01ac 303A00   		.ascii	"0:\000"
+ 4197 01af 00       		.space	1
+ 4198              	.LC49:
+ 4199 01b0 64697200 		.ascii	"dir\000"
+ 4200              	.LC50:
+ 4201 01b4 66696C65 		.ascii	"files\000"
+ 4201      7300
+ 4202 01ba 0000     		.space	2
+ 4203              	.LC51:
+ 4204 01bc 66697273 		.ascii	"first\000"
+ 4204      7400
+ 4205 01c2 0000     		.space	2
+ 4206              	.LC52:
+ 4207 01c4 666C6167 		.ascii	"flagDirs\000"
+ 4207      44697273 
+ 4207      00
+ 4208 01cd 000000   		.space	3
+ 4209              	.LC53:
+ 4210 01d0 66696C65 		.ascii	"fileinfo\000"
+ 4210      696E666F 
+ 4210      00
+ 4211 01d9 000000   		.space	3
+ 4212              	.LC54:
+ 4213 01dc 6D6F7665 		.ascii	"move\000"
+ 4213      00
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 79
 
 
- 4211      6E6700
- 4212 01fb 00       		.space	1
- 4213              	.LC58:
- 4214 01fc 79657300 		.ascii	"yes\000"
- 4215              	.LC59:
- 4216 0200 6D6B6469 		.ascii	"mkdir\000"
- 4216      7200
- 4217 0206 0000     		.space	2
- 4218              	.LC60:
- 4219 0208 636F6E66 		.ascii	"config\000"
- 4219      696700
- 4220 020f 00       		.space	1
- 4221              	.LC61:
- 4222 0210 556E6B6E 		.ascii	"Unknown request\000"
- 4222      6F776E20 
- 4222      72657175 
- 4222      65737400 
- 4223              		.section	.rodata._ZN13HttpResponder16SendJsonResponseEPKc.str1.4,"aMS",%progbits,1
- 4224              		.align	2
- 4225              	.LC96:
- 4226 0000 6B656570 		.ascii	"keep-alive\000"
- 4226      2D616C69 
- 4226      766500
- 4227 000b 00       		.space	1
- 4228              	.LC97:
- 4229 000c 636C6F73 		.ascii	"close\000"
- 4229      6500
- 4230 0012 0000     		.space	2
- 4231              	.LC98:
- 4232 0014 7265706C 		.ascii	"reply\000"
- 4232      7900
- 4233 001a 0000     		.space	2
- 4234              	.LC99:
- 4235 001c 636F6E66 		.ascii	"configfile\000"
- 4235      69676669 
- 4235      6C6500
- 4236 0027 00       		.space	1
- 4237              	.LC100:
- 4238 0028 636F6E66 		.ascii	"config.g\000"
- 4238      69672E67 
- 4238      00
- 4239 0031 000000   		.space	3
- 4240              	.LC101:
- 4241 0034 303A2F73 		.ascii	"0:/sys/\000"
- 4241      79732F00 
- 4242              	.LC102:
- 4243 003c 646F776E 		.ascii	"download\000"
- 4243      6C6F6164 
- 4243      00
- 4244 0045 000000   		.space	3
- 4245              	.LC103:
- 4246 0048 436F6E6E 		.ascii	"Connection\000"
- 4246      65637469 
- 4246      6F6E00
- 4247 0053 00       		.space	1
- 4248              	.LC104:
- 4249 0054 436F6E6E 		.ascii	"Connection: %s\012\012\000"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 80
+ 4214 01e1 000000   		.space	3
+ 4215              	.LC55:
+ 4216 01e4 6F6C6400 		.ascii	"old\000"
+ 4217              	.LC56:
+ 4218 01e8 6E657700 		.ascii	"new\000"
+ 4219              	.LC57:
+ 4220 01ec 64656C65 		.ascii	"deleteexisting\000"
+ 4220      74656578 
+ 4220      69737469 
+ 4220      6E6700
+ 4221 01fb 00       		.space	1
+ 4222              	.LC58:
+ 4223 01fc 79657300 		.ascii	"yes\000"
+ 4224              	.LC59:
+ 4225 0200 6D6B6469 		.ascii	"mkdir\000"
+ 4225      7200
+ 4226 0206 0000     		.space	2
+ 4227              	.LC60:
+ 4228 0208 636F6E66 		.ascii	"config\000"
+ 4228      696700
+ 4229 020f 00       		.space	1
+ 4230              	.LC61:
+ 4231 0210 556E6B6E 		.ascii	"Unknown request\000"
+ 4231      6F776E20 
+ 4231      72657175 
+ 4231      65737400 
+ 4232              		.section	.rodata._ZN13HttpResponder16SendJsonResponseEPKc.str1.4,"aMS",%progbits,1
+ 4233              		.align	2
+ 4234              	.LC98:
+ 4235 0000 6B656570 		.ascii	"keep-alive\000"
+ 4235      2D616C69 
+ 4235      766500
+ 4236 000b 00       		.space	1
+ 4237              	.LC99:
+ 4238 000c 636C6F73 		.ascii	"close\000"
+ 4238      6500
+ 4239 0012 0000     		.space	2
+ 4240              	.LC100:
+ 4241 0014 7265706C 		.ascii	"reply\000"
+ 4241      7900
+ 4242 001a 0000     		.space	2
+ 4243              	.LC101:
+ 4244 001c 636F6E66 		.ascii	"configfile\000"
+ 4244      69676669 
+ 4244      6C6500
+ 4245 0027 00       		.space	1
+ 4246              	.LC102:
+ 4247 0028 636F6E66 		.ascii	"config.g\000"
+ 4247      69672E67 
+ 4247      00
+ 4248 0031 000000   		.space	3
+ 4249              	.LC103:
+ 4250 0034 303A2F73 		.ascii	"0:/sys/\000"
+ 4250      79732F00 
+ 4251              	.LC104:
+ 4252 003c 646F776E 		.ascii	"download\000"
+ 4252      6C6F6164 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 80
 
 
- 4249      65637469 
- 4249      6F6E3A20 
- 4249      25730A0A 
- 4249      00
- 4250 0065 000000   		.space	3
- 4251              	.LC105:
- 4252 0068 53656E64 		.ascii	"Sending JSON reply, length %u\012\000"
- 4252      696E6720 
- 4252      4A534F4E 
- 4252      20726570 
- 4252      6C792C20 
- 4253              		.section	.rodata._ZN13HttpResponder17CommonDiagnosticsE11MessageType.str1.4,"aMS",%progbits,1
- 4254              		.align	2
- 4255              	.LC121:
- 4256 0000 48545450 		.ascii	"HTTP sessions: %u of %u\012\000"
- 4256      20736573 
- 4256      73696F6E 
- 4256      733A2025 
- 4256      75206F66 
- 4257              		.section	.rodata._ZN13HttpResponder6AcceptEP6Socketh.str1.4,"aMS",%progbits,1
- 4258              		.align	2
- 4259              	.LC1:
- 4260 0000 48545450 		.ascii	"HTTP connection accepted\012\000"
- 4260      20636F6E 
- 4260      6E656374 
- 4260      696F6E20 
- 4260      61636365 
- 4261              		.section	.rodata._ZN13HttpResponder8DoUploadEv.str1.4,"aMS",%progbits,1
- 4262              		.align	2
- 4263              	.LC119:
- 4264 0000 436F756C 		.ascii	"Could not write upload data!\012\000"
- 4264      64206E6F 
- 4264      74207772 
- 4264      69746520 
- 4264      75706C6F 
- 4265              		.section	.rodata._ZN13HttpResponder8SendFileEPKcb.str1.4,"aMS",%progbits,1
- 4266              		.align	2
- 4267              	.LC62:
- 4268 0000 72657072 		.ascii	"reprap.htm\000"
- 4268      61702E68 
- 4268      746D00
- 4269 000b 00       		.space	1
- 4270              	.LC63:
- 4271 000c 74657874 		.ascii	"text/html\000"
- 4271      2F68746D 
- 4271      6C00
- 4272 0016 0000     		.space	2
- 4273              	.LC64:
- 4274 0018 74657874 		.ascii	"text/plain\000"
- 4274      2F706C61 
- 4274      696E00
- 4275 0023 00       		.space	1
- 4276              	.LC65:
- 4277 0024 696D6167 		.ascii	"image/x-icon\000"
- 4277      652F782D 
- 4277      69636F6E 
- 4277      00
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 81
+ 4252      00
+ 4253 0045 000000   		.space	3
+ 4254              	.LC105:
+ 4255 0048 436F6E6E 		.ascii	"Connection\000"
+ 4255      65637469 
+ 4255      6F6E00
+ 4256 0053 00       		.space	1
+ 4257              	.LC106:
+ 4258 0054 436F6E6E 		.ascii	"Connection: %s\012\012\000"
+ 4258      65637469 
+ 4258      6F6E3A20 
+ 4258      25730A0A 
+ 4258      00
+ 4259 0065 000000   		.space	3
+ 4260              	.LC107:
+ 4261 0068 53656E64 		.ascii	"Sending JSON reply, length %u\012\000"
+ 4261      696E6720 
+ 4261      4A534F4E 
+ 4261      20726570 
+ 4261      6C792C20 
+ 4262              		.section	.rodata._ZN13HttpResponder17CommonDiagnosticsE11MessageType.str1.4,"aMS",%progbits,1
+ 4263              		.align	2
+ 4264              	.LC123:
+ 4265 0000 48545450 		.ascii	"HTTP sessions: %u of %u\012\000"
+ 4265      20736573 
+ 4265      73696F6E 
+ 4265      733A2025 
+ 4265      75206F66 
+ 4266              		.section	.rodata._ZN13HttpResponder6AcceptEP6Socketh.str1.4,"aMS",%progbits,1
+ 4267              		.align	2
+ 4268              	.LC1:
+ 4269 0000 48545450 		.ascii	"HTTP connection accepted\012\000"
+ 4269      20636F6E 
+ 4269      6E656374 
+ 4269      696F6E20 
+ 4269      61636365 
+ 4270              		.section	.rodata._ZN13HttpResponder8DoUploadEv.str1.4,"aMS",%progbits,1
+ 4271              		.align	2
+ 4272              	.LC121:
+ 4273 0000 436F756C 		.ascii	"Could not write upload data!\012\000"
+ 4273      64206E6F 
+ 4273      74207772 
+ 4273      69746520 
+ 4273      75706C6F 
+ 4274              		.section	.rodata._ZN13HttpResponder8SendFileEPKcb.str1.4,"aMS",%progbits,1
+ 4275              		.align	2
+ 4276              	.LC62:
+ 4277 0000 72657072 		.ascii	"reprap.htm\000"
+ 4277      61702E68 
+ 4277      746D00
+ 4278 000b 00       		.space	1
+ 4279              	.LC63:
+ 4280 000c 74657874 		.ascii	"text/html\000"
+ 4280      2F68746D 
+ 4280      6C00
+ 4281 0016 0000     		.space	2
+ 4282              	.LC64:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 81
 
 
- 4278 0031 000000   		.space	3
- 4279              	.LC66:
- 4280 0034 6170706C 		.ascii	"application/javascript\000"
- 4280      69636174 
- 4280      696F6E2F 
- 4280      6A617661 
- 4280      73637269 
- 4281 004b 00       		.space	1
- 4282              	.LC67:
- 4283 004c 74657874 		.ascii	"text/css\000"
- 4283      2F637373 
- 4283      00
- 4284 0055 000000   		.space	3
- 4285              	.LC68:
- 4286 0058 696D6167 		.ascii	"image/jpg\000"
- 4286      652F6A70 
- 4286      6700
- 4287 0062 0000     		.space	2
- 4288              	.LC69:
- 4289 0064 6170706C 		.ascii	"application/json\000"
- 4289      69636174 
- 4289      696F6E2F 
- 4289      6A736F6E 
- 4289      00
- 4290 0075 000000   		.space	3
- 4291              	.LC70:
- 4292 0078 6170706C 		.ascii	"application/octet-stream\000"
+ 4283 0018 74657874 		.ascii	"text/plain\000"
+ 4283      2F706C61 
+ 4283      696E00
+ 4284 0023 00       		.space	1
+ 4285              	.LC65:
+ 4286 0024 696D6167 		.ascii	"image/x-icon\000"
+ 4286      652F782D 
+ 4286      69636F6E 
+ 4286      00
+ 4287 0031 000000   		.space	3
+ 4288              	.LC66:
+ 4289 0034 696D6167 		.ascii	"image/svg+xml\000"
+ 4289      652F7376 
+ 4289      672B786D 
+ 4289      6C00
+ 4290 0042 0000     		.space	2
+ 4291              	.LC67:
+ 4292 0044 6170706C 		.ascii	"application/javascript\000"
  4292      69636174 
  4292      696F6E2F 
- 4292      6F637465 
- 4292      742D7374 
- 4293 0091 000000   		.space	3
- 4294              	.LC71:
- 4295 0094 68746D6C 		.ascii	"html404.htm\000"
- 4295      3430342E 
- 4295      68746D00 
- 4296              	.LC72:
- 4297 00a0 2E677A00 		.ascii	".gz\000"
- 4298              	.LC73:
- 4299 00a4 303A2F77 		.ascii	"0:/www/\000"
- 4299      77772F00 
- 4300              	.LC74:
- 4301 00ac 2E68746D 		.ascii	".html\000"
- 4301      6C00
- 4302 00b2 0000     		.space	2
- 4303              	.LC75:
- 4304 00b4 2E68746D 		.ascii	".htm\000"
- 4304      00
- 4305 00b9 000000   		.space	3
- 4306              	.LC76:
- 4307 00bc 70616765 		.ascii	"page not found\000"
- 4307      206E6F74 
- 4307      20666F75 
- 4307      6E6400
- 4308 00cb 00       		.space	1
- 4309              	.LC77:
- 4310 00cc 66696C65 		.ascii	"file not found\000"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 82
+ 4292      6A617661 
+ 4292      73637269 
+ 4293 005b 00       		.space	1
+ 4294              	.LC68:
+ 4295 005c 74657874 		.ascii	"text/css\000"
+ 4295      2F637373 
+ 4295      00
+ 4296 0065 000000   		.space	3
+ 4297              	.LC69:
+ 4298 0068 696D6167 		.ascii	"image/jpg\000"
+ 4298      652F6A70 
+ 4298      6700
+ 4299 0072 0000     		.space	2
+ 4300              	.LC70:
+ 4301 0074 6170706C 		.ascii	"application/json\000"
+ 4301      69636174 
+ 4301      696F6E2F 
+ 4301      6A736F6E 
+ 4301      00
+ 4302 0085 000000   		.space	3
+ 4303              	.LC71:
+ 4304 0088 6170706C 		.ascii	"application/octet-stream\000"
+ 4304      69636174 
+ 4304      696F6E2F 
+ 4304      6F637465 
+ 4304      742D7374 
+ 4305 00a1 000000   		.space	3
+ 4306              	.LC72:
+ 4307 00a4 68746D6C 		.ascii	"html404.htm\000"
+ 4307      3430342E 
+ 4307      68746D00 
+ 4308              	.LC73:
+ 4309 00b0 2E677A00 		.ascii	".gz\000"
+ 4310              	.LC74:
+ 4311 00b4 303A2F77 		.ascii	"0:/www/\000"
+ 4311      77772F00 
+ 4312              	.LC75:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 82
 
 
- 4310      206E6F74 
- 4310      20666F75 
- 4310      6E6400
- 4311 00db 00       		.space	1
- 4312              	.LC78:
- 4313 00dc 48545450 		.ascii	"HTTP/1.1 200 OK\012\000"
- 4313      2F312E31 
- 4313      20323030 
- 4313      204F4B0A 
- 4313      00
- 4314 00ed 000000   		.space	3
- 4315              	.LC79:
- 4316 00f0 43616368 		.ascii	"Cache-Control: no-cache, no-store, must-revalidate\012"
- 4316      652D436F 
- 4316      6E74726F 
- 4316      6C3A206E 
- 4316      6F2D6361 
- 4317 0123 50726167 		.ascii	"Pragma: no-cache\012Expires: 0\012Access-Control-Al"
- 4317      6D613A20 
- 4317      6E6F2D63 
- 4317      61636865 
- 4317      0A457870 
- 4318 0150 6C6F772D 		.ascii	"low-Origin: *\012\000"
- 4318      4F726967 
- 4318      696E3A20 
- 4318      2A0A00
- 4319 015f 00       		.space	1
- 4320              	.LC80:
- 4321 0160 2E706E67 		.ascii	".png\000"
- 4321      00
- 4322 0165 000000   		.space	3
- 4323              	.LC81:
- 4324 0168 2E6A7065 		.ascii	".jpeg\000"
- 4324      6700
- 4325 016e 0000     		.space	2
- 4326              	.LC82:
- 4327 0170 2E69636F 		.ascii	".ico\000"
- 4327      00
- 4328 0175 000000   		.space	3
- 4329              	.LC83:
- 4330 0178 2E6A7300 		.ascii	".js\000"
- 4331              	.LC84:
- 4332 017c 2E637373 		.ascii	".css\000"
- 4332      00
- 4333 0181 000000   		.space	3
- 4334              	.LC85:
- 4335 0184 2E7A6970 		.ascii	".zip\000"
- 4335      00
- 4336 0189 000000   		.space	3
- 4337              	.LC86:
- 4338 018c 6170706C 		.ascii	"application/zip\000"
- 4338      69636174 
- 4338      696F6E2F 
- 4338      7A697000 
- 4339              	.LC87:
- 4340 019c 436F6E74 		.ascii	"Content-Type: %s\012\000"
- 4340      656E742D 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 83
+ 4313 00bc 2E68746D 		.ascii	".html\000"
+ 4313      6C00
+ 4314 00c2 0000     		.space	2
+ 4315              	.LC76:
+ 4316 00c4 2E68746D 		.ascii	".htm\000"
+ 4316      00
+ 4317 00c9 000000   		.space	3
+ 4318              	.LC77:
+ 4319 00cc 70616765 		.ascii	"page not found\000"
+ 4319      206E6F74 
+ 4319      20666F75 
+ 4319      6E6400
+ 4320 00db 00       		.space	1
+ 4321              	.LC78:
+ 4322 00dc 66696C65 		.ascii	"file not found\000"
+ 4322      206E6F74 
+ 4322      20666F75 
+ 4322      6E6400
+ 4323 00eb 00       		.space	1
+ 4324              	.LC79:
+ 4325 00ec 48545450 		.ascii	"HTTP/1.1 200 OK\012\000"
+ 4325      2F312E31 
+ 4325      20323030 
+ 4325      204F4B0A 
+ 4325      00
+ 4326 00fd 000000   		.space	3
+ 4327              	.LC80:
+ 4328 0100 43616368 		.ascii	"Cache-Control: no-cache, no-store, must-revalidate\012"
+ 4328      652D436F 
+ 4328      6E74726F 
+ 4328      6C3A206E 
+ 4328      6F2D6361 
+ 4329 0133 50726167 		.ascii	"Pragma: no-cache\012Expires: 0\012Access-Control-Al"
+ 4329      6D613A20 
+ 4329      6E6F2D63 
+ 4329      61636865 
+ 4329      0A457870 
+ 4330 0160 6C6F772D 		.ascii	"low-Origin: *\012\000"
+ 4330      4F726967 
+ 4330      696E3A20 
+ 4330      2A0A00
+ 4331 016f 00       		.space	1
+ 4332              	.LC81:
+ 4333 0170 2E706E67 		.ascii	".png\000"
+ 4333      00
+ 4334 0175 000000   		.space	3
+ 4335              	.LC82:
+ 4336 0178 2E6A7065 		.ascii	".jpeg\000"
+ 4336      6700
+ 4337 017e 0000     		.space	2
+ 4338              	.LC83:
+ 4339 0180 2E69636F 		.ascii	".ico\000"
+ 4339      00
+ 4340 0185 000000   		.space	3
+ 4341              	.LC84:
+ 4342 0188 2E737667 		.ascii	".svg\000"
+ 4342      00
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 83
 
 
- 4340      54797065 
- 4340      3A202573 
- 4340      0A00
- 4341 01ae 0000     		.space	2
- 4342              	.LC88:
- 4343 01b0 2E6700   		.ascii	".g\000"
- 4344 01b3 00       		.space	1
- 4345              	.LC89:
- 4346 01b4 2E676300 		.ascii	".gc\000"
- 4347              	.LC90:
- 4348 01b8 2E67636F 		.ascii	".gcode\000"
- 4348      646500
- 4349 01bf 00       		.space	1
- 4350              	.LC91:
- 4351 01c0 2E6A736F 		.ascii	".json\000"
- 4351      6E00
- 4352 01c6 0000     		.space	2
- 4353              	.LC92:
- 4354 01c8 436F6E74 		.ascii	"Content-Encoding: gzip\012\000"
- 4354      656E742D 
- 4354      456E636F 
- 4354      64696E67 
- 4354      3A20677A 
- 4355              	.LC93:
- 4356 01e0 436F6E74 		.ascii	"Content-Length: %lu\012\000"
- 4356      656E742D 
- 4356      4C656E67 
- 4356      74683A20 
- 4356      256C750A 
- 4357 01f5 000000   		.space	3
- 4358              	.LC94:
- 4359 01f8 696D6167 		.ascii	"image/png\000"
- 4359      652F706E 
- 4359      6700
- 4360 0202 0000     		.space	2
- 4361              	.LC95:
- 4362 0204 2E6A7067 		.ascii	".jpg\000"
- 4362      00
- 4363              		.section	.rodata._ZNK13HttpResponder11DiagnosticsE11MessageType.str1.4,"aMS",%progbits,1
- 4364              		.align	2
- 4365              	.LC0:
- 4366 0000 20485454 		.ascii	" HTTP(%d)\000"
- 4366      50282564 
- 4366      2900
- 4367              		.section	.rodata._ZTV13HttpResponder,"a",%progbits
- 4368              		.align	2
- 4369              		.set	.LANCHOR0,. + 0
- 4370              		.type	_ZTV13HttpResponder, %object
- 4371              		.size	_ZTV13HttpResponder, 36
- 4372              	_ZTV13HttpResponder:
- 4373 0000 00000000 		.word	0
- 4374 0004 00000000 		.word	0
- 4375 0008 00000000 		.word	_ZN13HttpResponder4SpinEv
- 4376 000c 00000000 		.word	_ZN13HttpResponder6AcceptEP6Socketh
- 4377 0010 00000000 		.word	_ZN13HttpResponder9TerminateEh
- 4378 0014 00000000 		.word	_ZNK13HttpResponder11DiagnosticsE11MessageType
- 4379 0018 00000000 		.word	_ZN13HttpResponder8SendDataEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccUHQgpX.s 			page 84
+ 4343 018d 000000   		.space	3
+ 4344              	.LC85:
+ 4345 0190 2E6A7300 		.ascii	".js\000"
+ 4346              	.LC86:
+ 4347 0194 2E637373 		.ascii	".css\000"
+ 4347      00
+ 4348 0199 000000   		.space	3
+ 4349              	.LC87:
+ 4350 019c 2E7A6970 		.ascii	".zip\000"
+ 4350      00
+ 4351 01a1 000000   		.space	3
+ 4352              	.LC88:
+ 4353 01a4 6170706C 		.ascii	"application/zip\000"
+ 4353      69636174 
+ 4353      696F6E2F 
+ 4353      7A697000 
+ 4354              	.LC89:
+ 4355 01b4 436F6E74 		.ascii	"Content-Type: %s\012\000"
+ 4355      656E742D 
+ 4355      54797065 
+ 4355      3A202573 
+ 4355      0A00
+ 4356 01c6 0000     		.space	2
+ 4357              	.LC90:
+ 4358 01c8 2E6700   		.ascii	".g\000"
+ 4359 01cb 00       		.space	1
+ 4360              	.LC91:
+ 4361 01cc 2E676300 		.ascii	".gc\000"
+ 4362              	.LC92:
+ 4363 01d0 2E67636F 		.ascii	".gcode\000"
+ 4363      646500
+ 4364 01d7 00       		.space	1
+ 4365              	.LC93:
+ 4366 01d8 2E6A736F 		.ascii	".json\000"
+ 4366      6E00
+ 4367 01de 0000     		.space	2
+ 4368              	.LC94:
+ 4369 01e0 436F6E74 		.ascii	"Content-Encoding: gzip\012\000"
+ 4369      656E742D 
+ 4369      456E636F 
+ 4369      64696E67 
+ 4369      3A20677A 
+ 4370              	.LC95:
+ 4371 01f8 436F6E74 		.ascii	"Content-Length: %lu\012\000"
+ 4371      656E742D 
+ 4371      4C656E67 
+ 4371      74683A20 
+ 4371      256C750A 
+ 4372 020d 000000   		.space	3
+ 4373              	.LC96:
+ 4374 0210 696D6167 		.ascii	"image/png\000"
+ 4374      652F706E 
+ 4374      6700
+ 4375 021a 0000     		.space	2
+ 4376              	.LC97:
+ 4377 021c 2E6A7067 		.ascii	".jpg\000"
+ 4377      00
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccuqZEn1.s 			page 84
 
 
- 4380 001c 00000000 		.word	_ZN16NetworkResponder14ConnectionLostEv
- 4381 0020 00000000 		.word	_ZN13HttpResponder12CancelUploadEv
- 4382              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR
+ 4378              		.section	.rodata._ZNK13HttpResponder11DiagnosticsE11MessageType.str1.4,"aMS",%progbits,1
+ 4379              		.align	2
+ 4380              	.LC0:
+ 4381 0000 20485454 		.ascii	" HTTP(%d)\000"
+ 4381      50282564 
+ 4381      2900
+ 4382              		.section	.rodata._ZTV13HttpResponder,"a",%progbits
+ 4383              		.align	2
+ 4384              		.set	.LANCHOR0,. + 0
+ 4385              		.type	_ZTV13HttpResponder, %object
+ 4386              		.size	_ZTV13HttpResponder, 36
+ 4387              	_ZTV13HttpResponder:
+ 4388 0000 00000000 		.word	0
+ 4389 0004 00000000 		.word	0
+ 4390 0008 00000000 		.word	_ZN13HttpResponder4SpinEv
+ 4391 000c 00000000 		.word	_ZN13HttpResponder6AcceptEP6Socketh
+ 4392 0010 00000000 		.word	_ZN13HttpResponder9TerminateEh
+ 4393 0014 00000000 		.word	_ZNK13HttpResponder11DiagnosticsE11MessageType
+ 4394 0018 00000000 		.word	_ZN13HttpResponder8SendDataEv
+ 4395 001c 00000000 		.word	_ZN16NetworkResponder14ConnectionLostEv
+ 4396 0020 00000000 		.word	_ZN13HttpResponder12CancelUploadEv
+ 4397              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR

@@ -32,25 +32,21 @@ Licence: GPL
 #include "Logger.h"
 
 
-class LynxMod
-{
-private :
-	const Pin LYNXMOD_TX = 24;		// CS5 pin 3 temp daughterboard // 24 lynxmod test //////////////////////////////////////////////////////////////////////////////////////////////
+	const Pin LYNXMOD_SS = 24;		// CS5 pin 3 temp daughterboard // 24 lynxmod test //////////////////////////////////////////////////////////////////////////////////////////////
 	const Pin INPUT_DOOR_BP = 98;	// CS7 pin 7 temp daughterboard
-	const Pin DOOR_CMD = 43;		// Heater  6 ScrewTerminal
+	const Pin DOOR_CMD = 43;		// Heater 6 ScrewTerminal
 	const Pin INPUT_DOOR_STATE = 99;// CS8 pin 9 temp daughterboard
 	const Pin SAFETY_LED = 40;		// Heater  5 ScrewTerminal
 
+class LynxMod
+{
+
+private :
 	Logger *logger;
 	time_t realTime;
 
 public :
 	unsigned char LynxGCode;
-	Pin lynxModTX;
-	Pin inputDoorBP; // pin Duex E4 stop
-	Pin door_cmd;
-	Pin inputDoorState; // pin Duex E5 stop
-	Pin safety_led;
 	int GetLEDs();
 	unsigned int Com = 0, ex_Com = 0;
 	unsigned int ComP=0, ComC = 0;

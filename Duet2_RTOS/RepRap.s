@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
   55 003c 00000000 		.word	.LANCHOR0
   56 0040 00000000 		.word	reprap
   57              		.size	hsmciIdle, .-hsmciIdle
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 2
 
 
   58              		.section	.text.HSMCI_Handler,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  112 001e FFF7FEFF 		bl	_ZN6GCodes4ExitEv
  113 0022 E069     		ldr	r0, [r4, #28]
  114 0024 FFF7FEFF 		bl	_ZN7Scanner4ExitEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 3
 
 
  115 0028 606A     		ldr	r0, [r4, #36]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  169 0060 65CF8B3A 		.word	982241125
  170 0064 00000000 		.word	.LC0
  171              		.size	_ZN6RepRap6TimingE11MessageType, .-_ZN6RepRap6TimingE11MessageType
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 4
 
 
  172              		.section	.text._ZN6RepRap11DiagnosticsE11MessageType,"ax",%progbits
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  226 0068 2869     		ldr	r0, [r5, #16]
  227 006a FFF7FEFF 		bl	_ZN4Heat11DiagnosticsE11MessageType
  228 006e 2146     		mov	r1, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 5
 
 
  229 0070 6869     		ldr	r0, [r5, #20]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  283 0040 84F8EA30 		strb	r3, [r4, #234]
  284 0044 E069     		ldr	r0, [r4, #28]
  285 0046 A4F8E850 		strh	r5, [r4, #232]	@ movhi
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 6
 
 
  286 004a FFF7FEFF 		bl	_ZN7Scanner4SpinEv
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  340              		.syntax unified
  341              	@ 180 "../src/RTOSIface.h" 1
  342 00ea BFF34F8F 		dsb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 7
 
 
  343              	@ 0 "" 2
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  397              		.global	_ZN6RepRap4SpinEv
  398              		.syntax unified
  399              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 8
 
 
  400              		.thumb_func
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  454 0046 E868     		ldr	r0, [r5, #12]
  455 0048 FFF7FEFF 		bl	_ZN4Move4ExitEv
  456 004c 6868     		ldr	r0, [r5, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 9
 
 
  457 004e FFF7FEFF 		bl	_ZN8Platform16DisableAllDrivesEv
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  511              		.section	.text._ZN6RepRap10PrintDebugEv,"ax",%progbits
  512              		.align	1
  513              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 10
 
 
  514              		.global	_ZN6RepRap10PrintDebugEv
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  568              	.L77:
  569 0064 D5F8F430 		ldr	r3, [r5, #244]
  570 0068 06FA04F2 		lsl	r2, r6, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 11
 
 
  571 006c 1A42     		tst	r2, r3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  625              		.size	_ZN6RepRap8SetDebugE6Moduleb, .-_ZN6RepRap8SetDebugE6Moduleb
  626              		.section	.text._ZN6RepRap7AddToolEP4Tool,"ax",%progbits
  627              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 12
 
 
  628              		.p2align 2,,3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  682              		.syntax unified
  683              		.thumb
  684              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 13
 
 
  685              		.fpu fpv4-sp-d16
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  739              	.L113:
  740 001c 14B9     		cbnz	r4, .L115
  741              	.L112:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 14
 
 
  742 001e C5F8DC40 		str	r4, [r5, #220]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  796 0052 A342     		cmp	r3, r4
  797 0054 22D0     		beq	.L129
  798 0056 1A46     		mov	r2, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 15
 
 
  799              	.L128:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  853              		@ frame_needed = 0, uses_anonymous_args = 0
  854 0000 10B5     		push	{r4, lr}
  855 0002 1446     		mov	r4, r2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 16
 
 
  856 0004 FFF7FEFF 		bl	_ZNK6RepRap7GetToolEi
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  910 0040 BDE8F041 		pop	{r4, r5, r6, r7, r8, lr}
  911 0044 FFF7FEBF 		b	_ZN8Platform8MessageFE11MessageTypePKcz
  912              	.L168:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 17
 
 
  913              		.align	2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  967              	_ZNK6RepRap22IsHeaterAssignedToToolEa:
  968              		@ args = 0, pretend = 0, frame = 8
  969              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 18
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 18
 
 
  970 0000 30B5     		push	{r4, r5, lr}
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1024              		.thumb_func
  1025              		.fpu fpv4-sp-d16
  1026              		.type	_ZNK6RepRap26GetNumberOfContiguousToolsEv, %function
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 19
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 19
 
 
  1027              	_ZNK6RepRap26GetNumberOfContiguousToolsEv:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1081 003e 2946     		mov	r1, r5
  1082 0040 0022     		movs	r2, #0
  1083 0042 B0EE480A 		vmov.f32	s0, s16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 20
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 20
 
 
  1084 0046 6068     		ldr	r0, [r4, #4]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1138              		@ args = 0, pretend = 0, frame = 8
  1139              		@ frame_needed = 0, uses_anonymous_args = 0
  1140 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 21
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 21
 
 
  1141 0004 85B0     		sub	sp, sp, #20
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1195              	.L219:
  1196 0098 6C49     		ldr	r1, .L237+8
  1197 009a 0398     		ldr	r0, [sp, #12]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 22
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 22
 
 
  1198 009c DFF8F081 		ldr	r8, .L237+76
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1252 012c FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  1253              	.L214:
  1254 0130 FFF7FEFF 		bl	_ZN13DuetExpansion31GetAdditionalExpansionBoardNameEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 23
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 23
 
 
  1255 0134 20B1     		cbz	r0, .L215
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1309 01be 0135     		adds	r5, r5, #1
  1310 01c0 D3F89801 		ldr	r0, [r3, #408]	@ float
  1311 01c4 FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 24
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 24
 
 
  1312 01c8 3246     		mov	r2, r6
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1366 0244 00000000 		.word	.LC13
  1367 0248 24010000 		.word	.LC29
  1368 024c 18000000 		.word	.LC15
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 25
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 25
 
 
  1369 0250 2C000000 		.word	.LC16
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1423 003a 3849     		ldr	r1, .L267+4
  1424 003c 0398     		ldr	r0, [sp, #12]
  1425 003e 4246     		mov	r2, r8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 26
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 26
 
 
  1426 0040 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1480 00bc 9DF81020 		ldrb	r2, [sp, #16]	@ zero_extendqisi2
  1481              	.L248:
  1482 00c0 CDE90052 		strd	r5, r2, [sp]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 27
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 27
 
 
  1483 00c4 1846     		mov	r0, r3
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1537              		.thumb_func
  1538              		.fpu fpv4-sp-d16
  1539              		.type	_ZN6RepRap19GetFilelistResponseEPKcj, %function
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 28
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 28
 
 
  1540              	_ZN6RepRap19GetFilelistResponseEPKcj:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1594              	.L297:
  1595 0074 7368     		ldr	r3, [r6, #4]
  1596 0076 2146     		mov	r1, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 29
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 29
 
 
  1597 0078 D3F81C0A 		ldr	r0, [r3, #2588]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1651 00fa 7822     		movs	r2, #120
  1652 00fc 0598     		ldr	r0, [sp, #20]
  1653 00fe FFF7FEFF 		bl	_ZN12OutputBuffer12EncodeStringEPKcjbbb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 30
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 30
 
 
  1654 0102 259A     		ldr	r2, [sp, #148]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1708 0178 38000000 		.word	.LC33
  1709 017c 18000000 		.word	.LC35
  1710 0180 50000000 		.word	.LC37
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 31
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 31
 
 
  1711 0184 00000000 		.word	.LC34
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1765 0054 30B1     		cbz	r0, .L305
  1766 0056 9DF85C30 		ldrb	r3, [sp, #92]	@ zero_extendqisi2
  1767 005a 2846     		mov	r0, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 32
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 32
 
 
  1768 005c 3BB1     		cbz	r3, .L306
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1822 00d2 002A     		cmp	r2, #0
  1823 00d4 35D1     		bne	.L348
  1824              	.L309:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 33
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 33
 
 
  1825 00d6 2D49     		ldr	r1, .L350+16
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1879 0158 0369     		ldr	r3, [r0, #16]
  1880 015a 0391     		str	r1, [sp, #12]
  1881 015c 4168     		ldr	r1, [r0, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 34
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 34
 
 
  1882 015e 0291     		str	r1, [sp, #8]
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1936 0022 AA42     		cmp	r2, r5
  1937 0024 28BF     		it	cs
  1938 0026 2A46     		movcs	r2, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 35
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 35
 
 
  1939 0028 2CB9     		cbnz	r4, .L355
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  1993 000e 9046     		mov	r8, r2
  1994 0010 00F18001 		add	r1, r0, #128
  1995 0014 4FF0FF32 		mov	r2, #-1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 36
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 36
 
 
  1996 0018 6846     		mov	r0, sp
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2050 00b6 E6E7     		b	.L363
  2051              	.L370:
  2052              		.align	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 37
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 37
 
 
  2053              	.L369:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2107              	.L378:
  2108 001c 4320     		movs	r0, #67
  2109 001e 7047     		bx	lr
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 38
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 38
 
 
  2110              	.L395:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2164 008a 8A42     		cmp	r2, r1
  2165 008c 01D0     		beq	.L399
  2166              	.L389:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 39
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 39
 
 
  2167 008e 4220     		movs	r0, #66
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2221              	.L404:
  2222 004a 6369     		ldr	r3, [r4, #20]
  2223 004c 0B98     		ldr	r0, [sp, #44]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 40
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 40
 
 
  2224 004e D3F87034 		ldr	r3, [r3, #1136]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2278 00de 0135     		adds	r5, r5, #1
  2279 00e0 4246     		mov	r2, r8
  2280 00e2 8DED000B 		vstr.64	d0, [sp]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 41
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 41
 
 
  2281 00e6 2046     		mov	r0, r4
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2335 0174 D4F84031 		ldr	r3, [r4, #320]
  2336 0178 23B1     		cbz	r3, .L414
  2337 017a D4F83C31 		ldr	r3, [r4, #316]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 42
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 42
 
 
  2338 017e 002B     		cmp	r3, #0
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2392 020a 6068     		ldr	r0, [r4, #4]
  2393 020c 0B9E     		ldr	r6, [sp, #44]
  2394 020e FFF7FEFF 		bl	_ZNK8Platform11GetFanValueEj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 43
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 43
 
 
  2395 0212 20EE080A 		vmul.f32	s0, s0, s16
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2449 02a8 FFF7FEFF 		bl	__aeabi_f2d
  2450 02ac 0B46     		mov	r3, r1
  2451 02ae 0246     		mov	r2, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 44
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 44
 
 
  2452 02b0 2E49     		ldr	r1, .L677+72
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2506 033c 58000000 		.word	.LC58
  2507 0340 C8000000 		.word	.LC45
  2508 0344 64000000 		.word	.LC59
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 45
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 45
 
 
  2509 0348 00000000 		.word	0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2563 03ee 2069     		ldr	r0, [r4, #16]
  2564 03f0 8DED090A 		vstr.32	s0, [sp, #36]	@ int
  2565 03f4 FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 46
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 46
 
 
  2566 03f8 8146     		mov	r9, r0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2620              	.L438:
  2621 048e 69B2     		sxtb	r1, r5
  2622 0490 2069     		ldr	r0, [r4, #16]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 47
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 47
 
 
  2623 0492 0B9F     		ldr	r7, [sp, #44]
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2677 0520 FFF7FEFF 		bl	__aeabi_f2d
  2678 0524 4246     		mov	r2, r8
  2679 0526 CDE90001 		strd	r0, [sp]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 48
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 48
 
 
  2680 052a 3846     		mov	r0, r7
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2734 05b6 0B9F     		ldr	r7, [sp, #44]
  2735 05b8 FFF7FEFF 		bl	_ZNK4Heat21GetStandbyTemperatureEa
  2736 05bc 10EE100A 		vmov	r0, s0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 49
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 49
 
 
  2737 05c0 FFF7FEFF 		bl	__aeabi_f2d
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2791 064e BBF1000F 		cmp	fp, #0
  2792 0652 32D0     		beq	.L456
  2793 0654 DFF8A480 		ldr	r8, .L680+16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 50
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 50
 
 
  2794 0658 DFF8A490 		ldr	r9, .L680+20
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2848 06ea 1DE0     		b	.L464
  2849              	.L681:
  2850              		.align	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 51
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 51
 
 
  2851              	.L680:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2905 078c 23E0     		b	.L468
  2906              	.L467:
  2907 078e 5146     		mov	r1, r10
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 52
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 52
 
 
  2908 0790 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  2962 080c 2849     		ldr	r1, .L682+12
  2963 080e 0B98     		ldr	r0, [sp, #44]
  2964 0810 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 53
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 53
 
 
  2965 0814 0B9D     		ldr	r5, [sp, #44]
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3019 088c 0C49     		ldr	r1, .L682+28
  3020 088e D3F8A829 		ldr	r2, [r3, #2472]
  3021 0892 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 54
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 54
 
 
  3022 0896 079A     		ldr	r2, [sp, #28]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3076 0918 B349     		ldr	r1, .L684+8
  3077 091a 0B98     		ldr	r0, [sp, #44]
  3078 091c FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 55
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 55
 
 
  3079 0920 2069     		ldr	r0, [r4, #16]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3133 09ac 0AB1     		cbz	r2, .L485
  3134 09ae 43F00203 		orr	r3, r3, #2
  3135              	.L485:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 56
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 56
 
 
  3136 09b2 0222     		movs	r2, #2
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3190 0a44 00F06482 		beq	.L650
  3191 0a48 3378     		ldrb	r3, [r6]	@ zero_extendqisi2
  3192 0a4a 0B98     		ldr	r0, [sp, #44]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 57
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 57
 
 
  3193 0a4c 002B     		cmp	r3, #0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3247 0ad4 0B9A     		ldr	r2, [sp, #44]
  3248 0ad6 9C42     		cmp	r4, r3
  3249 0ad8 5946     		mov	r1, fp
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 58
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 58
 
 
  3250 0ada 1046     		mov	r0, r2
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3304 0b60 40F66429 		movw	r9, #2660
  3305 0b64 4FF00008 		mov	r8, #0
  3306 0b68 A246     		mov	r10, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 59
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 59
 
 
  3307 0b6a 0FE0     		b	.L474
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3361 0bf0 18040000 		.word	.LC99
  3362 0bf4 24000000 		.word	.LC4
  3363 0bf8 28040000 		.word	.LC100
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 60
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 60
 
 
  3364 0bfc 68040000 		.word	.LC101
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3418 0c98 7BB3     		cbz	r3, .L424
  3419 0c9a 0025     		movs	r5, #0
  3420 0c9c A649     		ldr	r1, .L686+16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 61
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 61
 
 
  3421 0c9e 0126     		movs	r6, #1
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3475 0d36 FFF7FEFF 		bl	__aeabi_f2d
  3476 0d3a 0246     		mov	r2, r0
  3477 0d3c 0B46     		mov	r3, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 62
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 62
 
 
  3478 0d3e 2846     		mov	r0, r5
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3532              	.L500:
  3533 0db8 D5F8A430 		ldr	r3, [r5, #164]
  3534 0dbc 0AFA04F2 		lsl	r2, r10, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 63
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 63
 
 
  3535 0dc0 1A42     		tst	r2, r3
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3589 0e40 0134     		adds	r4, r4, #1
  3590 0e42 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  3591 0e46 4445     		cmp	r4, r8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 64
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 64
 
 
  3592 0e48 EDD1     		bne	.L504
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3646 0ecc 0F46     		mov	r7, r1
  3647 0ece FFF7FEFF 		bl	__aeabi_f2d
  3648 0ed2 CDE90201 		strd	r0, [sp, #8]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 65
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 65
 
 
  3649 0ed6 0D98     		ldr	r0, [sp, #52]	@ float
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3703 0f6c 38050000 		.word	.LC116
  3704 0f70 48050000 		.word	.LC117
  3705 0f74 08000000 		.word	.LC51
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 66
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 66
 
 
  3706 0f78 20010000 		.word	.LC28
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3760 1010 3FF4E4A8 		beq	.L420
  3761 1014 8C49     		ldr	r1, .L688+8
  3762 1016 0B98     		ldr	r0, [sp, #44]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 67
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 67
 
 
  3763 1018 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3817 1098 7049     		ldr	r1, .L688+28
  3818 109a 3046     		mov	r0, r6
  3819 109c FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 68
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 68
 
 
  3820 10a0 6F49     		ldr	r1, .L688+32
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3874 112c FFF7FEFF 		bl	__aeabi_f2d
  3875 1130 0246     		mov	r2, r0
  3876 1132 0B46     		mov	r3, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 69
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 69
 
 
  3877              	.L514:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3931 11c6 2846     		mov	r0, r5
  3932 11c8 2D49     		ldr	r1, .L688+64
  3933 11ca FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 70
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 70
 
 
  3934 11ce 0B98     		ldr	r0, [sp, #44]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  3988 1254 00000000 		.word	.LC49
  3989 1258 B4050000 		.word	.LC120
  3990 125c C8050000 		.word	.LC121
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 71
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 71
 
 
  3991 1260 E4050000 		.word	.LC122
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4045 004a 2846     		mov	r0, r5
  4046 004c 7349     		ldr	r1, .L801+12
  4047 004e FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 72
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 72
 
 
  4048 0052 B4F8E630 		ldrh	r3, [r4, #230]
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4102 00dc 3846     		mov	r0, r7
  4103 00de FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  4104 00e2 B4F8E630 		ldrh	r3, [r4, #230]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 73
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 73
 
 
  4105 00e6 0135     		adds	r5, r5, #1
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4159 0168 2846     		mov	r0, r5
  4160 016a 3049     		ldr	r1, .L801+28
  4161 016c FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 74
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 74
 
 
  4162 0170 B4F8E630 		ldrh	r3, [r4, #230]
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4216 01fc 04D6     		bvs	.L781
  4217 01fe B4EE487A 		vcmp.f32	s14, s16
  4218 0202 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 75
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 75
 
 
  4219 0206 E1DD     		ble	.L791
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4273 0298 6069     		ldr	r0, [r4, #20]
  4274 029a 079D     		ldr	r5, [sp, #28]
  4275 029c 9FEDAD8A 		vldr.32	s16, .L803+4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 76
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 76
 
 
  4276 02a0 FFF7FEFF 		bl	_ZNK6GCodes14GetSpeedFactorEv
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4330 0334 8B49     		ldr	r1, .L803+20
  4331 0336 FFF7FEFF 		bl	_ZN12OutputBuffer4catfEPKcz
  4332 033a 6068     		ldr	r0, [r4, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 77
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 77
 
 
  4333 033c FFF7FEFF 		bl	_ZNK8Platform16GetZProbeReadingEv
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4387 03d2 8EB1     		cbz	r6, .L721
  4388 03d4 684F     		ldr	r7, .L803+40
  4389 03d6 0025     		movs	r5, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 78
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 78
 
 
  4390 03d8 5B22     		movs	r2, #91
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4444 0468 FFF7FEFF 		bl	_ZN12OutputBuffer12EncodeStringEPKcjbbb
  4445 046c 4549     		ldr	r1, .L803+52
  4446 046e 0798     		ldr	r0, [sp, #28]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 79
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 79
 
 
  4447 0470 FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4501 04f8 A7E5     		b	.L693
  4502              	.L750:
  4503 04fa 0022     		movs	r2, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 80
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 80
 
 
  4504 04fc 34E6     		b	.L702
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4558 0570 E4000000 		.word	.LC150
  4559 0574 F4000000 		.word	.LC151
  4560 0578 48000000 		.word	.LC56
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 81
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 81
 
 
  4561 057c 1C010000 		.word	.LC153
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4615 0618 4046     		mov	r0, r8	@ float
  4616 061a FFF7FEFF 		bl	__aeabi_f2d
  4617 061e 3246     		mov	r2, r6
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 82
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 82
 
 
  4618 0620 CDE90001 		strd	r0, [sp]
@@ -4911,14 +4911,14 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4665 068c FFF7FEFF 		bl	_ZN12OutputBuffer3catEPKc
  4666 0690 CDE90058 		strd	r5, r8, [sp]
  4667 0694 4346     		mov	r3, r8
- 4668 0696 3622     		movs	r2, #54
+ 4668 0696 3722     		movs	r2, #55
  4669 0698 0798     		ldr	r0, [sp, #28]
  4670 069a 2C49     		ldr	r1, .L805+16
  4671 069c FFF7FEFF 		bl	_ZN12OutputBuffer12EncodeStringEPKcjbbb
  4672 06a0 6368     		ldr	r3, [r4, #4]
  4673 06a2 079D     		ldr	r5, [sp, #28]
  4674 06a4 D3F8A829 		ldr	r2, [r3, #2472]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 83
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 83
 
 
  4675 06a8 FFE6     		b	.L734
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4729 0734 D2E92823 		ldrd	r2, r3, [r2, #160]
  4730 0738 F4E7     		b	.L788
  4731              	.L806:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 84
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 84
 
 
  4732 073a 00BF     		.align	2
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4786 0022 00BF     		.section	.text._ZN6RepRap4InitEv,"ax",%progbits
  4787              		.align	1
  4788              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 85
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 85
 
 
  4789              		.global	_ZN6RepRap4InitEv
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4843 007c 3049     		ldr	r1, .L823+24
  4844 007e 314A     		ldr	r2, .L823+28
  4845 0080 D3F81C0A 		ldr	r0, [r3, #2588]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 86
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 86
 
 
  4846 0084 FFF7FEFF 		bl	_ZNK11MassStorage10FileExistsEPKcS1_
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4900              	.L811:
  4901 0104 6068     		ldr	r0, [r4, #4]
  4902 0106 164B     		ldr	r3, .L823+56
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 87
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 87
 
 
  4903 0108 164A     		ldr	r2, .L823+60
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  4957 0018 28B3     		cbz	r0, .L825
  4958 001a 9046     		mov	r8, r2
  4959 001c 0F46     		mov	r7, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 88
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 88
 
 
  4960 001e 9946     		mov	r9, r3
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5014              		.global	_ZN6RepRap20FlagTemperatureFaultEa
  5015              		.syntax unified
  5016              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 89
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 89
 
 
  5017              		.thumb_func
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5071 002e 03B0     		add	sp, sp, #12
  5072              		@ sp needed
  5073 0030 30BD     		pop	{r4, r5, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 90
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 90
 
 
  5074              		.size	_ZN6RepRap21ClearTemperatureFaultEa, .-_ZN6RepRap21ClearTemperatureFaultEa
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5128              		@ frame_needed = 0, uses_anonymous_args = 0
  5129 0000 F0B5     		push	{r4, r5, r6, r7, lr}
  5130 0002 0646     		mov	r6, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 91
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 91
 
 
  5131 0004 83B0     		sub	sp, sp, #12
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5185              		@ sp needed
  5186 0074 F0BD     		pop	{r4, r5, r6, r7, pc}
  5187              		.size	_ZNK6RepRap17WriteToolSettingsEP9FileStore, .-_ZNK6RepRap17WriteToolSettingsEP9FileStore
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 92
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 92
 
 
  5188 0076 00BF     		.section	.text._ZN6RepRap8DoDivideEmm,"ax",%progbits
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5242              		@ args = 0, pretend = 0, frame = 8
  5243              		@ frame_needed = 0, uses_anonymous_args = 0
  5244 0000 00B5     		push	{lr}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 93
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 93
 
 
  5245 0002 0022     		movs	r2, #0
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5299 0044 B0FA80F0 		clz	r0, r0
  5300 0048 4009     		lsrs	r0, r0, #5
  5301 004a 0DB0     		add	sp, sp, #52
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 94
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 94
 
 
  5302              		@ sp needed
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5356              	_ZN6RepRapC2Ev:
  5357              		@ args = 0, pretend = 0, frame = 0
  5358              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 95
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 95
 
 
  5359 0000 70B5     		push	{r4, r5, r6, lr}
@@ -5678,7 +5678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5393 0074 0646     		mov	r6, r0
  5394 0076 FFF7FEFF 		bl	_ZN7NetworkC1ER8Platform
  5395 007a A660     		str	r6, [r4, #8]
- 5396 007c 4820     		movs	r0, #72
+ 5396 007c 4020     		movs	r0, #64
  5397 007e FFF7FEFF 		bl	_Znwj
  5398 0082 0646     		mov	r6, r0
  5399 0084 FFF7FEFF 		bl	_ZN7LynxModC1Ev
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5413 00b0 FFF7FEFF 		bl	_Znwj
  5414 00b4 6168     		ldr	r1, [r4, #4]
  5415 00b6 0646     		mov	r6, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 96
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 96
 
 
  5416 00b8 FFF7FEFF 		bl	_ZN4HeatC1ER8Platform
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5470 0012 02A8     		add	r0, sp, #8
  5471 0014 0393     		str	r3, [sp, #12]
  5472 0016 FFF7FEFF 		bl	_ZNK9StringRef5vcatfEPKcSt9__va_list
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 97
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 97
 
 
  5473 001a 04B0     		add	sp, sp, #16
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5527 0056 2549     		ldr	r1, .L939
  5528 0058 3846     		mov	r0, r7
  5529 005a FFF7FEFF 		bl	_ZN6StringILj220EE4catfEPKcz
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 98
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 98
 
 
  5530 005e 0BF10C05 		add	r5, fp, #12
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5584 00da DD22     		movs	r2, #221
  5585 00dc 1846     		mov	r0, r3
  5586 00de 0449     		ldr	r1, .L939+4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 99
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 99
 
 
  5587 00e0 0293     		str	r3, [sp, #8]
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5631      730A00
  5632 000b 00       		.space	1
  5633              	.LC3:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 100
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 100
 
 
  5634 000c 3D3D3D20 		.ascii	"=== Diagnostics ===\012\000"
@@ -5948,1097 +5948,1097 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 1
  5634      3D3D3D0A 
  5635 0021 000000   		.space	3
  5636              	.LC4:
- 5637 0024 52657052 		.ascii	"RepRapFirmware 2.0 for Duet 2 Ethernet Lynxter Rev "
+ 5637 0024 52657052 		.ascii	"RepRapFirmware 2.01 for Duet 2 Ethernet Lynxter Rev"
  5637      61704669 
  5637      726D7761 
  5637      72652032 
- 5637      2E302066 
- 5638 0057 312E3700 		.ascii	"1.7\000"
- 5639 005b 00       		.space	1
- 5640              	.LC5:
- 5641 005c 25732076 		.ascii	"%s version %s running on %s\000"
- 5641      65727369 
- 5641      6F6E2025 
- 5641      73207275 
- 5641      6E6E696E 
- 5642              	.LC6:
- 5643 0078 322E302E 		.ascii	"2.0.lynx(RTOS)\000"
- 5643      6C796E78 
- 5643      2852544F 
- 5643      532900
- 5644              		.section	.rodata._ZN6RepRap11StandbyToolEib.str1.4,"aMS",%progbits,1
- 5645              		.align	2
- 5646              	.LC12:
- 5647 0000 41747465 		.ascii	"Attempt to standby a non-existent tool: %d.\012\000"
- 5647      6D707420 
- 5647      746F2073 
- 5647      74616E64 
- 5647      62792061 
- 5648              		.section	.rodata._ZN6RepRap16GetFilesResponseEPKcjb.str1.4,"aMS",%progbits,1
- 5649              		.align	2
- 5650              	.LC30:
- 5651 0000 7B226469 		.ascii	"{\"dir\":\000"
- 5651      72223A00 
- 5652              	.LC31:
- 5653 0008 2C226669 		.ascii	",\"first\":%u,\"files\":[\000"
- 5653      72737422 
- 5653      3A25752C 
- 5653      2266696C 
- 5653      6573223A 
- 5654 001e 0000     		.space	2
- 5655              	.LC32:
- 5656 0020 5D2C226E 		.ascii	"],\"next\":%u,\"err\":%u}\000"
- 5656      65787422 
- 5656      3A25752C 
- 5656      22657272 
- 5656      223A2575 
- 5657 0036 0000     		.space	2
- 5658              	.LC33:
- 5659 0038 5D2C2265 		.ascii	"],\"err\":%u}\000"
- 5659      7272223A 
- 5659      25757D00 
- 5660              		.section	.rodata._ZN6RepRap17GetConfigResponseEv.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 101
+ 5637      2E303120 
+ 5638 0057 20312E37 		.ascii	" 1.7\000"
+ 5638      00
+ 5639              	.LC5:
+ 5640 005c 25732076 		.ascii	"%s version %s running on %s\000"
+ 5640      65727369 
+ 5640      6F6E2025 
+ 5640      73207275 
+ 5640      6E6E696E 
+ 5641              	.LC6:
+ 5642 0078 322E302E 		.ascii	"2.0.lynx(RTOS)\000"
+ 5642      6C796E78 
+ 5642      2852544F 
+ 5642      532900
+ 5643              		.section	.rodata._ZN6RepRap11StandbyToolEib.str1.4,"aMS",%progbits,1
+ 5644              		.align	2
+ 5645              	.LC12:
+ 5646 0000 41747465 		.ascii	"Attempt to standby a non-existent tool: %d.\012\000"
+ 5646      6D707420 
+ 5646      746F2073 
+ 5646      74616E64 
+ 5646      62792061 
+ 5647              		.section	.rodata._ZN6RepRap16GetFilesResponseEPKcjb.str1.4,"aMS",%progbits,1
+ 5648              		.align	2
+ 5649              	.LC30:
+ 5650 0000 7B226469 		.ascii	"{\"dir\":\000"
+ 5650      72223A00 
+ 5651              	.LC31:
+ 5652 0008 2C226669 		.ascii	",\"first\":%u,\"files\":[\000"
+ 5652      72737422 
+ 5652      3A25752C 
+ 5652      2266696C 
+ 5652      6573223A 
+ 5653 001e 0000     		.space	2
+ 5654              	.LC32:
+ 5655 0020 5D2C226E 		.ascii	"],\"next\":%u,\"err\":%u}\000"
+ 5655      65787422 
+ 5655      3A25752C 
+ 5655      22657272 
+ 5655      223A2575 
+ 5656 0036 0000     		.space	2
+ 5657              	.LC33:
+ 5658 0038 5D2C2265 		.ascii	"],\"err\":%u}\000"
+ 5658      7272223A 
+ 5658      25757D00 
+ 5659              		.section	.rodata._ZN6RepRap17GetConfigResponseEv.str1.4,"aMS",%progbits,1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 101
 
 
- 5661              		.align	2
- 5662              	.LC13:
- 5663 0000 7B226178 		.ascii	"{\"axisMins\":\000"
- 5663      69734D69 
- 5663      6E73223A 
- 5663      00
- 5664 000d 000000   		.space	3
- 5665              	.LC14:
- 5666 0010 2563252E 		.ascii	"%c%.2f\000"
- 5666      326600
- 5667 0017 00       		.space	1
- 5668              	.LC15:
- 5669 0018 5D2C2261 		.ascii	"],\"accelerations\":\000"
- 5669      6363656C 
- 5669      65726174 
- 5669      696F6E73 
- 5669      223A00
- 5670 002b 00       		.space	1
- 5671              	.LC16:
- 5672 002c 5D2C2263 		.ascii	"],\"currents\":\000"
- 5672      75727265 
- 5672      6E747322 
- 5672      3A00
- 5673 003a 0000     		.space	2
- 5674              	.LC17:
- 5675 003c 5D2C2266 		.ascii	"],\"firmwareElectronics\":\"%s\000"
- 5675      69726D77 
- 5675      61726545 
- 5675      6C656374 
- 5675      726F6E69 
- 5676              	.LC18:
- 5677 0058 202B2025 		.ascii	" + %s\000"
- 5677      7300
- 5678 005e 0000     		.space	2
- 5679              	.LC19:
- 5680 0060 222C2266 		.ascii	"\",\"firmwareName\":\"%s\"\000"
- 5680      69726D77 
- 5680      6172654E 
- 5680      616D6522 
- 5680      3A222573 
- 5681 0076 0000     		.space	2
- 5682              	.LC20:
- 5683 0078 2C226669 		.ascii	",\"firmwareVersion\":\"%s\"\000"
- 5683      726D7761 
- 5683      72655665 
- 5683      7273696F 
- 5683      6E223A22 
- 5684              	.LC21:
- 5685 0090 2C226477 		.ascii	",\"dwsVersion\":\"%s\"\000"
- 5685      73566572 
- 5685      73696F6E 
- 5685      223A2225 
- 5685      732200
- 5686 00a3 00       		.space	1
- 5687              	.LC22:
- 5688 00a4 32303138 		.ascii	"2018-10-12\000"
- 5688      2D31302D 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 102
+ 5660              		.align	2
+ 5661              	.LC13:
+ 5662 0000 7B226178 		.ascii	"{\"axisMins\":\000"
+ 5662      69734D69 
+ 5662      6E73223A 
+ 5662      00
+ 5663 000d 000000   		.space	3
+ 5664              	.LC14:
+ 5665 0010 2563252E 		.ascii	"%c%.2f\000"
+ 5665      326600
+ 5666 0017 00       		.space	1
+ 5667              	.LC15:
+ 5668 0018 5D2C2261 		.ascii	"],\"accelerations\":\000"
+ 5668      6363656C 
+ 5668      65726174 
+ 5668      696F6E73 
+ 5668      223A00
+ 5669 002b 00       		.space	1
+ 5670              	.LC16:
+ 5671 002c 5D2C2263 		.ascii	"],\"currents\":\000"
+ 5671      75727265 
+ 5671      6E747322 
+ 5671      3A00
+ 5672 003a 0000     		.space	2
+ 5673              	.LC17:
+ 5674 003c 5D2C2266 		.ascii	"],\"firmwareElectronics\":\"%s\000"
+ 5674      69726D77 
+ 5674      61726545 
+ 5674      6C656374 
+ 5674      726F6E69 
+ 5675              	.LC18:
+ 5676 0058 202B2025 		.ascii	" + %s\000"
+ 5676      7300
+ 5677 005e 0000     		.space	2
+ 5678              	.LC19:
+ 5679 0060 222C2266 		.ascii	"\",\"firmwareName\":\"%s\"\000"
+ 5679      69726D77 
+ 5679      6172654E 
+ 5679      616D6522 
+ 5679      3A222573 
+ 5680 0076 0000     		.space	2
+ 5681              	.LC20:
+ 5682 0078 2C226669 		.ascii	",\"firmwareVersion\":\"%s\"\000"
+ 5682      726D7761 
+ 5682      72655665 
+ 5682      7273696F 
+ 5682      6E223A22 
+ 5683              	.LC21:
+ 5684 0090 2C226477 		.ascii	",\"dwsVersion\":\"%s\"\000"
+ 5684      73566572 
+ 5684      73696F6E 
+ 5684      223A2225 
+ 5684      732200
+ 5685 00a3 00       		.space	1
+ 5686              	.LC22:
+ 5687 00a4 32303138 		.ascii	"2018-10-12\000"
+ 5687      2D31302D 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 102
 
 
- 5688      313200
- 5689 00af 00       		.space	1
- 5690              	.LC23:
- 5691 00b0 2C226669 		.ascii	",\"firmwareDate\":\"%s\"\000"
- 5691      726D7761 
- 5691      72654461 
- 5691      7465223A 
- 5691      22257322 
- 5692 00c5 000000   		.space	3
- 5693              	.LC24:
- 5694 00c8 2C226964 		.ascii	",\"idleCurrentFactor\":%.1f\000"
- 5694      6C654375 
- 5694      7272656E 
- 5694      74466163 
- 5694      746F7222 
- 5695 00e2 0000     		.space	2
- 5696              	.LC25:
- 5697 00e4 2C226964 		.ascii	",\"idleTimeout\":%.1f\000"
- 5697      6C655469 
- 5697      6D656F75 
- 5697      74223A25 
- 5697      2E316600 
- 5698              	.LC26:
- 5699 00f8 2C226D69 		.ascii	",\"minFeedrates\":\000"
- 5699      6E466565 
- 5699      64726174 
- 5699      6573223A 
- 5699      00
- 5700 0109 000000   		.space	3
- 5701              	.LC27:
- 5702 010c 5D2C226D 		.ascii	"],\"maxFeedrates\":\000"
- 5702      61784665 
- 5702      65647261 
- 5702      74657322 
- 5702      3A00
- 5703 011e 0000     		.space	2
- 5704              	.LC28:
- 5705 0120 5D7D00   		.ascii	"]}\000"
- 5706 0123 00       		.space	1
- 5707              	.LC29:
- 5708 0124 5D2C2261 		.ascii	"],\"axisMaxes\":\000"
- 5708      7869734D 
- 5708      61786573 
- 5708      223A00
- 5709              		.section	.rodata._ZN6RepRap17GetStatusResponseEh14ResponseSource.str1.4,"aMS",%progbits,1
- 5710              		.align	2
- 5711              	.LC49:
- 5712 0000 5B5D00   		.ascii	"[]\000"
- 5713 0003 00       		.space	1
- 5714              	.LC50:
- 5715 0004 5D00     		.ascii	"]\000"
- 5716 0006 0000     		.space	2
- 5717              	.LC51:
- 5718 0008 252E3266 		.ascii	"%.2f\000"
- 5718      00
- 5719 000d 000000   		.space	3
- 5720              	.LC52:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 103
+ 5687      313200
+ 5688 00af 00       		.space	1
+ 5689              	.LC23:
+ 5690 00b0 2C226669 		.ascii	",\"firmwareDate\":\"%s\"\000"
+ 5690      726D7761 
+ 5690      72654461 
+ 5690      7465223A 
+ 5690      22257322 
+ 5691 00c5 000000   		.space	3
+ 5692              	.LC24:
+ 5693 00c8 2C226964 		.ascii	",\"idleCurrentFactor\":%.1f\000"
+ 5693      6C654375 
+ 5693      7272656E 
+ 5693      74466163 
+ 5693      746F7222 
+ 5694 00e2 0000     		.space	2
+ 5695              	.LC25:
+ 5696 00e4 2C226964 		.ascii	",\"idleTimeout\":%.1f\000"
+ 5696      6C655469 
+ 5696      6D656F75 
+ 5696      74223A25 
+ 5696      2E316600 
+ 5697              	.LC26:
+ 5698 00f8 2C226D69 		.ascii	",\"minFeedrates\":\000"
+ 5698      6E466565 
+ 5698      64726174 
+ 5698      6573223A 
+ 5698      00
+ 5699 0109 000000   		.space	3
+ 5700              	.LC27:
+ 5701 010c 5D2C226D 		.ascii	"],\"maxFeedrates\":\000"
+ 5701      61784665 
+ 5701      65647261 
+ 5701      74657322 
+ 5701      3A00
+ 5702 011e 0000     		.space	2
+ 5703              	.LC28:
+ 5704 0120 5D7D00   		.ascii	"]}\000"
+ 5705 0123 00       		.space	1
+ 5706              	.LC29:
+ 5707 0124 5D2C2261 		.ascii	"],\"axisMaxes\":\000"
+ 5707      7869734D 
+ 5707      61786573 
+ 5707      223A00
+ 5708              		.section	.rodata._ZN6RepRap17GetStatusResponseEh14ResponseSource.str1.4,"aMS",%progbits,1
+ 5709              		.align	2
+ 5710              	.LC49:
+ 5711 0000 5B5D00   		.ascii	"[]\000"
+ 5712 0003 00       		.space	1
+ 5713              	.LC50:
+ 5714 0004 5D00     		.ascii	"]\000"
+ 5715 0006 0000     		.space	2
+ 5716              	.LC51:
+ 5717 0008 252E3266 		.ascii	"%.2f\000"
+ 5717      00
+ 5718 000d 000000   		.space	3
+ 5719              	.LC52:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 103
 
 
- 5721 0010 2C252E32 		.ascii	",%.2f\000"
- 5721      6600
- 5722 0016 0000     		.space	2
- 5723              	.LC53:
- 5724 0018 5D7D2C00 		.ascii	"]},\000"
- 5725              	.LC54:
- 5726 001c 7B227374 		.ascii	"{\"status\":\"%c\",\"coords\":{\000"
- 5726      61747573 
- 5726      223A2225 
- 5726      63222C22 
- 5726      636F6F72 
- 5727 0036 0000     		.space	2
- 5728              	.LC55:
- 5729 0038 22617865 		.ascii	"\"axesHomed\":\000"
- 5729      73486F6D 
- 5729      6564223A 
- 5729      00
- 5730 0045 000000   		.space	3
- 5731              	.LC56:
- 5732 0048 25632564 		.ascii	"%c%d\000"
- 5732      00
- 5733 004d 000000   		.space	3
- 5734              	.LC57:
- 5735 0050 2563252E 		.ascii	"%c%.3f\000"
- 5735      336600
- 5736 0057 00       		.space	1
- 5737              	.LC58:
- 5738 0058 5D2C2265 		.ascii	"],\"extr\":\000"
- 5738      78747222 
- 5738      3A00
- 5739 0062 0000     		.space	2
- 5740              	.LC59:
- 5741 0064 5D7D2C22 		.ascii	"]},\"currentTool\":%d\000"
- 5741      63757272 
- 5741      656E7454 
- 5741      6F6F6C22 
- 5741      3A256400 
- 5742              	.LC60:
- 5743 0078 2C00     		.ascii	",\000"
- 5744 007a 0000     		.space	2
- 5745              	.LC61:
- 5746 007c 226D6573 		.ascii	"\"message\":\000"
- 5746      73616765 
- 5746      223A00
- 5747 0087 00       		.space	1
- 5748              	.LC62:
- 5749 0088 226D7367 		.ascii	"\"msgBox\":{\"msg\":\000"
- 5749      426F7822 
- 5749      3A7B226D 
- 5749      7367223A 
- 5749      00
- 5750 0099 000000   		.space	3
- 5751              	.LC63:
- 5752 009c 2C227469 		.ascii	",\"title\":\000"
- 5752      746C6522 
- 5752      3A00
- 5753 00a6 0000     		.space	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 104
+ 5720 0010 2C252E32 		.ascii	",%.2f\000"
+ 5720      6600
+ 5721 0016 0000     		.space	2
+ 5722              	.LC53:
+ 5723 0018 5D7D2C00 		.ascii	"]},\000"
+ 5724              	.LC54:
+ 5725 001c 7B227374 		.ascii	"{\"status\":\"%c\",\"coords\":{\000"
+ 5725      61747573 
+ 5725      223A2225 
+ 5725      63222C22 
+ 5725      636F6F72 
+ 5726 0036 0000     		.space	2
+ 5727              	.LC55:
+ 5728 0038 22617865 		.ascii	"\"axesHomed\":\000"
+ 5728      73486F6D 
+ 5728      6564223A 
+ 5728      00
+ 5729 0045 000000   		.space	3
+ 5730              	.LC56:
+ 5731 0048 25632564 		.ascii	"%c%d\000"
+ 5731      00
+ 5732 004d 000000   		.space	3
+ 5733              	.LC57:
+ 5734 0050 2563252E 		.ascii	"%c%.3f\000"
+ 5734      336600
+ 5735 0057 00       		.space	1
+ 5736              	.LC58:
+ 5737 0058 5D2C2265 		.ascii	"],\"extr\":\000"
+ 5737      78747222 
+ 5737      3A00
+ 5738 0062 0000     		.space	2
+ 5739              	.LC59:
+ 5740 0064 5D7D2C22 		.ascii	"]},\"currentTool\":%d\000"
+ 5740      63757272 
+ 5740      656E7454 
+ 5740      6F6F6C22 
+ 5740      3A256400 
+ 5741              	.LC60:
+ 5742 0078 2C00     		.ascii	",\000"
+ 5743 007a 0000     		.space	2
+ 5744              	.LC61:
+ 5745 007c 226D6573 		.ascii	"\"message\":\000"
+ 5745      73616765 
+ 5745      223A00
+ 5746 0087 00       		.space	1
+ 5747              	.LC62:
+ 5748 0088 226D7367 		.ascii	"\"msgBox\":{\"msg\":\000"
+ 5748      426F7822 
+ 5748      3A7B226D 
+ 5748      7367223A 
+ 5748      00
+ 5749 0099 000000   		.space	3
+ 5750              	.LC63:
+ 5751 009c 2C227469 		.ascii	",\"title\":\000"
+ 5751      746C6522 
+ 5751      3A00
+ 5752 00a6 0000     		.space	2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 104
 
 
- 5754              	.LC64:
- 5755 00a8 2C226D6F 		.ascii	",\"mode\":%d,\"seq\":%lu,\"timeout\":%.1f,\"control"
- 5755      6465223A 
- 5755      25642C22 
- 5755      73657122 
- 5755      3A256C75 
- 5756 00d4 73223A25 		.ascii	"s\":%lu}\000"
- 5756      6C757D00 
- 5757              	.LC65:
- 5758 00dc 2C227061 		.ascii	",\"params\":{\"atxPower\":%d\000"
- 5758      72616D73 
- 5758      223A7B22 
- 5758      61747850 
- 5758      6F776572 
- 5759 00f5 000000   		.space	3
- 5760              	.LC66:
- 5761 00f8 2C226661 		.ascii	",\"fanPercent\":\000"
- 5761      6E506572 
- 5761      63656E74 
- 5761      223A00
- 5762 0107 00       		.space	1
- 5763              	.LC67:
- 5764 0108 5D2C2273 		.ascii	"],\"speedFactor\":%.1f,\"extrFactors\":\000"
- 5764      70656564 
- 5764      46616374 
- 5764      6F72223A 
- 5764      252E3166 
- 5765              	.LC68:
- 5766 012c 2C226261 		.ascii	",\"babystep\":%.3f}\000"
- 5766      62797374 
- 5766      6570223A 
- 5766      252E3366 
- 5766      7D00
- 5767 013e 0000     		.space	2
- 5768              	.LC69:
- 5769 0140 2C227365 		.ascii	",\"seq\":%lu\000"
- 5769      71223A25 
- 5769      6C7500
- 5770 014b 00       		.space	1
- 5771              	.LC70:
- 5772 014c 2C227365 		.ascii	",\"sensors\":{\000"
- 5772      6E736F72 
- 5772      73223A7B 
- 5772      00
- 5773 0159 000000   		.space	3
- 5774              	.LC71:
- 5775 015c 2270726F 		.ascii	"\"probeValue\":%d,\"probeSecondary\":[%d]\000"
- 5775      62655661 
- 5775      6C756522 
- 5775      3A25642C 
- 5775      2270726F 
- 5776 0182 0000     		.space	2
- 5777              	.LC72:
- 5778 0184 2270726F 		.ascii	"\"probeValue\":%d,\"probeSecondary\":[%d,%d]\000"
- 5778      62655661 
- 5778      6C756522 
- 5778      3A25642C 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 105
+ 5753              	.LC64:
+ 5754 00a8 2C226D6F 		.ascii	",\"mode\":%d,\"seq\":%lu,\"timeout\":%.1f,\"control"
+ 5754      6465223A 
+ 5754      25642C22 
+ 5754      73657122 
+ 5754      3A256C75 
+ 5755 00d4 73223A25 		.ascii	"s\":%lu}\000"
+ 5755      6C757D00 
+ 5756              	.LC65:
+ 5757 00dc 2C227061 		.ascii	",\"params\":{\"atxPower\":%d\000"
+ 5757      72616D73 
+ 5757      223A7B22 
+ 5757      61747850 
+ 5757      6F776572 
+ 5758 00f5 000000   		.space	3
+ 5759              	.LC66:
+ 5760 00f8 2C226661 		.ascii	",\"fanPercent\":\000"
+ 5760      6E506572 
+ 5760      63656E74 
+ 5760      223A00
+ 5761 0107 00       		.space	1
+ 5762              	.LC67:
+ 5763 0108 5D2C2273 		.ascii	"],\"speedFactor\":%.1f,\"extrFactors\":\000"
+ 5763      70656564 
+ 5763      46616374 
+ 5763      6F72223A 
+ 5763      252E3166 
+ 5764              	.LC68:
+ 5765 012c 2C226261 		.ascii	",\"babystep\":%.3f}\000"
+ 5765      62797374 
+ 5765      6570223A 
+ 5765      252E3366 
+ 5765      7D00
+ 5766 013e 0000     		.space	2
+ 5767              	.LC69:
+ 5768 0140 2C227365 		.ascii	",\"seq\":%lu\000"
+ 5768      71223A25 
+ 5768      6C7500
+ 5769 014b 00       		.space	1
+ 5770              	.LC70:
+ 5771 014c 2C227365 		.ascii	",\"sensors\":{\000"
+ 5771      6E736F72 
+ 5771      73223A7B 
+ 5771      00
+ 5772 0159 000000   		.space	3
+ 5773              	.LC71:
+ 5774 015c 2270726F 		.ascii	"\"probeValue\":%d,\"probeSecondary\":[%d]\000"
+ 5774      62655661 
+ 5774      6C756522 
+ 5774      3A25642C 
+ 5774      2270726F 
+ 5775 0182 0000     		.space	2
+ 5776              	.LC72:
+ 5777 0184 2270726F 		.ascii	"\"probeValue\":%d,\"probeSecondary\":[%d,%d]\000"
+ 5777      62655661 
+ 5777      6C756522 
+ 5777      3A25642C 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 105
 
 
- 5778      2270726F 
- 5779 01ad 000000   		.space	3
- 5780              	.LC73:
- 5781 01b0 2270726F 		.ascii	"\"probeValue\":%d\000"
- 5781      62655661 
- 5781      6C756522 
- 5781      3A256400 
- 5782              	.LC74:
- 5783 01c0 2C226661 		.ascii	",\"fanRPM\":%d}\000"
- 5783      6E52504D 
- 5783      223A2564 
- 5783      7D00
- 5784 01ce 0000     		.space	2
- 5785              	.LC75:
- 5786 01d0 2C227465 		.ascii	",\"temps\":{\000"
- 5786      6D707322 
- 5786      3A7B00
- 5787 01db 00       		.space	1
- 5788              	.LC76:
- 5789 01dc 22626564 		.ascii	"\"bed\":{\"current\":%.1f,\"active\":%.1f,\"state\""
- 5789      223A7B22 
- 5789      63757272 
- 5789      656E7422 
- 5789      3A252E31 
- 5790 0207 3A25642C 		.ascii	":%d,\"heater\":%d},\000"
- 5790      22686561 
- 5790      74657222 
- 5790      3A25647D 
- 5790      2C00
- 5791 0219 000000   		.space	3
- 5792              	.LC77:
- 5793 021c 22636861 		.ascii	"\"chamber\":{\"current\":%.1f,\"active\":%.1f,\"sta"
- 5793      6D626572 
- 5793      223A7B22 
- 5793      63757272 
- 5793      656E7422 
- 5794 0248 7465223A 		.ascii	"te\":%d,\"heater\":%d},\000"
- 5794      25642C22 
- 5794      68656174 
- 5794      6572223A 
- 5794      25647D2C 
- 5795 025d 000000   		.space	3
- 5796              	.LC78:
- 5797 0260 22636162 		.ascii	"\"cabinet\":{\"current\":%.1f,\"active\":%.1f,\"sta"
- 5797      696E6574 
- 5797      223A7B22 
- 5797      63757272 
- 5797      656E7422 
- 5798 028c 7465223A 		.ascii	"te\":%d,\"heater\":%d},\000"
- 5798      25642C22 
- 5798      68656174 
- 5798      6572223A 
- 5798      25647D2C 
- 5799 02a1 000000   		.space	3
- 5800              	.LC79:
- 5801 02a4 22637572 		.ascii	"\"current\":\000"
- 5801      72656E74 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 106
+ 5777      2270726F 
+ 5778 01ad 000000   		.space	3
+ 5779              	.LC73:
+ 5780 01b0 2270726F 		.ascii	"\"probeValue\":%d\000"
+ 5780      62655661 
+ 5780      6C756522 
+ 5780      3A256400 
+ 5781              	.LC74:
+ 5782 01c0 2C226661 		.ascii	",\"fanRPM\":%d}\000"
+ 5782      6E52504D 
+ 5782      223A2564 
+ 5782      7D00
+ 5783 01ce 0000     		.space	2
+ 5784              	.LC75:
+ 5785 01d0 2C227465 		.ascii	",\"temps\":{\000"
+ 5785      6D707322 
+ 5785      3A7B00
+ 5786 01db 00       		.space	1
+ 5787              	.LC76:
+ 5788 01dc 22626564 		.ascii	"\"bed\":{\"current\":%.1f,\"active\":%.1f,\"state\""
+ 5788      223A7B22 
+ 5788      63757272 
+ 5788      656E7422 
+ 5788      3A252E31 
+ 5789 0207 3A25642C 		.ascii	":%d,\"heater\":%d},\000"
+ 5789      22686561 
+ 5789      74657222 
+ 5789      3A25647D 
+ 5789      2C00
+ 5790 0219 000000   		.space	3
+ 5791              	.LC77:
+ 5792 021c 22636861 		.ascii	"\"chamber\":{\"current\":%.1f,\"active\":%.1f,\"sta"
+ 5792      6D626572 
+ 5792      223A7B22 
+ 5792      63757272 
+ 5792      656E7422 
+ 5793 0248 7465223A 		.ascii	"te\":%d,\"heater\":%d},\000"
+ 5793      25642C22 
+ 5793      68656174 
+ 5793      6572223A 
+ 5793      25647D2C 
+ 5794 025d 000000   		.space	3
+ 5795              	.LC78:
+ 5796 0260 22636162 		.ascii	"\"cabinet\":{\"current\":%.1f,\"active\":%.1f,\"sta"
+ 5796      696E6574 
+ 5796      223A7B22 
+ 5796      63757272 
+ 5796      656E7422 
+ 5797 028c 7465223A 		.ascii	"te\":%d,\"heater\":%d},\000"
+ 5797      25642C22 
+ 5797      68656174 
+ 5797      6572223A 
+ 5797      25647D2C 
+ 5798 02a1 000000   		.space	3
+ 5799              	.LC79:
+ 5800 02a4 22637572 		.ascii	"\"current\":\000"
+ 5800      72656E74 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 106
 
 
- 5801      223A00
- 5802 02af 00       		.space	1
- 5803              	.LC80:
- 5804 02b0 2C227374 		.ascii	",\"state\":\000"
- 5804      61746522 
- 5804      3A00
- 5805 02ba 0000     		.space	2
- 5806              	.LC81:
- 5807 02bc 2C226865 		.ascii	",\"heads\":{\"current\":\000"
- 5807      61647322 
- 5807      3A7B2263 
- 5807      75727265 
- 5807      6E74223A 
- 5808 02d1 000000   		.space	3
- 5809              	.LC82:
- 5810 02d4 2C226163 		.ascii	",\"active\":\000"
- 5810      74697665 
- 5810      223A00
- 5811 02df 00       		.space	1
- 5812              	.LC83:
- 5813 02e0 2C227374 		.ascii	",\"standby\":\000"
- 5813      616E6462 
- 5813      79223A00 
- 5814              	.LC84:
- 5815 02ec 7D2C2274 		.ascii	"},\"tools\":{\"active\":[\000"
- 5815      6F6F6C73 
- 5815      223A7B22 
- 5815      61637469 
- 5815      7665223A 
- 5816 0302 0000     		.space	2
- 5817              	.LC85:
- 5818 0304 5D2C2273 		.ascii	"],\"standby\":[\000"
- 5818      74616E64 
- 5818      6279223A 
- 5818      5B00
- 5819 0312 0000     		.space	2
- 5820              	.LC86:
- 5821 0314 5D7D2C22 		.ascii	"]},\"extra\":[\000"
- 5821      65787472 
- 5821      61223A5B 
- 5821      00
- 5822 0321 000000   		.space	3
- 5823              	.LC87:
- 5824 0324 7B226E61 		.ascii	"{\"name\":\000"
- 5824      6D65223A 
- 5824      00
- 5825 032d 000000   		.space	3
- 5826              	.LC88:
- 5827 0330 2C227465 		.ascii	",\"temp\":%.1f}\000"
- 5827      6D70223A 
- 5827      252E3166 
- 5827      7D00
- 5828 033e 0000     		.space	2
- 5829              	.LC89:
- 5830 0340 2C227469 		.ascii	",\"time\":%.1f\000"
- 5830      6D65223A 
- 5830      252E3166 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 107
+ 5800      223A00
+ 5801 02af 00       		.space	1
+ 5802              	.LC80:
+ 5803 02b0 2C227374 		.ascii	",\"state\":\000"
+ 5803      61746522 
+ 5803      3A00
+ 5804 02ba 0000     		.space	2
+ 5805              	.LC81:
+ 5806 02bc 2C226865 		.ascii	",\"heads\":{\"current\":\000"
+ 5806      61647322 
+ 5806      3A7B2263 
+ 5806      75727265 
+ 5806      6E74223A 
+ 5807 02d1 000000   		.space	3
+ 5808              	.LC82:
+ 5809 02d4 2C226163 		.ascii	",\"active\":\000"
+ 5809      74697665 
+ 5809      223A00
+ 5810 02df 00       		.space	1
+ 5811              	.LC83:
+ 5812 02e0 2C227374 		.ascii	",\"standby\":\000"
+ 5812      616E6462 
+ 5812      79223A00 
+ 5813              	.LC84:
+ 5814 02ec 7D2C2274 		.ascii	"},\"tools\":{\"active\":[\000"
+ 5814      6F6F6C73 
+ 5814      223A7B22 
+ 5814      61637469 
+ 5814      7665223A 
+ 5815 0302 0000     		.space	2
+ 5816              	.LC85:
+ 5817 0304 5D2C2273 		.ascii	"],\"standby\":[\000"
+ 5817      74616E64 
+ 5817      6279223A 
+ 5817      5B00
+ 5818 0312 0000     		.space	2
+ 5819              	.LC86:
+ 5820 0314 5D7D2C22 		.ascii	"]},\"extra\":[\000"
+ 5820      65787472 
+ 5820      61223A5B 
+ 5820      00
+ 5821 0321 000000   		.space	3
+ 5822              	.LC87:
+ 5823 0324 7B226E61 		.ascii	"{\"name\":\000"
+ 5823      6D65223A 
+ 5823      00
+ 5824 032d 000000   		.space	3
+ 5825              	.LC88:
+ 5826 0330 2C227465 		.ascii	",\"temp\":%.1f}\000"
+ 5826      6D70223A 
+ 5826      252E3166 
+ 5826      7D00
+ 5827 033e 0000     		.space	2
+ 5828              	.LC89:
+ 5829 0340 2C227469 		.ascii	",\"time\":%.1f\000"
+ 5829      6D65223A 
+ 5829      252E3166 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 107
 
 
- 5830      00
- 5831 034d 000000   		.space	3
- 5832              	.LC90:
- 5833 0350 2C227363 		.ascii	",\"scanner\":{\"status\":\"%c\"\000"
- 5833      616E6E65 
- 5833      72223A7B 
- 5833      22737461 
- 5833      74757322 
- 5834 036a 0000     		.space	2
- 5835              	.LC91:
- 5836 036c 2C227072 		.ascii	",\"progress\":%.1f}\000"
- 5836      6F677265 
- 5836      7373223A 
- 5836      252E3166 
- 5836      7D00
- 5837 037e 0000     		.space	2
- 5838              	.LC92:
- 5839 0380 2C227370 		.ascii	",\"spindles\":[\000"
- 5839      696E646C 
- 5839      6573223A 
- 5839      5B00
- 5840 038e 0000     		.space	2
- 5841              	.LC93:
- 5842 0390 7B226375 		.ascii	"{\"current\":%.1f,\"active\":%.1f\000"
- 5842      7272656E 
- 5842      74223A25 
- 5842      2E31662C 
- 5842      22616374 
- 5843 03ae 0000     		.space	2
- 5844              	.LC94:
- 5845 03b0 2C22746F 		.ascii	",\"tool\":%d}\000"
- 5845      6F6C223A 
- 5845      25647D00 
- 5846              	.LC95:
- 5847 03bc 2C22636F 		.ascii	",\"coldExtrudeTemp\":%.1f\000"
- 5847      6C644578 
- 5847      74727564 
- 5847      6554656D 
- 5847      70223A25 
- 5848              	.LC96:
- 5849 03d4 2C22636F 		.ascii	",\"coldRetractTemp\":%.1f\000"
- 5849      6C645265 
- 5849      74726163 
- 5849      7454656D 
- 5849      70223A25 
- 5850              	.LC97:
- 5851 03ec 2C22636F 		.ascii	",\"controllableFans\":%lu\000"
- 5851      6E74726F 
- 5851      6C6C6162 
- 5851      6C654661 
- 5851      6E73223A 
- 5852              	.LC98:
- 5853 0404 2C227465 		.ascii	",\"tempLimit\":%.1f\000"
- 5853      6D704C69 
- 5853      6D697422 
- 5853      3A252E31 
- 5853      6600
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 108
+ 5829      00
+ 5830 034d 000000   		.space	3
+ 5831              	.LC90:
+ 5832 0350 2C227363 		.ascii	",\"scanner\":{\"status\":\"%c\"\000"
+ 5832      616E6E65 
+ 5832      72223A7B 
+ 5832      22737461 
+ 5832      74757322 
+ 5833 036a 0000     		.space	2
+ 5834              	.LC91:
+ 5835 036c 2C227072 		.ascii	",\"progress\":%.1f}\000"
+ 5835      6F677265 
+ 5835      7373223A 
+ 5835      252E3166 
+ 5835      7D00
+ 5836 037e 0000     		.space	2
+ 5837              	.LC92:
+ 5838 0380 2C227370 		.ascii	",\"spindles\":[\000"
+ 5838      696E646C 
+ 5838      6573223A 
+ 5838      5B00
+ 5839 038e 0000     		.space	2
+ 5840              	.LC93:
+ 5841 0390 7B226375 		.ascii	"{\"current\":%.1f,\"active\":%.1f\000"
+ 5841      7272656E 
+ 5841      74223A25 
+ 5841      2E31662C 
+ 5841      22616374 
+ 5842 03ae 0000     		.space	2
+ 5843              	.LC94:
+ 5844 03b0 2C22746F 		.ascii	",\"tool\":%d}\000"
+ 5844      6F6C223A 
+ 5844      25647D00 
+ 5845              	.LC95:
+ 5846 03bc 2C22636F 		.ascii	",\"coldExtrudeTemp\":%.1f\000"
+ 5846      6C644578 
+ 5846      74727564 
+ 5846      6554656D 
+ 5846      70223A25 
+ 5847              	.LC96:
+ 5848 03d4 2C22636F 		.ascii	",\"coldRetractTemp\":%.1f\000"
+ 5848      6C645265 
+ 5848      74726163 
+ 5848      7454656D 
+ 5848      70223A25 
+ 5849              	.LC97:
+ 5850 03ec 2C22636F 		.ascii	",\"controllableFans\":%lu\000"
+ 5850      6E74726F 
+ 5850      6C6C6162 
+ 5850      6C654661 
+ 5850      6E73223A 
+ 5851              	.LC98:
+ 5852 0404 2C227465 		.ascii	",\"tempLimit\":%.1f\000"
+ 5852      6D704C69 
+ 5852      6D697422 
+ 5852      3A252E31 
+ 5852      6600
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 108
 
 
- 5854 0416 0000     		.space	2
- 5855              	.LC99:
- 5856 0418 2C22656E 		.ascii	",\"endstops\":%lu\000"
- 5856      6473746F 
- 5856      7073223A 
- 5856      256C7500 
- 5857              	.LC100:
- 5858 0428 2C226669 		.ascii	",\"firmwareName\":\"%s\",\"geometry\":\"%s\",\"axes"
- 5858      726D7761 
- 5858      72654E61 
- 5858      6D65223A 
- 5858      22257322 
- 5859 0452 223A2575 		.ascii	"\":%u,\"axisNames\":\"%s\"\000"
- 5859      2C226178 
- 5859      69734E61 
- 5859      6D657322 
- 5859      3A222573 
- 5860              	.LC101:
- 5861 0468 2C22766F 		.ascii	",\"volumes\":%u,\"mountedVolumes\":%u\000"
- 5861      6C756D65 
- 5861      73223A25 
- 5861      752C226D 
- 5861      6F756E74 
- 5862 048a 0000     		.space	2
- 5863              	.LC102:
- 5864 048c 2C226E61 		.ascii	",\"name\":\000"
- 5864      6D65223A 
- 5864      00
- 5865 0495 000000   		.space	3
- 5866              	.LC103:
- 5867 0498 2C227072 		.ascii	",\"probe\":{\"threshold\":%li\000"
- 5867      6F626522 
- 5867      3A7B2274 
- 5867      68726573 
- 5867      686F6C64 
- 5868 04b2 0000     		.space	2
- 5869              	.LC104:
- 5870 04b4 2C226865 		.ascii	",\"height\":%.2f\000"
- 5870      69676874 
- 5870      223A252E 
- 5870      326600
- 5871 04c3 00       		.space	1
- 5872              	.LC105:
- 5873 04c4 2C227479 		.ascii	",\"type\":%u}\000"
- 5873      7065223A 
- 5873      25757D00 
- 5874              	.LC106:
- 5875 04d0 2C22746F 		.ascii	",\"tools\":[\000"
- 5875      6F6C7322 
- 5875      3A5B00
- 5876 04db 00       		.space	1
- 5877              	.LC107:
- 5878 04dc 7B226E75 		.ascii	"{\"number\":%d\000"
- 5878      6D626572 
- 5878      223A2564 
- 5878      00
- 5879 04e9 000000   		.space	3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 109
+ 5853 0416 0000     		.space	2
+ 5854              	.LC99:
+ 5855 0418 2C22656E 		.ascii	",\"endstops\":%lu\000"
+ 5855      6473746F 
+ 5855      7073223A 
+ 5855      256C7500 
+ 5856              	.LC100:
+ 5857 0428 2C226669 		.ascii	",\"firmwareName\":\"%s\",\"geometry\":\"%s\",\"axes"
+ 5857      726D7761 
+ 5857      72654E61 
+ 5857      6D65223A 
+ 5857      22257322 
+ 5858 0452 223A2575 		.ascii	"\":%u,\"axisNames\":\"%s\"\000"
+ 5858      2C226178 
+ 5858      69734E61 
+ 5858      6D657322 
+ 5858      3A222573 
+ 5859              	.LC101:
+ 5860 0468 2C22766F 		.ascii	",\"volumes\":%u,\"mountedVolumes\":%u\000"
+ 5860      6C756D65 
+ 5860      73223A25 
+ 5860      752C226D 
+ 5860      6F756E74 
+ 5861 048a 0000     		.space	2
+ 5862              	.LC102:
+ 5863 048c 2C226E61 		.ascii	",\"name\":\000"
+ 5863      6D65223A 
+ 5863      00
+ 5864 0495 000000   		.space	3
+ 5865              	.LC103:
+ 5866 0498 2C227072 		.ascii	",\"probe\":{\"threshold\":%li\000"
+ 5866      6F626522 
+ 5866      3A7B2274 
+ 5866      68726573 
+ 5866      686F6C64 
+ 5867 04b2 0000     		.space	2
+ 5868              	.LC104:
+ 5869 04b4 2C226865 		.ascii	",\"height\":%.2f\000"
+ 5869      69676874 
+ 5869      223A252E 
+ 5869      326600
+ 5870 04c3 00       		.space	1
+ 5871              	.LC105:
+ 5872 04c4 2C227479 		.ascii	",\"type\":%u}\000"
+ 5872      7065223A 
+ 5872      25757D00 
+ 5873              	.LC106:
+ 5874 04d0 2C22746F 		.ascii	",\"tools\":[\000"
+ 5874      6F6C7322 
+ 5874      3A5B00
+ 5875 04db 00       		.space	1
+ 5876              	.LC107:
+ 5877 04dc 7B226E75 		.ascii	"{\"number\":%d\000"
+ 5877      6D626572 
+ 5877      223A2564 
+ 5877      00
+ 5878 04e9 000000   		.space	3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 109
 
 
- 5880              	.LC108:
- 5881 04ec 2C226865 		.ascii	",\"heaters\":[\000"
- 5881      61746572 
- 5881      73223A5B 
- 5881      00
- 5882 04f9 000000   		.space	3
- 5883              	.LC109:
- 5884 04fc 256400   		.ascii	"%d\000"
- 5885 04ff 00       		.space	1
- 5886              	.LC110:
- 5887 0500 5D2C2264 		.ascii	"],\"drives\":[\000"
- 5887      72697665 
- 5887      73223A5B 
- 5887      00
- 5888 050d 000000   		.space	3
- 5889              	.LC111:
- 5890 0510 5D2C2261 		.ascii	"],\"axisMap\":[[\000"
- 5890      7869734D 
- 5890      6170223A 
- 5890      5B5B00
- 5891 051f 00       		.space	1
- 5892              	.LC112:
- 5893 0520 257500   		.ascii	"%u\000"
- 5894 0523 00       		.space	1
- 5895              	.LC113:
- 5896 0524 5D2C5B00 		.ascii	"],[\000"
- 5897              	.LC114:
- 5898 0528 5D5D00   		.ascii	"]]\000"
- 5899 052b 00       		.space	1
- 5900              	.LC115:
- 5901 052c 2C226661 		.ascii	",\"fans\":%lu\000"
- 5901      6E73223A 
- 5901      256C7500 
- 5902              	.LC116:
- 5903 0538 2C226669 		.ascii	",\"filament\":\000"
- 5903      6C616D65 
- 5903      6E74223A 
- 5903      00
- 5904 0545 000000   		.space	3
- 5905              	.LC117:
- 5906 0548 2C226F66 		.ascii	",\"offsets\":[\000"
- 5906      66736574 
- 5906      73223A5B 
- 5906      00
- 5907 0555 000000   		.space	3
- 5908              	.LC118:
- 5909 0558 2C226D63 		.ascii	",\"mcutemp\":{\"min\":%.1f,\"cur\":%.1f,\"max\":%.1"
- 5909      7574656D 
- 5909      70223A7B 
- 5909      226D696E 
- 5909      223A252E 
- 5910 0583 667D00   		.ascii	"f}\000"
- 5911 0586 0000     		.space	2
- 5912              	.LC119:
- 5913 0588 2C227669 		.ascii	",\"vin\":{\"min\":%.1f,\"cur\":%.1f,\"max\":%.1f}\000"
- 5913      6E223A7B 
- 5913      226D696E 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 110
+ 5879              	.LC108:
+ 5880 04ec 2C226865 		.ascii	",\"heaters\":[\000"
+ 5880      61746572 
+ 5880      73223A5B 
+ 5880      00
+ 5881 04f9 000000   		.space	3
+ 5882              	.LC109:
+ 5883 04fc 256400   		.ascii	"%d\000"
+ 5884 04ff 00       		.space	1
+ 5885              	.LC110:
+ 5886 0500 5D2C2264 		.ascii	"],\"drives\":[\000"
+ 5886      72697665 
+ 5886      73223A5B 
+ 5886      00
+ 5887 050d 000000   		.space	3
+ 5888              	.LC111:
+ 5889 0510 5D2C2261 		.ascii	"],\"axisMap\":[[\000"
+ 5889      7869734D 
+ 5889      6170223A 
+ 5889      5B5B00
+ 5890 051f 00       		.space	1
+ 5891              	.LC112:
+ 5892 0520 257500   		.ascii	"%u\000"
+ 5893 0523 00       		.space	1
+ 5894              	.LC113:
+ 5895 0524 5D2C5B00 		.ascii	"],[\000"
+ 5896              	.LC114:
+ 5897 0528 5D5D00   		.ascii	"]]\000"
+ 5898 052b 00       		.space	1
+ 5899              	.LC115:
+ 5900 052c 2C226661 		.ascii	",\"fans\":%lu\000"
+ 5900      6E73223A 
+ 5900      256C7500 
+ 5901              	.LC116:
+ 5902 0538 2C226669 		.ascii	",\"filament\":\000"
+ 5902      6C616D65 
+ 5902      6E74223A 
+ 5902      00
+ 5903 0545 000000   		.space	3
+ 5904              	.LC117:
+ 5905 0548 2C226F66 		.ascii	",\"offsets\":[\000"
+ 5905      66736574 
+ 5905      73223A5B 
+ 5905      00
+ 5906 0555 000000   		.space	3
+ 5907              	.LC118:
+ 5908 0558 2C226D63 		.ascii	",\"mcutemp\":{\"min\":%.1f,\"cur\":%.1f,\"max\":%.1"
+ 5908      7574656D 
+ 5908      70223A7B 
+ 5908      226D696E 
+ 5908      223A252E 
+ 5909 0583 667D00   		.ascii	"f}\000"
+ 5910 0586 0000     		.space	2
+ 5911              	.LC119:
+ 5912 0588 2C227669 		.ascii	",\"vin\":{\"min\":%.1f,\"cur\":%.1f,\"max\":%.1f}\000"
+ 5912      6E223A7B 
+ 5912      226D696E 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 110
 
 
- 5913      223A252E 
- 5913      31662C22 
- 5914 05b2 0000     		.space	2
- 5915              	.LC120:
- 5916 05b4 2C226375 		.ascii	",\"currentLayer\":%d\000"
- 5916      7272656E 
- 5916      744C6179 
- 5916      6572223A 
- 5916      256400
- 5917 05c7 00       		.space	1
- 5918              	.LC121:
- 5919 05c8 2C226375 		.ascii	",\"currentLayerTime\":%.1f\000"
- 5919      7272656E 
- 5919      744C6179 
- 5919      65725469 
- 5919      6D65223A 
- 5920 05e1 000000   		.space	3
- 5921              	.LC122:
- 5922 05e4 2C226578 		.ascii	",\"extrRaw\":\000"
- 5922      74725261 
- 5922      77223A00 
- 5923              	.LC123:
- 5924 05f0 5D2C2266 		.ascii	"],\"fractionPrinted\":%.1f\000"
- 5924      72616374 
- 5924      696F6E50 
- 5924      72696E74 
- 5924      6564223A 
- 5925 0609 000000   		.space	3
- 5926              	.LC124:
- 5927 060c 2C226669 		.ascii	",\"firstLayerDuration\":%.1f\000"
- 5927      7273744C 
- 5927      61796572 
- 5927      44757261 
- 5927      74696F6E 
- 5928 0627 00       		.space	1
- 5929              	.LC125:
- 5930 0628 2C226669 		.ascii	",\"firstLayerHeight\":%.2f\000"
- 5930      7273744C 
- 5930      61796572 
- 5930      48656967 
- 5930      6874223A 
- 5931 0641 000000   		.space	3
- 5932              	.LC126:
- 5933 0644 2C227072 		.ascii	",\"printDuration\":%.1f\000"
- 5933      696E7444 
- 5933      75726174 
- 5933      696F6E22 
- 5933      3A252E31 
- 5934 065a 0000     		.space	2
- 5935              	.LC127:
- 5936 065c 2C227761 		.ascii	",\"warmUpDuration\":%.1f\000"
- 5936      726D5570 
- 5936      44757261 
- 5936      74696F6E 
- 5936      223A252E 
- 5937 0673 00       		.space	1
- 5938              	.LC128:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 111
+ 5912      223A252E 
+ 5912      31662C22 
+ 5913 05b2 0000     		.space	2
+ 5914              	.LC120:
+ 5915 05b4 2C226375 		.ascii	",\"currentLayer\":%d\000"
+ 5915      7272656E 
+ 5915      744C6179 
+ 5915      6572223A 
+ 5915      256400
+ 5916 05c7 00       		.space	1
+ 5917              	.LC121:
+ 5918 05c8 2C226375 		.ascii	",\"currentLayerTime\":%.1f\000"
+ 5918      7272656E 
+ 5918      744C6179 
+ 5918      65725469 
+ 5918      6D65223A 
+ 5919 05e1 000000   		.space	3
+ 5920              	.LC122:
+ 5921 05e4 2C226578 		.ascii	",\"extrRaw\":\000"
+ 5921      74725261 
+ 5921      77223A00 
+ 5922              	.LC123:
+ 5923 05f0 5D2C2266 		.ascii	"],\"fractionPrinted\":%.1f\000"
+ 5923      72616374 
+ 5923      696F6E50 
+ 5923      72696E74 
+ 5923      6564223A 
+ 5924 0609 000000   		.space	3
+ 5925              	.LC124:
+ 5926 060c 2C226669 		.ascii	",\"firstLayerDuration\":%.1f\000"
+ 5926      7273744C 
+ 5926      61796572 
+ 5926      44757261 
+ 5926      74696F6E 
+ 5927 0627 00       		.space	1
+ 5928              	.LC125:
+ 5929 0628 2C226669 		.ascii	",\"firstLayerHeight\":%.2f\000"
+ 5929      7273744C 
+ 5929      61796572 
+ 5929      48656967 
+ 5929      6874223A 
+ 5930 0641 000000   		.space	3
+ 5931              	.LC126:
+ 5932 0644 2C227072 		.ascii	",\"printDuration\":%.1f\000"
+ 5932      696E7444 
+ 5932      75726174 
+ 5932      696F6E22 
+ 5932      3A252E31 
+ 5933 065a 0000     		.space	2
+ 5934              	.LC127:
+ 5935 065c 2C227761 		.ascii	",\"warmUpDuration\":%.1f\000"
+ 5935      726D5570 
+ 5935      44757261 
+ 5935      74696F6E 
+ 5935      223A252E 
+ 5936 0673 00       		.space	1
+ 5937              	.LC128:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 111
 
 
- 5939 0674 2C227469 		.ascii	",\"timesLeft\":{\"file\":%.1f\000"
- 5939      6D65734C 
- 5939      65667422 
- 5939      3A7B2266 
- 5939      696C6522 
- 5940 068e 0000     		.space	2
- 5941              	.LC129:
- 5942 0690 2C226669 		.ascii	",\"filament\":%.1f\000"
- 5942      6C616D65 
- 5942      6E74223A 
- 5942      252E3166 
- 5942      00
- 5943 06a1 000000   		.space	3
- 5944              	.LC130:
- 5945 06a4 2C226C61 		.ascii	",\"layer\":%.1f}\000"
- 5945      79657222 
- 5945      3A252E31 
- 5945      667D00
- 5946 06b3 00       		.space	1
- 5947              	.LC131:
- 5948 06b4 2C227365 		.ascii	",\"seq\":%lu,\"resp\":\000"
- 5948      71223A25 
- 5948      6C752C22 
- 5948      72657370 
- 5948      223A00
- 5949 06c7 00       		.space	1
- 5950              	.LC132:
- 5951 06c8 2C226F75 		.ascii	",\"output\":{\000"
- 5951      74707574 
- 5951      223A7B00 
- 5952              	.LC133:
- 5953 06d4 22626565 		.ascii	"\"beepDuration\":%u,\"beepFrequency\":%u\000"
- 5953      70447572 
- 5953      6174696F 
- 5953      6E223A25 
- 5953      752C2262 
- 5954 06f9 000000   		.space	3
- 5955              	.LC134:
- 5956 06fc 5D2C2278 		.ascii	"],\"xyz\":\000"
- 5956      797A223A 
- 5956      00
- 5957 0705 000000   		.space	3
- 5958              	.LC135:
- 5959 0708 5D2C226D 		.ascii	"],\"machine\":\000"
- 5959      61636869 
- 5959      6E65223A 
- 5959      00
- 5960              		.section	.rodata._ZN6RepRap19GetFileInfoResponseEPKcRP12OutputBufferb.str1.4,"aMS",%progbits,1
- 5961              		.align	2
- 5962              	.LC38:
- 5963 0000 303A2F67 		.ascii	"0:/gcodes/\000"
- 5963      636F6465 
- 5963      732F00
- 5964 000b 00       		.space	1
- 5965              	.LC39:
- 5966 000c 7B226572 		.ascii	"{\"err\":0,\"size\":%lu,\000"
- 5966      72223A30 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 112
+ 5938 0674 2C227469 		.ascii	",\"timesLeft\":{\"file\":%.1f\000"
+ 5938      6D65734C 
+ 5938      65667422 
+ 5938      3A7B2266 
+ 5938      696C6522 
+ 5939 068e 0000     		.space	2
+ 5940              	.LC129:
+ 5941 0690 2C226669 		.ascii	",\"filament\":%.1f\000"
+ 5941      6C616D65 
+ 5941      6E74223A 
+ 5941      252E3166 
+ 5941      00
+ 5942 06a1 000000   		.space	3
+ 5943              	.LC130:
+ 5944 06a4 2C226C61 		.ascii	",\"layer\":%.1f}\000"
+ 5944      79657222 
+ 5944      3A252E31 
+ 5944      667D00
+ 5945 06b3 00       		.space	1
+ 5946              	.LC131:
+ 5947 06b4 2C227365 		.ascii	",\"seq\":%lu,\"resp\":\000"
+ 5947      71223A25 
+ 5947      6C752C22 
+ 5947      72657370 
+ 5947      223A00
+ 5948 06c7 00       		.space	1
+ 5949              	.LC132:
+ 5950 06c8 2C226F75 		.ascii	",\"output\":{\000"
+ 5950      74707574 
+ 5950      223A7B00 
+ 5951              	.LC133:
+ 5952 06d4 22626565 		.ascii	"\"beepDuration\":%u,\"beepFrequency\":%u\000"
+ 5952      70447572 
+ 5952      6174696F 
+ 5952      6E223A25 
+ 5952      752C2262 
+ 5953 06f9 000000   		.space	3
+ 5954              	.LC134:
+ 5955 06fc 5D2C2278 		.ascii	"],\"xyz\":\000"
+ 5955      797A223A 
+ 5955      00
+ 5956 0705 000000   		.space	3
+ 5957              	.LC135:
+ 5958 0708 5D2C226D 		.ascii	"],\"machine\":\000"
+ 5958      61636869 
+ 5958      6E65223A 
+ 5958      00
+ 5959              		.section	.rodata._ZN6RepRap19GetFileInfoResponseEPKcRP12OutputBufferb.str1.4,"aMS",%progbits,1
+ 5960              		.align	2
+ 5961              	.LC38:
+ 5962 0000 303A2F67 		.ascii	"0:/gcodes/\000"
+ 5962      636F6465 
+ 5962      732F00
+ 5963 000b 00       		.space	1
+ 5964              	.LC39:
+ 5965 000c 7B226572 		.ascii	"{\"err\":0,\"size\":%lu,\000"
+ 5965      72223A30 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 112
 
 
- 5966      2C227369 
- 5966      7A65223A 
- 5966      256C752C 
- 5967 0021 000000   		.space	3
- 5968              	.LC40:
- 5969 0024 226C6173 		.ascii	"\"lastModified\":\"%04u-%02u-%02uT%02u:%02u:%02u\","
- 5969      744D6F64 
- 5969      69666965 
- 5969      64223A22 
- 5969      25303475 
- 5970 0053 00       		.ascii	"\000"
- 5971              	.LC41:
- 5972 0054 22686569 		.ascii	"\"height\":%.2f,\"firstLayerHeight\":%.2f,\"layerHe"
- 5972      67687422 
- 5972      3A252E32 
- 5972      662C2266 
- 5972      69727374 
- 5973 0082 69676874 		.ascii	"ight\":%.2f,\000"
- 5973      223A252E 
- 5973      32662C00 
- 5974 008e 0000     		.space	2
- 5975              	.LC42:
- 5976 0090 22707269 		.ascii	"\"printTime\":%lu,\000"
- 5976      6E745469 
- 5976      6D65223A 
- 5976      256C752C 
- 5976      00
- 5977 00a1 000000   		.space	3
- 5978              	.LC43:
- 5979 00a4 2273696D 		.ascii	"\"simulatedTime\":%lu,\000"
- 5979      756C6174 
- 5979      65645469 
- 5979      6D65223A 
- 5979      256C752C 
- 5980 00b9 000000   		.space	3
- 5981              	.LC44:
- 5982 00bc 2266696C 		.ascii	"\"filament\":\000"
- 5982      616D656E 
- 5982      74223A00 
- 5983              	.LC45:
- 5984 00c8 2563252E 		.ascii	"%c%.1f\000"
- 5984      316600
- 5985 00cf 00       		.space	1
- 5986              	.LC46:
- 5987 00d0 5D2C2267 		.ascii	"],\"generatedBy\":\000"
- 5987      656E6572 
- 5987      61746564 
- 5987      4279223A 
- 5987      00
- 5988 00e1 000000   		.space	3
- 5989              	.LC47:
- 5990 00e4 7D00     		.ascii	"}\000"
- 5991 00e6 0000     		.space	2
- 5992              	.LC48:
- 5993 00e8 7B226572 		.ascii	"{\"err\":1}\000"
- 5993      72223A31 
- 5993      7D00
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 113
+ 5965      2C227369 
+ 5965      7A65223A 
+ 5965      256C752C 
+ 5966 0021 000000   		.space	3
+ 5967              	.LC40:
+ 5968 0024 226C6173 		.ascii	"\"lastModified\":\"%04u-%02u-%02uT%02u:%02u:%02u\","
+ 5968      744D6F64 
+ 5968      69666965 
+ 5968      64223A22 
+ 5968      25303475 
+ 5969 0053 00       		.ascii	"\000"
+ 5970              	.LC41:
+ 5971 0054 22686569 		.ascii	"\"height\":%.2f,\"firstLayerHeight\":%.2f,\"layerHe"
+ 5971      67687422 
+ 5971      3A252E32 
+ 5971      662C2266 
+ 5971      69727374 
+ 5972 0082 69676874 		.ascii	"ight\":%.2f,\000"
+ 5972      223A252E 
+ 5972      32662C00 
+ 5973 008e 0000     		.space	2
+ 5974              	.LC42:
+ 5975 0090 22707269 		.ascii	"\"printTime\":%lu,\000"
+ 5975      6E745469 
+ 5975      6D65223A 
+ 5975      256C752C 
+ 5975      00
+ 5976 00a1 000000   		.space	3
+ 5977              	.LC43:
+ 5978 00a4 2273696D 		.ascii	"\"simulatedTime\":%lu,\000"
+ 5978      756C6174 
+ 5978      65645469 
+ 5978      6D65223A 
+ 5978      256C752C 
+ 5979 00b9 000000   		.space	3
+ 5980              	.LC44:
+ 5981 00bc 2266696C 		.ascii	"\"filament\":\000"
+ 5981      616D656E 
+ 5981      74223A00 
+ 5982              	.LC45:
+ 5983 00c8 2563252E 		.ascii	"%c%.1f\000"
+ 5983      316600
+ 5984 00cf 00       		.space	1
+ 5985              	.LC46:
+ 5986 00d0 5D2C2267 		.ascii	"],\"generatedBy\":\000"
+ 5986      656E6572 
+ 5986      61746564 
+ 5986      4279223A 
+ 5986      00
+ 5987 00e1 000000   		.space	3
+ 5988              	.LC47:
+ 5989 00e4 7D00     		.ascii	"}\000"
+ 5990 00e6 0000     		.space	2
+ 5991              	.LC48:
+ 5992 00e8 7B226572 		.ascii	"{\"err\":1}\000"
+ 5992      72223A31 
+ 5992      7D00
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 113
 
 
- 5994              		.section	.rodata._ZN6RepRap19GetFilelistResponseEPKcj.str1.4,"aMS",%progbits,1
- 5995              		.align	2
- 5996              	.LC34:
- 5997 0000 7B227479 		.ascii	"{\"type\":\"%c\",\"name\":\000"
- 5997      7065223A 
- 5997      22256322 
- 5997      2C226E61 
- 5997      6D65223A 
- 5998 0015 000000   		.space	3
- 5999              	.LC35:
- 6000 0018 2C227369 		.ascii	",\"size\":%lu\000"
- 6000      7A65223A 
- 6000      256C7500 
- 6001              	.LC36:
- 6002 0024 2C226461 		.ascii	",\"date\":\"%04u-%02u-%02uT%02u:%02u:%02u\"}\000"
- 6002      7465223A 
- 6002      22253034 
- 6002      752D2530 
- 6002      32752D25 
- 6003 004d 000000   		.space	3
- 6004              	.LC37:
- 6005 0050 5D2C226E 		.ascii	"],\"next\":%u}\000"
- 6005      65787422 
- 6005      3A25757D 
- 6005      00
- 6006              		.section	.rodata._ZN6RepRap23GetLegacyStatusResponseEhi.str1.4,"aMS",%progbits,1
- 6007              		.align	2
- 6008              	.LC136:
- 6009 0000 7B227374 		.ascii	"{\"status\":\"%c\",\"heaters\":\000"
- 6009      61747573 
- 6009      223A2225 
- 6009      63222C22 
- 6009      68656174 
- 6010 001a 0000     		.space	2
- 6011              	.LC137:
- 6012 001c 5B252E31 		.ascii	"[%.1f\000"
- 6012      6600
- 6013 0022 0000     		.space	2
- 6014              	.LC138:
- 6015 0024 2C226163 		.ascii	",\"active\":[%.1f\000"
- 6015      74697665 
- 6015      223A5B25 
- 6015      2E316600 
- 6016              	.LC139:
- 6017 0034 2C252E31 		.ascii	",%.1f\000"
- 6017      6600
- 6018 003a 0000     		.space	2
- 6019              	.LC140:
- 6020 003c 2C227374 		.ascii	",\"standby\":[%.1f\000"
- 6020      616E6462 
- 6020      79223A5B 
- 6020      252E3166 
- 6020      00
- 6021 004d 000000   		.space	3
- 6022              	.LC141:
- 6023 0050 2C226873 		.ascii	",\"hstat\":[%d\000"
- 6023      74617422 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 114
+ 5993              		.section	.rodata._ZN6RepRap19GetFilelistResponseEPKcj.str1.4,"aMS",%progbits,1
+ 5994              		.align	2
+ 5995              	.LC34:
+ 5996 0000 7B227479 		.ascii	"{\"type\":\"%c\",\"name\":\000"
+ 5996      7065223A 
+ 5996      22256322 
+ 5996      2C226E61 
+ 5996      6D65223A 
+ 5997 0015 000000   		.space	3
+ 5998              	.LC35:
+ 5999 0018 2C227369 		.ascii	",\"size\":%lu\000"
+ 5999      7A65223A 
+ 5999      256C7500 
+ 6000              	.LC36:
+ 6001 0024 2C226461 		.ascii	",\"date\":\"%04u-%02u-%02uT%02u:%02u:%02u\"}\000"
+ 6001      7465223A 
+ 6001      22253034 
+ 6001      752D2530 
+ 6001      32752D25 
+ 6002 004d 000000   		.space	3
+ 6003              	.LC37:
+ 6004 0050 5D2C226E 		.ascii	"],\"next\":%u}\000"
+ 6004      65787422 
+ 6004      3A25757D 
+ 6004      00
+ 6005              		.section	.rodata._ZN6RepRap23GetLegacyStatusResponseEhi.str1.4,"aMS",%progbits,1
+ 6006              		.align	2
+ 6007              	.LC136:
+ 6008 0000 7B227374 		.ascii	"{\"status\":\"%c\",\"heaters\":\000"
+ 6008      61747573 
+ 6008      223A2225 
+ 6008      63222C22 
+ 6008      68656174 
+ 6009 001a 0000     		.space	2
+ 6010              	.LC137:
+ 6011 001c 5B252E31 		.ascii	"[%.1f\000"
+ 6011      6600
+ 6012 0022 0000     		.space	2
+ 6013              	.LC138:
+ 6014 0024 2C226163 		.ascii	",\"active\":[%.1f\000"
+ 6014      74697665 
+ 6014      223A5B25 
+ 6014      2E316600 
+ 6015              	.LC139:
+ 6016 0034 2C252E31 		.ascii	",%.1f\000"
+ 6016      6600
+ 6017 003a 0000     		.space	2
+ 6018              	.LC140:
+ 6019 003c 2C227374 		.ascii	",\"standby\":[%.1f\000"
+ 6019      616E6462 
+ 6019      79223A5B 
+ 6019      252E3166 
+ 6019      00
+ 6020 004d 000000   		.space	3
+ 6021              	.LC141:
+ 6022 0050 2C226873 		.ascii	",\"hstat\":[%d\000"
+ 6022      74617422 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 114
 
 
- 6023      3A5B2564 
- 6023      00
- 6024 005d 000000   		.space	3
- 6025              	.LC142:
- 6026 0060 2C256400 		.ascii	",%d\000"
- 6027              	.LC143:
- 6028 0064 2C22706F 		.ascii	",\"pos\":\000"
- 6028      73223A00 
- 6029              	.LC144:
- 6030 006c 5D2C2273 		.ascii	"],\"sfactor\":%.2f,\"efactor\":\000"
- 6030      66616374 
- 6030      6F72223A 
- 6030      252E3266 
- 6030      2C226566 
- 6031              	.LC145:
- 6032 0088 2C226261 		.ascii	",\"babystep\":%.03f\000"
- 6032      62797374 
- 6032      6570223A 
- 6032      252E3033 
- 6032      6600
- 6033 009a 0000     		.space	2
- 6034              	.LC146:
- 6035 009c 2C22746F 		.ascii	",\"tool\":%d\000"
- 6035      6F6C223A 
- 6035      256400
- 6036 00a7 00       		.space	1
- 6037              	.LC147:
- 6038 00a8 2C227072 		.ascii	",\"probe\":\"%d (%d)\"\000"
- 6038      6F626522 
- 6038      3A222564 
- 6038      20282564 
- 6038      292200
- 6039 00bb 00       		.space	1
- 6040              	.LC148:
- 6041 00bc 2C227072 		.ascii	",\"probe\":\"%d (%d, %d)\"\000"
- 6041      6F626522 
- 6041      3A222564 
- 6041      20282564 
- 6041      2C202564 
- 6042 00d3 00       		.space	1
- 6043              	.LC149:
- 6044 00d4 2C227072 		.ascii	",\"probe\":\"%d\"\000"
- 6044      6F626522 
- 6044      3A222564 
- 6044      2200
- 6045 00e2 0000     		.space	2
- 6046              	.LC150:
- 6047 00e4 5D2C2266 		.ascii	"],\"fanRPM\":%u\000"
- 6047      616E5250 
- 6047      4D223A25 
- 6047      7500
- 6048 00f2 0000     		.space	2
- 6049              	.LC151:
- 6050 00f4 2C22686F 		.ascii	",\"homed\":\000"
- 6050      6D656422 
- 6050      3A00
- 6051 00fe 0000     		.space	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 115
+ 6022      3A5B2564 
+ 6022      00
+ 6023 005d 000000   		.space	3
+ 6024              	.LC142:
+ 6025 0060 2C256400 		.ascii	",%d\000"
+ 6026              	.LC143:
+ 6027 0064 2C22706F 		.ascii	",\"pos\":\000"
+ 6027      73223A00 
+ 6028              	.LC144:
+ 6029 006c 5D2C2273 		.ascii	"],\"sfactor\":%.2f,\"efactor\":\000"
+ 6029      66616374 
+ 6029      6F72223A 
+ 6029      252E3266 
+ 6029      2C226566 
+ 6030              	.LC145:
+ 6031 0088 2C226261 		.ascii	",\"babystep\":%.03f\000"
+ 6031      62797374 
+ 6031      6570223A 
+ 6031      252E3033 
+ 6031      6600
+ 6032 009a 0000     		.space	2
+ 6033              	.LC146:
+ 6034 009c 2C22746F 		.ascii	",\"tool\":%d\000"
+ 6034      6F6C223A 
+ 6034      256400
+ 6035 00a7 00       		.space	1
+ 6036              	.LC147:
+ 6037 00a8 2C227072 		.ascii	",\"probe\":\"%d (%d)\"\000"
+ 6037      6F626522 
+ 6037      3A222564 
+ 6037      20282564 
+ 6037      292200
+ 6038 00bb 00       		.space	1
+ 6039              	.LC148:
+ 6040 00bc 2C227072 		.ascii	",\"probe\":\"%d (%d, %d)\"\000"
+ 6040      6F626522 
+ 6040      3A222564 
+ 6040      20282564 
+ 6040      2C202564 
+ 6041 00d3 00       		.space	1
+ 6042              	.LC149:
+ 6043 00d4 2C227072 		.ascii	",\"probe\":\"%d\"\000"
+ 6043      6F626522 
+ 6043      3A222564 
+ 6043      2200
+ 6044 00e2 0000     		.space	2
+ 6045              	.LC150:
+ 6046 00e4 5D2C2266 		.ascii	"],\"fanRPM\":%u\000"
+ 6046      616E5250 
+ 6046      4D223A25 
+ 6046      7500
+ 6047 00f2 0000     		.space	2
+ 6048              	.LC151:
+ 6049 00f4 2C22686F 		.ascii	",\"homed\":\000"
+ 6049      6D656422 
+ 6049      3A00
+ 6050 00fe 0000     		.space	2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 115
 
 
- 6052              	.LC152:
- 6053 0100 2C226672 		.ascii	",\"fraction_printed\":%.4f\000"
- 6053      61637469 
- 6053      6F6E5F70 
- 6053      72696E74 
- 6053      6564223A 
- 6054 0119 000000   		.space	3
- 6055              	.LC153:
- 6056 011c 2C226D73 		.ascii	",\"msgBox.mode\":%d,\"msgBox.seq\":%lu,\"msgBox.tim"
- 6056      67426F78 
- 6056      2E6D6F64 
- 6056      65223A25 
- 6056      642C226D 
- 6057 014a 656F7574 		.ascii	"eout\":%.1f,\"msgBox.controls\":%lu\000"
- 6057      223A252E 
- 6057      31662C22 
- 6057      6D736742 
- 6057      6F782E63 
- 6058 016b 00       		.space	1
- 6059              	.LC154:
- 6060 016c 2C226D73 		.ascii	",\"msgBox.msg\":\000"
- 6060      67426F78 
- 6060      2E6D7367 
- 6060      223A00
- 6061 017b 00       		.space	1
- 6062              	.LC155:
- 6063 017c 2C226D73 		.ascii	",\"msgBox.title\":\000"
- 6063      67426F78 
- 6063      2E746974 
- 6063      6C65223A 
- 6063      00
- 6064 018d 000000   		.space	3
- 6065              	.LC156:
- 6066 0190 2C226D73 		.ascii	",\"msgBox.mode\":-1\000"
- 6066      67426F78 
- 6066      2E6D6F64 
- 6066      65223A2D 
- 6066      3100
- 6067 01a2 0000     		.space	2
- 6068              	.LC157:
- 6069 01a4 2C227469 		.ascii	",\"timesLeft\":[%.1f,%.1f,%.1f]\000"
- 6069      6D65734C 
- 6069      65667422 
- 6069      3A5B252E 
- 6069      31662C25 
- 6070 01c2 0000     		.space	2
- 6071              	.LC158:
- 6072 01c4 2C226765 		.ascii	",\"geometry\":\"%s\",\"axes\":%u,\"axisNames\":\"%s"
- 6072      6F6D6574 
- 6072      7279223A 
- 6072      22257322 
- 6072      2C226178 
- 6073 01ee 222C2276 		.ascii	"\",\"volumes\":%u,\"numTools\":%u,\"myName\":\000"
- 6073      6F6C756D 
- 6073      6573223A 
- 6073      25752C22 
- 6073      6E756D54 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 116
+ 6051              	.LC152:
+ 6052 0100 2C226672 		.ascii	",\"fraction_printed\":%.4f\000"
+ 6052      61637469 
+ 6052      6F6E5F70 
+ 6052      72696E74 
+ 6052      6564223A 
+ 6053 0119 000000   		.space	3
+ 6054              	.LC153:
+ 6055 011c 2C226D73 		.ascii	",\"msgBox.mode\":%d,\"msgBox.seq\":%lu,\"msgBox.tim"
+ 6055      67426F78 
+ 6055      2E6D6F64 
+ 6055      65223A25 
+ 6055      642C226D 
+ 6056 014a 656F7574 		.ascii	"eout\":%.1f,\"msgBox.controls\":%lu\000"
+ 6056      223A252E 
+ 6056      31662C22 
+ 6056      6D736742 
+ 6056      6F782E63 
+ 6057 016b 00       		.space	1
+ 6058              	.LC154:
+ 6059 016c 2C226D73 		.ascii	",\"msgBox.msg\":\000"
+ 6059      67426F78 
+ 6059      2E6D7367 
+ 6059      223A00
+ 6060 017b 00       		.space	1
+ 6061              	.LC155:
+ 6062 017c 2C226D73 		.ascii	",\"msgBox.title\":\000"
+ 6062      67426F78 
+ 6062      2E746974 
+ 6062      6C65223A 
+ 6062      00
+ 6063 018d 000000   		.space	3
+ 6064              	.LC156:
+ 6065 0190 2C226D73 		.ascii	",\"msgBox.mode\":-1\000"
+ 6065      67426F78 
+ 6065      2E6D6F64 
+ 6065      65223A2D 
+ 6065      3100
+ 6066 01a2 0000     		.space	2
+ 6067              	.LC157:
+ 6068 01a4 2C227469 		.ascii	",\"timesLeft\":[%.1f,%.1f,%.1f]\000"
+ 6068      6D65734C 
+ 6068      65667422 
+ 6068      3A5B252E 
+ 6068      31662C25 
+ 6069 01c2 0000     		.space	2
+ 6070              	.LC158:
+ 6071 01c4 2C226765 		.ascii	",\"geometry\":\"%s\",\"axes\":%u,\"axisNames\":\"%s"
+ 6071      6F6D6574 
+ 6071      7279223A 
+ 6071      22257322 
+ 6071      2C226178 
+ 6072 01ee 222C2276 		.ascii	"\",\"volumes\":%u,\"numTools\":%u,\"myName\":\000"
+ 6072      6F6C756D 
+ 6072      6573223A 
+ 6072      25752C22 
+ 6072      6E756D54 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 116
 
 
- 6074 0215 000000   		.space	3
- 6075              	.LC159:
- 6076 0218 2C226669 		.ascii	",\"firmwareName\":\000"
- 6076      726D7761 
- 6076      72654E61 
- 6076      6D65223A 
- 6076      00
- 6077 0229 000000   		.space	3
- 6078              	.LC160:
- 6079 022c 2C227365 		.ascii	",\"seq\":%d,\"resp\":\000"
- 6079      71223A25 
- 6079      642C2272 
- 6079      65737022 
- 6079      3A00
- 6080              		.section	.rodata._ZN6RepRap4InitEv.str1.4,"aMS",%progbits,1
- 6081              		.align	2
- 6082              	.LC161:
- 6083 0000 636F6E66 		.ascii	"config.g\000"
- 6083      69672E67 
- 6083      00
- 6084 0009 000000   		.space	3
- 6085              	.LC162:
- 6086 000c 636F6E66 		.ascii	"config.g.bak\000"
- 6086      69672E67 
- 6086      2E62616B 
- 6086      00
- 6087 0019 000000   		.space	3
- 6088              	.LC163:
- 6089 001c 4C594E58 		.ascii	"LYNXTER S600D\000"
- 6089      54455220 
- 6089      53363030 
- 6089      4400
- 6090 002a 0000     		.space	2
- 6091              	.LC164:
- 6092 002c 25732056 		.ascii	"%s Version %s dated %s\012\000"
- 6092      65727369 
- 6092      6F6E2025 
- 6092      73206461 
- 6092      74656420 
- 6093              	.LC165:
- 6094 0044 0A457865 		.ascii	"\012Executing \000"
- 6094      63757469 
- 6094      6E672000 
- 6095              	.LC166:
- 6096 0050 303A2F73 		.ascii	"0:/sys/\000"
- 6096      79732F00 
- 6097              	.LC167:
- 6098 0058 25732E2E 		.ascii	"%s...\000"
- 6098      2E00
- 6099 005e 0000     		.space	2
- 6100              	.LC168:
- 6101 0060 25732028 		.ascii	"%s (no configuration file found)...\000"
- 6101      6E6F2063 
- 6101      6F6E6669 
- 6101      67757261 
- 6101      74696F6E 
- 6102              	.LC169:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 117
+ 6073 0215 000000   		.space	3
+ 6074              	.LC159:
+ 6075 0218 2C226669 		.ascii	",\"firmwareName\":\000"
+ 6075      726D7761 
+ 6075      72654E61 
+ 6075      6D65223A 
+ 6075      00
+ 6076 0229 000000   		.space	3
+ 6077              	.LC160:
+ 6078 022c 2C227365 		.ascii	",\"seq\":%d,\"resp\":\000"
+ 6078      71223A25 
+ 6078      642C2272 
+ 6078      65737022 
+ 6078      3A00
+ 6079              		.section	.rodata._ZN6RepRap4InitEv.str1.4,"aMS",%progbits,1
+ 6080              		.align	2
+ 6081              	.LC161:
+ 6082 0000 636F6E66 		.ascii	"config.g\000"
+ 6082      69672E67 
+ 6082      00
+ 6083 0009 000000   		.space	3
+ 6084              	.LC162:
+ 6085 000c 636F6E66 		.ascii	"config.g.bak\000"
+ 6085      69672E67 
+ 6085      2E62616B 
+ 6085      00
+ 6086 0019 000000   		.space	3
+ 6087              	.LC163:
+ 6088 001c 4C594E58 		.ascii	"LYNXTER S600D\000"
+ 6088      54455220 
+ 6088      53363030 
+ 6088      4400
+ 6089 002a 0000     		.space	2
+ 6090              	.LC164:
+ 6091 002c 25732056 		.ascii	"%s Version %s dated %s\012\000"
+ 6091      65727369 
+ 6091      6F6E2025 
+ 6091      73206461 
+ 6091      74656420 
+ 6092              	.LC165:
+ 6093 0044 0A457865 		.ascii	"\012Executing \000"
+ 6093      63757469 
+ 6093      6E672000 
+ 6094              	.LC166:
+ 6095 0050 303A2F73 		.ascii	"0:/sys/\000"
+ 6095      79732F00 
+ 6096              	.LC167:
+ 6097 0058 25732E2E 		.ascii	"%s...\000"
+ 6097      2E00
+ 6098 005e 0000     		.space	2
+ 6099              	.LC168:
+ 6100 0060 25732028 		.ascii	"%s (no configuration file found)...\000"
+ 6100      6E6F2063 
+ 6100      6F6E6669 
+ 6100      67757261 
+ 6100      74696F6E 
+ 6101              	.LC169:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 117
 
 
- 6103 0084 446F6E65 		.ascii	"Done!\012\000"
- 6103      210A00
- 6104 008b 00       		.space	1
- 6105              	.LC170:
- 6106 008c 4572726F 		.ascii	"Error, not found\012\000"
- 6106      722C206E 
- 6106      6F742066 
- 6106      6F756E64 
- 6106      0A00
- 6107 009e 0000     		.space	2
- 6108              	.LC171:
- 6109 00a0 25732069 		.ascii	"%s is up and running.\012\000"
- 6109      73207570 
- 6109      20616E64 
- 6109      2072756E 
- 6109      6E696E67 
- 6110              		.section	.rodata._ZN6RepRap4SpinEv.part.19.str1.4,"aMS",%progbits,1
- 6111              		.align	2
- 6112              	.LC7:
- 6113 0000 546F6F6C 		.ascii	"Tool %d was not driven because its heater temperatu"
- 6113      20256420 
- 6113      77617320 
- 6113      6E6F7420 
- 6113      64726976 
- 6114 0033 72657320 		.ascii	"res were not high enough or it has a heater fault\012"
- 6114      77657265 
- 6114      206E6F74 
- 6114      20686967 
- 6114      6820656E 
- 6115 0065 00       		.ascii	"\000"
- 6116              		.section	.rodata._ZN6RepRap6TimingE11MessageType.str1.4,"aMS",%progbits,1
- 6117              		.align	2
- 6118              	.LC0:
- 6119 0000 536C6F77 		.ascii	"Slowest loop: %.2fms; fastest: %.2fms\012\000"
- 6119      65737420 
- 6119      6C6F6F70 
- 6119      3A20252E 
- 6119      32666D73 
- 6120              		.section	.rodata._ZNK6RepRap13NoPasswordSetEv.str1.4,"aMS",%progbits,1
- 6121              		.align	2
- 6122              	.LC173:
- 6123 0000 6C796E78 		.ascii	"lynxters600d\000"
- 6123      74657273 
- 6123      36303064 
- 6123      00
- 6124              		.section	.rodata._ZNK6RepRap19ReportInternalErrorEPKcS1_i.str1.4,"aMS",%progbits,1
- 6125              		.align	2
- 6126              	.LC172:
- 6127 0000 496E7465 		.ascii	"Internal Error in %s at %s(%d)\012\000"
- 6127      726E616C 
- 6127      20457272 
- 6127      6F722069 
- 6127      6E202573 
- 6128              		.section	.rodata._ZNK6RepRap19WriteToolParametersEP9FileStore.str1.4,"aMS",%progbits,1
- 6129              		.align	2
- 6130              	.LC174:
- 6131 0000 3B205072 		.ascii	"; Probed tool offsets\012\000"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccrpKgsj.s 			page 118
+ 6102 0084 446F6E65 		.ascii	"Done!\012\000"
+ 6102      210A00
+ 6103 008b 00       		.space	1
+ 6104              	.LC170:
+ 6105 008c 4572726F 		.ascii	"Error, not found\012\000"
+ 6105      722C206E 
+ 6105      6F742066 
+ 6105      6F756E64 
+ 6105      0A00
+ 6106 009e 0000     		.space	2
+ 6107              	.LC171:
+ 6108 00a0 25732069 		.ascii	"%s is up and running.\012\000"
+ 6108      73207570 
+ 6108      20616E64 
+ 6108      2072756E 
+ 6108      6E696E67 
+ 6109              		.section	.rodata._ZN6RepRap4SpinEv.part.19.str1.4,"aMS",%progbits,1
+ 6110              		.align	2
+ 6111              	.LC7:
+ 6112 0000 546F6F6C 		.ascii	"Tool %d was not driven because its heater temperatu"
+ 6112      20256420 
+ 6112      77617320 
+ 6112      6E6F7420 
+ 6112      64726976 
+ 6113 0033 72657320 		.ascii	"res were not high enough or it has a heater fault\012"
+ 6113      77657265 
+ 6113      206E6F74 
+ 6113      20686967 
+ 6113      6820656E 
+ 6114 0065 00       		.ascii	"\000"
+ 6115              		.section	.rodata._ZN6RepRap6TimingE11MessageType.str1.4,"aMS",%progbits,1
+ 6116              		.align	2
+ 6117              	.LC0:
+ 6118 0000 536C6F77 		.ascii	"Slowest loop: %.2fms; fastest: %.2fms\012\000"
+ 6118      65737420 
+ 6118      6C6F6F70 
+ 6118      3A20252E 
+ 6118      32666D73 
+ 6119              		.section	.rodata._ZNK6RepRap13NoPasswordSetEv.str1.4,"aMS",%progbits,1
+ 6120              		.align	2
+ 6121              	.LC173:
+ 6122 0000 6C796E78 		.ascii	"lynxters600d\000"
+ 6122      74657273 
+ 6122      36303064 
+ 6122      00
+ 6123              		.section	.rodata._ZNK6RepRap19ReportInternalErrorEPKcS1_i.str1.4,"aMS",%progbits,1
+ 6124              		.align	2
+ 6125              	.LC172:
+ 6126 0000 496E7465 		.ascii	"Internal Error in %s at %s(%d)\012\000"
+ 6126      726E616C 
+ 6126      20457272 
+ 6126      6F722069 
+ 6126      6E202573 
+ 6127              		.section	.rodata._ZNK6RepRap19WriteToolParametersEP9FileStore.str1.4,"aMS",%progbits,1
+ 6128              		.align	2
+ 6129              	.LC174:
+ 6130 0000 3B205072 		.ascii	"; Probed tool offsets\012\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccRDiTeQ.s 			page 118
 
 
- 6131      6F626564 
- 6131      20746F6F 
- 6131      6C206F66 
- 6131      66736574 
- 6132 0017 00       		.space	1
- 6133              	.LC175:
- 6134 0018 47313020 		.ascii	"G10 P%d\000"
- 6134      50256400 
- 6135              	.LC176:
- 6136 0020 20256325 		.ascii	" %c%.2f\000"
- 6136      2E326600 
- 6137              		.section	.rodata._ZNK6RepRap9PrintToolEiRK9StringRef.str1.4,"aMS",%progbits,1
- 6138              		.align	2
- 6139              	.LC11:
- 6140 0000 4572726F 		.ascii	"Error: Attempt to print details of non-existent too"
- 6140      723A2041 
- 6140      7474656D 
- 6140      70742074 
- 6140      6F207072 
- 6141 0033 6C2E0A00 		.ascii	"l.\012\000"
- 6142              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR
+ 6130      6F626564 
+ 6130      20746F6F 
+ 6130      6C206F66 
+ 6130      66736574 
+ 6131 0017 00       		.space	1
+ 6132              	.LC175:
+ 6133 0018 47313020 		.ascii	"G10 P%d\000"
+ 6133      50256400 
+ 6134              	.LC176:
+ 6135 0020 20256325 		.ascii	" %c%.2f\000"
+ 6135      2E326600 
+ 6136              		.section	.rodata._ZNK6RepRap9PrintToolEiRK9StringRef.str1.4,"aMS",%progbits,1
+ 6137              		.align	2
+ 6138              	.LC11:
+ 6139 0000 4572726F 		.ascii	"Error: Attempt to print details of non-existent too"
+ 6139      723A2041 
+ 6139      7474656D 
+ 6139      70742074 
+ 6139      6F207072 
+ 6140 0033 6C2E0A00 		.ascii	"l.\012\000"
+ 6141              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR

@@ -1,7 +1,7 @@
 #ifndef PINS_DUETNG_H__
 #define PINS_DUETNG_H__
 
-# define FIRMWARE_NAME	"RepRapFirmware 2.0 for Duet 2 Ethernet Lynxter Rev 1.7"
+# define FIRMWARE_NAME	"RepRapFirmware 2.01 for Duet 2 Ethernet Lynxter Rev 1.7"
 # define DEFAULT_BOARD_TYPE BoardType::DuetEthernet_10
 constexpr size_t NumFirmwareUpdateModules = 4;		// 3 modules, plus one for manual upload to WiFi module (module 2 is now unused)
 # define IAP_FIRMWARE_FILE	"Duet2CombinedFirmware.bin"
@@ -20,7 +20,6 @@ constexpr size_t NumFirmwareUpdateModules = 4;		// 3 modules, plus one for manua
 #define HAS_VOLTAGE_MONITOR		1
 #define HAS_VREF_MONITOR		0
 #define ACTIVE_LOW_HEAT_ON		1
-#define SUPPORT_LYNXMOD         1  //LYNXMOD set nonzero to support lynxmod arduino module
 
 #define IAP_UPDATE_FILE		"iap4e.bin"				// using the same IAP file for both Duet WiFi and Duet Ethernet
 
@@ -30,6 +29,7 @@ constexpr size_t NumFirmwareUpdateModules = 4;		// 3 modules, plus one for manua
 #define SUPPORT_IOBITS		1						// set to support P parameter in G0/G1 commands
 #define SUPPORT_DHT_SENSOR	1						// set nonzero to support DHT temperature/humidity sensors
 #define SUPPORT_WORKPLACE_COORDINATES	1			// set nonzero to support G10 L2 and G53..59
+#define SUPPORT_LYNXMOD     1						//LYNXMOD set nonzero to support lynxmod arduino module
 
 #define USE_CACHE			0						// set nonzero to enable the cache. Disabled this at 1.21RC1 because of doubts about its safety.
 

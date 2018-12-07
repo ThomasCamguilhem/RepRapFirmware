@@ -796,6 +796,10 @@ void HttpResponder::SendFile(const char* nameOfFileToSend, bool isWebFile)
 	{
 		contentType = "image/x-icon";
 	}
+	else if (StringEndsWith(nameOfFileToSend, ".svg"))
+	{
+		contentType = "image/svg+xml";
+	}
 	else if (StringEndsWith(nameOfFileToSend, ".js"))
 	{
 		contentType = "application/javascript";

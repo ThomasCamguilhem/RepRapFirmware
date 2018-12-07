@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
   55              	.L13:
   56 0054 93ED027A 		vldr.32	s14, [r3, #8]
   57 0058 E0E7     		b	.L4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 2
 
 
   58              	.L11:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  112 0054 FFF7FEFF 		bl	_ZN3PIDC1ER8Platforma
  113 0058 082C     		cmp	r4, #8
  114 005a 45F8046B 		str	r6, [r5], #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 3
 
 
  115 005e F2D1     		bne	.L18
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  169 005a 13F9011F 		ldrsb	r1, [r3, #1]!
  170 005e 6145     		cmp	r1, ip
  171 0060 25D0     		beq	.L26
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 4
 
 
  172              	.L27:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  226              		.syntax unified
  227              		.thumb
  228              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 5
 
 
  229              		.fpu fpv4-sp-d16
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  283 0080 BAF1100F 		cmp	r10, #16
  284 0084 CFD1     		bne	.L54
  285 0086 4FF00009 		mov	r9, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 6
 
 
  286 008a DFED478A 		vldr.32	s17, .L82+8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  340 0118 FBD1     		bne	.L62
  341 011a 4FF47A70 		mov	r0, #1000
  342 011e FFF7FEFF 		bl	_ZN17TemperatureSensor6CreateEj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 7
 
 
  343 0122 2549     		ldr	r1, .L82+24
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  397 01c0 00000000 		.word	_ZN8TaskBase8taskListE
  398 01c4 04000000 		.word	.LC1
  399 01c8 00000000 		.word	HeaterTask
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 8
 
 
  400              		.size	_ZN4Heat4InitEv, .-_ZN4Heat4InitEv
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  454 0022 FFF7FEFF 		bl	_ZN3PID4SpinEv
  455 0026 AC42     		cmp	r4, r5
  456 0028 F9D1     		bne	.L91
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 9
 
 
  457 002a 96F9D730 		ldrsb	r3, [r6, #215]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  511 0006 0546     		mov	r5, r0
  512 0008 82B0     		sub	sp, sp, #8
  513 000a 284A     		ldr	r2, .L116
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 10
 
 
  514 000c 54F8D10B 		ldr	r0, [r4], #209
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  568 009c 4445     		cmp	r4, r8
  569 009e 06F10106 		add	r6, r6, #1
  570 00a2 E8D1     		bne	.L107
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 11
 
 
  571              	.L115:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  625 0042 E7D0     		beq	.L119
  626              	.L121:
  627 0044 9E42     		cmp	r6, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 12
 
 
  628 0046 F9D1     		bne	.L127
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  682 0014 08D0     		beq	.L136
  683 0016 052B     		cmp	r3, #5
  684 0018 0AD8     		bhi	.L137
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 13
 
 
  685 001a 92F87E30 		ldrb	r3, [r2, #126]	@ zero_extendqisi2
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  739 0000 90F9D120 		ldrsb	r2, [r0, #209]
  740 0004 8A42     		cmp	r2, r1
  741 0006 00F1D103 		add	r3, r0, #209
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 14
 
 
  742 000a 09D0     		beq	.L147
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  796              		@ args = 0, pretend = 0, frame = 0
  797              		@ frame_needed = 0, uses_anonymous_args = 0
  798              		@ link register save eliminated.
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 15
 
 
  799 0000 90F9D520 		ldrsb	r2, [r0, #213]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  853 0000 CBB2     		uxtb	r3, r1
  854 0002 072B     		cmp	r3, #7
  855 0004 9DBF     		ittte	ls
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 16
 
 
  856 0006 00EB8100 		addls	r0, r0, r1, lsl #2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  910 0016 00BF     		.align	2
  911              	.L171:
  912 0018 339388C3 		.word	-1014459597
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 17
 
 
  913              		.size	_ZNK4Heat21GetStandbyTemperatureEa, .-_ZNK4Heat21GetStandbyTemperatureEa
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  967              	.L187:
  968 0060 0000FA44 		.word	1157234688
  969              		.size	_ZNK4Heat26GetHighestTemperatureLimitEa, .-_ZNK4Heat26GetHighestTemperatureLimitEa
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 18
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 18
 
 
  970              		.section	.text._ZNK4Heat25GetLowestTemperatureLimitEa,"ax",%progbits
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1024 0060 339388C3 		.word	-1014459597
  1025              		.size	_ZNK4Heat25GetLowestTemperatureLimitEa, .-_ZNK4Heat25GetLowestTemperatureLimitEa
  1026              		.section	.text._ZNK4Heat14GetTemperatureEa,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 19
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 19
 
 
  1027              		.align	1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1081              	.L215:
  1082 0028 92ED020A 		vldr.32	s0, [r2, #8]
  1083 002c 7047     		bx	lr
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 20
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 20
 
 
  1084              	.L217:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1138              		.p2align 2,,3
  1139              		.global	_ZN4Heat12SwitchOffAllEb
  1140              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 21
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 21
 
 
  1141              		.thumb
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1195 006a F4E7     		b	.L242
  1196              		.size	_ZN4Heat12SwitchOffAllEb, .-_ZN4Heat12SwitchOffAllEb
  1197              		.section	.text._ZN4Heat7StandbyEaPK4Tool,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 22
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 22
 
 
  1198              		.align	1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1252              		.type	_ZNK4Heat13GetAveragePWMEj, %function
  1253              	_ZNK4Heat13GetAveragePWMEj:
  1254              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 23
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 23
 
 
  1255              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1309 002a 0AD0     		beq	.L262
  1310 002c D630     		adds	r0, r0, #214
  1311 002e 03E0     		b	.L258
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 24
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 24
 
 
  1312              	.L257:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1366              		.syntax unified
  1367              		.thumb
  1368              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 25
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 25
 
 
  1369              		.fpu fpv4-sp-d16
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1423              		.fpu fpv4-sp-d16
  1424              		.type	_ZNK4Heat26GetHighestTemperatureLimitEv, %function
  1425              	_ZNK4Heat26GetHighestTemperatureLimitEv:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 26
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 26
 
 
  1426              		@ args = 0, pretend = 0, frame = 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1480              		.thumb
  1481              		.thumb_func
  1482              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 27
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 27
 
 
  1483              		.type	_ZNK4Heat20WriteModelParametersEP9FileStore, %function
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1537 000c 53B1     		cbz	r3, .L307
  1538 000e 5868     		ldr	r0, [r3, #4]
  1539 0010 7047     		bx	lr
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 28
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 28
 
 
  1540              	.L303:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1594 0040 0120     		movs	r0, #1
  1595 0042 38BD     		pop	{r3, r4, r5, pc}
  1596              		.size	_ZN4Heat16SetHeaterChannelEji, .-_ZN4Heat16SetHeaterChannelEji
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 29
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 29
 
 
  1597              		.section	.text._ZN4Heat21ConfigureHeaterSensorEjjR11GCodeBufferRK9StringRef,"ax",%progbits
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1651              	_ZN4Heat9GetSensorEj:
  1652              		@ args = 0, pretend = 0, frame = 0
  1653              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 30
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 30
 
 
  1654              		@ link register save eliminated.
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1708 0018 01D9     		bls	.L346
  1709 001a 0020     		movs	r0, #0
  1710              	.L340:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 31
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 31
 
 
  1711 001c 7047     		bx	lr
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1765 0020 92F90800 		ldrsb	r0, [r2, #8]
  1766 0024 A042     		cmp	r0, r4
  1767 0026 F7D1     		bne	.L351
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 32
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 32
 
 
  1768 0028 69B1     		cbz	r1, .L360
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1822              		@ args = 0, pretend = 0, frame = 8
  1823              		@ frame_needed = 0, uses_anonymous_args = 0
  1824 0000 0729     		cmp	r1, #7
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 33
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 33
 
 
  1825 0002 11D8     		bhi	.L366
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1879              		.type	_ZN4Heat14SuspendHeatersEb, %function
  1880              	_ZN4Heat14SuspendHeatersEb:
  1881              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 34
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 34
 
 
  1882              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1936 004a 3946     		mov	r1, r7
  1937              	.L387:
  1938 004c CDE90001 		strd	r0, [sp]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 35
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 35
 
 
  1939 0050 2246     		mov	r2, r4
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  1993 00c8 FFF7FEFF 		bl	_ZN9FileStore5WriteEPKc
  1994 00cc 1EB0     		add	sp, sp, #120
  1995              		@ sp needed
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 36
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 36
 
 
  1996 00ce BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  2046              		.align	2
  2047              		.type	_ZL32cpu_irq_critical_section_counter, %object
  2048              		.size	_ZL32cpu_irq_critical_section_counter, 4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 37
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 37
 
 
  2049              	_ZL32cpu_irq_critical_section_counter:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 1
  2087      61727420 
  2088 0033 65617465 		.ascii	"eater %d is being tuned\000"
  2088      72202564 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cci1mGpy.s 			page 38
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cc3PoYiZ.s 			page 38
 
 
  2088      20697320 

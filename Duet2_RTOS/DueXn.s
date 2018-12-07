@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
   55 0044 6020     		movs	r0, #96
   56 0046 FFF7FEFF 		bl	pinModeDuet
   57 004a 0722     		movs	r2, #7
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 2
 
 
   58 004c 49F2F001 		movw	r1, #37104
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  112              		.syntax unified
  113              		.thumb
  114              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 3
 
 
  115              		.fpu fpv4-sp-d16
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  169              		@ frame_needed = 0, uses_anonymous_args = 0
  170              		@ link register save eliminated.
  171 0000 054B     		ldr	r3, .L22
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 4
 
 
  172 0002 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  226 0002 074B     		ldr	r3, .L35
  227 0004 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  228 0006 03B9     		cbnz	r3, .L34
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 5
 
 
  229              	.L29:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  283 002a 17       		.byte	(.L45-.L42)/2
  284 002b 17       		.byte	(.L45-.L42)/2
  285              		.p2align 1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 6
 
 
  286              	.L38:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  340 0008 10B5     		push	{r4, lr}
  341 000a 0446     		mov	r4, r0
  342 000c 03D8     		bhi	.L59
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 7
 
 
  343 000e 1A4B     		ldr	r3, .L74
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  397 0076 00BF     		.align	2
  398              	.L74:
  399 0078 00000000 		.word	.LANCHOR2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 8
 
 
  400 007c 00000000 		.word	.LANCHOR6
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  454              		.section	.text._ZN13DuetExpansion9AnalogOutEhf,"ax",%progbits
  455              		.align	1
  456              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 9
 
 
  457              		.global	_ZN13DuetExpansion9AnalogOutEhf
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  511 0062 02B0     		add	sp, sp, #8
  512              		@ sp needed
  513 0064 FFF7FEBF 		b	_ZN6SX150911analogWriteEhh
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 10
 
 
  514              	.L112:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  568 000e FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
  569 0012 0E4B     		ldr	r3, .L126+8
  570 0014 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 11
 
 
  571 0016 63B9     		cbnz	r3, .L124
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  625 0016 2046     		mov	r0, r4
  626 0018 FFF7FEFF 		bl	_ZN6SX150914digitalReadAllEv
  627 001c 0446     		mov	r4, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 12
 
 
  628 001e FFF7FEFF 		bl	_ZN13DuetExpansion9DueXnInitEv
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  679      00000000 
  680              		.section	.bss._ZN13DuetExpansionL14dueXnBoardTypeE,"aw",%nobits
  681              		.set	.LANCHOR2,. + 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 13
 
 
  682              		.type	_ZN13DuetExpansionL14dueXnBoardTypeE, %object
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 1
  728      20493243 
  728      20657272 
  728      6F727320 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cctz1YCz.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccIRmQ8y.s 			page 14
 
 
  728      256C750A 

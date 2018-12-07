@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -46,3385 +46,3503 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 1
   43              		@ args = 0, pretend = 0, frame = 0
   44              		@ frame_needed = 0, uses_anonymous_args = 0
   45              		@ link register save eliminated.
-  46 0000 054A     		ldr	r2, .L5
-  47 0002 0260     		str	r2, [r0]
-  48 0004 2821     		movs	r1, #40
-  49 0006 0022     		movs	r2, #0
-  50 0008 0171     		strb	r1, [r0, #4]
-  51 000a C0E90822 		strd	r2, r2, [r0, #32]
-  52 000e C0E90A22 		strd	r2, r2, [r0, #40]
-  53 0012 4264     		str	r2, [r0, #68]
-  54 0014 7047     		bx	lr
-  55              	.L6:
-  56 0016 00BF     		.align	2
-  57              	.L5:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 2
-
-
-  58 0018 18622B63 		.word	1663787544
-  59              		.size	_ZN7LynxModC2Ev, .-_ZN7LynxModC2Ev
-  60              		.global	_ZN7LynxModC1Ev
-  61              		.thumb_set _ZN7LynxModC1Ev,_ZN7LynxModC2Ev
-  62              		.section	.text._ZN7LynxMod4InitEv,"ax",%progbits
-  63              		.align	1
-  64              		.p2align 2,,3
-  65              		.global	_ZN7LynxMod4InitEv
-  66              		.syntax unified
-  67              		.thumb
-  68              		.thumb_func
-  69              		.fpu fpv4-sp-d16
-  70              		.type	_ZN7LynxMod4InitEv, %function
-  71              	_ZN7LynxMod4InitEv:
-  72              		@ args = 0, pretend = 0, frame = 0
-  73              		@ frame_needed = 0, uses_anonymous_args = 0
-  74              		@ link register save eliminated.
-  75 0000 044B     		ldr	r3, .L8
-  76 0002 5B68     		ldr	r3, [r3, #4]	@ unaligned
-  77 0004 1A68     		ldr	r2, [r3]
-  78 0006 8260     		str	r2, [r0, #8]
-  79 0008 D3E90223 		ldrd	r2, [r3, #8]
-  80 000c C0E90423 		strd	r2, [r0, #16]
-  81 0010 7047     		bx	lr
-  82              	.L9:
-  83 0012 00BF     		.align	2
-  84              	.L8:
-  85 0014 00000000 		.word	reprap
-  86              		.size	_ZN7LynxMod4InitEv, .-_ZN7LynxMod4InitEv
-  87              		.section	.text._ZN7LynxMod14SetTempSafeLedEv,"ax",%progbits
-  88              		.align	1
-  89              		.p2align 2,,3
-  90              		.global	_ZN7LynxMod14SetTempSafeLedEv
-  91              		.syntax unified
-  92              		.thumb
-  93              		.thumb_func
-  94              		.fpu fpv4-sp-d16
-  95              		.type	_ZN7LynxMod14SetTempSafeLedEv, %function
-  96              	_ZN7LynxMod14SetTempSafeLedEv:
-  97              		@ args = 0, pretend = 0, frame = 0
-  98              		@ frame_needed = 0, uses_anonymous_args = 0
-  99 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
- 100 0004 2DED048B 		vpush.64	{d8, d9}
- 101 0008 FFF7FEFF 		bl	millis
- 102 000c 41F28833 		movw	r3, #5000
- 103 0010 9842     		cmp	r0, r3
- 104 0012 18D8     		bhi	.L11
- 105 0014 864B     		ldr	r3, .L67
- 106 0016 874F     		ldr	r7, .L67+4
- 107 0018 1A68     		ldr	r2, [r3]
- 108 001a 97F84530 		ldrb	r3, [r7, #69]	@ zero_extendqisi2
- 109 001e 507F     		ldrb	r0, [r2, #29]	@ zero_extendqisi2
- 110              	.L12:
- 111 0020 002B     		cmp	r3, #0
- 112 0022 40F0CD80 		bne	.L39
- 113              	.L66:
- 114 0026 BDEC048B 		vldm	sp!, {d8-d9}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 3
-
-
- 115 002a 3B78     		ldrb	r3, [r7]	@ zero_extendqisi2
- 116 002c 9FED820A 		vldr.32	s0, .L67+8
- 117 0030 DFED827A 		vldr.32	s15, .L67+12
- 118 0034 002B     		cmp	r3, #0
- 119 0036 18BF     		it	ne
- 120 0038 B0EE670A 		vmovne.f32	s0, s15
- 121 003c 0021     		movs	r1, #0
- 122 003e BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 123 0042 FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
- 124              	.L11:
- 125 0046 7A4D     		ldr	r5, .L67
- 126 0048 7A4F     		ldr	r7, .L67+4
- 127 004a 2B69     		ldr	r3, [r5, #16]
- 128 004c 9FED7B8A 		vldr.32	s16, .L67+12
- 129 0050 DFED7B8A 		vldr.32	s17, .L67+16
- 130 0054 9FED7B9A 		vldr.32	s18, .L67+20
- 131 0058 0022     		movs	r2, #0
- 132 005a 1446     		mov	r4, r2
- 133 005c 87F84520 		strb	r2, [r7, #69]
- 134 0060 1646     		mov	r6, r2
- 135 0062 4FF00109 		mov	r9, #1
- 136              	.L19:
- 137 0066 1A19     		adds	r2, r3, r4
- 138 0068 1846     		mov	r0, r3
- 139 006a 92F9D180 		ldrsb	r8, [r2, #209]
- 140 006e B8F1000F 		cmp	r8, #0
- 141 0072 4146     		mov	r1, r8
- 142 0074 80F29080 		bge	.L61
- 143              	.L13:
- 144 0078 0134     		adds	r4, r4, #1
- 145 007a 042C     		cmp	r4, #4
- 146 007c F3D1     		bne	.L19
- 147 007e 4FF00008 		mov	r8, #0
- 148 0082 1846     		mov	r0, r3
- 149 0084 4344     		add	r3, r3, r8
- 150 0086 DFED6E8A 		vldr.32	s17, .L67+16
- 151 008a 93F9D540 		ldrsb	r4, [r3, #213]
- 152 008e 9FED6D9A 		vldr.32	s18, .L67+20
- 153 0092 002C     		cmp	r4, #0
- 154 0094 4FF00109 		mov	r9, #1
- 155 0098 2146     		mov	r1, r4
- 156 009a 0CDA     		bge	.L62
- 157              	.L20:
- 158 009c B8F1000F 		cmp	r8, #0
- 159 00a0 25D1     		bne	.L38
- 160              	.L63:
- 161 00a2 2B69     		ldr	r3, [r5, #16]
- 162 00a4 4FF00108 		mov	r8, #1
- 163 00a8 1846     		mov	r0, r3
- 164 00aa 4344     		add	r3, r3, r8
- 165 00ac 93F9D540 		ldrsb	r4, [r3, #213]
- 166 00b0 002C     		cmp	r4, #0
- 167 00b2 2146     		mov	r1, r4
- 168 00b4 F2DB     		blt	.L20
- 169              	.L62:
- 170 00b6 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 171 00ba B4EEE80A 		vcmpe.f32	s0, s17
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 4
-
-
- 172 00be F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 173 00c2 C0F2A980 		blt	.L58
- 174 00c6 87F84590 		strb	r9, [r7, #69]
- 175              	.L23:
- 176 00ca 2146     		mov	r1, r4
- 177 00cc 2869     		ldr	r0, [r5, #16]
- 178 00ce FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 179 00d2 B4EEC80A 		vcmpe.f32	s0, s16
- 180 00d6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 181 00da DFDD     		ble	.L20
- 182 00dc 2146     		mov	r1, r4
- 183 00de 2869     		ldr	r0, [r5, #16]
- 184 00e0 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 185 00e4 B0EE408A 		vmov.f32	s16, s0
- 186 00e8 B8F1000F 		cmp	r8, #0
- 187 00ec D9D0     		beq	.L63
- 188              	.L38:
- 189 00ee 0024     		movs	r4, #0
- 190 00f0 DFF83C91 		ldr	r9, .L67
- 191 00f4 A046     		mov	r8, r4
- 192              	.L26:
- 193 00f6 61B2     		sxtb	r1, r4
- 194 00f8 4846     		mov	r0, r9
- 195 00fa FFF7FEFF 		bl	_ZNK6RepRap22IsHeaterAssignedToToolEa
- 196 00fe 0134     		adds	r4, r4, #1
- 197 0100 08B1     		cbz	r0, .L28
- 198 0102 08F10108 		add	r8, r8, #1
- 199              	.L28:
- 200 0106 092C     		cmp	r4, #9
- 201 0108 F5D1     		bne	.L26
- 202 010a DFED4E8A 		vldr.32	s17, .L67+20
- 203 010e 0024     		movs	r4, #0
- 204 0110 4FF00109 		mov	r9, #1
- 205 0114 03E0     		b	.L34
- 206              	.L29:
- 207 0116 0134     		adds	r4, r4, #1
- 208 0118 64B2     		sxtb	r4, r4
- 209 011a 4445     		cmp	r4, r8
- 210 011c 24DC     		bgt	.L64
- 211              	.L34:
- 212 011e 002C     		cmp	r4, #0
- 213 0120 2146     		mov	r1, r4
- 214 0122 F8DB     		blt	.L29
- 215 0124 2869     		ldr	r0, [r5, #16]
- 216 0126 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 217 012a B4EEE80A 		vcmpe.f32	s0, s17
- 218 012e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 219 0132 C8BF     		it	gt
- 220 0134 0136     		addgt	r6, r6, #1
- 221 0136 2146     		mov	r1, r4
- 222 0138 2869     		ldr	r0, [r5, #16]
- 223 013a C8BF     		it	gt
- 224 013c F6B2     		uxtbgt	r6, r6
- 225 013e FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 226 0142 B4EEC80A 		vcmpe.f32	s0, s16
- 227 0146 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 228 014a 4BDC     		bgt	.L65
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 5
-
-
- 229              	.L32:
- 230 014c 2146     		mov	r1, r4
- 231 014e 2869     		ldr	r0, [r5, #16]
- 232 0150 FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
- 233 0154 0328     		cmp	r0, #3
- 234 0156 DED1     		bne	.L29
- 235 0158 0134     		adds	r4, r4, #1
- 236 015a 64B2     		sxtb	r4, r4
- 237 015c 0136     		adds	r6, r6, #1
- 238 015e 4445     		cmp	r4, r8
- 239 0160 F6B2     		uxtb	r6, r6
- 240 0162 87F84590 		strb	r9, [r7, #69]
- 241 0166 DADD     		ble	.L34
- 242              	.L64:
- 243 0168 2B68     		ldr	r3, [r5]
- 244 016a 374A     		ldr	r2, .L67+24
- 245 016c 87ED0B8A 		vstr.32	s16, [r7, #44]
- 246 0170 587F     		ldrb	r0, [r3, #29]	@ zero_extendqisi2
- 247 0172 1178     		ldrb	r1, [r2]	@ zero_extendqisi2
- 248 0174 97F84530 		ldrb	r3, [r7, #69]	@ zero_extendqisi2
- 249 0178 5EB3     		cbz	r6, .L35
- 250 017a 0129     		cmp	r1, #1
- 251 017c 3FF450AF 		beq	.L12
- 252 0180 0123     		movs	r3, #1
- 253 0182 1370     		strb	r3, [r2]
- 254 0184 3B70     		strb	r3, [r7]
- 255 0186 BDEC048B 		vldm	sp!, {d8-d9}
- 256 018a 9FED2C0A 		vldr.32	s0, .L67+12
- 257 018e 0021     		movs	r1, #0
- 258 0190 BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 259 0194 FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
- 260              	.L61:
- 261 0198 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 262 019c B4EEE80A 		vcmpe.f32	s0, s17
- 263 01a0 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 264 01a4 2CDB     		blt	.L57
- 265 01a6 87F84590 		strb	r9, [r7, #69]
- 266              	.L16:
- 267 01aa 4146     		mov	r1, r8
- 268 01ac 2869     		ldr	r0, [r5, #16]
- 269 01ae FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 270 01b2 B4EEC80A 		vcmpe.f32	s0, s16
- 271 01b6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 272 01ba 1ADC     		bgt	.L18
- 273              	.L60:
- 274 01bc 2B69     		ldr	r3, [r5, #16]
- 275 01be 5BE7     		b	.L13
- 276              	.L39:
- 277 01c0 BDEC048B 		vldm	sp!, {d8-d9}
- 278 01c4 9FED1D0A 		vldr.32	s0, .L67+12
- 279 01c8 0021     		movs	r1, #0
- 280 01ca BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 281 01ce FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
- 282              	.L35:
- 283 01d2 0029     		cmp	r1, #0
- 284 01d4 3FF424AF 		beq	.L12
- 285 01d8 1670     		strb	r6, [r2]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 6
-
-
- 286 01da 3E70     		strb	r6, [r7]
- 287 01dc 002B     		cmp	r3, #0
- 288 01de 3FF422AF 		beq	.L66
- 289 01e2 EDE7     		b	.L39
- 290              	.L65:
- 291 01e4 2146     		mov	r1, r4
- 292 01e6 2869     		ldr	r0, [r5, #16]
- 293 01e8 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 294 01ec B0EE408A 		vmov.f32	s16, s0
- 295 01f0 ACE7     		b	.L32
- 296              	.L18:
- 297 01f2 4146     		mov	r1, r8
- 298 01f4 2869     		ldr	r0, [r5, #16]
- 299 01f6 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 300 01fa B0EE408A 		vmov.f32	s16, s0
- 301 01fe DDE7     		b	.L60
- 302              	.L57:
- 303 0200 4146     		mov	r1, r8
- 304 0202 2869     		ldr	r0, [r5, #16]
- 305 0204 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 306 0208 B4EEC90A 		vcmpe.f32	s0, s18
- 307 020c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 308 0210 C4BF     		itt	gt
- 309 0212 0136     		addgt	r6, r6, #1
- 310 0214 F6B2     		uxtbgt	r6, r6
- 311 0216 C8E7     		b	.L16
- 312              	.L58:
- 313 0218 2146     		mov	r1, r4
- 314 021a 2869     		ldr	r0, [r5, #16]
- 315 021c FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 316 0220 B4EEC90A 		vcmpe.f32	s0, s18
- 317 0224 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 318 0228 C4BF     		itt	gt
- 319 022a 0136     		addgt	r6, r6, #1
- 320 022c F6B2     		uxtbgt	r6, r6
- 321 022e 4CE7     		b	.L23
- 322              	.L68:
- 323              		.align	2
- 324              	.L67:
- 325 0230 00000000 		.word	reprap
- 326 0234 00000000 		.word	.LANCHOR0
- 327 0238 00007F43 		.word	1132396544
- 328 023c 00000000 		.word	0
- 329 0240 00C0F344 		.word	1156825088
- 330 0244 00004842 		.word	1112014848
- 331 0248 00000000 		.word	.LANCHOR1
- 332              		.size	_ZN7LynxMod14SetTempSafeLedEv, .-_ZN7LynxMod14SetTempSafeLedEv
- 333              		.section	.text._ZN7LynxMod23SetSafeHeatedChamberFanEv,"ax",%progbits
- 334              		.align	1
- 335              		.p2align 2,,3
- 336              		.global	_ZN7LynxMod23SetSafeHeatedChamberFanEv
- 337              		.syntax unified
- 338              		.thumb
- 339              		.thumb_func
- 340              		.fpu fpv4-sp-d16
- 341              		.type	_ZN7LynxMod23SetSafeHeatedChamberFanEv, %function
- 342              	_ZN7LynxMod23SetSafeHeatedChamberFanEv:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 7
-
-
- 343              		@ args = 0, pretend = 0, frame = 0
- 344              		@ frame_needed = 0, uses_anonymous_args = 0
- 345 0000 70B5     		push	{r4, r5, r6, lr}
- 346 0002 234E     		ldr	r6, .L87
- 347 0004 2DED068B 		vpush.64	{d8, d9, d10}
- 348 0008 9FED228A 		vldr.32	s16, .L87+4
- 349 000c 9FED229A 		vldr.32	s18, .L87+8
- 350 0010 DFED229A 		vldr.32	s19, .L87+12
- 351 0014 9FED22AA 		vldr.32	s20, .L87+16
- 352 0018 DFED228A 		vldr.32	s17, .L87+20
- 353 001c 0025     		movs	r5, #0
- 354              	.L76:
- 355 001e 3369     		ldr	r3, [r6, #16]
- 356 0020 1846     		mov	r0, r3
- 357 0022 2B44     		add	r3, r3, r5
- 358 0024 93F9D540 		ldrsb	r4, [r3, #213]
- 359 0028 002C     		cmp	r4, #0
- 360 002a 2146     		mov	r1, r4
- 361 002c 03DA     		bge	.L84
- 362              	.L70:
- 363 002e 2DB3     		cbz	r5, .L77
- 364              	.L86:
- 365 0030 BDEC068B 		vldm	sp!, {d8-d10}
- 366 0034 70BD     		pop	{r4, r5, r6, pc}
- 367              	.L84:
- 368 0036 FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
- 369 003a B4EEC80A 		vcmpe.f32	s0, s16
- 370 003e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 371 0042 2146     		mov	r1, r4
- 372 0044 B0EE680A 		vmov.f32	s0, s17
- 373 0048 12DC     		bgt	.L83
- 374 004a 3069     		ldr	r0, [r6, #16]
- 375 004c FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
- 376 0050 B4EEC90A 		vcmpe.f32	s0, s18
- 377 0054 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 378 0058 2146     		mov	r1, r4
- 379 005a 07DD     		ble	.L73
- 380 005c 3069     		ldr	r0, [r6, #16]
- 381 005e FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
- 382 0062 B4EEC80A 		vcmpe.f32	s0, s16
- 383 0066 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 384 006a 09D4     		bmi	.L85
- 385              	.L73:
- 386 006c B0EE690A 		vmov.f32	s0, s19
- 387              	.L83:
- 388 0070 0121     		movs	r1, #1
- 389 0072 7068     		ldr	r0, [r6, #4]
- 390 0074 FFF7FEFF 		bl	_ZN8Platform11SetFanValueEjf
- 391 0078 002D     		cmp	r5, #0
- 392 007a D9D1     		bne	.L86
- 393              	.L77:
- 394 007c 0125     		movs	r5, #1
- 395 007e CEE7     		b	.L76
- 396              	.L85:
- 397 0080 B0EE4A0A 		vmov.f32	s0, s20
- 398 0084 0121     		movs	r1, #1
- 399 0086 7068     		ldr	r0, [r6, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 8
-
-
- 400 0088 FFF7FEFF 		bl	_ZN8Platform11SetFanValueEjf
- 401 008c CFE7     		b	.L70
- 402              	.L88:
- 403 008e 00BF     		.align	2
- 404              	.L87:
- 405 0090 00000000 		.word	reprap
- 406 0094 3333733F 		.word	1064514355
- 407 0098 6F12833A 		.word	981668463
- 408 009c 00004842 		.word	1112014848
- 409 00a0 00009642 		.word	1117126656
- 410 00a4 0000C842 		.word	1120403456
- 411              		.size	_ZN7LynxMod23SetSafeHeatedChamberFanEv, .-_ZN7LynxMod23SetSafeHeatedChamberFanEv
- 412              		.section	.text._Z4Lockb,"ax",%progbits
- 413              		.align	1
- 414              		.p2align 2,,3
- 415              		.global	_Z4Lockb
- 416              		.syntax unified
- 417              		.thumb
- 418              		.thumb_func
- 419              		.fpu fpv4-sp-d16
- 420              		.type	_Z4Lockb, %function
- 421              	_Z4Lockb:
- 422              		@ args = 0, pretend = 0, frame = 0
- 423              		@ frame_needed = 0, uses_anonymous_args = 0
- 424              		@ link register save eliminated.
- 425 0000 084B     		ldr	r3, .L93
- 426 0002 094A     		ldr	r2, .L93+4
- 427 0004 1B68     		ldr	r3, [r3]
- 428 0006 D268     		ldr	r2, [r2, #12]
- 429 0008 DB7E     		ldrb	r3, [r3, #27]	@ zero_extendqisi2
- 430 000a 9FED080A 		vldr.32	s0, .L93+8
- 431 000e 2AB1     		cbz	r2, .L90
- 432 0010 DFED077A 		vldr.32	s15, .L93+12
- 433 0014 0028     		cmp	r0, #0
- 434 0016 18BF     		it	ne
- 435 0018 B0EE670A 		vmovne.f32	s0, s15
- 436              	.L90:
- 437 001c 1846     		mov	r0, r3
- 438 001e 0021     		movs	r1, #0
- 439 0020 FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
- 440              	.L94:
- 441              		.align	2
- 442              	.L93:
- 443 0024 00000000 		.word	reprap
- 444 0028 00000000 		.word	.LANCHOR0
- 445 002c 00000000 		.word	0
- 446 0030 00007F43 		.word	1132396544
- 447              		.size	_Z4Lockb, .-_Z4Lockb
- 448              		.section	.text._ZN7LynxMod12VerrouillageEv,"ax",%progbits
- 449              		.align	1
- 450              		.p2align 2,,3
- 451              		.global	_ZN7LynxMod12VerrouillageEv
- 452              		.syntax unified
- 453              		.thumb
- 454              		.thumb_func
- 455              		.fpu fpv4-sp-d16
- 456              		.type	_ZN7LynxMod12VerrouillageEv, %function
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 9
-
-
- 457              	_ZN7LynxMod12VerrouillageEv:
- 458              		@ args = 0, pretend = 0, frame = 0
- 459              		@ frame_needed = 0, uses_anonymous_args = 0
- 460 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
- 461 0004 0646     		mov	r6, r0
- 462 0006 807E     		ldrb	r0, [r0, #26]	@ zero_extendqisi2
- 463 0008 B44C     		ldr	r4, .L196
- 464 000a B54D     		ldr	r5, .L196+4
- 465 000c FFF7FEFF 		bl	digitalRead
- 466 0010 A060     		str	r0, [r4, #8]
- 467 0012 B448     		ldr	r0, .L196+8
- 468 0014 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
- 469 0018 E368     		ldr	r3, [r4, #12]
- 470 001a 8046     		mov	r8, r0
- 471 001c 002B     		cmp	r3, #0
- 472 001e 7DD1     		bne	.L96
- 473 0020 2B68     		ldr	r3, [r5]
- 474              	.L97:
- 475 0022 092B     		cmp	r3, #9
- 476 0024 00F28280 		bhi	.L98
- 477              	.L150:
- 478 0028 94F84730 		ldrb	r3, [r4, #71]	@ zero_extendqisi2
- 479 002c 002B     		cmp	r3, #0
- 480 002e 5ED0     		beq	.L115
- 481 0030 B8F1480F 		cmp	r8, #72
- 482 0034 00F09A80 		beq	.L107
- 483 0038 B8F1530F 		cmp	r8, #83
- 484 003c 00F09680 		beq	.L107
- 485 0040 E368     		ldr	r3, [r4, #12]
- 486 0042 94F84920 		ldrb	r2, [r4, #73]	@ zero_extendqisi2
- 487 0046 002B     		cmp	r3, #0
- 488 0048 40F0F780 		bne	.L117
- 489 004c 84F84730 		strb	r3, [r4, #71]
- 490 0050 002A     		cmp	r2, #0
- 491 0052 40F08380 		bne	.L152
- 492              	.L119:
- 493 0056 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
- 494 005a 5A1E     		subs	r2, r3, #1
- 495 005c 012A     		cmp	r2, #1
- 496 005e 40F2F080 		bls	.L184
- 497              	.L122:
- 498 0062 A268     		ldr	r2, [r4, #8]
- 499 0064 12B9     		cbnz	r2, .L124
- 500 0066 002B     		cmp	r3, #0
- 501 0068 00F0FD80 		beq	.L127
- 502              	.L124:
- 503 006c 2968     		ldr	r1, [r5]
- 504 006e 0129     		cmp	r1, #1
- 505 0070 00F00681 		beq	.L128
- 506              	.L129:
- 507 0074 0229     		cmp	r1, #2
- 508 0076 00F01E81 		beq	.L185
- 509              	.L131:
- 510 007a 002A     		cmp	r2, #0
- 511 007c 00F09A80 		beq	.L133
- 512 0080 012B     		cmp	r3, #1
- 513 0082 00F00C81 		beq	.L186
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 10
-
-
- 514              	.L134:
- 515 0086 032B     		cmp	r3, #3
- 516 0088 00F09780 		beq	.L149
- 517              	.L136:
- 518 008c 256A     		ldr	r5, [r4, #32]
- 519              	.L138:
- 520 008e 032D     		cmp	r5, #3
- 521 0090 00F06A81 		beq	.L140
- 522              	.L141:
- 523 0094 636B     		ldr	r3, [r4, #52]
- 524 0096 03F6B835 		addw	r5, r3, #3000
- 525 009a FFF7FEFF 		bl	millis
- 526 009e 8542     		cmp	r5, r0
- 527 00a0 04D2     		bcs	.L142
- 528 00a2 236A     		ldr	r3, [r4, #32]
- 529 00a4 012B     		cmp	r3, #1
- 530 00a6 04BF     		itt	eq
- 531 00a8 0023     		moveq	r3, #0
- 532 00aa 2362     		streq	r3, [r4, #32]
- 533              	.L142:
- 534 00ac E378     		ldrb	r3, [r4, #3]	@ zero_extendqisi2
- 535 00ae 002B     		cmp	r3, #0
- 536 00b0 32D0     		beq	.L95
- 537 00b2 D4ED0B7A 		vldr.32	s15, [r4, #44]
- 538 00b6 9FED8C7A 		vldr.32	s14, .L196+12
- 539 00ba 94F84630 		ldrb	r3, [r4, #70]	@ zero_extendqisi2
- 540 00be F4EEC77A 		vcmpe.f32	s15, s14
- 541 00c2 002B     		cmp	r3, #0
- 542 00c4 40F0A680 		bne	.L187
- 543 00c8 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 544 00cc 02DA     		bge	.L147
- 545 00ce 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
- 546 00d2 0BB3     		cbz	r3, .L95
- 547              	.L147:
- 548 00d4 834B     		ldr	r3, .L196+8
- 549 00d6 854A     		ldr	r2, .L196+16
- 550 00d8 5868     		ldr	r0, [r3, #4]
- 551 00da 0223     		movs	r3, #2
- 552 00dc 2362     		str	r3, [r4, #32]
- 553 00de 1021     		movs	r1, #16
- 554 00e0 BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 555 00e4 FFF7FEBF 		b	_ZN8Platform8MessageFE11MessageTypePKcz
- 556              	.L191:
- 557 00e8 0AB9     		cbnz	r2, .L115
- 558 00ea 0223     		movs	r3, #2
- 559 00ec 0B60     		str	r3, [r1]
- 560              	.L115:
- 561 00ee 94F84930 		ldrb	r3, [r4, #73]	@ zero_extendqisi2
- 562 00f2 002B     		cmp	r3, #0
- 563 00f4 AFD0     		beq	.L119
- 564 00f6 E368     		ldr	r3, [r4, #12]
- 565 00f8 83B3     		cbz	r3, .L152
- 566              	.L120:
- 567 00fa 0120     		movs	r0, #1
- 568 00fc FFF7FEFF 		bl	_Z4Lockb
- 569 0100 7B48     		ldr	r0, .L196+20
- 570 0102 7C49     		ldr	r1, .L196+24
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 11
-
-
- 571 0104 7C4A     		ldr	r2, .L196+28
- 572 0106 0023     		movs	r3, #0
- 573 0108 0360     		str	r3, [r0]
- 574 010a 84F84C30 		strb	r3, [r4, #76]
- 575 010e 6371     		strb	r3, [r4, #5]
- 576 0110 84F84930 		strb	r3, [r4, #73]
- 577 0114 0B60     		str	r3, [r1]
- 578 0116 1360     		str	r3, [r2]
- 579              	.L95:
- 580 0118 BDE8F883 		pop	{r3, r4, r5, r6, r7, r8, r9, pc}
- 581              	.L96:
- 582 011c A268     		ldr	r2, [r4, #8]
- 583 011e 2B68     		ldr	r3, [r5]
- 584 0120 002A     		cmp	r2, #0
- 585 0122 7FF47EAF 		bne	.L97
- 586 0126 092B     		cmp	r3, #9
- 587 0128 40F2EE80 		bls	.L188
- 588              	.L98:
- 589 012c DFF8D091 		ldr	r9, .L196+36
- 590 0130 D9F80070 		ldr	r7, [r9]
- 591 0134 DB07     		lsls	r3, r3, #31
- 592 0136 07F5FA77 		add	r7, r7, #500
- 593 013a 4DD5     		bpl	.L189
- 594 013c FFF7FEFF 		bl	millis
- 595 0140 B842     		cmp	r0, r7
- 596 0142 00F2F380 		bhi	.L104
- 597 0146 A368     		ldr	r3, [r4, #8]
- 598 0148 002B     		cmp	r3, #0
- 599 014a 4ED0     		beq	.L183
- 600 014c FFF7FEFF 		bl	millis
- 601 0150 2B68     		ldr	r3, [r5]
- 602 0152 C9F80000 		str	r0, [r9]
- 603 0156 0133     		adds	r3, r3, #1
- 604 0158 2B60     		str	r3, [r5]
- 605 015a 47E0     		b	.L103
- 606              	.L152:
- 607 015c 0020     		movs	r0, #0
- 608 015e FFF7FEFF 		bl	_Z4Lockb
- 609 0162 0123     		movs	r3, #1
- 610 0164 84F84C30 		strb	r3, [r4, #76]
- 611 0168 BDE8F883 		pop	{r3, r4, r5, r6, r7, r8, r9, pc}
- 612              	.L107:
- 613 016c A268     		ldr	r2, [r4, #8]
- 614 016e A169     		ldr	r1, [r4, #24]
- 615 0170 40F2DC53 		movw	r3, #1500
- 616 0174 B3FBF1F3 		udiv	r3, r3, r1
- 617 0178 002A     		cmp	r2, #0
- 618 017a 43D0     		beq	.L190
- 619 017c 5D49     		ldr	r1, .L196+24
- 620 017e 0868     		ldr	r0, [r1]
- 621 0180 0028     		cmp	r0, #0
- 622 0182 00F0D680 		beq	.L148
- 623 0186 5A4F     		ldr	r7, .L196+20
- 624 0188 3968     		ldr	r1, [r7]
- 625              	.L110:
- 626 018a 9942     		cmp	r1, r3
- 627 018c 80F0DC80 		bcs	.L113
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 12
-
-
- 628 0190 6079     		ldrb	r0, [r4, #5]	@ zero_extendqisi2
- 629 0192 0028     		cmp	r0, #0
- 630 0194 40F0DA80 		bne	.L112
- 631 0198 5649     		ldr	r1, .L196+24
- 632 019a 0B68     		ldr	r3, [r1]
- 633 019c 012B     		cmp	r3, #1
- 634 019e A3D0     		beq	.L191
- 635 01a0 022B     		cmp	r3, #2
- 636 01a2 A4D1     		bne	.L115
- 637 01a4 002A     		cmp	r2, #0
- 638 01a6 A2D0     		beq	.L115
- 639 01a8 0123     		movs	r3, #1
- 640 01aa 3860     		str	r0, [r7]
- 641 01ac 0860     		str	r0, [r1]
- 642 01ae 6071     		strb	r0, [r4, #5]
- 643 01b0 3376     		strb	r3, [r6, #24]
- 644 01b2 9CE7     		b	.L115
- 645              	.L133:
- 646 01b4 022B     		cmp	r3, #2
- 647 01b6 7FF466AF 		bne	.L134
- 648              	.L149:
- 649 01ba E368     		ldr	r3, [r4, #12]
- 650 01bc 002B     		cmp	r3, #0
- 651 01be 40F0AD80 		bne	.L192
- 652 01c2 94F84620 		ldrb	r2, [r4, #70]	@ zero_extendqisi2
- 653 01c6 256A     		ldr	r5, [r4, #32]
- 654 01c8 002A     		cmp	r2, #0
- 655 01ca 00F0C380 		beq	.L139
- 656 01ce 0122     		movs	r2, #1
- 657 01d0 84F84430 		strb	r3, [r4, #68]
- 658 01d4 E270     		strb	r2, [r4, #3]
- 659 01d6 5AE7     		b	.L138
- 660              	.L189:
- 661 01d8 FFF7FEFF 		bl	millis
- 662 01dc B842     		cmp	r0, r7
- 663 01de 00F2A580 		bhi	.L104
- 664 01e2 A368     		ldr	r3, [r4, #8]
- 665 01e4 002B     		cmp	r3, #0
- 666 01e6 00F0FC80 		beq	.L102
- 667              	.L183:
- 668 01ea 2B68     		ldr	r3, [r5]
- 669              	.L103:
- 670 01ec 0F2B     		cmp	r3, #15
- 671 01ee 7FF41BAF 		bne	.L150
- 672 01f2 3C4B     		ldr	r3, .L196+8
- 673 01f4 414A     		ldr	r2, .L196+32
- 674 01f6 5868     		ldr	r0, [r3, #4]
- 675 01f8 1021     		movs	r1, #16
- 676 01fa 0023     		movs	r3, #0
- 677 01fc 2B60     		str	r3, [r5]
- 678 01fe FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 679 0202 11E7     		b	.L150
- 680              	.L190:
- 681 0204 3A4F     		ldr	r7, .L196+20
- 682 0206 E068     		ldr	r0, [r4, #12]
- 683 0208 3968     		ldr	r1, [r7]
- 684 020a 0028     		cmp	r0, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 13
-
-
- 685 020c BDD1     		bne	.L110
- 686 020e 0131     		adds	r1, r1, #1
- 687 0210 3960     		str	r1, [r7]
- 688 0212 BAE7     		b	.L110
- 689              	.L187:
- 690 0214 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 691 0218 04D9     		bls	.L144
- 692 021a 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
- 693 021e 002B     		cmp	r3, #0
- 694 0220 00F0C580 		beq	.L193
- 695              	.L144:
- 696 0224 E068     		ldr	r0, [r4, #12]
- 697 0226 0028     		cmp	r0, #0
- 698 0228 40F0A780 		bne	.L146
- 699 022c 0123     		movs	r3, #1
- 700 022e 84F84C30 		strb	r3, [r4, #76]
- 701 0232 BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 702 0236 FFF7FEBF 		b	_Z4Lockb
- 703              	.L117:
- 704 023a 002A     		cmp	r2, #0
- 705 023c 7FF45DAF 		bne	.L120
- 706 0240 09E7     		b	.L119
- 707              	.L184:
- 708 0242 E769     		ldr	r7, [r4, #28]
- 709 0244 FFF7FEFF 		bl	millis
- 710 0248 07F59C57 		add	r7, r7, #4992
- 711 024c 0837     		adds	r7, r7, #8
- 712 024e 8742     		cmp	r7, r0
- 713 0250 02D9     		bls	.L123
- 714 0252 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
- 715 0256 04E7     		b	.L122
- 716              	.L123:
- 717 0258 A268     		ldr	r2, [r4, #8]
- 718 025a 0023     		movs	r3, #0
- 719 025c 84F84430 		strb	r3, [r4, #68]
- 720 0260 002A     		cmp	r2, #0
- 721 0262 7FF403AF 		bne	.L124
- 722              	.L127:
- 723 0266 E368     		ldr	r3, [r4, #12]
- 724 0268 1BB9     		cbnz	r3, .L126
- 725 026a E378     		ldrb	r3, [r4, #3]	@ zero_extendqisi2
- 726 026c 002B     		cmp	r3, #0
- 727 026e 00F0AD80 		beq	.L194
- 728              	.L126:
- 729 0272 2968     		ldr	r1, [r5]
- 730 0274 A268     		ldr	r2, [r4, #8]
- 731 0276 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
- 732 027a 0129     		cmp	r1, #1
- 733 027c 7FF4FAAE 		bne	.L129
- 734              	.L128:
- 735 0280 DFF87C90 		ldr	r9, .L196+36
- 736 0284 A069     		ldr	r0, [r4, #24]
- 737 0286 D9F80010 		ldr	r1, [r9]
- 738 028a 0131     		adds	r1, r1, #1
- 739 028c 4FF4FA57 		mov	r7, #8000
- 740 0290 B7FBF0F0 		udiv	r0, r7, r0
- 741 0294 8142     		cmp	r1, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 14
-
-
- 742 0296 C9F80010 		str	r1, [r9]
- 743 029a 0ED2     		bcs	.L130
- 744 029c EDE6     		b	.L131
- 745              	.L186:
- 746 029e 2B68     		ldr	r3, [r5]
- 747 02a0 012B     		cmp	r3, #1
- 748 02a2 3FF6F3AE 		bhi	.L136
- 749 02a6 1649     		ldr	r1, .L196+36
- 750 02a8 0023     		movs	r3, #0
- 751 02aa 0222     		movs	r2, #2
- 752 02ac 0B60     		str	r3, [r1]
- 753 02ae 2B60     		str	r3, [r5]
- 754 02b0 84F84420 		strb	r2, [r4, #68]
- 755 02b4 EAE6     		b	.L136
- 756              	.L185:
- 757 02b6 DFF84890 		ldr	r9, .L196+36
- 758              	.L130:
- 759 02ba 1248     		ldr	r0, .L196+40
- 760 02bc 0168     		ldr	r1, [r0]
- 761 02be 0129     		cmp	r1, #1
- 762 02c0 40F2F231 		movw	r1, #1010
- 763 02c4 18BF     		it	ne
- 764 02c6 0121     		movne	r1, #1
- 765 02c8 0527     		movs	r7, #5
- 766 02ca 0160     		str	r1, [r0]
- 767 02cc 0020     		movs	r0, #0
- 768 02ce B162     		str	r1, [r6, #40]
- 769 02d0 3762     		str	r7, [r6, #32]
- 770 02d2 2860     		str	r0, [r5]
- 771 02d4 C9F80000 		str	r0, [r9]
- 772 02d8 CFE6     		b	.L131
- 773              	.L197:
- 774 02da 00BF     		.align	2
- 775              	.L196:
- 776 02dc 00000000 		.word	.LANCHOR0
- 777 02e0 00000000 		.word	.LANCHOR2
- 778 02e4 00000000 		.word	reprap
- 779 02e8 00001644 		.word	1142292480
- 780 02ec 74000000 		.word	.LC4
- 781 02f0 00000000 		.word	.LANCHOR4
- 782 02f4 00000000 		.word	.LANCHOR5
- 783 02f8 00000000 		.word	.LANCHOR6
- 784 02fc 00000000 		.word	.LC1
- 785 0300 00000000 		.word	.LANCHOR3
- 786 0304 00000000 		.word	.LANCHOR7
- 787              	.L188:
- 788 0308 0A23     		movs	r3, #10
- 789 030a 2B60     		str	r3, [r5]
- 790 030c FFF7FEFF 		bl	millis
- 791 0310 DFF80891 		ldr	r9, .L198+24
- 792 0314 2B68     		ldr	r3, [r5]
- 793 0316 C9F80000 		str	r0, [r9]
- 794 031a 82E6     		b	.L97
- 795              	.L192:
- 796 031c 394B     		ldr	r3, .L198
- 797 031e 3A4A     		ldr	r2, .L198+4
- 798 0320 5868     		ldr	r0, [r3, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 15
-
-
- 799 0322 1021     		movs	r1, #16
- 800 0324 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 801 0328 256A     		ldr	r5, [r4, #32]
- 802 032a B0E6     		b	.L138
- 803              	.L104:
- 804 032c 0023     		movs	r3, #0
- 805 032e 2B60     		str	r3, [r5]
- 806 0330 7AE6     		b	.L150
- 807              	.L148:
- 808 0332 6079     		ldrb	r0, [r4, #5]	@ zero_extendqisi2
- 809 0334 354F     		ldr	r7, .L198+8
- 810 0336 60BB     		cbnz	r0, .L111
- 811 0338 4FF0010C 		mov	ip, #1
- 812 033c 3860     		str	r0, [r7]
- 813 033e C1F800C0 		str	ip, [r1]
- 814 0342 002B     		cmp	r3, #0
- 815 0344 7FF4D3AE 		bne	.L115
- 816              	.L113:
- 817 0348 0123     		movs	r3, #1
- 818 034a 6371     		strb	r3, [r4, #5]
- 819              	.L112:
- 820 034c 002A     		cmp	r2, #0
- 821 034e 3FF4CEAE 		beq	.L115
- 822 0352 21E0     		b	.L151
- 823              	.L139:
- 824 0354 002D     		cmp	r5, #0
- 825 0356 7FF49AAE 		bne	.L138
- 826 035a FFF7FEFF 		bl	millis
- 827 035e 0323     		movs	r3, #3
- 828 0360 6063     		str	r0, [r4, #52]
- 829 0362 84F84450 		strb	r5, [r4, #68]
- 830 0366 2362     		str	r3, [r4, #32]
- 831              	.L140:
- 832 0368 264B     		ldr	r3, .L198
- 833 036a 294A     		ldr	r2, .L198+12
- 834 036c 5868     		ldr	r0, [r3, #4]
- 835 036e 1021     		movs	r1, #16
- 836 0370 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 837 0374 0123     		movs	r3, #1
- 838 0376 2362     		str	r3, [r4, #32]
- 839 0378 8CE6     		b	.L141
- 840              	.L146:
- 841 037a 0023     		movs	r3, #0
- 842 037c 0122     		movs	r2, #1
- 843 037e 84F84720 		strb	r2, [r4, #71]
- 844 0382 E370     		strb	r3, [r4, #3]
- 845 0384 84F84C30 		strb	r3, [r4, #76]
- 846 0388 1046     		mov	r0, r2
- 847 038a BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
- 848 038e FFF7FEBF 		b	_Z4Lockb
- 849              	.L111:
- 850 0392 3968     		ldr	r1, [r7]
- 851 0394 9942     		cmp	r1, r3
- 852 0396 D7D2     		bcs	.L113
- 853              	.L151:
- 854 0398 0020     		movs	r0, #0
- 855 039a FFF7FEFF 		bl	_Z4Lockb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 16
-
-
- 856 039e E368     		ldr	r3, [r4, #12]
- 857 03a0 3BBB     		cbnz	r3, .L195
- 858 03a2 94F84920 		ldrb	r2, [r4, #73]	@ zero_extendqisi2
- 859 03a6 002A     		cmp	r2, #0
- 860 03a8 3FF455AE 		beq	.L119
- 861 03ac D6E6     		b	.L152
- 862              	.L193:
- 863 03ae DFED196A 		vldr.32	s13, .L198+16
- 864 03b2 F4EE667A 		vcmp.f32	s15, s13
- 865 03b6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 866 03ba 3FF433AF 		beq	.L144
- 867 03be F4EEC77A 		vcmpe.f32	s15, s14
- 868 03c2 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 869 03c6 FFF6A7AE 		blt	.L95
- 870 03ca 83E6     		b	.L147
- 871              	.L194:
- 872 03cc 0127     		movs	r7, #1
- 873 03ce 84F84470 		strb	r7, [r4, #68]
- 874 03d2 FFF7FEFF 		bl	millis
- 875 03d6 2F60     		str	r7, [r5]
- 876 03d8 E061     		str	r0, [r4, #28]
- 877 03da A268     		ldr	r2, [r4, #8]
- 878 03dc 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
- 879 03e0 4EE7     		b	.L128
- 880              	.L102:
- 881 03e2 2B68     		ldr	r3, [r5]
- 882 03e4 0133     		adds	r3, r3, #1
- 883 03e6 2B60     		str	r3, [r5]
- 884 03e8 FFF7FEFF 		bl	millis
- 885 03ec C9F80000 		str	r0, [r9]
- 886 03f0 FBE6     		b	.L183
- 887              	.L195:
- 888 03f2 0120     		movs	r0, #1
- 889 03f4 FFF7FEFF 		bl	_Z4Lockb
- 890 03f8 074A     		ldr	r2, .L198+20
- 891 03fa 0023     		movs	r3, #0
- 892 03fc 1360     		str	r3, [r2]
- 893 03fe 3B60     		str	r3, [r7]
- 894 0400 6371     		strb	r3, [r4, #5]
- 895 0402 74E6     		b	.L115
- 896              	.L199:
- 897              		.align	2
- 898              	.L198:
- 899 0404 00000000 		.word	reprap
- 900 0408 0C000000 		.word	.LC2
- 901 040c 00000000 		.word	.LANCHOR4
- 902 0410 28000000 		.word	.LC3
- 903 0414 0000FA44 		.word	1157234688
- 904 0418 00000000 		.word	.LANCHOR5
- 905 041c 00000000 		.word	.LANCHOR3
- 906              		.size	_ZN7LynxMod12VerrouillageEv, .-_ZN7LynxMod12VerrouillageEv
- 907              		.section	.text._ZN7LynxMod10GetLastLogEv,"ax",%progbits
- 908              		.align	1
- 909              		.p2align 2,,3
- 910              		.global	_ZN7LynxMod10GetLastLogEv
- 911              		.syntax unified
- 912              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 17
-
-
- 913              		.thumb_func
- 914              		.fpu fpv4-sp-d16
- 915              		.type	_ZN7LynxMod10GetLastLogEv, %function
- 916              	_ZN7LynxMod10GetLastLogEv:
- 917              		@ args = 0, pretend = 0, frame = 264
- 918              		@ frame_needed = 0, uses_anonymous_args = 0
- 919 0000 F0B5     		push	{r4, r5, r6, r7, lr}
- 920 0002 534D     		ldr	r5, .L218
- 921 0004 534C     		ldr	r4, .L218+4
- 922 0006 544E     		ldr	r6, .L218+8
- 923 0008 95E80700 		ldm	r5, {r0, r1, r2}
- 924 000c 2346     		mov	r3, r4
- 925 000e 03C3     		stmia	r3!, {r0, r1}
- 926 0010 7068     		ldr	r0, [r6, #4]
- 927 0012 1A70     		strb	r2, [r3]
- 928 0014 C3B0     		sub	sp, sp, #268
- 929 0016 2946     		mov	r1, r5
- 930 0018 20AA     		add	r2, sp, #128
- 931 001a D0F81C0A 		ldr	r0, [r0, #2588]
- 932 001e FFF7FEFF 		bl	_ZN11MassStorage9FindFirstEPKcR8FileInfo
- 933 0022 4E4B     		ldr	r3, .L218+12
- 934 0024 0246     		mov	r2, r0
- 935 0026 93E80300 		ldm	r3, {r0, r1}
- 936 002a 2A23     		movs	r3, #42
- 937 002c 0090     		str	r0, [sp]
- 938 002e 8DF80410 		strb	r1, [sp, #4]
- 939 0032 8DF80830 		strb	r3, [sp, #8]
- 940 0036 002A     		cmp	r2, #0
- 941 0038 5BD0     		beq	.L201
- 942 003a 0025     		movs	r5, #0
- 943              	.L204:
- 944 003c 9DF88130 		ldrb	r3, [sp, #129]	@ zero_extendqisi2
- 945 0040 2E2B     		cmp	r3, #46
- 946 0042 00D1     		bne	.L213
- 947              	.L212:
- 948 0044 FEE7     		b	.L212
- 949              	.L213:
- 950 0046 9DF88030 		ldrb	r3, [sp, #128]	@ zero_extendqisi2
- 951 004a 002B     		cmp	r3, #0
- 952 004c 48D1     		bne	.L216
- 953 004e 0DF18100 		add	r0, sp, #129
- 954              	.L203:
- 955 0052 0779     		ldrb	r7, [r0, #4]	@ zero_extendqisi2
- 956 0054 C378     		ldrb	r3, [r0, #3]	@ zero_extendqisi2
- 957 0056 4279     		ldrb	r2, [r0, #5]	@ zero_extendqisi2
- 958 0058 303F     		subs	r7, r7, #48
- 959 005a 4FF47A71 		mov	r1, #1000
- 960 005e 01FB07F1 		mul	r1, r1, r7
- 961 0062 42F2107C 		movw	ip, #10000
- 962 0066 303B     		subs	r3, r3, #48
- 963 0068 0CFB0313 		mla	r3, ip, r3, r1
- 964 006c 8179     		ldrb	r1, [r0, #6]	@ zero_extendqisi2
- 965 006e C079     		ldrb	r0, [r0, #7]	@ zero_extendqisi2
- 966 0070 303A     		subs	r2, r2, #48
- 967 0072 6427     		movs	r7, #100
- 968 0074 3039     		subs	r1, r1, #48
- 969 0076 07FB0233 		mla	r3, r7, r2, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 18
-
-
- 970 007a 01EB8101 		add	r1, r1, r1, lsl #2
- 971 007e 03EB4103 		add	r3, r3, r1, lsl #1
- 972 0082 0344     		add	r3, r3, r0
- 973 0084 7268     		ldr	r2, [r6, #4]
- 974 0086 303B     		subs	r3, r3, #48
- 975 0088 9D42     		cmp	r5, r3
- 976 008a D2F81C0A 		ldr	r0, [r2, #2588]
- 977 008e 20A9     		add	r1, sp, #128
- 978 0090 B8BF     		it	lt
- 979 0092 1D46     		movlt	r5, r3
- 980 0094 FFF7FEFF 		bl	_ZN11MassStorage8FindNextER8FileInfo
- 981 0098 0028     		cmp	r0, #0
- 982 009a CFD1     		bne	.L204
- 983 009c 2D48     		ldr	r0, .L218+4
- 984 009e FFF7FEFF 		bl	strlen
- 985 00a2 2F4A     		ldr	r2, .L218+16
- 986 00a4 0346     		mov	r3, r0
- 987 00a6 0135     		adds	r5, r5, #1
- 988 00a8 1068     		ldr	r0, [r2]
- 989 00aa E050     		str	r0, [r4, r3]	@ unaligned
- 990 00ac 0A22     		movs	r2, #10
- 991 00ae 2846     		mov	r0, r5
- 992 00b0 6946     		mov	r1, sp
- 993 00b2 FFF7FEFF 		bl	itoa
- 994 00b6 42F20F73 		movw	r3, #9999
- 995 00ba 9D42     		cmp	r5, r3
- 996 00bc 38DD     		ble	.L217
- 997              	.L206:
- 998 00be 6946     		mov	r1, sp
- 999 00c0 2448     		ldr	r0, .L218+4
- 1000 00c2 FFF7FEFF 		bl	strcat
- 1001 00c6 2348     		ldr	r0, .L218+4
- 1002 00c8 FFF7FEFF 		bl	strlen
- 1003 00cc 254A     		ldr	r2, .L218+20
- 1004 00ce 0346     		mov	r3, r0
- 1005 00d0 2118     		adds	r1, r4, r0
- 1006 00d2 1068     		ldr	r0, [r2]
- 1007 00d4 E050     		str	r0, [r4, r3]	@ unaligned
- 1008 00d6 1279     		ldrb	r2, [r2, #4]	@ zero_extendqisi2
- 1009 00d8 1E48     		ldr	r0, .L218+4
- 1010 00da 0A71     		strb	r2, [r1, #4]
- 1011 00dc 43B0     		add	sp, sp, #268
- 1012              		@ sp needed
- 1013 00de F0BD     		pop	{r4, r5, r6, r7, pc}
- 1014              	.L216:
- 1015 00e0 0DF10900 		add	r0, sp, #9
- 1016 00e4 7722     		movs	r2, #119
- 1017 00e6 0DF18101 		add	r1, sp, #129
- 1018 00ea FFF7FEFF 		bl	_Z11SafeStrncpyPcPKcj
- 1019 00ee 02A8     		add	r0, sp, #8
- 1020 00f0 AFE7     		b	.L203
- 1021              	.L201:
- 1022 00f2 2046     		mov	r0, r4
- 1023 00f4 FFF7FEFF 		bl	strlen
- 1024 00f8 194A     		ldr	r2, .L218+16
- 1025 00fa 1B4E     		ldr	r6, .L218+24
- 1026 00fc 0346     		mov	r3, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 19
-
-
- 1027 00fe 1068     		ldr	r0, [r2]
- 1028 0100 E050     		str	r0, [r4, r3]	@ unaligned
- 1029 0102 0A22     		movs	r2, #10
- 1030 0104 6946     		mov	r1, sp
- 1031 0106 0120     		movs	r0, #1
- 1032 0108 FFF7FEFF 		bl	itoa
- 1033 010c 2046     		mov	r0, r4
- 1034 010e FFF7FEFF 		bl	strlen
- 1035 0112 3788     		ldrh	r7, [r6]	@ unaligned
- 1036 0114 2752     		strh	r7, [r4, r0]	@ unaligned
- 1037 0116 2046     		mov	r0, r4
- 1038 0118 FFF7FEFF 		bl	strlen
- 1039 011c 2752     		strh	r7, [r4, r0]	@ unaligned
- 1040 011e 0125     		movs	r5, #1
- 1041              	.L208:
- 1042 0120 431C     		adds	r3, r0, #1
- 1043 0122 3288     		ldrh	r2, [r6]	@ unaligned
- 1044 0124 E252     		strh	r2, [r4, r3]	@ unaligned
- 1045 0126 092D     		cmp	r5, #9
- 1046 0128 C9DC     		bgt	.L206
- 1047 012a 0230     		adds	r0, r0, #2
- 1048 012c 2252     		strh	r2, [r4, r0]	@ unaligned
- 1049 012e C6E7     		b	.L206
- 1050              	.L217:
- 1051 0130 0848     		ldr	r0, .L218+4
- 1052 0132 0D4E     		ldr	r6, .L218+24
- 1053 0134 FFF7FEFF 		bl	strlen
- 1054 0138 3788     		ldrh	r7, [r6]	@ unaligned
- 1055 013a 2752     		strh	r7, [r4, r0]	@ unaligned
- 1056 013c B5F57A7F 		cmp	r5, #1000
- 1057 0140 BDDA     		bge	.L206
- 1058 0142 0448     		ldr	r0, .L218+4
- 1059 0144 FFF7FEFF 		bl	strlen
- 1060 0148 632D     		cmp	r5, #99
- 1061 014a 2752     		strh	r7, [r4, r0]	@ unaligned
- 1062 014c E8DD     		ble	.L208
- 1063 014e B6E7     		b	.L206
- 1064              	.L219:
- 1065              		.align	2
- 1066              	.L218:
- 1067 0150 00000000 		.word	.LC5
- 1068 0154 00000000 		.word	.LANCHOR8
- 1069 0158 00000000 		.word	reprap
- 1070 015c 00000000 		.word	.LANCHOR9
- 1071 0160 0C000000 		.word	.LC6
- 1072 0164 14000000 		.word	.LC8
- 1073 0168 10000000 		.word	.LC7
- 1074              		.size	_ZN7LynxMod10GetLastLogEv, .-_ZN7LynxMod10GetLastLogEv
- 1075              		.global	__aeabi_f2d
- 1076              		.section	.text._ZN7LynxMod12LynxDataLogsEv,"ax",%progbits
- 1077              		.align	1
- 1078              		.p2align 2,,3
- 1079              		.global	_ZN7LynxMod12LynxDataLogsEv
- 1080              		.syntax unified
- 1081              		.thumb
- 1082              		.thumb_func
- 1083              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 20
-
-
- 1084              		.type	_ZN7LynxMod12LynxDataLogsEv, %function
- 1085              	_ZN7LynxMod12LynxDataLogsEv:
- 1086              		@ args = 0, pretend = 0, frame = 1064
- 1087              		@ frame_needed = 0, uses_anonymous_args = 0
- 1088 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 1089 0004 2DED028B 		vpush.64	{d8}
- 1090 0008 C94E     		ldr	r6, .L270+8
- 1091 000a 7368     		ldr	r3, [r6, #4]
- 1092 000c 1B68     		ldr	r3, [r3]
- 1093 000e 1B68     		ldr	r3, [r3]
- 1094 0010 ADF2344D 		subw	sp, sp, #1076
- 1095 0014 002B     		cmp	r3, #0
- 1096 0016 00F0FE81 		beq	.L220
- 1097 001a C64F     		ldr	r7, .L270+12
- 1098 001c 0FCF     		ldmia	r7!, {r0, r1, r2, r3}
- 1099 001e 12AC     		add	r4, sp, #72
- 1100 0020 2546     		mov	r5, r4
- 1101 0022 0FC5     		stmia	r5!, {r0, r1, r2, r3}
- 1102 0024 3B68     		ldr	r3, [r7]
- 1103 0026 2B70     		strb	r3, [r5]
- 1104 0028 3046     		mov	r0, r6
- 1105 002a FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
- 1106 002e 5328     		cmp	r0, #83
- 1107 0030 00F00582 		beq	.L247
- 1108 0034 4828     		cmp	r0, #72
- 1109 0036 08BF     		it	eq
- 1110 0038 5320     		moveq	r0, #83
- 1111              	.L222:
- 1112 003a 3B23     		movs	r3, #59
- 1113 003c 8DF81000 		strb	r0, [sp, #16]
- 1114 0040 04A9     		add	r1, sp, #16
- 1115 0042 2046     		mov	r0, r4
- 1116 0044 8DF81130 		strb	r3, [sp, #17]
- 1117 0048 FFF7FEFF 		bl	strcat
- 1118 004c 3069     		ldr	r0, [r6, #16]
- 1119 004e 90F9D1A0 		ldrsb	r10, [r0, #209]
- 1120 0052 BAF1FF3F 		cmp	r10, #-1
- 1121 0056 00F0E781 		beq	.L248
- 1122 005a 5146     		mov	r1, r10
- 1123 005c FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 1124 0060 10EE100A 		vmov	r0, s0
- 1125 0064 FFF7FEFF 		bl	__aeabi_f2d
- 1126              	.L223:
- 1127 0068 CDE90001 		strd	r0, [sp]
- 1128 006c B24A     		ldr	r2, .L270+16
- 1129 006e B34F     		ldr	r7, .L270+20
- 1130 0070 0721     		movs	r1, #7
- 1131 0072 04A8     		add	r0, sp, #16
- 1132 0074 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1133 0078 04A9     		add	r1, sp, #16
- 1134 007a 2046     		mov	r0, r4
- 1135 007c FFF7FEFF 		bl	strcat
- 1136 0080 2046     		mov	r0, r4
- 1137 0082 FFF7FEFF 		bl	strlen
- 1138 0086 96F8E650 		ldrb	r5, [r6, #230]	@ zero_extendqisi2
- 1139 008a 3B88     		ldrh	r3, [r7]	@ unaligned
- 1140 008c 2352     		strh	r3, [r4, r0]	@ unaligned
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 21
-
-
- 1141 008e 012D     		cmp	r5, #1
- 1142 0090 A946     		mov	r9, r5
- 1143 0092 20D9     		bls	.L227
- 1144 0094 DFF8A0B2 		ldr	fp, .L270+16
- 1145 0098 4FF00108 		mov	r8, #1
- 1146              	.L224:
- 1147 009c 4FFA88F1 		sxtb	r1, r8
- 1148 00a0 3069     		ldr	r0, [r6, #16]
- 1149 00a2 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
- 1150 00a6 10EE100A 		vmov	r0, s0
- 1151 00aa FFF7FEFF 		bl	__aeabi_f2d
- 1152 00ae 5A46     		mov	r2, fp
- 1153 00b0 CDE90001 		strd	r0, [sp]
- 1154 00b4 0721     		movs	r1, #7
- 1155 00b6 04A8     		add	r0, sp, #16
- 1156 00b8 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1157 00bc 04A9     		add	r1, sp, #16
- 1158 00be 2046     		mov	r0, r4
- 1159 00c0 FFF7FEFF 		bl	strcat
- 1160 00c4 2046     		mov	r0, r4
- 1161 00c6 FFF7FEFF 		bl	strlen
- 1162 00ca 08F10108 		add	r8, r8, #1
- 1163 00ce 3B88     		ldrh	r3, [r7]	@ unaligned
- 1164 00d0 2352     		strh	r3, [r4, r0]	@ unaligned
- 1165 00d2 A845     		cmp	r8, r5
- 1166 00d4 E2D3     		bcc	.L224
- 1167              	.L227:
- 1168 00d6 032D     		cmp	r5, #3
- 1169 00d8 12D8     		bhi	.L225
- 1170 00da 994A     		ldr	r2, .L270+24
- 1171 00dc 1368     		ldr	r3, [r2]
- 1172 00de 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
- 1173 00e2 0393     		str	r3, [sp, #12]
- 1174 00e4 AB46     		mov	fp, r5
- 1175              	.L226:
- 1176 00e6 2046     		mov	r0, r4
- 1177 00e8 FFF7FEFF 		bl	strlen
- 1178 00ec 0BF1010B 		add	fp, fp, #1
- 1179 00f0 2218     		adds	r2, r4, r0
- 1180 00f2 039B     		ldr	r3, [sp, #12]
- 1181 00f4 2350     		str	r3, [r4, r0]	@ unaligned
- 1182 00f6 BBF1040F 		cmp	fp, #4
- 1183 00fa 82F80480 		strb	r8, [r2, #4]
- 1184 00fe F2D1     		bne	.L226
- 1185              	.L225:
- 1186 0100 BAF1FF3F 		cmp	r10, #-1
- 1187 0104 00F09881 		beq	.L250
- 1188 0108 3069     		ldr	r0, [r6, #16]
- 1189 010a 5146     		mov	r1, r10
- 1190 010c FFF7FEFF 		bl	_ZNK4Heat20GetActiveTemperatureEa
- 1191 0110 10EE100A 		vmov	r0, s0
- 1192 0114 FFF7FEFF 		bl	__aeabi_f2d
- 1193              	.L228:
- 1194 0118 CDE90001 		strd	r0, [sp]
- 1195 011c 864A     		ldr	r2, .L270+16
- 1196 011e 0721     		movs	r1, #7
- 1197 0120 04A8     		add	r0, sp, #16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 22
-
-
- 1198 0122 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1199 0126 04A9     		add	r1, sp, #16
- 1200 0128 2046     		mov	r0, r4
- 1201 012a FFF7FEFF 		bl	strcat
- 1202 012e 2046     		mov	r0, r4
- 1203 0130 FFF7FEFF 		bl	strlen
- 1204 0134 3B88     		ldrh	r3, [r7]	@ unaligned
- 1205 0136 2352     		strh	r3, [r4, r0]	@ unaligned
- 1206 0138 012D     		cmp	r5, #1
- 1207 013a 20D9     		bls	.L232
- 1208 013c DFF8F8B1 		ldr	fp, .L270+16
- 1209 0140 4FF00108 		mov	r8, #1
- 1210              	.L229:
- 1211 0144 4FFA88F1 		sxtb	r1, r8
- 1212 0148 3069     		ldr	r0, [r6, #16]
- 1213 014a FFF7FEFF 		bl	_ZNK4Heat20GetActiveTemperatureEa
- 1214 014e 10EE100A 		vmov	r0, s0
- 1215 0152 FFF7FEFF 		bl	__aeabi_f2d
- 1216 0156 5A46     		mov	r2, fp
- 1217 0158 CDE90001 		strd	r0, [sp]
- 1218 015c 0721     		movs	r1, #7
- 1219 015e 04A8     		add	r0, sp, #16
- 1220 0160 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1221 0164 04A9     		add	r1, sp, #16
- 1222 0166 2046     		mov	r0, r4
- 1223 0168 FFF7FEFF 		bl	strcat
- 1224 016c 2046     		mov	r0, r4
- 1225 016e FFF7FEFF 		bl	strlen
- 1226 0172 08F10108 		add	r8, r8, #1
- 1227 0176 3B88     		ldrh	r3, [r7]	@ unaligned
- 1228 0178 2352     		strh	r3, [r4, r0]	@ unaligned
- 1229 017a A845     		cmp	r8, r5
- 1230 017c E2D3     		bcc	.L229
- 1231              	.L232:
- 1232 017e 032D     		cmp	r5, #3
- 1233 0180 12D8     		bhi	.L230
- 1234 0182 6F4A     		ldr	r2, .L270+24
- 1235 0184 1368     		ldr	r3, [r2]
- 1236 0186 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
- 1237 018a 0393     		str	r3, [sp, #12]
- 1238 018c AB46     		mov	fp, r5
- 1239              	.L231:
- 1240 018e 2046     		mov	r0, r4
- 1241 0190 FFF7FEFF 		bl	strlen
- 1242 0194 0BF1010B 		add	fp, fp, #1
- 1243 0198 2218     		adds	r2, r4, r0
- 1244 019a 039B     		ldr	r3, [sp, #12]
- 1245 019c 2350     		str	r3, [r4, r0]	@ unaligned
- 1246 019e BBF1040F 		cmp	fp, #4
- 1247 01a2 82F80480 		strb	r8, [r2, #4]
- 1248 01a6 F2D1     		bne	.L231
- 1249              	.L230:
- 1250 01a8 BAF1FF3F 		cmp	r10, #-1
- 1251 01ac 00F04181 		beq	.L252
- 1252 01b0 3069     		ldr	r0, [r6, #16]
- 1253 01b2 5146     		mov	r1, r10
- 1254 01b4 FFF7FEFF 		bl	_ZNK4Heat21GetStandbyTemperatureEa
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 23
-
-
- 1255 01b8 10EE100A 		vmov	r0, s0
- 1256 01bc FFF7FEFF 		bl	__aeabi_f2d
- 1257              	.L233:
- 1258 01c0 CDE90001 		strd	r0, [sp]
- 1259 01c4 5C4A     		ldr	r2, .L270+16
- 1260 01c6 0721     		movs	r1, #7
- 1261 01c8 04A8     		add	r0, sp, #16
- 1262 01ca FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1263 01ce 04A9     		add	r1, sp, #16
- 1264 01d0 2046     		mov	r0, r4
- 1265 01d2 FFF7FEFF 		bl	strcat
- 1266 01d6 2046     		mov	r0, r4
- 1267 01d8 FFF7FEFF 		bl	strlen
- 1268 01dc 3B88     		ldrh	r3, [r7]	@ unaligned
- 1269 01de 2352     		strh	r3, [r4, r0]	@ unaligned
- 1270 01e0 012D     		cmp	r5, #1
- 1271 01e2 20D9     		bls	.L237
- 1272 01e4 DFF850B1 		ldr	fp, .L270+16
- 1273 01e8 4FF00108 		mov	r8, #1
- 1274              	.L234:
- 1275 01ec 4FFA88F1 		sxtb	r1, r8
- 1276 01f0 3069     		ldr	r0, [r6, #16]
- 1277 01f2 FFF7FEFF 		bl	_ZNK4Heat21GetStandbyTemperatureEa
- 1278 01f6 10EE100A 		vmov	r0, s0
- 1279 01fa FFF7FEFF 		bl	__aeabi_f2d
- 1280 01fe 5A46     		mov	r2, fp
- 1281 0200 CDE90001 		strd	r0, [sp]
- 1282 0204 0721     		movs	r1, #7
- 1283 0206 04A8     		add	r0, sp, #16
- 1284 0208 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1285 020c 04A9     		add	r1, sp, #16
- 1286 020e 2046     		mov	r0, r4
- 1287 0210 FFF7FEFF 		bl	strcat
- 1288 0214 2046     		mov	r0, r4
- 1289 0216 FFF7FEFF 		bl	strlen
- 1290 021a 08F10108 		add	r8, r8, #1
- 1291 021e 3B88     		ldrh	r3, [r7]	@ unaligned
- 1292 0220 2352     		strh	r3, [r4, r0]	@ unaligned
- 1293 0222 A845     		cmp	r8, r5
- 1294 0224 E2D3     		bcc	.L234
- 1295              	.L237:
- 1296 0226 032D     		cmp	r5, #3
- 1297 0228 12D8     		bhi	.L235
- 1298 022a 454A     		ldr	r2, .L270+24
- 1299 022c 1368     		ldr	r3, [r2]
- 1300 022e 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
- 1301 0232 0393     		str	r3, [sp, #12]
- 1302 0234 AB46     		mov	fp, r5
- 1303              	.L236:
- 1304 0236 2046     		mov	r0, r4
- 1305 0238 FFF7FEFF 		bl	strlen
- 1306 023c 0BF1010B 		add	fp, fp, #1
- 1307 0240 2218     		adds	r2, r4, r0
- 1308 0242 039B     		ldr	r3, [sp, #12]
- 1309 0244 2350     		str	r3, [r4, r0]	@ unaligned
- 1310 0246 BBF1040F 		cmp	fp, #4
- 1311 024a 82F80480 		strb	r8, [r2, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 24
-
-
- 1312 024e F2D1     		bne	.L236
- 1313              	.L235:
- 1314 0250 BAF1FF3F 		cmp	r10, #-1
- 1315 0254 00F0EB80 		beq	.L254
- 1316 0258 5146     		mov	r1, r10
- 1317 025a 3069     		ldr	r0, [r6, #16]
- 1318 025c FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
- 1319 0260 0346     		mov	r3, r0
- 1320              	.L238:
- 1321 0262 384A     		ldr	r2, .L270+28
- 1322 0264 0721     		movs	r1, #7
- 1323 0266 04A8     		add	r0, sp, #16
- 1324 0268 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1325 026c 04A9     		add	r1, sp, #16
- 1326 026e 2046     		mov	r0, r4
- 1327 0270 FFF7FEFF 		bl	strcat
- 1328 0274 2046     		mov	r0, r4
- 1329 0276 FFF7FEFF 		bl	strlen
- 1330 027a 3B88     		ldrh	r3, [r7]	@ unaligned
- 1331 027c 2352     		strh	r3, [r4, r0]	@ unaligned
- 1332 027e 012D     		cmp	r5, #1
- 1333 0280 1BD9     		bls	.L242
- 1334 0282 DFF8C0A0 		ldr	r10, .L270+28
- 1335 0286 4FF00108 		mov	r8, #1
- 1336              	.L239:
- 1337 028a 4FFA88F1 		sxtb	r1, r8
- 1338 028e 3069     		ldr	r0, [r6, #16]
- 1339 0290 FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
- 1340 0294 5246     		mov	r2, r10
- 1341 0296 0346     		mov	r3, r0
- 1342 0298 0721     		movs	r1, #7
- 1343 029a 04A8     		add	r0, sp, #16
- 1344 029c FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1345 02a0 04A9     		add	r1, sp, #16
- 1346 02a2 2046     		mov	r0, r4
- 1347 02a4 FFF7FEFF 		bl	strcat
- 1348 02a8 2046     		mov	r0, r4
- 1349 02aa FFF7FEFF 		bl	strlen
- 1350 02ae 08F10108 		add	r8, r8, #1
- 1351 02b2 3B88     		ldrh	r3, [r7]	@ unaligned
- 1352 02b4 2352     		strh	r3, [r4, r0]	@ unaligned
- 1353 02b6 A845     		cmp	r8, r5
- 1354 02b8 E7D3     		bcc	.L239
- 1355              	.L242:
- 1356 02ba 032D     		cmp	r5, #3
- 1357 02bc 0FD8     		bhi	.L240
- 1358 02be 204A     		ldr	r2, .L270+24
- 1359 02c0 1568     		ldr	r5, [r2]
- 1360 02c2 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
- 1361              	.L241:
- 1362 02c6 2046     		mov	r0, r4
- 1363 02c8 FFF7FEFF 		bl	strlen
- 1364 02cc 09F10109 		add	r9, r9, #1
- 1365 02d0 2318     		adds	r3, r4, r0
- 1366 02d2 B9F1040F 		cmp	r9, #4
- 1367 02d6 2550     		str	r5, [r4, r0]	@ unaligned
- 1368 02d8 83F80480 		strb	r8, [r3, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 25
-
-
- 1369 02dc F3D1     		bne	.L241
- 1370              	.L240:
- 1371 02de 7369     		ldr	r3, [r6, #20]
- 1372 02e0 9FED198A 		vldr.32	s16, .L270+32
- 1373 02e4 DFF864B0 		ldr	fp, .L270+36
- 1374 02e8 0FF23C09 		adr	r9, .L270
- 1375 02ec D9E90089 		ldrd	r8, [r9]
- 1376 02f0 03F1B805 		add	r5, r3, #184
- 1377 02f4 03F1C40A 		add	r10, r3, #196
- 1378              	.L245:
- 1379 02f8 F5EC017A 		vldmia.32	r5!, {s15}
- 1380 02fc F4EE677A 		vcmp.f32	s15, s15
- 1381 0300 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1382 0304 B0EEE77A 		vabs.f32	s14, s15
- 1383 0308 17EE900A 		vmov	r0, s15
- 1384 030c 80F18980 		bvs	.L268
- 1385 0310 B4EE487A 		vcmp.f32	s14, s16
- 1386 0314 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1387 0318 00F38380 		bgt	.L268
- 1388 031c FFF7FEFF 		bl	__aeabi_f2d
- 1389 0320 0246     		mov	r2, r0
- 1390 0322 0B46     		mov	r3, r1
- 1391 0324 14E0     		b	.L271
- 1392              	.L272:
- 1393 0326 00BF     		.align	3
- 1394              	.L270:
- 1395 0328 00000040 		.word	1073741824
- 1396 032c F387C340 		.word	1086556147
- 1397 0330 00000000 		.word	reprap
- 1398 0334 00000000 		.word	.LC9
- 1399 0338 14000000 		.word	.LC10
- 1400 033c 1C000000 		.word	.LC11
- 1401 0340 20000000 		.word	.LC12
- 1402 0344 28000000 		.word	.LC13
- 1403 0348 FFFF7F7F 		.word	2139095039
- 1404 034c 2C000000 		.word	.LC14
- 1405              	.L271:
- 1406              	.L243:
- 1407 0350 CDE90023 		strd	r2, [sp]
- 1408 0354 0721     		movs	r1, #7
- 1409 0356 5A46     		mov	r2, fp
- 1410 0358 04A8     		add	r0, sp, #16
- 1411 035a FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1412 035e 04A9     		add	r1, sp, #16
- 1413 0360 2046     		mov	r0, r4
- 1414 0362 FFF7FEFF 		bl	strcat
- 1415 0366 2046     		mov	r0, r4
- 1416 0368 FFF7FEFF 		bl	strlen
- 1417 036c 3B88     		ldrh	r3, [r7]	@ unaligned
- 1418 036e 2352     		strh	r3, [r4, r0]	@ unaligned
- 1419 0370 AA45     		cmp	r10, r5
- 1420 0372 C1D1     		bne	.L245
- 1421 0374 3348     		ldr	r0, .L273
- 1422 0376 F568     		ldr	r5, [r6, #12]
- 1423 0378 DFF8D890 		ldr	r9, .L273+16
- 1424 037c FFF7FEFF 		bl	_ZNK6RepRap15GetCurrentXAxesEv
- 1425 0380 8046     		mov	r8, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 26
-
-
- 1426 0382 3048     		ldr	r0, .L273
- 1427 0384 FFF7FEFF 		bl	_ZNK6RepRap15GetCurrentYAxesEv
- 1428 0388 4246     		mov	r2, r8
- 1429 038a 0346     		mov	r3, r0
- 1430 038c 06A9     		add	r1, sp, #24
- 1431 038e 2846     		mov	r0, r5
- 1432 0390 FFF7FEFF 		bl	_ZN4Move15LiveCoordinatesEPfmm
- 1433 0394 06AD     		add	r5, sp, #24
- 1434 0396 0DF12408 		add	r8, sp, #36
- 1435              	.L246:
- 1436 039a 55F8040B 		ldr	r0, [r5], #4	@ float
- 1437 039e FFF7FEFF 		bl	__aeabi_f2d
- 1438 03a2 4A46     		mov	r2, r9
- 1439 03a4 CDE90001 		strd	r0, [sp]
- 1440 03a8 0721     		movs	r1, #7
- 1441 03aa 04A8     		add	r0, sp, #16
- 1442 03ac FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1443 03b0 04A9     		add	r1, sp, #16
- 1444 03b2 2046     		mov	r0, r4
- 1445 03b4 FFF7FEFF 		bl	strcat
- 1446 03b8 2046     		mov	r0, r4
- 1447 03ba FFF7FEFF 		bl	strlen
- 1448 03be 3B88     		ldrh	r3, [r7]	@ unaligned
- 1449 03c0 2352     		strh	r3, [r4, r0]	@ unaligned
- 1450 03c2 4545     		cmp	r5, r8
- 1451 03c4 E9D1     		bne	.L246
- 1452 03c6 7069     		ldr	r0, [r6, #20]
- 1453 03c8 FFF7FEFF 		bl	_ZNK6GCodes14GetSpeedFactorEv
- 1454 03cc DFED1E7A 		vldr.32	s15, .L273+4
- 1455 03d0 60EE277A 		vmul.f32	s15, s0, s15
- 1456 03d4 3B25     		movs	r5, #59
- 1457 03d6 17EE900A 		vmov	r0, s15
- 1458 03da FFF7FEFF 		bl	__aeabi_f2d
- 1459 03de 1B4A     		ldr	r2, .L273+8
- 1460 03e0 CDE90001 		strd	r0, [sp]
- 1461 03e4 0721     		movs	r1, #7
- 1462 03e6 04A8     		add	r0, sp, #16
- 1463 03e8 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
- 1464 03ec 04A9     		add	r1, sp, #16
- 1465 03ee 2046     		mov	r0, r4
- 1466 03f0 FFF7FEFF 		bl	strcat
- 1467 03f4 2046     		mov	r0, r4
- 1468 03f6 FFF7FEFF 		bl	strlen
- 1469 03fa 154A     		ldr	r2, .L273+12
- 1470 03fc 7368     		ldr	r3, [r6, #4]
- 1471 03fe 1188     		ldrh	r1, [r2]	@ unaligned
- 1472 0400 2554     		strb	r5, [r4, r0]
- 1473 0402 421C     		adds	r2, r0, #1
- 1474 0404 A152     		strh	r1, [r4, r2]	@ unaligned
- 1475 0406 D3E90267 		ldrd	r6, [r3, #8]
- 1476 040a 1868     		ldr	r0, [r3]
- 1477 040c 0094     		str	r4, [sp]
- 1478 040e 3246     		mov	r2, r6
- 1479 0410 3B46     		mov	r3, r7
- 1480 0412 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
- 1481              	.L220:
- 1482 0416 0DF2344D 		addw	sp, sp, #1076
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 27
-
-
- 1483              		@ sp needed
- 1484 041a BDEC028B 		vldm	sp!, {d8}
- 1485 041e BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 1486              	.L268:
- 1487 0422 4246     		mov	r2, r8
- 1488 0424 4B46     		mov	r3, r9
- 1489 0426 93E7     		b	.L243
- 1490              	.L248:
- 1491 0428 0020     		movs	r0, #0
- 1492 042a 0021     		movs	r1, #0
- 1493 042c 1CE6     		b	.L223
- 1494              	.L254:
- 1495 042e 0023     		movs	r3, #0
- 1496 0430 17E7     		b	.L238
- 1497              	.L252:
- 1498 0432 0020     		movs	r0, #0
- 1499 0434 0021     		movs	r1, #0
- 1500 0436 C3E6     		b	.L233
- 1501              	.L250:
- 1502 0438 0020     		movs	r0, #0
- 1503 043a 0021     		movs	r1, #0
- 1504 043c 6CE6     		b	.L228
- 1505              	.L247:
- 1506 043e 4120     		movs	r0, #65
- 1507 0440 FBE5     		b	.L222
- 1508              	.L274:
- 1509 0442 00BF     		.align	2
- 1510              	.L273:
- 1511 0444 00000000 		.word	reprap
- 1512 0448 0000C842 		.word	1120403456
- 1513 044c 34000000 		.word	.LC15
- 1514 0450 3C000000 		.word	.LC16
- 1515 0454 2C000000 		.word	.LC14
- 1516              		.size	_ZN7LynxMod12LynxDataLogsEv, .-_ZN7LynxMod12LynxDataLogsEv
- 1517              		.section	.text._ZN7LynxMod7GetLEDsEv,"ax",%progbits
- 1518              		.align	1
- 1519              		.p2align 2,,3
- 1520              		.global	_ZN7LynxMod7GetLEDsEv
- 1521              		.syntax unified
- 1522              		.thumb
- 1523              		.thumb_func
- 1524              		.fpu fpv4-sp-d16
- 1525              		.type	_ZN7LynxMod7GetLEDsEv, %function
- 1526              	_ZN7LynxMod7GetLEDsEv:
- 1527              		@ args = 0, pretend = 0, frame = 0
- 1528              		@ frame_needed = 0, uses_anonymous_args = 0
- 1529              		@ link register save eliminated.
- 1530 0000 014B     		ldr	r3, .L276
- 1531 0002 93F84D00 		ldrb	r0, [r3, #77]	@ zero_extendqisi2
- 1532 0006 7047     		bx	lr
- 1533              	.L277:
- 1534              		.align	2
- 1535              	.L276:
- 1536 0008 00000000 		.word	.LANCHOR0
- 1537              		.size	_ZN7LynxMod7GetLEDsEv, .-_ZN7LynxMod7GetLEDsEv
- 1538              		.section	.text._ZN7LynxMod8LynxM968Ev,"ax",%progbits
- 1539              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 28
-
-
- 1540              		.p2align 2,,3
- 1541              		.global	_ZN7LynxMod8LynxM968Ev
- 1542              		.syntax unified
- 1543              		.thumb
- 1544              		.thumb_func
- 1545              		.fpu fpv4-sp-d16
- 1546              		.type	_ZN7LynxMod8LynxM968Ev, %function
- 1547              	_ZN7LynxMod8LynxM968Ev:
- 1548              		@ args = 0, pretend = 0, frame = 0
- 1549              		@ frame_needed = 0, uses_anonymous_args = 0
- 1550 0000 F0B5     		push	{r4, r5, r6, r7, lr}
- 1551 0002 D0E90853 		ldrd	r5, r3, [r0, #32]
- 1552 0006 9D42     		cmp	r5, r3
- 1553 0008 83B0     		sub	sp, sp, #12
- 1554 000a 03D0     		beq	.L278
- 1555 000c C36A     		ldr	r3, [r0, #44]
- 1556 000e B3F5727F 		cmp	r3, #968
- 1557 0012 01D0     		beq	.L292
- 1558              	.L278:
- 1559 0014 03B0     		add	sp, sp, #12
- 1560              		@ sp needed
- 1561 0016 F0BD     		pop	{r4, r5, r6, r7, pc}
- 1562              	.L292:
- 1563 0018 012D     		cmp	r5, #1
- 1564 001a 0446     		mov	r4, r0
- 1565 001c 05D0     		beq	.L293
- 1566              	.L280:
- 1567 001e 0023     		movs	r3, #0
- 1568 0020 6562     		str	r5, [r4, #36]
- 1569 0022 A362     		str	r3, [r4, #40]
- 1570 0024 2362     		str	r3, [r4, #32]
- 1571 0026 03B0     		add	sp, sp, #12
- 1572              		@ sp needed
- 1573 0028 F0BD     		pop	{r4, r5, r6, r7, pc}
- 1574              	.L293:
- 1575 002a 0F4F     		ldr	r7, .L294
- 1576 002c 0F49     		ldr	r1, .L294+4
- 1577 002e 7B68     		ldr	r3, [r7, #4]
- 1578 0030 0F4E     		ldr	r6, .L294+8
- 1579 0032 8068     		ldr	r0, [r0, #8]
- 1580 0034 D3E90223 		ldrd	r2, [r3, #8]
- 1581 0038 0091     		str	r1, [sp]
- 1582 003a FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
- 1583 003e F368     		ldr	r3, [r6, #12]
- 1584 0040 0BB1     		cbz	r3, .L282
- 1585              	.L291:
- 1586 0042 256A     		ldr	r5, [r4, #32]
- 1587 0044 EBE7     		b	.L280
- 1588              	.L282:
- 1589 0046 3846     		mov	r0, r7
- 1590 0048 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
- 1591 004c 4D28     		cmp	r0, #77
- 1592 004e 07D0     		beq	.L283
- 1593 0050 00F0FD00 		and	r0, r0, #253
- 1594 0054 5028     		cmp	r0, #80
- 1595 0056 03D0     		beq	.L283
- 1596 0058 86F84950 		strb	r5, [r6, #73]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 29
-
-
- 1597 005c 256A     		ldr	r5, [r4, #32]
- 1598 005e DEE7     		b	.L280
- 1599              	.L283:
- 1600 0060 0323     		movs	r3, #3
- 1601 0062 86F84430 		strb	r3, [r6, #68]
- 1602 0066 ECE7     		b	.L291
- 1603              	.L295:
- 1604              		.align	2
- 1605              	.L294:
- 1606 0068 00000000 		.word	reprap
- 1607 006c 00000000 		.word	.LC17
- 1608 0070 00000000 		.word	.LANCHOR0
- 1609              		.size	_ZN7LynxMod8LynxM968Ev, .-_ZN7LynxMod8LynxM968Ev
- 1610              		.section	.text._ZN7LynxMod8LynxM969Ev,"ax",%progbits
- 1611              		.align	1
- 1612              		.p2align 2,,3
- 1613              		.global	_ZN7LynxMod8LynxM969Ev
- 1614              		.syntax unified
- 1615              		.thumb
- 1616              		.thumb_func
- 1617              		.fpu fpv4-sp-d16
- 1618              		.type	_ZN7LynxMod8LynxM969Ev, %function
- 1619              	_ZN7LynxMod8LynxM969Ev:
- 1620              		@ args = 0, pretend = 0, frame = 0
- 1621              		@ frame_needed = 0, uses_anonymous_args = 0
- 1622 0000 F0B5     		push	{r4, r5, r6, r7, lr}
- 1623 0002 D0E90832 		ldrd	r3, r2, [r0, #32]
- 1624 0006 9342     		cmp	r3, r2
- 1625 0008 83B0     		sub	sp, sp, #12
- 1626 000a 0546     		mov	r5, r0
- 1627 000c 04D0     		beq	.L299
- 1628 000e C16A     		ldr	r1, [r0, #44]
- 1629 0010 40F2C932 		movw	r2, #969
- 1630 0014 9142     		cmp	r1, r2
- 1631 0016 4FD0     		beq	.L359
- 1632              	.L299:
- 1633 0018 AB4C     		ldr	r4, .L365
- 1634 001a 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1635 001e 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1636 0022 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1637 0026 0028     		cmp	r0, #0
- 1638 0028 32D1     		bne	.L308
- 1639              	.L332:
- 1640 002a 4AB1     		cbz	r2, .L335
- 1641 002c E36B     		ldr	r3, [r4, #60]
- 1642 002e A069     		ldr	r0, [r4, #24]
- 1643 0030 0133     		adds	r3, r3, #1
- 1644 0032 47F23052 		movw	r2, #30000
- 1645 0036 B2FBF0F2 		udiv	r2, r2, r0
- 1646 003a 9342     		cmp	r3, r2
- 1647 003c E363     		str	r3, [r4, #60]
- 1648 003e 36D2     		bcs	.L360
- 1649              	.L335:
- 1650 0040 69B1     		cbz	r1, .L296
- 1651 0042 236C     		ldr	r3, [r4, #64]
- 1652 0044 A169     		ldr	r1, [r4, #24]
- 1653 0046 0133     		adds	r3, r3, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 30
-
-
- 1654 0048 47F23052 		movw	r2, #30000
- 1655 004c B2FBF1F2 		udiv	r2, r2, r1
- 1656 0050 9342     		cmp	r3, r2
- 1657 0052 2364     		str	r3, [r4, #64]
- 1658 0054 03D3     		bcc	.L296
- 1659 0056 0023     		movs	r3, #0
- 1660 0058 84F84B30 		strb	r3, [r4, #75]
- 1661 005c 6B62     		str	r3, [r5, #36]
- 1662              	.L296:
- 1663 005e 03B0     		add	sp, sp, #12
- 1664              		@ sp needed
- 1665 0060 F0BD     		pop	{r4, r5, r6, r7, pc}
- 1666              	.L301:
- 1667 0062 9A4B     		ldr	r3, .L365+4
- 1668 0064 9A49     		ldr	r1, .L365+8
- 1669 0066 5B68     		ldr	r3, [r3, #4]
- 1670 0068 974C     		ldr	r4, .L365
- 1671 006a 1868     		ldr	r0, [r3]
- 1672 006c D3E90223 		ldrd	r2, [r3, #8]
- 1673 0070 0091     		str	r1, [sp]
- 1674 0072 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
- 1675 0076 286A     		ldr	r0, [r5, #32]
- 1676 0078 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1677 007c 0023     		movs	r3, #0
- 1678 007e 0122     		movs	r2, #1
- 1679 0080 84F84820 		strb	r2, [r4, #72]
- 1680 0084 A363     		str	r3, [r4, #56]
- 1681 0086 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1682 008a AB62     		str	r3, [r5, #40]
- 1683 008c C5E90830 		strd	r3, r0, [r5, #32]
- 1684              	.L308:
- 1685 0090 A36B     		ldr	r3, [r4, #56]
- 1686 0092 A669     		ldr	r6, [r4, #24]
- 1687 0094 0133     		adds	r3, r3, #1
- 1688 0096 47F23050 		movw	r0, #30000
- 1689 009a B0FBF6F0 		udiv	r0, r0, r6
- 1690 009e 8342     		cmp	r3, r0
- 1691 00a0 A363     		str	r3, [r4, #56]
- 1692 00a2 C2D3     		bcc	.L332
- 1693 00a4 0023     		movs	r3, #0
- 1694 00a6 84F84830 		strb	r3, [r4, #72]
- 1695 00aa 6B62     		str	r3, [r5, #36]
- 1696 00ac BDE7     		b	.L332
- 1697              	.L360:
- 1698 00ae 0023     		movs	r3, #0
- 1699 00b0 84F84A30 		strb	r3, [r4, #74]
- 1700 00b4 6B62     		str	r3, [r5, #36]
- 1701 00b6 C3E7     		b	.L335
- 1702              	.L359:
- 1703 00b8 5A1E     		subs	r2, r3, #1
- 1704 00ba 052A     		cmp	r2, #5
- 1705 00bc 00F29280 		bhi	.L300
- 1706 00c0 01A1     		adr	r1, .L302
- 1707 00c2 51F822F0 		ldr	pc, [r1, r2, lsl #2]
- 1708 00c6 00BF     		.p2align 2
- 1709              	.L302:
- 1710 00c8 63000000 		.word	.L301+1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 31
-
-
- 1711 00cc E1000000 		.word	.L303+1
- 1712 00d0 E5010000 		.word	.L300+1
- 1713 00d4 15010000 		.word	.L304+1
- 1714 00d8 3F010000 		.word	.L305+1
- 1715 00dc C7010000 		.word	.L306+1
- 1716              		.p2align 1
- 1717              	.L303:
- 1718 00e0 7A4B     		ldr	r3, .L365+4
- 1719 00e2 7C4A     		ldr	r2, .L365+12
- 1720 00e4 5868     		ldr	r0, [r3, #4]
- 1721 00e6 784C     		ldr	r4, .L365
- 1722 00e8 1021     		movs	r1, #16
- 1723 00ea FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1724 00ee 0123     		movs	r3, #1
- 1725 00f0 2B62     		str	r3, [r5, #32]
- 1726 00f2 2846     		mov	r0, r5
- 1727 00f4 FFF7FEFF 		bl	_ZN7LynxMod8LynxM968Ev
- 1728 00f8 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1729 00fc 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1730 0100 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1731 0104 2B6A     		ldr	r3, [r5, #32]
- 1732              	.L307:
- 1733 0106 0026     		movs	r6, #0
- 1734 0108 C5E90936 		strd	r3, r6, [r5, #36]
- 1735 010c 2E62     		str	r6, [r5, #32]
- 1736 010e 0028     		cmp	r0, #0
- 1737 0110 8BD0     		beq	.L332
- 1738 0112 BDE7     		b	.L308
- 1739              	.L304:
- 1740 0114 6D4B     		ldr	r3, .L365+4
- 1741 0116 7049     		ldr	r1, .L365+16
- 1742 0118 5B68     		ldr	r3, [r3, #4]
- 1743 011a 6B4C     		ldr	r4, .L365
- 1744 011c 8068     		ldr	r0, [r0, #8]
- 1745 011e D3E90223 		ldrd	r2, [r3, #8]
- 1746 0122 0091     		str	r1, [sp]
- 1747 0124 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
- 1748 0128 0023     		movs	r3, #0
- 1749 012a 0122     		movs	r2, #1
- 1750 012c E363     		str	r3, [r4, #60]
- 1751 012e 84F84A20 		strb	r2, [r4, #74]
- 1752 0132 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1753 0136 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1754 013a 2B6A     		ldr	r3, [r5, #32]
- 1755 013c E3E7     		b	.L307
- 1756              	.L305:
- 1757 013e 634E     		ldr	r6, .L365+4
- 1758 0140 6649     		ldr	r1, .L365+20
- 1759 0142 7368     		ldr	r3, [r6, #4]
- 1760 0144 8068     		ldr	r0, [r0, #8]
- 1761 0146 D3E90223 		ldrd	r2, [r3, #8]
- 1762 014a 0091     		str	r1, [sp]
- 1763 014c FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
- 1764 0150 AB6A     		ldr	r3, [r5, #40]
- 1765 0152 B3F58B6F 		cmp	r3, #1112
- 1766 0156 4DD2     		bcs	.L309
- 1767 0158 B3F57A7F 		cmp	r3, #1000
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 32
-
-
- 1768 015c 28BF     		it	cs
- 1769 015e A3F57A73 		subcs	r3, r3, #1000
- 1770 0162 594C     		ldr	r4, .L365
- 1771 0164 2ABF     		itet	cs
- 1772 0166 AB62     		strcs	r3, [r5, #40]
- 1773 0168 0022     		movcc	r2, #0
- 1774 016a 4FF07F42 		movcs	r2, #-16777216
- 1775 016e 632B     		cmp	r3, #99
- 1776 0170 6262     		str	r2, [r4, #36]
- 1777 0172 40F28D80 		bls	.L341
- 1778 0176 626A     		ldr	r2, [r4, #36]
- 1779 0178 643B     		subs	r3, r3, #100
- 1780 017a 632B     		cmp	r3, #99
- 1781 017c 02F57F02 		add	r2, r2, #16711680
- 1782 0180 AB62     		str	r3, [r5, #40]
- 1783 0182 6262     		str	r2, [r4, #36]
- 1784 0184 94BF     		ite	ls
- 1785 0186 0027     		movls	r7, #0
- 1786 0188 0127     		movhi	r7, #1
- 1787              	.L312:
- 1788 018a 092B     		cmp	r3, #9
- 1789 018c 7CD9     		bls	.L313
- 1790 018e 626A     		ldr	r2, [r4, #36]
- 1791 0190 0A3B     		subs	r3, r3, #10
- 1792 0192 02F57F42 		add	r2, r2, #65280
- 1793 0196 092B     		cmp	r3, #9
- 1794 0198 AB62     		str	r3, [r5, #40]
- 1795 019a 6262     		str	r2, [r4, #36]
- 1796 019c 74D9     		bls	.L313
- 1797 019e 0127     		movs	r7, #1
- 1798              	.L314:
- 1799 01a0 FF32     		adds	r2, r2, #255
- 1800 01a2 013B     		subs	r3, r3, #1
- 1801 01a4 6262     		str	r2, [r4, #36]
- 1802 01a6 AB62     		str	r3, [r5, #40]
- 1803 01a8 002B     		cmp	r3, #0
- 1804 01aa 57D0     		beq	.L315
- 1805              	.L316:
- 1806 01ac 7068     		ldr	r0, [r6, #4]
- 1807 01ae 4C4A     		ldr	r2, .L365+24
- 1808 01b0 1021     		movs	r1, #16
- 1809 01b2 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1810 01b6 2B6A     		ldr	r3, [r5, #32]
- 1811 01b8 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1812 01bc 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1813 01c0 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1814 01c4 9FE7     		b	.L307
- 1815              	.L306:
- 1816 01c6 404C     		ldr	r4, .L365
- 1817 01c8 94F84D20 		ldrb	r2, [r4, #77]	@ zero_extendqisi2
- 1818 01cc 002A     		cmp	r2, #0
- 1819 01ce 51D0     		beq	.L331
- 1820 01d0 0022     		movs	r2, #0
- 1821 01d2 84F84D20 		strb	r2, [r4, #77]
- 1822 01d6 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1823 01da 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1824 01de 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 33
-
-
- 1825 01e2 90E7     		b	.L307
- 1826              	.L300:
- 1827 01e4 384C     		ldr	r4, .L365
- 1828 01e6 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1829 01ea 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1830 01ee 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1831 01f2 88E7     		b	.L307
- 1832              	.L309:
- 1833 01f4 2B6B     		ldr	r3, [r5, #48]
- 1834 01f6 344C     		ldr	r4, .L365
- 1835 01f8 FF2B     		cmp	r3, #255
- 1836 01fa 40F28580 		bls	.L361
- 1837 01fe 0127     		movs	r7, #1
- 1838              	.L317:
- 1839 0200 636A     		ldr	r3, [r4, #36]
- 1840 0202 696B     		ldr	r1, [r5, #52]
- 1841 0204 1B02     		lsls	r3, r3, #8
- 1842 0206 FF29     		cmp	r1, #255
- 1843 0208 6362     		str	r3, [r4, #36]
- 1844 020a 71D9     		bls	.L362
- 1845 020c 0127     		movs	r7, #1
- 1846              	.L318:
- 1847 020e A96B     		ldr	r1, [r5, #56]
- 1848 0210 1B02     		lsls	r3, r3, #8
- 1849 0212 FF29     		cmp	r1, #255
- 1850 0214 6362     		str	r3, [r4, #36]
- 1851 0216 4BD9     		bls	.L363
- 1852 0218 0127     		movs	r7, #1
- 1853              	.L319:
- 1854 021a E96B     		ldr	r1, [r5, #60]
- 1855 021c 1B02     		lsls	r3, r3, #8
- 1856 021e FF29     		cmp	r1, #255
- 1857 0220 6362     		str	r3, [r4, #36]
- 1858 0222 37D9     		bls	.L320
- 1859 0224 296C     		ldr	r1, [r5, #64]
- 1860 0226 6F29     		cmp	r1, #111
- 1861 0228 C0D8     		bhi	.L316
- 1862 022a 0127     		movs	r7, #1
- 1863              	.L321:
- 1864 022c 6329     		cmp	r1, #99
- 1865 022e CAB2     		uxtb	r2, r1
- 1866 0230 88BF     		it	hi
- 1867 0232 643A     		subhi	r2, r2, #100
- 1868 0234 4FF00003 		mov	r3, #0
- 1869 0238 88BF     		it	hi
- 1870 023a D2B2     		uxtbhi	r2, r2
- 1871 023c 2B64     		str	r3, [r5, #64]
- 1872 023e 88BF     		it	hi
- 1873 0240 0423     		movhi	r3, #4
- 1874 0242 092A     		cmp	r2, #9
- 1875 0244 84F82930 		strb	r3, [r4, #41]
- 1876 0248 67D8     		bhi	.L325
- 1877 024a 7068     		ldr	r0, [r6, #4]
- 1878 024c 1946     		mov	r1, r3
- 1879              	.L326:
- 1880 024e 002A     		cmp	r2, #0
- 1881 0250 73D1     		bne	.L364
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 34
-
-
- 1882 0252 0B46     		mov	r3, r1
- 1883              	.L329:
- 1884 0254 234A     		ldr	r2, .L365+28
- 1885 0256 1021     		movs	r1, #16
- 1886 0258 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1887              	.L315:
- 1888 025c 002F     		cmp	r7, #0
- 1889 025e A5D1     		bne	.L316
- 1890 0260 0121     		movs	r1, #1
- 1891 0262 2764     		str	r7, [r4, #64]
- 1892 0264 84F84B10 		strb	r1, [r4, #75]
- 1893 0268 2B6A     		ldr	r3, [r5, #32]
- 1894 026a 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1895 026e 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1896 0272 48E7     		b	.L307
- 1897              	.L331:
- 1898 0274 0126     		movs	r6, #1
- 1899 0276 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
- 1900 027a 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
- 1901 027e 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
- 1902 0282 84F84D60 		strb	r6, [r4, #77]
- 1903 0286 3EE7     		b	.L307
- 1904              	.L313:
- 1905 0288 002B     		cmp	r3, #0
- 1906 028a E7D0     		beq	.L315
- 1907 028c 626A     		ldr	r2, [r4, #36]
- 1908 028e 87E7     		b	.L314
- 1909              	.L341:
- 1910 0290 0027     		movs	r7, #0
- 1911 0292 7AE7     		b	.L312
- 1912              	.L320:
- 1913 0294 1944     		add	r1, r1, r3
- 1914 0296 CBB2     		uxtb	r3, r1
- 1915 0298 6162     		str	r1, [r4, #36]
- 1916 029a 134A     		ldr	r2, .L365+32
- 1917 029c 7068     		ldr	r0, [r6, #4]
- 1918 029e 1021     		movs	r1, #16
- 1919 02a0 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1920 02a4 296C     		ldr	r1, [r5, #64]
- 1921 02a6 0023     		movs	r3, #0
- 1922 02a8 6F29     		cmp	r1, #111
- 1923 02aa EB63     		str	r3, [r5, #60]
- 1924 02ac D6D8     		bhi	.L315
- 1925 02ae BDE7     		b	.L321
- 1926              	.L363:
- 1927 02b0 1944     		add	r1, r1, r3
- 1928 02b2 CBB2     		uxtb	r3, r1
- 1929 02b4 6162     		str	r1, [r4, #36]
- 1930 02b6 0D4A     		ldr	r2, .L365+36
- 1931 02b8 7068     		ldr	r0, [r6, #4]
- 1932 02ba 1021     		movs	r1, #16
- 1933 02bc FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1934 02c0 0023     		movs	r3, #0
- 1935 02c2 AB63     		str	r3, [r5, #56]
- 1936 02c4 636A     		ldr	r3, [r4, #36]
- 1937 02c6 A8E7     		b	.L319
- 1938              	.L366:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 35
-
-
- 1939              		.align	2
- 1940              	.L365:
- 1941 02c8 00000000 		.word	.LANCHOR0
- 1942 02cc 00000000 		.word	reprap
- 1943 02d0 00000000 		.word	.LC18
- 1944 02d4 0C000000 		.word	.LC19
- 1945 02d8 44000000 		.word	.LC20
- 1946 02dc 5C000000 		.word	.LC21
- 1947 02e0 A8000000 		.word	.LC27
- 1948 02e4 9C000000 		.word	.LC26
- 1949 02e8 90000000 		.word	.LC25
- 1950 02ec 84000000 		.word	.LC24
- 1951              	.L362:
- 1952 02f0 1944     		add	r1, r1, r3
- 1953 02f2 CBB2     		uxtb	r3, r1
- 1954 02f4 6162     		str	r1, [r4, #36]
- 1955 02f6 144A     		ldr	r2, .L367
- 1956 02f8 7068     		ldr	r0, [r6, #4]
- 1957 02fa 1021     		movs	r1, #16
- 1958 02fc FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1959 0300 0023     		movs	r3, #0
- 1960 0302 6B63     		str	r3, [r5, #52]
- 1961 0304 636A     		ldr	r3, [r4, #36]
- 1962 0306 82E7     		b	.L318
- 1963              	.L361:
- 1964 0308 104A     		ldr	r2, .L367+4
- 1965 030a 7068     		ldr	r0, [r6, #4]
- 1966 030c 6362     		str	r3, [r4, #36]
- 1967 030e 1021     		movs	r1, #16
- 1968 0310 0027     		movs	r7, #0
- 1969 0312 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1970 0316 2F63     		str	r7, [r5, #48]
- 1971 0318 72E7     		b	.L317
- 1972              	.L325:
- 1973 031a 0A3A     		subs	r2, r2, #10
- 1974 031c D2B2     		uxtb	r2, r2
- 1975 031e 991C     		adds	r1, r3, #2
- 1976 0320 092A     		cmp	r2, #9
- 1977 0322 84F82910 		strb	r1, [r4, #41]
- 1978 0326 7068     		ldr	r0, [r6, #4]
- 1979 0328 91D9     		bls	.L326
- 1980 032a 0333     		adds	r3, r3, #3
- 1981 032c 84F82930 		strb	r3, [r4, #41]
- 1982              	.L340:
- 1983 0330 074A     		ldr	r2, .L367+8
- 1984 0332 1021     		movs	r1, #16
- 1985 0334 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 1986 0338 38E7     		b	.L316
- 1987              	.L364:
- 1988 033a 4B1C     		adds	r3, r1, #1
- 1989 033c DBB2     		uxtb	r3, r3
- 1990 033e 012A     		cmp	r2, #1
- 1991 0340 84F82930 		strb	r3, [r4, #41]
- 1992 0344 86D0     		beq	.L329
- 1993 0346 F3E7     		b	.L340
- 1994              	.L368:
- 1995              		.align	2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 36
-
-
- 1996              	.L367:
- 1997 0348 78000000 		.word	.LC23
- 1998 034c 6C000000 		.word	.LC22
- 1999 0350 9C000000 		.word	.LC26
- 2000              		.size	_ZN7LynxMod8LynxM969Ev, .-_ZN7LynxMod8LynxM969Ev
- 2001              		.section	.text._ZN7LynxMod9LynxCheckER11GCodeBuffer,"ax",%progbits
- 2002              		.align	1
- 2003              		.p2align 2,,3
- 2004              		.global	_ZN7LynxMod9LynxCheckER11GCodeBuffer
- 2005              		.syntax unified
- 2006              		.thumb
- 2007              		.thumb_func
- 2008              		.fpu fpv4-sp-d16
- 2009              		.type	_ZN7LynxMod9LynxCheckER11GCodeBuffer, %function
- 2010              	_ZN7LynxMod9LynxCheckER11GCodeBuffer:
- 2011              		@ args = 0, pretend = 0, frame = 0
- 2012              		@ frame_needed = 0, uses_anonymous_args = 0
- 2013 0000 30B5     		push	{r4, r5, lr}
- 2014 0002 037E     		ldrb	r3, [r0, #24]	@ zero_extendqisi2
- 2015 0004 013B     		subs	r3, r3, #1
- 2016 0006 83B0     		sub	sp, sp, #12
- 2017 0008 0446     		mov	r4, r0
- 2018 000a 032B     		cmp	r3, #3
- 2019 000c 0AD8     		bhi	.L370
- 2020 000e DFE803F0 		tbb	[pc, r3]
- 2021              	.L372:
- 2022 0012 02       		.byte	(.L371-.L372)/2
- 2023 0013 2B       		.byte	(.L373-.L372)/2
- 2024 0014 18       		.byte	(.L374-.L372)/2
- 2025 0015 0D       		.byte	(.L375-.L372)/2
- 2026              		.p2align 1
- 2027              	.L371:
- 2028 0016 1A4B     		ldr	r3, .L380
- 2029 0018 1A4A     		ldr	r2, .L380+4
- 2030 001a 5869     		ldr	r0, [r3, #20]
- 2031 001c 0023     		movs	r3, #0
- 2032 001e 0093     		str	r3, [sp]
- 2033 0020 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
- 2034              	.L370:
- 2035 0024 0023     		movs	r3, #0
- 2036 0026 2376     		strb	r3, [r4, #24]
- 2037 0028 03B0     		add	sp, sp, #12
- 2038              		@ sp needed
- 2039 002a 30BD     		pop	{r4, r5, pc}
- 2040              	.L375:
- 2041 002c 144B     		ldr	r3, .L380
- 2042 002e 164A     		ldr	r2, .L380+8
- 2043 0030 5869     		ldr	r0, [r3, #20]
- 2044 0032 0023     		movs	r3, #0
- 2045 0034 0093     		str	r3, [sp]
- 2046 0036 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
- 2047 003a 0023     		movs	r3, #0
- 2048 003c 2376     		strb	r3, [r4, #24]
- 2049 003e 03B0     		add	sp, sp, #12
- 2050              		@ sp needed
- 2051 0040 30BD     		pop	{r4, r5, pc}
- 2052              	.L374:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 37
-
-
- 2053 0042 0F4D     		ldr	r5, .L380
- 2054 0044 0123     		movs	r3, #1
- 2055 0046 6869     		ldr	r0, [r5, #20]
- 2056 0048 4FF0FF32 		mov	r2, #-1
- 2057 004c 0621     		movs	r1, #6
- 2058 004e FFF7FEFF 		bl	_ZNK6GCodes26GenerateJsonStatusResponseEii14ResponseSource
- 2059 0052 0028     		cmp	r0, #0
- 2060 0054 E6D0     		beq	.L370
- 2061 0056 0146     		mov	r1, r0
- 2062 0058 0122     		movs	r2, #1
- 2063 005a 6868     		ldr	r0, [r5, #4]
- 2064 005c FFF7FEFF 		bl	_ZN8Platform14AppendAuxReplyEP12OutputBufferb
- 2065 0060 0023     		movs	r3, #0
- 2066 0062 2376     		strb	r3, [r4, #24]
- 2067 0064 03B0     		add	sp, sp, #12
- 2068              		@ sp needed
- 2069 0066 30BD     		pop	{r4, r5, pc}
- 2070              	.L373:
- 2071 0068 054B     		ldr	r3, .L380
- 2072 006a 084A     		ldr	r2, .L380+12
- 2073 006c 5869     		ldr	r0, [r3, #20]
- 2074 006e 0023     		movs	r3, #0
- 2075 0070 0093     		str	r3, [sp]
- 2076 0072 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
- 2077 0076 0023     		movs	r3, #0
- 2078 0078 2376     		strb	r3, [r4, #24]
- 2079 007a 03B0     		add	sp, sp, #12
- 2080              		@ sp needed
- 2081 007c 30BD     		pop	{r4, r5, pc}
- 2082              	.L381:
- 2083 007e 00BF     		.align	2
- 2084              	.L380:
- 2085 0080 00000000 		.word	reprap
- 2086 0084 00000000 		.word	.LC28
- 2087 0088 20000000 		.word	.LC30
- 2088 008c 0C000000 		.word	.LC29
- 2089              		.size	_ZN7LynxMod9LynxCheckER11GCodeBuffer, .-_ZN7LynxMod9LynxCheckER11GCodeBuffer
- 2090              		.section	.text.startup._GLOBAL__sub_I_warningWarmDevices,"ax",%progbits
- 2091              		.align	1
- 2092              		.p2align 2,,3
- 2093              		.syntax unified
- 2094              		.thumb
- 2095              		.thumb_func
- 2096              		.fpu fpv4-sp-d16
- 2097              		.type	_GLOBAL__sub_I_warningWarmDevices, %function
- 2098              	_GLOBAL__sub_I_warningWarmDevices:
- 2099              		@ args = 0, pretend = 0, frame = 0
- 2100              		@ frame_needed = 0, uses_anonymous_args = 0
- 2101              		@ link register save eliminated.
- 2102 0000 30B4     		push	{r4, r5}
- 2103 0002 184B     		ldr	r3, .L384
- 2104 0004 0022     		movs	r2, #0
- 2105 0006 0024     		movs	r4, #0
- 2106 0008 7D25     		movs	r5, #125
- 2107 000a 1A60     		str	r2, [r3]
- 2108 000c 9A80     		strh	r2, [r3, #4]	@ movhi
- 2109 000e 83F82920 		strb	r2, [r3, #41]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 38
-
-
- 2110 0012 83F82A20 		strb	r2, [r3, #42]
- 2111 0016 83F84420 		strb	r2, [r3, #68]
- 2112 001a 0121     		movs	r1, #1
- 2113 001c 9D61     		str	r5, [r3, #24]
- 2114 001e DC62     		str	r4, [r3, #44]	@ float
- 2115 0020 03F15400 		add	r0, r3, #84
- 2116 0024 30BC     		pop	{r4, r5}
- 2117 0026 5A61     		str	r2, [r3, #20]
- 2118 0028 C3E90722 		strd	r2, r2, [r3, #28]
- 2119 002c 5A62     		str	r2, [r3, #36]
- 2120 002e C3E90C22 		strd	r2, r2, [r3, #48]
- 2121 0032 C3E90E22 		strd	r2, r2, [r3, #56]
- 2122 0036 1A64     		str	r2, [r3, #64]
- 2123 0038 83F84520 		strb	r2, [r3, #69]
- 2124 003c 83F84720 		strb	r2, [r3, #71]
- 2125 0040 83F84820 		strb	r2, [r3, #72]
- 2126 0044 83F84920 		strb	r2, [r3, #73]
- 2127 0048 83F84A20 		strb	r2, [r3, #74]
- 2128 004c 83F84B20 		strb	r2, [r3, #75]
- 2129 0050 83F84C20 		strb	r2, [r3, #76]
- 2130 0054 1A65     		str	r2, [r3, #80]
- 2131 0056 83F84610 		strb	r1, [r3, #70]
- 2132 005a 83F84D10 		strb	r1, [r3, #77]
- 2133 005e FFF7FEBF 		b	_ZN6LoggerC1Ev
- 2134              	.L385:
- 2135 0062 00BF     		.align	2
- 2136              	.L384:
- 2137 0064 00000000 		.word	.LANCHOR0
- 2138              		.size	_GLOBAL__sub_I_warningWarmDevices, .-_GLOBAL__sub_I_warningWarmDevices
- 2139              		.section	.init_array,"aw",%init_array
- 2140              		.align	2
- 2141 0000 00000000 		.word	_GLOBAL__sub_I_warningWarmDevices(target1)
- 2142              		.section	.text._ZN7LynxMod10LynxModComEmcc,"ax",%progbits
- 2143              		.align	1
- 2144              		.p2align 2,,3
- 2145              		.global	_ZN7LynxMod10LynxModComEmcc
- 2146              		.syntax unified
- 2147              		.thumb
- 2148              		.thumb_func
- 2149              		.fpu fpv4-sp-d16
- 2150              		.type	_ZN7LynxMod10LynxModComEmcc, %function
- 2151              	_ZN7LynxMod10LynxModComEmcc:
- 2152              		@ args = 0, pretend = 0, frame = 0
- 2153              		@ frame_needed = 0, uses_anonymous_args = 0
- 2154 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 2155 0004 664C     		ldr	r4, .L419
- 2156 0006 207C     		ldrb	r0, [r4, #16]	@ zero_extendqisi2
- 2157 0008 83B0     		sub	sp, sp, #12
- 2158 000a 8A46     		mov	r10, r1
- 2159 000c 9146     		mov	r9, r2
- 2160 000e 9846     		mov	r8, r3
- 2161 0010 08B9     		cbnz	r0, .L387
- 2162 0012 1023     		movs	r3, #16
- 2163 0014 2374     		strb	r3, [r4, #16]
- 2164              	.L387:
- 2165 0016 634E     		ldr	r6, .L419+4
- 2166 0018 634F     		ldr	r7, .L419+8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 39
-
-
- 2167 001a FFF7FEFF 		bl	millis
- 2168 001e 3368     		ldr	r3, [r6]
- 2169 0020 3860     		str	r0, [r7]
- 2170 0022 C31A     		subs	r3, r0, r3
- 2171 0024 312B     		cmp	r3, #49
- 2172 0026 0546     		mov	r5, r0
- 2173 0028 03D8     		bhi	.L417
- 2174              	.L388:
- 2175 002a 3560     		str	r5, [r6]
- 2176 002c 03B0     		add	sp, sp, #12
- 2177              		@ sp needed
- 2178 002e BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 2179              	.L417:
- 2180 0032 A369     		ldr	r3, [r4, #24]
- 2181 0034 C4F808A0 		str	r10, [r4, #8]
- 2182 0038 0133     		adds	r3, r3, #1
- 2183 003a C4F804A0 		str	r10, [r4, #4]
- 2184 003e 0022     		movs	r2, #0
- 2185 0040 DFF890A1 		ldr	r10, .L419+52
- 2186 0044 84F80C90 		strb	r9, [r4, #12]
- 2187 0048 84F80D90 		strb	r9, [r4, #13]
- 2188 004c A361     		str	r3, [r4, #24]
- 2189 004e 84F80E80 		strb	r8, [r4, #14]
- 2190 0052 2280     		strh	r2, [r4]	@ movhi
- 2191 0054 FFF7FEFF 		bl	millis
- 2192 0058 DAF80030 		ldr	r3, [r10]
- 2193 005c DFF87891 		ldr	r9, .L419+56
- 2194 0060 C01A     		subs	r0, r0, r3
- 2195 0062 47F22F53 		movw	r3, #29999
- 2196 0066 9842     		cmp	r0, r3
- 2197 0068 08D8     		bhi	.L389
- 2198 006a D9F80030 		ldr	r3, [r9]
- 2199 006e 052B     		cmp	r3, #5
- 2200 0070 04D9     		bls	.L389
- 2201              	.L416:
- 2202 0072 3D68     		ldr	r5, [r7]
- 2203 0074 3560     		str	r5, [r6]
- 2204 0076 03B0     		add	sp, sp, #12
- 2205              		@ sp needed
- 2206 0078 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 2207              	.L389:
- 2208 007c D4F804B0 		ldr	fp, [r4, #4]
- 2209 0080 BBF1000F 		cmp	fp, #0
- 2210 0084 03D0     		beq	.L390
- 2211 0086 627B     		ldrb	r2, [r4, #13]	@ zero_extendqisi2
- 2212 0088 0AB1     		cbz	r2, .L390
- 2213 008a 0122     		movs	r2, #1
- 2214 008c 2280     		strh	r2, [r4]	@ movhi
- 2215              	.L390:
- 2216 008e 474B     		ldr	r3, .L419+12
- 2217 0090 DFF81C81 		ldr	r8, .L419+16
- 2218 0094 5868     		ldr	r0, [r3, #4]
- 2219 0096 FFF7FEFF 		bl	_ZN8Platform7InitI2cEv
- 2220 009a 217C     		ldrb	r1, [r4, #16]	@ zero_extendqisi2
- 2221 009c 4046     		mov	r0, r8
- 2222 009e FFF7FEFF 		bl	_ZN7TwoWire17beginTransmissionEh
- 2223 00a2 0425     		movs	r5, #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 40
-
-
- 2224              	.L391:
- 2225 00a4 5FFA8BF1 		uxtb	r1, fp
- 2226 00a8 4046     		mov	r0, r8
- 2227 00aa FFF7FEFF 		bl	_ZN7TwoWire5writeEh
- 2228 00ae 013D     		subs	r5, r5, #1
- 2229 00b0 4FEA1B2B 		lsr	fp, fp, #8
- 2230 00b4 F6D1     		bne	.L391
- 2231 00b6 617B     		ldrb	r1, [r4, #13]	@ zero_extendqisi2
- 2232 00b8 A37B     		ldrb	r3, [r4, #14]	@ zero_extendqisi2
- 2233 00ba 3D48     		ldr	r0, .L419+16
- 2234 00bc 1944     		add	r1, r1, r3
- 2235 00be C9B2     		uxtb	r1, r1
- 2236 00c0 FFF7FEFF 		bl	_ZN7TwoWire5writeEh
- 2237 00c4 3A48     		ldr	r0, .L419+16
- 2238 00c6 FFF7FEFF 		bl	_ZN7TwoWire15endTransmissionEv
- 2239 00ca 58B1     		cbz	r0, .L418
- 2240 00cc D9F80010 		ldr	r1, [r9]
- 2241 00d0 0529     		cmp	r1, #5
- 2242 00d2 00F1FF30 		add	r0, r0, #-1
- 2243 00d6 17D8     		bhi	.L393
- 2244 00d8 0328     		cmp	r0, #3
- 2245 00da 10D8     		bhi	.L394
- 2246 00dc DFE800F0 		tbb	[pc, r0]
- 2247              	.L396:
- 2248 00e0 54       		.byte	(.L395-.L396)/2
- 2249 00e1 47       		.byte	(.L397-.L396)/2
- 2250 00e2 3C       		.byte	(.L398-.L396)/2
- 2251 00e3 05       		.byte	(.L399-.L396)/2
- 2252              		.p2align 1
- 2253              	.L418:
- 2254 00e4 C9F80050 		str	r5, [r9]
- 2255 00e8 C3E7     		b	.L416
- 2256              	.L399:
- 2257 00ea 304A     		ldr	r2, .L419+12
- 2258 00ec C1F10503 		rsb	r3, r1, #5
- 2259 00f0 5068     		ldr	r0, [r2, #4]
- 2260 00f2 304A     		ldr	r2, .L419+20
- 2261 00f4 1021     		movs	r1, #16
- 2262 00f6 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2263 00fa D9F80010 		ldr	r1, [r9]
- 2264              	.L394:
- 2265 00fe 3D68     		ldr	r5, [r7]
- 2266 0100 0131     		adds	r1, r1, #1
- 2267 0102 C9F80010 		str	r1, [r9]
- 2268 0106 90E7     		b	.L388
- 2269              	.L393:
- 2270 0108 0328     		cmp	r0, #3
- 2271 010a 09D8     		bhi	.L400
- 2272 010c DFE800F0 		tbb	[pc, r0]
- 2273              	.L402:
- 2274 0110 1D       		.byte	(.L401-.L402)/2
- 2275 0111 15       		.byte	(.L403-.L402)/2
- 2276 0112 0E       		.byte	(.L404-.L402)/2
- 2277 0113 02       		.byte	(.L405-.L402)/2
- 2278              		.p2align 1
- 2279              	.L405:
- 2280 0114 254B     		ldr	r3, .L419+12
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 41
-
-
- 2281 0116 284A     		ldr	r2, .L419+24
- 2282 0118 5868     		ldr	r0, [r3, #4]
- 2283 011a 1021     		movs	r1, #16
- 2284 011c FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2285              	.L400:
- 2286 0120 FFF7FEFF 		bl	millis
- 2287 0124 3D68     		ldr	r5, [r7]
- 2288 0126 CAF80000 		str	r0, [r10]
- 2289 012a 7EE7     		b	.L388
- 2290              	.L404:
- 2291 012c 1F4B     		ldr	r3, .L419+12
- 2292 012e 234A     		ldr	r2, .L419+28
- 2293 0130 5868     		ldr	r0, [r3, #4]
- 2294 0132 1021     		movs	r1, #16
- 2295 0134 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2296 0138 F2E7     		b	.L400
- 2297              	.L403:
- 2298 013a 1C4A     		ldr	r2, .L419+12
- 2299 013c 237C     		ldrb	r3, [r4, #16]	@ zero_extendqisi2
- 2300 013e 5068     		ldr	r0, [r2, #4]
- 2301 0140 1F4A     		ldr	r2, .L419+32
- 2302 0142 1021     		movs	r1, #16
- 2303 0144 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2304 0148 EAE7     		b	.L400
- 2305              	.L401:
- 2306 014a 184B     		ldr	r3, .L419+12
- 2307 014c 1D4A     		ldr	r2, .L419+36
- 2308 014e 5868     		ldr	r0, [r3, #4]
- 2309 0150 1021     		movs	r1, #16
- 2310 0152 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2311 0156 E3E7     		b	.L400
- 2312              	.L398:
- 2313 0158 144A     		ldr	r2, .L419+12
- 2314 015a C1F10503 		rsb	r3, r1, #5
- 2315 015e 5068     		ldr	r0, [r2, #4]
- 2316 0160 194A     		ldr	r2, .L419+40
- 2317 0162 1021     		movs	r1, #16
- 2318 0164 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2319 0168 D9F80010 		ldr	r1, [r9]
- 2320 016c C7E7     		b	.L394
- 2321              	.L397:
- 2322 016e 0F4A     		ldr	r2, .L419+12
- 2323 0170 237C     		ldrb	r3, [r4, #16]	@ zero_extendqisi2
- 2324 0172 5068     		ldr	r0, [r2, #4]
- 2325 0174 154A     		ldr	r2, .L419+44
- 2326 0176 C1F10501 		rsb	r1, r1, #5
- 2327 017a 0091     		str	r1, [sp]
- 2328 017c 1021     		movs	r1, #16
- 2329 017e FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2330 0182 D9F80010 		ldr	r1, [r9]
- 2331 0186 BAE7     		b	.L394
- 2332              	.L395:
- 2333 0188 084A     		ldr	r2, .L419+12
- 2334 018a C1F10503 		rsb	r3, r1, #5
- 2335 018e 5068     		ldr	r0, [r2, #4]
- 2336 0190 0F4A     		ldr	r2, .L419+48
- 2337 0192 1021     		movs	r1, #16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 42
-
-
- 2338 0194 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
- 2339 0198 D9F80010 		ldr	r1, [r9]
- 2340 019c AFE7     		b	.L394
- 2341              	.L420:
- 2342 019e 00BF     		.align	2
- 2343              	.L419:
- 2344 01a0 00000000 		.word	.LANCHOR10
- 2345 01a4 00000000 		.word	.LANCHOR12
- 2346 01a8 00000000 		.word	.LANCHOR11
- 2347 01ac 00000000 		.word	reprap
- 2348 01b0 00000000 		.word	Wire
- 2349 01b4 D4000000 		.word	.LC34
- 2350 01b8 D4010000 		.word	.LC38
- 2351 01bc 98010000 		.word	.LC37
- 2352 01c0 50010000 		.word	.LC36
- 2353 01c4 14010000 		.word	.LC35
- 2354 01c8 90000000 		.word	.LC33
- 2355 01cc 40000000 		.word	.LC32
- 2356 01d0 00000000 		.word	.LC31
- 2357 01d4 00000000 		.word	.LANCHOR13
- 2358 01d8 00000000 		.word	.LANCHOR14
- 2359              		.size	_ZN7LynxMod10LynxModComEmcc, .-_ZN7LynxMod10LynxModComEmcc
- 2360              		.section	.text._ZN7LynxMod4SpinEv,"ax",%progbits
- 2361              		.align	1
- 2362              		.p2align 2,,3
- 2363              		.global	_ZN7LynxMod4SpinEv
- 2364              		.syntax unified
- 2365              		.thumb
- 2366              		.thumb_func
- 2367              		.fpu fpv4-sp-d16
- 2368              		.type	_ZN7LynxMod4SpinEv, %function
- 2369              	_ZN7LynxMod4SpinEv:
- 2370              		@ args = 0, pretend = 0, frame = 8
- 2371              		@ frame_needed = 0, uses_anonymous_args = 0
- 2372 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
- 2373 0004 D34E     		ldr	r6, .L497
- 2374 0006 D44C     		ldr	r4, .L497+4
- 2375 0008 D44F     		ldr	r7, .L497+8
- 2376 000a 82B0     		sub	sp, sp, #8
- 2377 000c 0546     		mov	r5, r0
- 2378 000e FFF7FEFF 		bl	millis
- 2379 0012 3368     		ldr	r3, [r6]
- 2380 0014 A269     		ldr	r2, [r4, #24]
- 2381 0016 3860     		str	r0, [r7]
- 2382 0018 C01A     		subs	r0, r0, r3
- 2383 001a 9042     		cmp	r0, r2
- 2384 001c 54D3     		bcc	.L421
- 2385 001e D048     		ldr	r0, .L497+12
- 2386 0020 0368     		ldr	r3, [r0]
- 2387 0022 0133     		adds	r3, r3, #1
- 2388 0024 41F28831 		movw	r1, #5000
- 2389 0028 B1FBF2F2 		udiv	r2, r1, r2
- 2390 002c 9342     		cmp	r3, r2
- 2391 002e 0360     		str	r3, [r0]
- 2392 0030 45D8     		bhi	.L484
- 2393 0032 002B     		cmp	r3, #0
- 2394 0034 45D0     		beq	.L424
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 43
-
-
- 2395              	.L425:
- 2396 0036 CB48     		ldr	r0, .L497+16
- 2397 0038 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
- 2398 003c 4438     		subs	r0, r0, #68
- 2399 003e C0B2     		uxtb	r0, r0
- 2400 0040 1028     		cmp	r0, #16
- 2401 0042 40F29B80 		bls	.L485
- 2402              	.L426:
- 2403 0046 0123     		movs	r3, #1
- 2404 0048 84F84630 		strb	r3, [r4, #70]
- 2405              	.L427:
- 2406 004c 287F     		ldrb	r0, [r5, #28]	@ zero_extendqisi2
- 2407 004e FFF7FEFF 		bl	digitalRead
- 2408 0052 E060     		str	r0, [r4, #12]
- 2409 0054 2846     		mov	r0, r5
- 2410 0056 FFF7FEFF 		bl	_ZN7LynxMod8LynxM968Ev
- 2411 005a 4FF00008 		mov	r8, #0
- 2412 005e 2846     		mov	r0, r5
- 2413 0060 FFF7FEFF 		bl	_ZN7LynxMod8LynxM969Ev
- 2414 0064 2846     		mov	r0, r5
- 2415 0066 C5F82C80 		str	r8, [r5, #44]
- 2416 006a FFF7FEFF 		bl	_ZN7LynxMod14SetTempSafeLedEv
- 2417 006e 2846     		mov	r0, r5
- 2418 0070 FFF7FEFF 		bl	_ZN7LynxMod23SetSafeHeatedChamberFanEv
- 2419 0074 2846     		mov	r0, r5
- 2420 0076 FFF7FEFF 		bl	_ZN7LynxMod12VerrouillageEv
- 2421 007a BA48     		ldr	r0, .L497+16
- 2422 007c FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
- 2423 0080 6379     		ldrb	r3, [r4, #5]	@ zero_extendqisi2
- 2424 0082 002B     		cmp	r3, #0
- 2425 0084 64D1     		bne	.L486
- 2426 0086 94F84A30 		ldrb	r3, [r4, #74]	@ zero_extendqisi2
- 2427 008a 002B     		cmp	r3, #0
- 2428 008c 40F08180 		bne	.L487
- 2429 0090 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
- 2430 0094 013B     		subs	r3, r3, #1
- 2431 0096 012B     		cmp	r3, #1
- 2432 0098 19D9     		bls	.L488
- 2433 009a 236A     		ldr	r3, [r4, #32]
- 2434 009c 012B     		cmp	r3, #1
- 2435 009e 3DD0     		beq	.L480
- 2436 00a0 94F84C20 		ldrb	r2, [r4, #76]	@ zero_extendqisi2
- 2437 00a4 B2B9     		cbnz	r2, .L441
- 2438 00a6 022B     		cmp	r3, #2
- 2439 00a8 38D0     		beq	.L480
- 2440 00aa 94F84B30 		ldrb	r3, [r4, #75]	@ zero_extendqisi2
- 2441 00ae 002B     		cmp	r3, #0
- 2442 00b0 00F08681 		beq	.L444
- 2443 00b4 94F82930 		ldrb	r3, [r4, #41]	@ zero_extendqisi2
- 2444 00b8 84F82830 		strb	r3, [r4, #40]
- 2445 00bc 0DE0     		b	.L430
- 2446              	.L484:
- 2447 00be 0023     		movs	r3, #0
- 2448 00c0 0360     		str	r3, [r0]
- 2449              	.L424:
- 2450 00c2 0323     		movs	r3, #3
- 2451 00c4 2B76     		strb	r3, [r5, #24]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 44
-
-
- 2452 00c6 B6E7     		b	.L425
- 2453              	.L421:
- 2454 00c8 02B0     		add	sp, sp, #8
- 2455              		@ sp needed
- 2456 00ca BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 2457              	.L488:
- 2458 00ce 94F84630 		ldrb	r3, [r4, #70]	@ zero_extendqisi2
- 2459 00d2 1BB3     		cbz	r3, .L480
- 2460              	.L441:
- 2461 00d4 0223     		movs	r3, #2
- 2462 00d6 84F82830 		strb	r3, [r4, #40]
- 2463              	.L430:
- 2464 00da 94F84830 		ldrb	r3, [r4, #72]	@ zero_extendqisi2
- 2465 00de 83BB     		cbnz	r3, .L489
- 2466 00e0 94F84D30 		ldrb	r3, [r4, #77]	@ zero_extendqisi2
- 2467 00e4 002B     		cmp	r3, #0
- 2468 00e6 00F09980 		beq	.L490
- 2469 00ea 94F84A30 		ldrb	r3, [r4, #74]	@ zero_extendqisi2
- 2470 00ee 002B     		cmp	r3, #0
- 2471 00f0 40F00781 		bne	.L491
- 2472 00f4 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
- 2473 00f8 002B     		cmp	r3, #0
- 2474 00fa 00F0FC80 		beq	.L492
- 2475 00fe 9A49     		ldr	r1, .L497+20
- 2476 0100 2161     		str	r1, [r4, #16]
- 2477 0102 1023     		movs	r3, #16
- 2478 0104 84F82A30 		strb	r3, [r4, #42]
- 2479              	.L446:
- 2480 0108 3868     		ldr	r0, [r7]
- 2481 010a 94F82820 		ldrb	r2, [r4, #40]	@ zero_extendqisi2
- 2482 010e 3060     		str	r0, [r6]
- 2483 0110 2846     		mov	r0, r5
- 2484 0112 02B0     		add	sp, sp, #8
- 2485              		@ sp needed
- 2486 0114 BDE8F041 		pop	{r4, r5, r6, r7, r8, lr}
- 2487 0118 FFF7FEBF 		b	_ZN7LynxMod10LynxModComEmcc
- 2488              	.L480:
- 2489 011c FFF7FEFF 		bl	millis
- 2490 0120 924B     		ldr	r3, .L497+24
- 2491 0122 A3FB0023 		umull	r2, r3, r3, r0
- 2492 0126 9B09     		lsrs	r3, r3, #6
- 2493 0128 40F6B832 		movw	r2, #3000
- 2494 012c 02FB1303 		mls	r3, r2, r3, r0
- 2495 0130 40F2DB52 		movw	r2, #1499
- 2496 0134 9342     		cmp	r3, r2
- 2497 0136 8CBF     		ite	hi
- 2498 0138 0623     		movhi	r3, #6
- 2499 013a 0023     		movls	r3, #0
- 2500 013c 84F82830 		strb	r3, [r4, #40]
- 2501 0140 CBE7     		b	.L430
- 2502              	.L489:
- 2503 0142 4FF0FF31 		mov	r1, #-1
- 2504 0146 4023     		movs	r3, #64
- 2505 0148 2161     		str	r1, [r4, #16]
- 2506 014a 84F82A30 		strb	r3, [r4, #42]
- 2507 014e DBE7     		b	.L446
- 2508              	.L486:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 45
-
-
- 2509 0150 FFF7FEFF 		bl	millis
- 2510 0154 864B     		ldr	r3, .L497+28
- 2511 0156 A3FB0023 		umull	r2, r3, r3, r0
- 2512 015a DB09     		lsrs	r3, r3, #7
- 2513 015c 4FF4FA62 		mov	r2, #2000
- 2514 0160 02FB1303 		mls	r3, r2, r3, r0
- 2515 0164 B3F5A56F 		cmp	r3, #1320
- 2516 0168 05D3     		bcc	.L429
- 2517 016a B3F5C36F 		cmp	r3, #1560
- 2518 016e 80F01581 		bcs	.L493
- 2519 0172 4FF00708 		mov	r8, #7
- 2520              	.L429:
- 2521 0176 84F82880 		strb	r8, [r4, #40]
- 2522 017a AEE7     		b	.L430
- 2523              	.L485:
- 2524 017c 7D4B     		ldr	r3, .L497+32
- 2525 017e 23FA00F0 		lsr	r0, r3, r0
- 2526 0182 C043     		mvns	r0, r0
- 2527 0184 10F00100 		ands	r0, r0, #1
- 2528 0188 7FF45DAF 		bne	.L426
- 2529 018c 84F84600 		strb	r0, [r4, #70]
- 2530 0190 5CE7     		b	.L427
- 2531              	.L487:
- 2532 0192 FFF7FEFF 		bl	millis
- 2533 0196 784A     		ldr	r2, .L497+36
- 2534 0198 C308     		lsrs	r3, r0, #3
- 2535 019a A2FB0323 		umull	r2, r3, r2, r3
- 2536 019e 5B0A     		lsrs	r3, r3, #9
- 2537 01a0 46F67812 		movw	r2, #27000
- 2538 01a4 02FB1303 		mls	r3, r2, r3, r0
- 2539 01a8 40F6B732 		movw	r2, #2999
- 2540 01ac 9342     		cmp	r3, r2
- 2541 01ae 40F20581 		bls	.L464
- 2542 01b2 41F26F72 		movw	r2, #5999
- 2543 01b6 9342     		cmp	r3, r2
- 2544 01b8 40F20481 		bls	.L465
- 2545 01bc 42F22732 		movw	r2, #8999
- 2546 01c0 9342     		cmp	r3, r2
- 2547 01c2 40F2F980 		bls	.L466
- 2548 01c6 42F6DF62 		movw	r2, #11999
- 2549 01ca 9342     		cmp	r3, r2
- 2550 01cc 40F2FC80 		bls	.L467
- 2551 01d0 43F69722 		movw	r2, #14999
- 2552 01d4 9342     		cmp	r3, r2
- 2553 01d6 40F20981 		bls	.L468
- 2554 01da 44F24F62 		movw	r2, #17999
- 2555 01de 9342     		cmp	r3, r2
- 2556 01e0 40F21381 		bls	.L469
- 2557 01e4 45F20722 		movw	r2, #20999
- 2558 01e8 9342     		cmp	r3, r2
- 2559 01ea 40F2E980 		bls	.L444
- 2560 01ee 45F6BF52 		movw	r2, #23999
- 2561 01f2 9342     		cmp	r3, r2
- 2562 01f4 00F20B81 		bhi	.L433
- 2563 01f8 FFF7FEFF 		bl	millis
- 2564 01fc 5C4B     		ldr	r3, .L497+28
- 2565 01fe A3FB0023 		umull	r2, r3, r3, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 46
-
-
- 2566 0202 9B09     		lsrs	r3, r3, #6
- 2567 0204 4FF47A72 		mov	r2, #1000
- 2568 0208 02FB1303 		mls	r3, r2, r3, r0
- 2569 020c B3F5FA7F 		cmp	r3, #500
- 2570 0210 2CBF     		ite	cs
- 2571 0212 0623     		movcs	r3, #6
- 2572 0214 0023     		movcc	r3, #0
- 2573              	.L479:
- 2574 0216 84F82830 		strb	r3, [r4, #40]
- 2575 021a 5EE7     		b	.L430
- 2576              	.L490:
- 2577 021c FFF7FEFF 		bl	millis
- 2578 0220 564B     		ldr	r3, .L497+40
- 2579 0222 DFED576A 		vldr.32	s13, .L497+44
- 2580 0226 A3FB0023 		umull	r2, r3, r3, r0
- 2581 022a 1B0B     		lsrs	r3, r3, #12
- 2582 022c 41F65832 		movw	r2, #7000
- 2583 0230 02FB1303 		mls	r3, r2, r3, r0
- 2584 0234 40F6AB51 		movw	r1, #3499
- 2585 0238 8B42     		cmp	r3, r1
- 2586 023a 88BF     		it	hi
- 2587 023c D31A     		subhi	r3, r2, r3
- 2588 023e 07EE903A 		vmov	s15, r3	@ int
- 2589 0242 F8EEE77A 		vcvt.f32.s32	s15, s15
- 2590 0246 87EEA67A 		vdiv.f32	s14, s15, s13
- 2591 024a DFED4E7A 		vldr.32	s15, .L497+48
- 2592 024e 67EE277A 		vmul.f32	s15, s14, s15
- 2593 0252 FCEEE77A 		vcvt.u32.f32	s15, s15
- 2594 0256 CDED017A 		vstr.32	s15, [sp, #4]	@ int
- 2595 025a 9DF80410 		ldrb	r1, [sp, #4]	@ zero_extendqisi2
- 2596 025e 4FEA0128 		lsl	r8, r1, #8
- 2597 0262 FFF7FEFF 		bl	millis
- 2598 0266 424B     		ldr	r3, .L497+28
- 2599 0268 DFED476A 		vldr.32	s13, .L497+52
- 2600 026c A3FB0023 		umull	r2, r3, r3, r0
- 2601 0270 DB09     		lsrs	r3, r3, #7
- 2602 0272 4FF4FA62 		mov	r2, #2000
- 2603 0276 02FB1303 		mls	r3, r2, r3, r0
- 2604 027a B3F57A7F 		cmp	r3, #1000
- 2605 027e 28BF     		it	cs
- 2606 0280 C3F5FA63 		rsbcs	r3, r3, #2000
- 2607 0284 07EE903A 		vmov	s15, r3	@ int
- 2608 0288 F8EEE77A 		vcvt.f32.s32	s15, s15
- 2609 028c 87EEA67A 		vdiv.f32	s14, s15, s13
- 2610 0290 DFED3C7A 		vldr.32	s15, .L497+48
- 2611 0294 67EE277A 		vmul.f32	s15, s14, s15
- 2612 0298 FCEEE77A 		vcvt.u32.f32	s15, s15
- 2613 029c 17EE901A 		vmov	r1, s15	@ int
- 2614 02a0 58FA81F1 		uxtab	r1, r8, r1
- 2615 02a4 4FEA0128 		lsl	r8, r1, #8
- 2616 02a8 FFF7FEFF 		bl	millis
- 2617 02ac 2F4B     		ldr	r3, .L497+24
- 2618 02ae DFED376A 		vldr.32	s13, .L497+56
- 2619 02b2 A3FB0023 		umull	r2, r3, r3, r0
- 2620 02b6 9B09     		lsrs	r3, r3, #6
- 2621 02b8 40F6B832 		movw	r2, #3000
- 2622 02bc 02FB1303 		mls	r3, r2, r3, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 47
-
-
- 2623 02c0 40F2DB51 		movw	r1, #1499
- 2624 02c4 8B42     		cmp	r3, r1
- 2625 02c6 88BF     		it	hi
- 2626 02c8 D31A     		subhi	r3, r2, r3
- 2627 02ca 07EE903A 		vmov	s15, r3	@ int
- 2628 02ce B8EEE77A 		vcvt.f32.s32	s14, s15
- 2629 02d2 2023     		movs	r3, #32
- 2630 02d4 C7EE267A 		vdiv.f32	s15, s14, s13
- 2631 02d8 84F82A30 		strb	r3, [r4, #42]
- 2632 02dc 9FED297A 		vldr.32	s14, .L497+48
- 2633 02e0 67EE877A 		vmul.f32	s15, s15, s14
- 2634 02e4 FCEEE77A 		vcvt.u32.f32	s15, s15
- 2635 02e8 17EE901A 		vmov	r1, s15	@ int
- 2636 02ec 58FA81F1 		uxtab	r1, r8, r1
- 2637 02f0 0902     		lsls	r1, r1, #8
- 2638 02f2 2161     		str	r1, [r4, #16]
- 2639 02f4 08E7     		b	.L446
- 2640              	.L492:
- 2641 02f6 4FF07F41 		mov	r1, #-16777216
- 2642 02fa 84F82A30 		strb	r3, [r4, #42]
- 2643 02fe 2161     		str	r1, [r4, #16]
- 2644 0300 02E7     		b	.L446
- 2645              	.L491:
- 2646 0302 FFF7FEFF 		bl	millis
- 2647 0306 224A     		ldr	r2, .L497+60
- 2648 0308 C308     		lsrs	r3, r0, #3
- 2649 030a A2FB0323 		umull	r2, r3, r2, r3
- 2650 030e 1B0A     		lsrs	r3, r3, #8
- 2651 0310 46F2A812 		movw	r2, #25000
- 2652 0314 02FB1303 		mls	r3, r2, r3, r0
- 2653 0318 41F28732 		movw	r2, #4999
- 2654 031c 9342     		cmp	r3, r2
- 2655 031e 43D9     		bls	.L494
- 2656 0320 42F20F72 		movw	r2, #9999
- 2657 0324 9342     		cmp	r3, r2
- 2658 0326 C3EB0321 		rsb	r1, r3, r3, lsl #8
- 2659 032a 4FD9     		bls	.L495
- 2660 032c 43F69722 		movw	r2, #14999
- 2661 0330 9342     		cmp	r3, r2
- 2662 0332 53D9     		bls	.L496
- 2663 0334 44F61F62 		movw	r2, #19999
- 2664 0338 9342     		cmp	r3, r2
- 2665 033a 59D8     		bhi	.L459
- 2666 033c 154B     		ldr	r3, .L497+64
- 2667 033e 164A     		ldr	r2, .L497+68
- 2668 0340 0B44     		add	r3, r3, r1
- 2669 0342 A2FB0323 		umull	r2, r3, r2, r3
- 2670 0346 190B     		lsrs	r1, r3, #12
- 2671              	.L456:
- 2672 0348 1023     		movs	r3, #16
- 2673 034a 2161     		str	r1, [r4, #16]
- 2674 034c 84F82A30 		strb	r3, [r4, #42]
- 2675 0350 DAE6     		b	.L446
- 2676              	.L498:
- 2677 0352 00BF     		.align	2
- 2678              	.L497:
- 2679 0354 00000000 		.word	.LANCHOR16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 48
-
-
- 2680 0358 00000000 		.word	.LANCHOR0
- 2681 035c 00000000 		.word	.LANCHOR15
- 2682 0360 00000000 		.word	.LANCHOR17
- 2683 0364 00000000 		.word	reprap
- 2684 0368 00008FFF 		.word	-7405568
- 2685 036c F1197605 		.word	91625969
- 2686 0370 D34D6210 		.word	274877907
- 2687 0374 01520100 		.word	86529
- 2688 0378 CF0DD626 		.word	651562447
- 2689 037c 1BECCB95 		.word	-1781797861
- 2690 0380 00C05A45 		.word	1163575296
- 2691 0384 0000C842 		.word	1120403456
- 2692 0388 00007A44 		.word	1148846080
- 2693 038c 0080BB44 		.word	1153138688
- 2694 0390 89B5F814 		.word	351843721
- 2695 0394 98A2C5FF 		.word	-3825000
- 2696 0398 5917B7D1 		.word	-776530087
- 2697              	.L493:
- 2698 039c B3F5DC6F 		cmp	r3, #1760
- 2699 03a0 28BF     		it	cs
- 2700 03a2 4FF00708 		movcs	r8, #7
- 2701 03a6 E6E6     		b	.L429
- 2702              	.L494:
- 2703 03a8 2549     		ldr	r1, .L499
- 2704 03aa C3EB0323 		rsb	r3, r3, r3, lsl #8
- 2705 03ae A1FB0331 		umull	r3, r1, r1, r3
- 2706 03b2 090B     		lsrs	r1, r1, #12
- 2707 03b4 0906     		lsls	r1, r1, #24
- 2708 03b6 C7E7     		b	.L456
- 2709              	.L466:
- 2710 03b8 0623     		movs	r3, #6
- 2711 03ba 2CE7     		b	.L479
- 2712              	.L464:
- 2713 03bc 0423     		movs	r3, #4
- 2714 03be 2AE7     		b	.L479
- 2715              	.L444:
- 2716 03c0 0723     		movs	r3, #7
- 2717 03c2 28E7     		b	.L479
- 2718              	.L465:
- 2719 03c4 0223     		movs	r3, #2
- 2720 03c6 26E7     		b	.L479
- 2721              	.L467:
- 2722 03c8 0123     		movs	r3, #1
- 2723 03ca 24E7     		b	.L479
- 2724              	.L495:
- 2725 03cc 1D4B     		ldr	r3, .L499+4
- 2726 03ce 1C4A     		ldr	r2, .L499
- 2727 03d0 0B44     		add	r3, r3, r1
- 2728 03d2 A2FB0331 		umull	r3, r1, r2, r3
- 2729 03d6 090B     		lsrs	r1, r1, #12
- 2730 03d8 0904     		lsls	r1, r1, #16
- 2731 03da B5E7     		b	.L456
- 2732              	.L496:
- 2733 03dc 1A4B     		ldr	r3, .L499+8
- 2734 03de 184A     		ldr	r2, .L499
- 2735 03e0 0B44     		add	r3, r3, r1
- 2736 03e2 A2FB0331 		umull	r3, r1, r2, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 49
-
-
- 2737 03e6 090B     		lsrs	r1, r1, #12
- 2738 03e8 0902     		lsls	r1, r1, #8
- 2739 03ea ADE7     		b	.L456
- 2740              	.L468:
- 2741 03ec 0523     		movs	r3, #5
- 2742 03ee 12E7     		b	.L479
- 2743              	.L459:
- 2744 03f0 164B     		ldr	r3, .L499+12
- 2745 03f2 134A     		ldr	r2, .L499
- 2746 03f4 0B44     		add	r3, r3, r1
- 2747 03f6 A2FB0323 		umull	r2, r3, r2, r3
- 2748 03fa 1B0B     		lsrs	r3, r3, #12
- 2749 03fc 1904     		lsls	r1, r3, #16
- 2750 03fe 01EB0361 		add	r1, r1, r3, lsl #24
- 2751 0402 1944     		add	r1, r1, r3
- 2752 0404 01EB0321 		add	r1, r1, r3, lsl #8
- 2753 0408 9EE7     		b	.L456
- 2754              	.L469:
- 2755 040a 0323     		movs	r3, #3
- 2756 040c 03E7     		b	.L479
- 2757              	.L433:
- 2758 040e FFF7FEFF 		bl	millis
- 2759 0412 0F4B     		ldr	r3, .L499+16
- 2760 0414 A3FB0023 		umull	r2, r3, r3, r0
- 2761 0418 9B09     		lsrs	r3, r3, #6
- 2762 041a 4FF47A72 		mov	r2, #1000
- 2763 041e 02FB1303 		mls	r3, r2, r3, r0
- 2764 0422 B3F5257F 		cmp	r3, #660
- 2765 0426 08D3     		bcc	.L472
- 2766 0428 B3F5437F 		cmp	r3, #780
- 2767 042c C8D3     		bcc	.L444
- 2768 042e B3F55C7F 		cmp	r3, #880
- 2769 0432 2CBF     		ite	cs
- 2770 0434 0723     		movcs	r3, #7
- 2771 0436 0023     		movcc	r3, #0
- 2772 0438 EDE6     		b	.L479
- 2773              	.L472:
- 2774 043a 0023     		movs	r3, #0
- 2775 043c EBE6     		b	.L479
- 2776              	.L500:
- 2777 043e 00BF     		.align	2
- 2778              	.L499:
- 2779 0440 5917B7D1 		.word	-776530087
- 2780 0444 888BECFF 		.word	-1275000
- 2781 0448 1017D9FF 		.word	-2550000
- 2782 044c 202EB2FF 		.word	-5100000
- 2783 0450 D34D6210 		.word	274877907
- 2784              		.size	_ZN7LynxMod4SpinEv, .-_ZN7LynxMod4SpinEv
- 2785              		.global	waitInputDoorSafeLock
- 2786              		.global	Modlynx
- 2787              		.global	Transmission
- 2788              		.global	cpt_ip
- 2789              		.global	egg_memoire
- 2790              		.global	egg_state
- 2791              		.global	egg_cpt
- 2792              		.global	tempo_ouverture
- 2793              		.global	reprise_relache
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 50
-
-
- 2794              		.global	reprise_cpt
- 2795              		.global	milli_test
- 2796              		.global	tem
- 2797              		.global	a
- 2798              		.global	ti
- 2799              		.global	prev
- 2800              		.global	now
- 2801              		.global	logname
- 2802              		.global	Lynxmod_Value
- 2803              		.global	LynxMod_old
- 2804              		.global	LynxMod_now
- 2805              		.global	nb_err
- 2806              		.global	memoire
- 2807              		.global	warningWarmDevices
- 2808              		.section	.rodata
- 2809              		.align	2
- 2810              		.set	.LANCHOR9,. + 0
- 2811              	.LC0:
- 2812 0000 30       		.byte	48
- 2813 0001 30       		.byte	48
- 2814 0002 30       		.byte	48
- 2815 0003 30       		.byte	48
- 2816 0004 30       		.byte	48
- 2817              		.section	.bss.LynxMod_now,"aw",%nobits
- 2818              		.align	2
- 2819              		.set	.LANCHOR11,. + 0
- 2820              		.type	LynxMod_now, %object
- 2821              		.size	LynxMod_now, 4
- 2822              	LynxMod_now:
- 2823 0000 00000000 		.space	4
- 2824              		.section	.bss.LynxMod_old,"aw",%nobits
- 2825              		.align	2
- 2826              		.set	.LANCHOR12,. + 0
- 2827              		.type	LynxMod_old, %object
- 2828              		.size	LynxMod_old, 4
- 2829              	LynxMod_old:
- 2830 0000 00000000 		.space	4
- 2831              		.section	.bss.Modlynx,"aw",%nobits
- 2832              		.align	2
- 2833              		.set	.LANCHOR0,. + 0
- 2834              		.type	Modlynx, %object
- 2835              		.size	Modlynx, 100
- 2836              	Modlynx:
- 2837 0000 00000000 		.space	100
- 2837      00000000 
- 2837      00000000 
- 2837      00000000 
- 2837      00000000 
- 2838              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
- 2839              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
- 2840              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
- 2841              	_ZL28cpu_irq_prev_interrupt_state:
- 2842 0000 00       		.space	1
- 2843              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
- 2844              		.align	2
- 2845              		.type	_ZL32cpu_irq_critical_section_counter, %object
- 2846              		.size	_ZL32cpu_irq_critical_section_counter, 4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 51
-
-
- 2847              	_ZL32cpu_irq_critical_section_counter:
- 2848 0000 00000000 		.space	4
- 2849              		.section	.bss.a,"aw",%nobits
- 2850              		.align	2
- 2851              		.type	a, %object
- 2852              		.size	a, 4
- 2853              	a:
- 2854 0000 00000000 		.space	4
- 2855              		.section	.bss.egg_cpt,"aw",%nobits
- 2856              		.align	2
- 2857              		.set	.LANCHOR3,. + 0
- 2858              		.type	egg_cpt, %object
- 2859              		.size	egg_cpt, 4
- 2860              	egg_cpt:
- 2861 0000 00000000 		.space	4
- 2862              		.section	.bss.egg_memoire,"aw",%nobits
- 2863              		.align	2
- 2864              		.set	.LANCHOR7,. + 0
- 2865              		.type	egg_memoire, %object
- 2866              		.size	egg_memoire, 4
- 2867              	egg_memoire:
- 2868 0000 00000000 		.space	4
- 2869              		.section	.bss.egg_state,"aw",%nobits
- 2870              		.align	2
- 2871              		.set	.LANCHOR2,. + 0
- 2872              		.type	egg_state, %object
- 2873              		.size	egg_state, 4
- 2874              	egg_state:
- 2875 0000 00000000 		.space	4
- 2876              		.section	.bss.logname,"aw",%nobits
- 2877              		.align	2
- 2878              		.set	.LANCHOR8,. + 0
- 2879              		.type	logname, %object
- 2880              		.size	logname, 13
- 2881              	logname:
- 2882 0000 00000000 		.space	13
- 2882      00000000 
- 2882      00000000 
- 2882      00
- 2883              		.section	.bss.memoire,"aw",%nobits
- 2884              		.align	2
- 2885              		.set	.LANCHOR14,. + 0
- 2886              		.type	memoire, %object
- 2887              		.size	memoire, 4
- 2888              	memoire:
- 2889 0000 00000000 		.space	4
- 2890              		.section	.bss.milli_test,"aw",%nobits
- 2891              		.align	2
- 2892              		.type	milli_test, %object
- 2893              		.size	milli_test, 4
- 2894              	milli_test:
- 2895 0000 00000000 		.space	4
- 2896              		.section	.bss.nb_err,"aw",%nobits
- 2897              		.align	2
- 2898              		.set	.LANCHOR13,. + 0
- 2899              		.type	nb_err, %object
- 2900              		.size	nb_err, 4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 52
-
-
- 2901              	nb_err:
- 2902 0000 00000000 		.space	4
- 2903              		.section	.bss.now,"aw",%nobits
- 2904              		.align	2
- 2905              		.set	.LANCHOR15,. + 0
- 2906              		.type	now, %object
- 2907              		.size	now, 4
- 2908              	now:
- 2909 0000 00000000 		.space	4
- 2910              		.section	.bss.prev,"aw",%nobits
- 2911              		.align	2
- 2912              		.set	.LANCHOR16,. + 0
- 2913              		.type	prev, %object
- 2914              		.size	prev, 4
- 2915              	prev:
- 2916 0000 00000000 		.space	4
- 2917              		.section	.bss.reprise_cpt,"aw",%nobits
- 2918              		.align	2
- 2919              		.set	.LANCHOR4,. + 0
- 2920              		.type	reprise_cpt, %object
- 2921              		.size	reprise_cpt, 4
- 2922              	reprise_cpt:
- 2923 0000 00000000 		.space	4
- 2924              		.section	.bss.reprise_relache,"aw",%nobits
- 2925              		.align	2
- 2926              		.set	.LANCHOR5,. + 0
- 2927              		.type	reprise_relache, %object
- 2928              		.size	reprise_relache, 4
- 2929              	reprise_relache:
- 2930 0000 00000000 		.space	4
- 2931              		.section	.bss.tem,"aw",%nobits
- 2932              		.align	2
- 2933              		.type	tem, %object
- 2934              		.size	tem, 4
- 2935              	tem:
- 2936 0000 00000000 		.space	4
- 2937              		.section	.bss.tempo_ouverture,"aw",%nobits
- 2938              		.align	2
- 2939              		.set	.LANCHOR6,. + 0
- 2940              		.type	tempo_ouverture, %object
- 2941              		.size	tempo_ouverture, 4
- 2942              	tempo_ouverture:
- 2943 0000 00000000 		.space	4
- 2944              		.section	.bss.ti,"aw",%nobits
- 2945              		.align	2
- 2946              		.type	ti, %object
- 2947              		.size	ti, 4
- 2948              	ti:
- 2949 0000 00000000 		.space	4
- 2950              		.section	.bss.waitInputDoorSafeLock,"aw",%nobits
- 2951              		.align	2
- 2952              		.type	waitInputDoorSafeLock, %object
- 2953              		.size	waitInputDoorSafeLock, 4
- 2954              	waitInputDoorSafeLock:
- 2955 0000 00000000 		.space	4
- 2956              		.section	.bss.warningWarmDevices,"aw",%nobits
- 2957              		.set	.LANCHOR1,. + 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 53
-
-
- 2958              		.type	warningWarmDevices, %object
- 2959              		.size	warningWarmDevices, 1
- 2960              	warningWarmDevices:
- 2961 0000 00       		.space	1
- 2962              		.section	.data.Lynxmod_Value,"aw",%progbits
- 2963              		.align	2
- 2964              		.type	Lynxmod_Value, %object
- 2965              		.size	Lynxmod_Value, 4
- 2966              	Lynxmod_Value:
- 2967 0000 8E030000 		.word	910
- 2968              		.section	.data.Transmission,"aw",%progbits
- 2969              		.align	2
- 2970              		.set	.LANCHOR10,. + 0
- 2971              		.type	Transmission, %object
- 2972              		.size	Transmission, 32
- 2973              	Transmission:
- 2974 0000 01       		.byte	1
- 2975 0001 00       		.byte	0
- 2976 0002 0000     		.space	2
- 2977 0004 00000000 		.word	0
- 2978 0008 00000000 		.word	0
- 2979 000c 00       		.byte	0
- 2980 000d 00       		.byte	0
- 2981 000e 20       		.byte	32
- 2982 000f 00       		.byte	0
- 2983 0010 00       		.byte	0
- 2984 0011 000000   		.space	3
- 2985 0014 00000000 		.word	0
- 2986 0018 00000000 		.word	0
- 2987 001c 00000000 		.word	0
- 2988              		.section	.data.cpt_ip,"aw",%progbits
- 2989              		.align	2
- 2990              		.set	.LANCHOR17,. + 0
- 2991              		.type	cpt_ip, %object
- 2992              		.size	cpt_ip, 4
- 2993              	cpt_ip:
- 2994 0000 401F0000 		.word	8000
- 2995              		.section	.rodata._ZN7LynxMod10GetLastLogEv.str1.4,"aMS",%progbits,1
- 2996              		.align	2
- 2997              	.LC5:
- 2998 0000 303A2F6C 		.ascii	"0:/logs/\000"
- 2998      6F67732F 
- 2998      00
- 2999 0009 000000   		.space	3
- 3000              	.LC6:
- 3001 000c 6C6F6700 		.ascii	"log\000"
- 3002              	.LC7:
- 3003 0010 3000     		.ascii	"0\000"
- 3004 0012 0000     		.space	2
- 3005              	.LC8:
- 3006 0014 2E637376 		.ascii	".csv\000"
- 3006      00
- 3007              		.section	.rodata._ZN7LynxMod10LynxModComEmcc.str1.4,"aMS",%progbits,1
- 3008              		.align	2
- 3009              	.LC31:
- 3010 0000 49324320 		.ascii	"I2C transmission error :\012Buffer overflow\012 try"
- 3010      7472616E 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 54
-
-
- 3010      736D6973 
- 3010      73696F6E 
- 3010      20657272 
- 3011 002d 696E6720 		.ascii	"ing %d more times\012\000"
- 3011      2564206D 
- 3011      6F726520 
- 3011      74696D65 
- 3011      730A00
- 3012              	.LC32:
- 3013 0040 49324320 		.ascii	"I2C transmission error :\012No device at this addre"
- 3013      7472616E 
- 3013      736D6973 
- 3013      73696F6E 
- 3013      20657272 
- 3014 0070 73732028 		.ascii	"ss (%d)\012 trying %d more times\012\000"
- 3014      2564290A 
- 3014      20747279 
- 3014      696E6720 
- 3014      2564206D 
- 3015 008f 00       		.space	1
- 3016              	.LC33:
- 3017 0090 49324320 		.ascii	"I2C transmission error :\012Data not received\012 t"
- 3017      7472616E 
- 3017      736D6973 
- 3017      73696F6E 
- 3017      20657272 
- 3018 00bd 7279696E 		.ascii	"rying %d more times\012\000"
- 3018      67202564 
- 3018      206D6F72 
- 3018      65207469 
- 3018      6D65730A 
- 3019 00d2 0000     		.space	2
- 3020              	.LC34:
- 3021 00d4 49324320 		.ascii	"I2C transmission error :\012Unknown error\012 tryin"
- 3021      7472616E 
- 3021      736D6973 
- 3021      73696F6E 
- 3021      20657272 
- 3022 0101 67202564 		.ascii	"g %d more times\012\000"
- 3022      206D6F72 
- 3022      65207469 
- 3022      6D65730A 
- 3022      00
- 3023 0112 0000     		.space	2
- 3024              	.LC35:
- 3025 0114 49324320 		.ascii	"I2C transmission error :\012Buffer overflow\012 try"
- 3025      7472616E 
- 3025      736D6973 
- 3025      73696F6E 
- 3025      20657272 
- 3026 0141 696E6720 		.ascii	"ing in 30s\012\000"
- 3026      696E2033 
- 3026      30730A00 
- 3027 014d 000000   		.space	3
- 3028              	.LC36:
- 3029 0150 49324320 		.ascii	"I2C transmission error :\012No device at this addre"
- 3029      7472616E 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 55
-
-
- 3029      736D6973 
- 3029      73696F6E 
- 3029      20657272 
- 3030 0180 73732028 		.ascii	"ss (%d)\012 trying in 30s\012\000"
- 3030      2564290A 
- 3030      20747279 
- 3030      696E6720 
- 3030      696E2033 
- 3031              	.LC37:
- 3032 0198 49324320 		.ascii	"I2C transmission error :\012Data not received\012 t"
- 3032      7472616E 
- 3032      736D6973 
- 3032      73696F6E 
- 3032      20657272 
- 3033 01c5 7279696E 		.ascii	"rying in 30s\012\000"
- 3033      6720696E 
- 3033      20333073 
- 3033      0A00
- 3034 01d3 00       		.space	1
- 3035              	.LC38:
- 3036 01d4 49324320 		.ascii	"I2C transmission error :\012Unknown error\012 tryin"
- 3036      7472616E 
- 3036      736D6973 
- 3036      73696F6E 
- 3036      20657272 
- 3037 0201 6720696E 		.ascii	"g in 30s\012\000"
- 3037      20333073 
- 3037      0A00
- 3038              		.section	.rodata._ZN7LynxMod12LynxDataLogsEv.str1.4,"aMS",%progbits,1
+  46 0000 0849     		ldr	r1, .L6
+  47 0002 094B     		ldr	r3, .L6+4
+  48 0004 10B4     		push	{r4}
+  49 0006 1824     		movs	r4, #24
+  50 0008 4B60     		str	r3, [r1, #4]
+  51 000a 0023     		movs	r3, #0
+  52 000c CB70     		strb	r3, [r1, #3]
+  53 000e 0C70     		strb	r4, [r1]
+  54 0010 C0E90533 		strd	r3, r3, [r0, #20]
+  55 0014 C0E90733 		strd	r3, r3, [r0, #28]
+  56 0018 8363     		str	r3, [r0, #56]
+  57 001a 4B70     		strb	r3, [r1, #1]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 2
+
+
+  58 001c 5DF8044B 		ldr	r4, [sp], #4
+  59 0020 7047     		bx	lr
+  60              	.L7:
+  61 0022 00BF     		.align	2
+  62              	.L6:
+  63 0024 00000000 		.word	.LANCHOR0
+  64 0028 40420F00 		.word	1000000
+  65              		.size	_ZN7LynxModC2Ev, .-_ZN7LynxModC2Ev
+  66              		.global	_ZN7LynxModC1Ev
+  67              		.thumb_set _ZN7LynxModC1Ev,_ZN7LynxModC2Ev
+  68              		.section	.text._ZN7LynxMod4InitEv,"ax",%progbits
+  69              		.align	1
+  70              		.p2align 2,,3
+  71              		.global	_ZN7LynxMod4InitEv
+  72              		.syntax unified
+  73              		.thumb
+  74              		.thumb_func
+  75              		.fpu fpv4-sp-d16
+  76              		.type	_ZN7LynxMod4InitEv, %function
+  77              	_ZN7LynxMod4InitEv:
+  78              		@ args = 0, pretend = 0, frame = 0
+  79              		@ frame_needed = 0, uses_anonymous_args = 0
+  80 0000 10B5     		push	{r4, lr}
+  81 0002 0821     		movs	r1, #8
+  82 0004 0446     		mov	r4, r0
+  83 0006 0648     		ldr	r0, .L10
+  84 0008 FFF7FEFF 		bl	sspi_master_init
+  85 000c 054B     		ldr	r3, .L10+4
+  86 000e 5A68     		ldr	r2, [r3, #4]	@ unaligned
+  87 0010 1268     		ldr	r2, [r2]
+  88 0012 2260     		str	r2, [r4]
+  89 0014 5B68     		ldr	r3, [r3, #4]
+  90 0016 D3E90223 		ldrd	r2, [r3, #8]
+  91 001a C4E90223 		strd	r2, [r4, #8]
+  92 001e 10BD     		pop	{r4, pc}
+  93              	.L11:
+  94              		.align	2
+  95              	.L10:
+  96 0020 00000000 		.word	.LANCHOR0
+  97 0024 00000000 		.word	reprap
+  98              		.size	_ZN7LynxMod4InitEv, .-_ZN7LynxMod4InitEv
+  99              		.section	.text._ZN7LynxMod14SetTempSafeLedEv,"ax",%progbits
+ 100              		.align	1
+ 101              		.p2align 2,,3
+ 102              		.global	_ZN7LynxMod14SetTempSafeLedEv
+ 103              		.syntax unified
+ 104              		.thumb
+ 105              		.thumb_func
+ 106              		.fpu fpv4-sp-d16
+ 107              		.type	_ZN7LynxMod14SetTempSafeLedEv, %function
+ 108              	_ZN7LynxMod14SetTempSafeLedEv:
+ 109              		@ args = 0, pretend = 0, frame = 0
+ 110              		@ frame_needed = 0, uses_anonymous_args = 0
+ 111 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 112 0004 2DED048B 		vpush.64	{d8, d9}
+ 113 0008 FFF7FEFF 		bl	millis
+ 114 000c 41F28833 		movw	r3, #5000
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 3
+
+
+ 115 0010 9842     		cmp	r0, r3
+ 116 0012 16D8     		bhi	.L13
+ 117 0014 7E4F     		ldr	r7, .L69
+ 118 0016 97F84530 		ldrb	r3, [r7, #69]	@ zero_extendqisi2
+ 119              	.L14:
+ 120 001a 002B     		cmp	r3, #0
+ 121 001c 40F0C680 		bne	.L41
+ 122              	.L68:
+ 123 0020 3B78     		ldrb	r3, [r7]	@ zero_extendqisi2
+ 124 0022 9FED7C0A 		vldr.32	s0, .L69+4
+ 125 0026 DFED7C7A 		vldr.32	s15, .L69+8
+ 126 002a 002B     		cmp	r3, #0
+ 127 002c 18BF     		it	ne
+ 128 002e B0EE670A 		vmovne.f32	s0, s15
+ 129              	.L38:
+ 130 0032 BDEC048B 		vldm	sp!, {d8-d9}
+ 131 0036 0021     		movs	r1, #0
+ 132 0038 2820     		movs	r0, #40
+ 133 003a BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 134 003e FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
+ 135              	.L13:
+ 136 0042 764D     		ldr	r5, .L69+12
+ 137 0044 724F     		ldr	r7, .L69
+ 138 0046 2B69     		ldr	r3, [r5, #16]
+ 139 0048 9FED738A 		vldr.32	s16, .L69+8
+ 140 004c DFED748A 		vldr.32	s17, .L69+16
+ 141 0050 9FED749A 		vldr.32	s18, .L69+20
+ 142 0054 0022     		movs	r2, #0
+ 143 0056 1446     		mov	r4, r2
+ 144 0058 87F84520 		strb	r2, [r7, #69]
+ 145 005c 1646     		mov	r6, r2
+ 146 005e 4FF00109 		mov	r9, #1
+ 147              	.L21:
+ 148 0062 1A19     		adds	r2, r3, r4
+ 149 0064 1846     		mov	r0, r3
+ 150 0066 92F9D180 		ldrsb	r8, [r2, #209]
+ 151 006a B8F1000F 		cmp	r8, #0
+ 152 006e 4146     		mov	r1, r8
+ 153 0070 80F28880 		bge	.L63
+ 154              	.L15:
+ 155 0074 0134     		adds	r4, r4, #1
+ 156 0076 042C     		cmp	r4, #4
+ 157 0078 F3D1     		bne	.L21
+ 158 007a 4FF00008 		mov	r8, #0
+ 159 007e 1846     		mov	r0, r3
+ 160 0080 4344     		add	r3, r3, r8
+ 161 0082 DFED678A 		vldr.32	s17, .L69+16
+ 162 0086 93F9D540 		ldrsb	r4, [r3, #213]
+ 163 008a 9FED669A 		vldr.32	s18, .L69+20
+ 164 008e 002C     		cmp	r4, #0
+ 165 0090 4FF00109 		mov	r9, #1
+ 166 0094 2146     		mov	r1, r4
+ 167 0096 0CDA     		bge	.L64
+ 168              	.L22:
+ 169 0098 B8F1000F 		cmp	r8, #0
+ 170 009c 25D1     		bne	.L40
+ 171              	.L65:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 4
+
+
+ 172 009e 2B69     		ldr	r3, [r5, #16]
+ 173 00a0 4FF00108 		mov	r8, #1
+ 174 00a4 1846     		mov	r0, r3
+ 175 00a6 4344     		add	r3, r3, r8
+ 176 00a8 93F9D540 		ldrsb	r4, [r3, #213]
+ 177 00ac 002C     		cmp	r4, #0
+ 178 00ae 2146     		mov	r1, r4
+ 179 00b0 F2DB     		blt	.L22
+ 180              	.L64:
+ 181 00b2 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 182 00b6 B4EEE80A 		vcmpe.f32	s0, s17
+ 183 00ba F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 184 00be C0F29B80 		blt	.L60
+ 185 00c2 87F84590 		strb	r9, [r7, #69]
+ 186              	.L25:
+ 187 00c6 2146     		mov	r1, r4
+ 188 00c8 2869     		ldr	r0, [r5, #16]
+ 189 00ca FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 190 00ce B4EEC80A 		vcmpe.f32	s0, s16
+ 191 00d2 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 192 00d6 DFDD     		ble	.L22
+ 193 00d8 2146     		mov	r1, r4
+ 194 00da 2869     		ldr	r0, [r5, #16]
+ 195 00dc FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 196 00e0 B0EE408A 		vmov.f32	s16, s0
+ 197 00e4 B8F1000F 		cmp	r8, #0
+ 198 00e8 D9D0     		beq	.L65
+ 199              	.L40:
+ 200 00ea 0024     		movs	r4, #0
+ 201 00ec DFF82C91 		ldr	r9, .L69+12
+ 202 00f0 A046     		mov	r8, r4
+ 203              	.L28:
+ 204 00f2 61B2     		sxtb	r1, r4
+ 205 00f4 4846     		mov	r0, r9
+ 206 00f6 FFF7FEFF 		bl	_ZNK6RepRap22IsHeaterAssignedToToolEa
+ 207 00fa 0134     		adds	r4, r4, #1
+ 208 00fc 08B1     		cbz	r0, .L30
+ 209 00fe 08F10108 		add	r8, r8, #1
+ 210              	.L30:
+ 211 0102 092C     		cmp	r4, #9
+ 212 0104 F5D1     		bne	.L28
+ 213 0106 DFED478A 		vldr.32	s17, .L69+20
+ 214 010a 0024     		movs	r4, #0
+ 215 010c 4FF00109 		mov	r9, #1
+ 216 0110 03E0     		b	.L36
+ 217              	.L31:
+ 218 0112 0134     		adds	r4, r4, #1
+ 219 0114 64B2     		sxtb	r4, r4
+ 220 0116 4445     		cmp	r4, r8
+ 221 0118 24DC     		bgt	.L66
+ 222              	.L36:
+ 223 011a 002C     		cmp	r4, #0
+ 224 011c 2146     		mov	r1, r4
+ 225 011e F8DB     		blt	.L31
+ 226 0120 2869     		ldr	r0, [r5, #16]
+ 227 0122 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 228 0126 B4EEE80A 		vcmpe.f32	s0, s17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 5
+
+
+ 229 012a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 230 012e C8BF     		it	gt
+ 231 0130 0136     		addgt	r6, r6, #1
+ 232 0132 2146     		mov	r1, r4
+ 233 0134 2869     		ldr	r0, [r5, #16]
+ 234 0136 C8BF     		it	gt
+ 235 0138 F6B2     		uxtbgt	r6, r6
+ 236 013a FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 237 013e B4EEC80A 		vcmpe.f32	s0, s16
+ 238 0142 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 239 0146 3DDC     		bgt	.L67
+ 240              	.L34:
+ 241 0148 2146     		mov	r1, r4
+ 242 014a 2869     		ldr	r0, [r5, #16]
+ 243 014c FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
+ 244 0150 0328     		cmp	r0, #3
+ 245 0152 DED1     		bne	.L31
+ 246 0154 0134     		adds	r4, r4, #1
+ 247 0156 64B2     		sxtb	r4, r4
+ 248 0158 0136     		adds	r6, r6, #1
+ 249 015a 4445     		cmp	r4, r8
+ 250 015c F6B2     		uxtb	r6, r6
+ 251 015e 87F84590 		strb	r9, [r7, #69]
+ 252 0162 DADD     		ble	.L36
+ 253              	.L66:
+ 254 0164 304A     		ldr	r2, .L69+24
+ 255 0166 87ED0B8A 		vstr.32	s16, [r7, #44]
+ 256 016a 1178     		ldrb	r1, [r2]	@ zero_extendqisi2
+ 257 016c 97F84530 		ldrb	r3, [r7, #69]	@ zero_extendqisi2
+ 258 0170 FEB1     		cbz	r6, .L37
+ 259 0172 0129     		cmp	r1, #1
+ 260 0174 3FF451AF 		beq	.L14
+ 261 0178 0123     		movs	r3, #1
+ 262 017a 1370     		strb	r3, [r2]
+ 263 017c 3B70     		strb	r3, [r7]
+ 264 017e 9FED260A 		vldr.32	s0, .L69+8
+ 265 0182 56E7     		b	.L38
+ 266              	.L63:
+ 267 0184 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 268 0188 B4EEE80A 		vcmpe.f32	s0, s17
+ 269 018c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 270 0190 26DB     		blt	.L59
+ 271 0192 87F84590 		strb	r9, [r7, #69]
+ 272              	.L18:
+ 273 0196 4146     		mov	r1, r8
+ 274 0198 2869     		ldr	r0, [r5, #16]
+ 275 019a FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 276 019e B4EEC80A 		vcmpe.f32	s0, s16
+ 277 01a2 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 278 01a6 14DC     		bgt	.L20
+ 279              	.L62:
+ 280 01a8 2B69     		ldr	r3, [r5, #16]
+ 281 01aa 63E7     		b	.L15
+ 282              	.L41:
+ 283 01ac 9FED1A0A 		vldr.32	s0, .L69+8
+ 284 01b0 3FE7     		b	.L38
+ 285              	.L37:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 6
+
+
+ 286 01b2 0029     		cmp	r1, #0
+ 287 01b4 3FF431AF 		beq	.L14
+ 288 01b8 1670     		strb	r6, [r2]
+ 289 01ba 3E70     		strb	r6, [r7]
+ 290 01bc 002B     		cmp	r3, #0
+ 291 01be 3FF42FAF 		beq	.L68
+ 292 01c2 F3E7     		b	.L41
+ 293              	.L67:
+ 294 01c4 2146     		mov	r1, r4
+ 295 01c6 2869     		ldr	r0, [r5, #16]
+ 296 01c8 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 297 01cc B0EE408A 		vmov.f32	s16, s0
+ 298 01d0 BAE7     		b	.L34
+ 299              	.L20:
+ 300 01d2 4146     		mov	r1, r8
+ 301 01d4 2869     		ldr	r0, [r5, #16]
+ 302 01d6 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 303 01da B0EE408A 		vmov.f32	s16, s0
+ 304 01de E3E7     		b	.L62
+ 305              	.L59:
+ 306 01e0 4146     		mov	r1, r8
+ 307 01e2 2869     		ldr	r0, [r5, #16]
+ 308 01e4 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 309 01e8 B4EEC90A 		vcmpe.f32	s0, s18
+ 310 01ec F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 311 01f0 C4BF     		itt	gt
+ 312 01f2 0136     		addgt	r6, r6, #1
+ 313 01f4 F6B2     		uxtbgt	r6, r6
+ 314 01f6 CEE7     		b	.L18
+ 315              	.L60:
+ 316 01f8 2146     		mov	r1, r4
+ 317 01fa 2869     		ldr	r0, [r5, #16]
+ 318 01fc FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 319 0200 B4EEC90A 		vcmpe.f32	s0, s18
+ 320 0204 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 321 0208 C4BF     		itt	gt
+ 322 020a 0136     		addgt	r6, r6, #1
+ 323 020c F6B2     		uxtbgt	r6, r6
+ 324 020e 5AE7     		b	.L25
+ 325              	.L70:
+ 326              		.align	2
+ 327              	.L69:
+ 328 0210 00000000 		.word	.LANCHOR1
+ 329 0214 00007F43 		.word	1132396544
+ 330 0218 00000000 		.word	0
+ 331 021c 00000000 		.word	reprap
+ 332 0220 00C0F344 		.word	1156825088
+ 333 0224 00004842 		.word	1112014848
+ 334 0228 00000000 		.word	.LANCHOR2
+ 335              		.size	_ZN7LynxMod14SetTempSafeLedEv, .-_ZN7LynxMod14SetTempSafeLedEv
+ 336              		.section	.text._ZN7LynxMod10LynxModComEmcc,"ax",%progbits
+ 337              		.align	1
+ 338              		.p2align 2,,3
+ 339              		.global	_ZN7LynxMod10LynxModComEmcc
+ 340              		.syntax unified
+ 341              		.thumb
+ 342              		.thumb_func
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 7
+
+
+ 343              		.fpu fpv4-sp-d16
+ 344              		.type	_ZN7LynxMod10LynxModComEmcc, %function
+ 345              	_ZN7LynxMod10LynxModComEmcc:
+ 346              		@ args = 0, pretend = 0, frame = 16
+ 347              		@ frame_needed = 0, uses_anonymous_args = 0
+ 348 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 349 0004 694D     		ldr	r5, .L92
+ 350 0006 6A4E     		ldr	r6, .L92+4
+ 351 0008 85B0     		sub	sp, sp, #20
+ 352 000a 9846     		mov	r8, r3
+ 353 000c 8946     		mov	r9, r1
+ 354 000e 1746     		mov	r7, r2
+ 355 0010 FFF7FEFF 		bl	millis
+ 356 0014 2B68     		ldr	r3, [r5]
+ 357 0016 3060     		str	r0, [r6]
+ 358 0018 C31A     		subs	r3, r0, r3
+ 359 001a 312B     		cmp	r3, #49
+ 360 001c 03D8     		bhi	.L91
+ 361 001e 2860     		str	r0, [r5]
+ 362 0020 05B0     		add	sp, sp, #20
+ 363              		@ sp needed
+ 364 0022 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 365              	.L91:
+ 366 0026 634C     		ldr	r4, .L92+8
+ 367 0028 A369     		ldr	r3, [r4, #24]
+ 368 002a C4F80890 		str	r9, [r4, #8]
+ 369 002e 0133     		adds	r3, r3, #1
+ 370 0030 0022     		movs	r2, #0
+ 371 0032 A361     		str	r3, [r4, #24]
+ 372 0034 2280     		strh	r2, [r4]	@ movhi
+ 373 0036 C4F80490 		str	r9, [r4, #4]
+ 374 003a 2773     		strb	r7, [r4, #12]
+ 375 003c 6773     		strb	r7, [r4, #13]
+ 376 003e 84F80E80 		strb	r8, [r4, #14]
+ 377 0042 FFF7FEFF 		bl	millis
+ 378 0046 5C4B     		ldr	r3, .L92+12
+ 379 0048 216A     		ldr	r1, [r4, #32]
+ 380 004a 1A68     		ldr	r2, [r3]
+ 381 004c 4FF47A73 		mov	r3, #1000
+ 382 0050 821A     		subs	r2, r0, r2
+ 383 0052 03FB01F3 		mul	r3, r3, r1
+ 384 0056 9A42     		cmp	r2, r3
+ 385 0058 04D2     		bcs	.L73
+ 386 005a 584B     		ldr	r3, .L92+16
+ 387 005c 1B68     		ldr	r3, [r3]
+ 388 005e 052B     		cmp	r3, #5
+ 389 0060 00F29E80 		bhi	.L78
+ 390              	.L73:
+ 391 0064 6168     		ldr	r1, [r4, #4]
+ 392 0066 677B     		ldrb	r7, [r4, #13]	@ zero_extendqisi2
+ 393 0068 11B1     		cbz	r1, .L74
+ 394 006a 0FB1     		cbz	r7, .L74
+ 395 006c 0123     		movs	r3, #1
+ 396 006e 2380     		strh	r3, [r4]	@ movhi
+ 397              	.L74:
+ 398 0070 94F80EC0 		ldrb	ip, [r4, #14]	@ zero_extendqisi2
+ 399 0074 8DF80010 		strb	r1, [sp]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 8
+
+
+ 400 0078 4FEA112E 		lsr	lr, r1, #8
+ 401 007c CBB2     		uxtb	r3, r1
+ 402 007e 53FA8EF0 		uxtab	r0, r3, lr
+ 403 0082 6744     		add	r7, r7, ip
+ 404 0084 4FEA114C 		lsr	ip, r1, #16
+ 405 0088 1A18     		adds	r2, r3, r0
+ 406 008a 090E     		lsrs	r1, r1, #24
+ 407 008c 50FA8CF3 		uxtab	r3, r0, ip
+ 408 0090 1A44     		add	r2, r2, r3
+ 409 0092 FFB2     		uxtb	r7, r7
+ 410 0094 0B44     		add	r3, r3, r1
+ 411 0096 1A44     		add	r2, r2, r3
+ 412 0098 4948     		ldr	r0, .L92+20
+ 413 009a 8DF801E0 		strb	lr, [sp, #1]
+ 414 009e 3B44     		add	r3, r3, r7
+ 415 00a0 1A44     		add	r2, r2, r3
+ 416 00a2 A0FB028E 		umull	r8, lr, r0, r2
+ 417 00a6 A0FB0380 		umull	r8, r0, r0, r3
+ 418 00aa 4FEADE1E 		lsr	lr, lr, #7
+ 419 00ae C009     		lsrs	r0, r0, #7
+ 420 00b0 C0EB0020 		rsb	r0, r0, r0, lsl #8
+ 421 00b4 CEEB0E2E 		rsb	lr, lr, lr, lsl #8
+ 422 00b8 A2EB0E0E 		sub	lr, r2, lr
+ 423 00bc 1B1A     		subs	r3, r3, r0
+ 424 00be 43EA0E23 		orr	r3, r3, lr, lsl #8
+ 425 00c2 9BB2     		uxth	r3, r3
+ 426 00c4 180A     		lsrs	r0, r3, #8
+ 427 00c6 0A22     		movs	r2, #10
+ 428 00c8 8DF80530 		strb	r3, [sp, #5]
+ 429 00cc 8DF802C0 		strb	ip, [sp, #2]
+ 430 00d0 8DF80310 		strb	r1, [sp, #3]
+ 431 00d4 8DF80720 		strb	r2, [sp, #7]
+ 432 00d8 8DF80470 		strb	r7, [sp, #4]
+ 433 00dc 8DF80600 		strb	r0, [sp, #6]
+ 434 00e0 FFF7FEFF 		bl	_ZN5Tasks11GetSpiMutexEv
+ 435 00e4 3222     		movs	r2, #50
+ 436 00e6 0146     		mov	r1, r0
+ 437 00e8 02A8     		add	r0, sp, #8
+ 438 00ea FFF7FEFF 		bl	_ZN11MutexLockerC1EPK5Mutexm
+ 439 00ee 9DF80C30 		ldrb	r3, [sp, #12]	@ zero_extendqisi2
+ 440 00f2 83B9     		cbnz	r3, .L75
+ 441 00f4 314F     		ldr	r7, .L92+16
+ 442 00f6 334A     		ldr	r2, .L92+24
+ 443 00f8 3B68     		ldr	r3, [r7]
+ 444 00fa 5068     		ldr	r0, [r2, #4]
+ 445 00fc 052B     		cmp	r3, #5
+ 446 00fe 95BF     		itete	ls
+ 447 0100 C3F10503 		rsbls	r3, r3, #5
+ 448 0104 236A     		ldrhi	r3, [r4, #32]
+ 449 0106 304A     		ldrls	r2, .L92+28
+ 450 0108 304A     		ldrhi	r2, .L92+32
+ 451 010a 1021     		movs	r1, #16
+ 452 010c FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 453 0110 3B68     		ldr	r3, [r7]
+ 454 0112 0133     		adds	r3, r3, #1
+ 455 0114 3B60     		str	r3, [r7]
+ 456              	.L75:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 9
+
+
+ 457 0116 DFF8C890 		ldr	r9, .L92+52
+ 458 011a 2D48     		ldr	r0, .L92+36
+ 459 011c 2D4F     		ldr	r7, .L92+40
+ 460 011e FFF7FEFF 		bl	sspi_master_setup_device
+ 461 0122 D9F80030 		ldr	r3, [r9]
+ 462 0126 A7FB0323 		umull	r2, r3, r7, r3
+ 463 012a 9B0C     		lsrs	r3, r3, #18
+ 464              		.syntax unified
+ 465              	@ 88 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\cores\arduino/wiring.h" 1
+ 466              		L_520_delayMicroseconds:
+ 467 012c 013B     		subs   r3, #1
+ 468 012e FDD1     		bne    L_520_delayMicroseconds
+ 469              	
+ 470              	@ 0 "" 2
+ 471              		.thumb
+ 472              		.syntax unified
+ 473 0130 2748     		ldr	r0, .L92+36
+ 474 0132 FFF7FEFF 		bl	sspi_select_device
+ 475 0136 D9F80030 		ldr	r3, [r9]
+ 476 013a A7FB0323 		umull	r2, r3, r7, r3
+ 477 013e 9B0C     		lsrs	r3, r3, #18
+ 478              		.syntax unified
+ 479              	@ 88 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\cores\arduino/wiring.h" 1
+ 480              		L_526_delayMicroseconds:
+ 481 0140 013B     		subs   r3, #1
+ 482 0142 FDD1     		bne    L_526_delayMicroseconds
+ 483              	
+ 484              	@ 0 "" 2
+ 485              		.thumb
+ 486              		.syntax unified
+ 487 0144 0822     		movs	r2, #8
+ 488 0146 6846     		mov	r0, sp
+ 489 0148 0021     		movs	r1, #0
+ 490 014a FFF7FEFF 		bl	sspi_transceive_packet
+ 491 014e D9F80030 		ldr	r3, [r9]
+ 492 0152 A7FB0323 		umull	r2, r3, r7, r3
+ 493 0156 8046     		mov	r8, r0
+ 494 0158 9B0C     		lsrs	r3, r3, #18
+ 495              		.syntax unified
+ 496              	@ 88 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\cores\arduino/wiring.h" 1
+ 497              		L_535_delayMicroseconds:
+ 498 015a 013B     		subs   r3, #1
+ 499 015c FDD1     		bne    L_535_delayMicroseconds
+ 500              	
+ 501              	@ 0 "" 2
+ 502              		.thumb
+ 503              		.syntax unified
+ 504 015e 1C48     		ldr	r0, .L92+36
+ 505 0160 FFF7FEFF 		bl	sspi_deselect_device
+ 506 0164 D9F80030 		ldr	r3, [r9]
+ 507 0168 A7FB0323 		umull	r2, r3, r7, r3
+ 508 016c 9B0C     		lsrs	r3, r3, #18
+ 509              		.syntax unified
+ 510              	@ 88 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\cores\arduino/wiring.h" 1
+ 511              		L_541_delayMicroseconds:
+ 512 016e 013B     		subs   r3, #1
+ 513 0170 FDD1     		bne    L_541_delayMicroseconds
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 10
+
+
+ 514              	
+ 515              	@ 0 "" 2
+ 516              		.thumb
+ 517              		.syntax unified
+ 518 0172 02A8     		add	r0, sp, #8
+ 519 0174 FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
+ 520 0178 B8F1000F 		cmp	r8, #0
+ 521 017c 10D0     		beq	.L78
+ 522 017e 0F4F     		ldr	r7, .L92+16
+ 523 0180 104A     		ldr	r2, .L92+24
+ 524 0182 3B68     		ldr	r3, [r7]
+ 525 0184 5068     		ldr	r0, [r2, #4]
+ 526 0186 052B     		cmp	r3, #5
+ 527 0188 95BF     		itete	ls
+ 528 018a C3F10503 		rsbls	r3, r3, #5
+ 529 018e 236A     		ldrhi	r3, [r4, #32]
+ 530 0190 114A     		ldrls	r2, .L92+44
+ 531 0192 124A     		ldrhi	r2, .L92+48
+ 532 0194 1021     		movs	r1, #16
+ 533 0196 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 534 019a 3B68     		ldr	r3, [r7]
+ 535 019c 0133     		adds	r3, r3, #1
+ 536 019e 3B60     		str	r3, [r7]
+ 537              	.L78:
+ 538 01a0 3068     		ldr	r0, [r6]
+ 539 01a2 2860     		str	r0, [r5]
+ 540 01a4 05B0     		add	sp, sp, #20
+ 541              		@ sp needed
+ 542 01a6 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 543              	.L93:
+ 544 01aa 00BF     		.align	2
+ 545              	.L92:
+ 546 01ac 00000000 		.word	.LANCHOR4
+ 547 01b0 00000000 		.word	.LANCHOR3
+ 548 01b4 00000000 		.word	.LANCHOR5
+ 549 01b8 00000000 		.word	.LANCHOR6
+ 550 01bc 00000000 		.word	.LANCHOR7
+ 551 01c0 81808080 		.word	-2139062143
+ 552 01c4 00000000 		.word	reprap
+ 553 01c8 00000000 		.word	.LC1
+ 554 01cc 3C000000 		.word	.LC2
+ 555 01d0 00000000 		.word	.LANCHOR0
+ 556 01d4 819F5E16 		.word	375299969
+ 557 01d8 70000000 		.word	.LC3
+ 558 01dc B4000000 		.word	.LC4
+ 559 01e0 00000000 		.word	SystemCoreClock
+ 560              		.size	_ZN7LynxMod10LynxModComEmcc, .-_ZN7LynxMod10LynxModComEmcc
+ 561              		.section	.text._ZN7LynxMod23SetSafeHeatedChamberFanEv,"ax",%progbits
+ 562              		.align	1
+ 563              		.p2align 2,,3
+ 564              		.global	_ZN7LynxMod23SetSafeHeatedChamberFanEv
+ 565              		.syntax unified
+ 566              		.thumb
+ 567              		.thumb_func
+ 568              		.fpu fpv4-sp-d16
+ 569              		.type	_ZN7LynxMod23SetSafeHeatedChamberFanEv, %function
+ 570              	_ZN7LynxMod23SetSafeHeatedChamberFanEv:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 11
+
+
+ 571              		@ args = 0, pretend = 0, frame = 0
+ 572              		@ frame_needed = 0, uses_anonymous_args = 0
+ 573 0000 70B5     		push	{r4, r5, r6, lr}
+ 574 0002 234E     		ldr	r6, .L112
+ 575 0004 2DED068B 		vpush.64	{d8, d9, d10}
+ 576 0008 9FED228A 		vldr.32	s16, .L112+4
+ 577 000c 9FED229A 		vldr.32	s18, .L112+8
+ 578 0010 DFED229A 		vldr.32	s19, .L112+12
+ 579 0014 9FED22AA 		vldr.32	s20, .L112+16
+ 580 0018 DFED228A 		vldr.32	s17, .L112+20
+ 581 001c 0025     		movs	r5, #0
+ 582              	.L101:
+ 583 001e 3369     		ldr	r3, [r6, #16]
+ 584 0020 1846     		mov	r0, r3
+ 585 0022 2B44     		add	r3, r3, r5
+ 586 0024 93F9D540 		ldrsb	r4, [r3, #213]
+ 587 0028 002C     		cmp	r4, #0
+ 588 002a 2146     		mov	r1, r4
+ 589 002c 03DA     		bge	.L109
+ 590              	.L95:
+ 591 002e 2DB3     		cbz	r5, .L102
+ 592              	.L111:
+ 593 0030 BDEC068B 		vldm	sp!, {d8-d10}
+ 594 0034 70BD     		pop	{r4, r5, r6, pc}
+ 595              	.L109:
+ 596 0036 FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
+ 597 003a B4EEC80A 		vcmpe.f32	s0, s16
+ 598 003e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 599 0042 2146     		mov	r1, r4
+ 600 0044 B0EE680A 		vmov.f32	s0, s17
+ 601 0048 12DC     		bgt	.L108
+ 602 004a 3069     		ldr	r0, [r6, #16]
+ 603 004c FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
+ 604 0050 B4EEC90A 		vcmpe.f32	s0, s18
+ 605 0054 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 606 0058 2146     		mov	r1, r4
+ 607 005a 07DD     		ble	.L98
+ 608 005c 3069     		ldr	r0, [r6, #16]
+ 609 005e FFF7FEFF 		bl	_ZNK4Heat13GetAveragePWMEj
+ 610 0062 B4EEC80A 		vcmpe.f32	s0, s16
+ 611 0066 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 612 006a 09D4     		bmi	.L110
+ 613              	.L98:
+ 614 006c B0EE690A 		vmov.f32	s0, s19
+ 615              	.L108:
+ 616 0070 0121     		movs	r1, #1
+ 617 0072 7068     		ldr	r0, [r6, #4]
+ 618 0074 FFF7FEFF 		bl	_ZN8Platform11SetFanValueEjf
+ 619 0078 002D     		cmp	r5, #0
+ 620 007a D9D1     		bne	.L111
+ 621              	.L102:
+ 622 007c 0125     		movs	r5, #1
+ 623 007e CEE7     		b	.L101
+ 624              	.L110:
+ 625 0080 B0EE4A0A 		vmov.f32	s0, s20
+ 626 0084 0121     		movs	r1, #1
+ 627 0086 7068     		ldr	r0, [r6, #4]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 12
+
+
+ 628 0088 FFF7FEFF 		bl	_ZN8Platform11SetFanValueEjf
+ 629 008c CFE7     		b	.L95
+ 630              	.L113:
+ 631 008e 00BF     		.align	2
+ 632              	.L112:
+ 633 0090 00000000 		.word	reprap
+ 634 0094 3333733F 		.word	1064514355
+ 635 0098 6F12833A 		.word	981668463
+ 636 009c 00004842 		.word	1112014848
+ 637 00a0 00009642 		.word	1117126656
+ 638 00a4 0000C842 		.word	1120403456
+ 639              		.size	_ZN7LynxMod23SetSafeHeatedChamberFanEv, .-_ZN7LynxMod23SetSafeHeatedChamberFanEv
+ 640              		.section	.text._Z4Lockb,"ax",%progbits
+ 641              		.align	1
+ 642              		.p2align 2,,3
+ 643              		.global	_Z4Lockb
+ 644              		.syntax unified
+ 645              		.thumb
+ 646              		.thumb_func
+ 647              		.fpu fpv4-sp-d16
+ 648              		.type	_Z4Lockb, %function
+ 649              	_Z4Lockb:
+ 650              		@ args = 0, pretend = 0, frame = 0
+ 651              		@ frame_needed = 0, uses_anonymous_args = 0
+ 652 0000 10B5     		push	{r4, lr}
+ 653 0002 134A     		ldr	r2, .L119
+ 654 0004 134B     		ldr	r3, .L119+4
+ 655 0006 D268     		ldr	r2, [r2, #12]
+ 656 0008 5B68     		ldr	r3, [r3, #4]
+ 657 000a 62B9     		cbnz	r2, .L115
+ 658 000c 1846     		mov	r0, r3
+ 659 000e 1021     		movs	r1, #16
+ 660 0010 114A     		ldr	r2, .L119+8
+ 661 0012 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 662 0016 9FED110A 		vldr.32	s0, .L119+12
+ 663 001a 0021     		movs	r1, #0
+ 664 001c 2B20     		movs	r0, #43
+ 665 001e BDE81040 		pop	{r4, lr}
+ 666 0022 FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
+ 667              	.L115:
+ 668 0026 0446     		mov	r4, r0
+ 669 0028 1021     		movs	r1, #16
+ 670 002a 1846     		mov	r0, r3
+ 671 002c 0A4A     		ldr	r2, .L119+8
+ 672 002e FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 673 0032 9FED0A0A 		vldr.32	s0, .L119+12
+ 674 0036 DFED0A7A 		vldr.32	s15, .L119+16
+ 675 003a 002C     		cmp	r4, #0
+ 676 003c 18BF     		it	ne
+ 677 003e B0EE670A 		vmovne.f32	s0, s15
+ 678 0042 0021     		movs	r1, #0
+ 679 0044 2B20     		movs	r0, #43
+ 680 0046 BDE81040 		pop	{r4, lr}
+ 681 004a FFF7FEBF 		b	_ZN6IoPort11WriteAnalogEhft
+ 682              	.L120:
+ 683 004e 00BF     		.align	2
+ 684              	.L119:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 13
+
+
+ 685 0050 00000000 		.word	.LANCHOR1
+ 686 0054 00000000 		.word	reprap
+ 687 0058 00000000 		.word	.LC5
+ 688 005c 00000000 		.word	0
+ 689 0060 00007F43 		.word	1132396544
+ 690              		.size	_Z4Lockb, .-_Z4Lockb
+ 691              		.section	.text._ZN7LynxMod12VerrouillageEv,"ax",%progbits
+ 692              		.align	1
+ 693              		.p2align 2,,3
+ 694              		.global	_ZN7LynxMod12VerrouillageEv
+ 695              		.syntax unified
+ 696              		.thumb
+ 697              		.thumb_func
+ 698              		.fpu fpv4-sp-d16
+ 699              		.type	_ZN7LynxMod12VerrouillageEv, %function
+ 700              	_ZN7LynxMod12VerrouillageEv:
+ 701              		@ args = 0, pretend = 0, frame = 0
+ 702              		@ frame_needed = 0, uses_anonymous_args = 0
+ 703 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 704 0004 0746     		mov	r7, r0
+ 705 0006 6220     		movs	r0, #98
+ 706 0008 FFF7FEFF 		bl	digitalRead
+ 707 000c AE4C     		ldr	r4, .L218
+ 708 000e AF4D     		ldr	r5, .L218+4
+ 709 0010 A060     		str	r0, [r4, #8]
+ 710 0012 AF48     		ldr	r0, .L218+8
+ 711 0014 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 712 0018 2B68     		ldr	r3, [r5]
+ 713 001a 092B     		cmp	r3, #9
+ 714 001c 8046     		mov	r8, r0
+ 715 001e 2AD9     		bls	.L173
+ 716 0020 DFF8CC92 		ldr	r9, .L218+40
+ 717 0024 D9F80060 		ldr	r6, [r9]
+ 718 0028 DB07     		lsls	r3, r3, #31
+ 719 002a 06F5FA76 		add	r6, r6, #500
+ 720 002e 0ED5     		bpl	.L207
+ 721 0030 FFF7FEFF 		bl	millis
+ 722 0034 B042     		cmp	r0, r6
+ 723 0036 00F26181 		bhi	.L127
+ 724 003a A368     		ldr	r3, [r4, #8]
+ 725 003c 83B1     		cbz	r3, .L206
+ 726 003e FFF7FEFF 		bl	millis
+ 727 0042 2B68     		ldr	r3, [r5]
+ 728 0044 C9F80000 		str	r0, [r9]
+ 729 0048 0133     		adds	r3, r3, #1
+ 730 004a 2B60     		str	r3, [r5]
+ 731 004c 09E0     		b	.L126
+ 732              	.L207:
+ 733 004e FFF7FEFF 		bl	millis
+ 734 0052 B042     		cmp	r0, r6
+ 735 0054 00F25281 		bhi	.L127
+ 736 0058 A368     		ldr	r3, [r4, #8]
+ 737 005a 002B     		cmp	r3, #0
+ 738 005c 00F0A981 		beq	.L125
+ 739              	.L206:
+ 740 0060 2B68     		ldr	r3, [r5]
+ 741              	.L126:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 14
+
+
+ 742 0062 0F2B     		cmp	r3, #15
+ 743 0064 07D1     		bne	.L173
+ 744 0066 9A4B     		ldr	r3, .L218+8
+ 745 0068 9A4A     		ldr	r2, .L218+12
+ 746 006a 5868     		ldr	r0, [r3, #4]
+ 747 006c 1021     		movs	r1, #16
+ 748 006e 0023     		movs	r3, #0
+ 749 0070 2B60     		str	r3, [r5]
+ 750 0072 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 751              	.L173:
+ 752 0076 94F84730 		ldrb	r3, [r4, #71]	@ zero_extendqisi2
+ 753 007a 002B     		cmp	r3, #0
+ 754 007c 58D0     		beq	.L138
+ 755 007e B8F1480F 		cmp	r8, #72
+ 756 0082 74D0     		beq	.L130
+ 757 0084 B8F1530F 		cmp	r8, #83
+ 758 0088 71D0     		beq	.L130
+ 759 008a E368     		ldr	r3, [r4, #12]
+ 760 008c 94F84920 		ldrb	r2, [r4, #73]	@ zero_extendqisi2
+ 761 0090 002B     		cmp	r3, #0
+ 762 0092 40F0C180 		bne	.L140
+ 763 0096 84F84730 		strb	r3, [r4, #71]
+ 764 009a 002A     		cmp	r2, #0
+ 765 009c 5FD1     		bne	.L175
+ 766              	.L142:
+ 767 009e 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
+ 768 00a2 5A1E     		subs	r2, r3, #1
+ 769 00a4 012A     		cmp	r2, #1
+ 770 00a6 40F2BA80 		bls	.L208
+ 771              	.L145:
+ 772 00aa A268     		ldr	r2, [r4, #8]
+ 773 00ac 12B9     		cbnz	r2, .L147
+ 774 00ae 002B     		cmp	r3, #0
+ 775 00b0 00F0C780 		beq	.L150
+ 776              	.L147:
+ 777 00b4 2968     		ldr	r1, [r5]
+ 778 00b6 0129     		cmp	r1, #1
+ 779 00b8 00F0D080 		beq	.L151
+ 780              	.L152:
+ 781 00bc 0229     		cmp	r1, #2
+ 782 00be 00F0E880 		beq	.L209
+ 783              	.L154:
+ 784 00c2 002A     		cmp	r2, #0
+ 785 00c4 76D0     		beq	.L156
+ 786 00c6 012B     		cmp	r3, #1
+ 787 00c8 00F0D780 		beq	.L210
+ 788              	.L157:
+ 789 00cc 032B     		cmp	r3, #3
+ 790 00ce 73D0     		beq	.L172
+ 791              	.L159:
+ 792 00d0 256A     		ldr	r5, [r4, #32]
+ 793              	.L161:
+ 794 00d2 032D     		cmp	r5, #3
+ 795 00d4 00F03081 		beq	.L163
+ 796              	.L164:
+ 797 00d8 636B     		ldr	r3, [r4, #52]
+ 798 00da 03F6B835 		addw	r5, r3, #3000
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 15
+
+
+ 799 00de FFF7FEFF 		bl	millis
+ 800 00e2 8542     		cmp	r5, r0
+ 801 00e4 04D2     		bcs	.L165
+ 802 00e6 236A     		ldr	r3, [r4, #32]
+ 803 00e8 012B     		cmp	r3, #1
+ 804 00ea 04BF     		itt	eq
+ 805 00ec 0023     		moveq	r3, #0
+ 806 00ee 2362     		streq	r3, [r4, #32]
+ 807              	.L165:
+ 808 00f0 E378     		ldrb	r3, [r4, #3]	@ zero_extendqisi2
+ 809 00f2 002B     		cmp	r3, #0
+ 810 00f4 31D0     		beq	.L121
+ 811 00f6 D4ED0B7A 		vldr.32	s15, [r4, #44]
+ 812 00fa 9FED777A 		vldr.32	s14, .L218+16
+ 813 00fe 94F84630 		ldrb	r3, [r4, #70]	@ zero_extendqisi2
+ 814 0102 F4EEC77A 		vcmpe.f32	s15, s14
+ 815 0106 002B     		cmp	r3, #0
+ 816 0108 6CD1     		bne	.L211
+ 817 010a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 818 010e 02DA     		bge	.L170
+ 819 0110 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
+ 820 0114 0BB3     		cbz	r3, .L121
+ 821              	.L170:
+ 822 0116 6E4B     		ldr	r3, .L218+8
+ 823 0118 704A     		ldr	r2, .L218+20
+ 824 011a 5868     		ldr	r0, [r3, #4]
+ 825 011c 0223     		movs	r3, #2
+ 826 011e 2362     		str	r3, [r4, #32]
+ 827 0120 1021     		movs	r1, #16
+ 828 0122 BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 829 0126 FFF7FEBF 		b	_ZN8Platform8MessageFE11MessageTypePKcz
+ 830              	.L213:
+ 831 012a 0AB9     		cbnz	r2, .L138
+ 832 012c 0223     		movs	r3, #2
+ 833 012e 0B60     		str	r3, [r1]
+ 834              	.L138:
+ 835 0130 94F84930 		ldrb	r3, [r4, #73]	@ zero_extendqisi2
+ 836 0134 002B     		cmp	r3, #0
+ 837 0136 B2D0     		beq	.L142
+ 838 0138 E368     		ldr	r3, [r4, #12]
+ 839 013a 83B1     		cbz	r3, .L175
+ 840              	.L143:
+ 841 013c 0120     		movs	r0, #1
+ 842 013e FFF7FEFF 		bl	_Z4Lockb
+ 843 0142 6748     		ldr	r0, .L218+24
+ 844 0144 6749     		ldr	r1, .L218+28
+ 845 0146 684A     		ldr	r2, .L218+32
+ 846 0148 0023     		movs	r3, #0
+ 847 014a 0360     		str	r3, [r0]
+ 848 014c 84F84C30 		strb	r3, [r4, #76]
+ 849 0150 6371     		strb	r3, [r4, #5]
+ 850 0152 84F84930 		strb	r3, [r4, #73]
+ 851 0156 0B60     		str	r3, [r1]
+ 852 0158 1360     		str	r3, [r2]
+ 853              	.L121:
+ 854 015a BDE8F883 		pop	{r3, r4, r5, r6, r7, r8, r9, pc}
+ 855              	.L175:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 16
+
+
+ 856 015e 0020     		movs	r0, #0
+ 857 0160 FFF7FEFF 		bl	_Z4Lockb
+ 858 0164 0123     		movs	r3, #1
+ 859 0166 84F84C30 		strb	r3, [r4, #76]
+ 860 016a BDE8F883 		pop	{r3, r4, r5, r6, r7, r8, r9, pc}
+ 861              	.L130:
+ 862 016e A268     		ldr	r2, [r4, #8]
+ 863 0170 A169     		ldr	r1, [r4, #24]
+ 864 0172 40F2DC53 		movw	r3, #1500
+ 865 0176 B3FBF1F3 		udiv	r3, r3, r1
+ 866 017a 5AB3     		cbz	r2, .L212
+ 867 017c 5949     		ldr	r1, .L218+28
+ 868 017e 0868     		ldr	r0, [r1]
+ 869 0180 0028     		cmp	r0, #0
+ 870 0182 00F0BE80 		beq	.L171
+ 871 0186 564E     		ldr	r6, .L218+24
+ 872 0188 3168     		ldr	r1, [r6]
+ 873              	.L133:
+ 874 018a 9942     		cmp	r1, r3
+ 875 018c 80F0C480 		bcs	.L136
+ 876 0190 6079     		ldrb	r0, [r4, #5]	@ zero_extendqisi2
+ 877 0192 0028     		cmp	r0, #0
+ 878 0194 40F0C280 		bne	.L135
+ 879 0198 5249     		ldr	r1, .L218+28
+ 880 019a 0B68     		ldr	r3, [r1]
+ 881 019c 012B     		cmp	r3, #1
+ 882 019e C4D0     		beq	.L213
+ 883 01a0 022B     		cmp	r3, #2
+ 884 01a2 C5D1     		bne	.L138
+ 885 01a4 002A     		cmp	r2, #0
+ 886 01a6 C3D0     		beq	.L138
+ 887 01a8 0123     		movs	r3, #1
+ 888 01aa 3060     		str	r0, [r6]
+ 889 01ac 0860     		str	r0, [r1]
+ 890 01ae 6071     		strb	r0, [r4, #5]
+ 891 01b0 3B74     		strb	r3, [r7, #16]
+ 892 01b2 BDE7     		b	.L138
+ 893              	.L156:
+ 894 01b4 022B     		cmp	r3, #2
+ 895 01b6 89D1     		bne	.L157
+ 896              	.L172:
+ 897 01b8 E368     		ldr	r3, [r4, #12]
+ 898 01ba 002B     		cmp	r3, #0
+ 899 01bc 7BD1     		bne	.L214
+ 900 01be 94F84620 		ldrb	r2, [r4, #70]	@ zero_extendqisi2
+ 901 01c2 256A     		ldr	r5, [r4, #32]
+ 902 01c4 002A     		cmp	r2, #0
+ 903 01c6 00F0AD80 		beq	.L162
+ 904 01ca 0122     		movs	r2, #1
+ 905 01cc 84F84430 		strb	r3, [r4, #68]
+ 906 01d0 E270     		strb	r2, [r4, #3]
+ 907 01d2 7EE7     		b	.L161
+ 908              	.L212:
+ 909 01d4 424E     		ldr	r6, .L218+24
+ 910 01d6 E068     		ldr	r0, [r4, #12]
+ 911 01d8 3168     		ldr	r1, [r6]
+ 912 01da 0028     		cmp	r0, #0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 17
+
+
+ 913 01dc D5D1     		bne	.L133
+ 914 01de 0131     		adds	r1, r1, #1
+ 915 01e0 3160     		str	r1, [r6]
+ 916 01e2 D2E7     		b	.L133
+ 917              	.L211:
+ 918 01e4 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 919 01e8 04D9     		bls	.L167
+ 920 01ea 94F84530 		ldrb	r3, [r4, #69]	@ zero_extendqisi2
+ 921 01ee 002B     		cmp	r3, #0
+ 922 01f0 00F0C580 		beq	.L215
+ 923              	.L167:
+ 924 01f4 E568     		ldr	r5, [r4, #12]
+ 925 01f6 002D     		cmp	r5, #0
+ 926 01f8 40F0A780 		bne	.L169
+ 927 01fc 344B     		ldr	r3, .L218+8
+ 928 01fe 3B4A     		ldr	r2, .L218+36
+ 929 0200 5868     		ldr	r0, [r3, #4]
+ 930 0202 1021     		movs	r1, #16
+ 931 0204 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 932 0208 0123     		movs	r3, #1
+ 933 020a 2846     		mov	r0, r5
+ 934 020c 84F84C30 		strb	r3, [r4, #76]
+ 935 0210 BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 936 0214 FFF7FEBF 		b	_Z4Lockb
+ 937              	.L140:
+ 938 0218 002A     		cmp	r2, #0
+ 939 021a 8FD1     		bne	.L143
+ 940 021c 3FE7     		b	.L142
+ 941              	.L208:
+ 942 021e E669     		ldr	r6, [r4, #28]
+ 943 0220 FFF7FEFF 		bl	millis
+ 944 0224 06F59C56 		add	r6, r6, #4992
+ 945 0228 0836     		adds	r6, r6, #8
+ 946 022a 8642     		cmp	r6, r0
+ 947 022c 02D9     		bls	.L146
+ 948 022e 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
+ 949 0232 3AE7     		b	.L145
+ 950              	.L146:
+ 951 0234 A268     		ldr	r2, [r4, #8]
+ 952 0236 0023     		movs	r3, #0
+ 953 0238 84F84430 		strb	r3, [r4, #68]
+ 954 023c 002A     		cmp	r2, #0
+ 955 023e 7FF439AF 		bne	.L147
+ 956              	.L150:
+ 957 0242 E368     		ldr	r3, [r4, #12]
+ 958 0244 1BB9     		cbnz	r3, .L149
+ 959 0246 E378     		ldrb	r3, [r4, #3]	@ zero_extendqisi2
+ 960 0248 002B     		cmp	r3, #0
+ 961 024a 00F0A780 		beq	.L216
+ 962              	.L149:
+ 963 024e 2968     		ldr	r1, [r5]
+ 964 0250 A268     		ldr	r2, [r4, #8]
+ 965 0252 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
+ 966 0256 0129     		cmp	r1, #1
+ 967 0258 7FF430AF 		bne	.L152
+ 968              	.L151:
+ 969 025c DFF89090 		ldr	r9, .L218+40
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 18
+
+
+ 970 0260 A069     		ldr	r0, [r4, #24]
+ 971 0262 D9F80010 		ldr	r1, [r9]
+ 972 0266 0131     		adds	r1, r1, #1
+ 973 0268 4FF4FA56 		mov	r6, #8000
+ 974 026c B6FBF0F0 		udiv	r0, r6, r0
+ 975 0270 8142     		cmp	r1, r0
+ 976 0272 C9F80010 		str	r1, [r9]
+ 977 0276 0ED2     		bcs	.L153
+ 978 0278 23E7     		b	.L154
+ 979              	.L210:
+ 980 027a 2B68     		ldr	r3, [r5]
+ 981 027c 012B     		cmp	r3, #1
+ 982 027e 3FF627AF 		bhi	.L159
+ 983 0282 1B49     		ldr	r1, .L218+40
+ 984 0284 0023     		movs	r3, #0
+ 985 0286 0222     		movs	r2, #2
+ 986 0288 0B60     		str	r3, [r1]
+ 987 028a 2B60     		str	r3, [r5]
+ 988 028c 84F84420 		strb	r2, [r4, #68]
+ 989 0290 1EE7     		b	.L159
+ 990              	.L209:
+ 991 0292 DFF85C90 		ldr	r9, .L218+40
+ 992              	.L153:
+ 993 0296 1748     		ldr	r0, .L218+44
+ 994 0298 0168     		ldr	r1, [r0]
+ 995 029a 0129     		cmp	r1, #1
+ 996 029c 40F2F231 		movw	r1, #1010
+ 997 02a0 18BF     		it	ne
+ 998 02a2 0121     		movne	r1, #1
+ 999 02a4 0526     		movs	r6, #5
+ 1000 02a6 0160     		str	r1, [r0]
+ 1001 02a8 0020     		movs	r0, #0
+ 1002 02aa F961     		str	r1, [r7, #28]
+ 1003 02ac 7E61     		str	r6, [r7, #20]
+ 1004 02ae 2860     		str	r0, [r5]
+ 1005 02b0 C9F80000 		str	r0, [r9]
+ 1006 02b4 05E7     		b	.L154
+ 1007              	.L214:
+ 1008 02b6 064B     		ldr	r3, .L218+8
+ 1009 02b8 0F4A     		ldr	r2, .L218+48
+ 1010 02ba 5868     		ldr	r0, [r3, #4]
+ 1011 02bc 1021     		movs	r1, #16
+ 1012 02be FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 1013 02c2 256A     		ldr	r5, [r4, #32]
+ 1014 02c4 05E7     		b	.L161
+ 1015              	.L219:
+ 1016 02c6 00BF     		.align	2
+ 1017              	.L218:
+ 1018 02c8 00000000 		.word	.LANCHOR1
+ 1019 02cc 00000000 		.word	.LANCHOR8
+ 1020 02d0 00000000 		.word	reprap
+ 1021 02d4 00000000 		.word	.LC6
+ 1022 02d8 00001644 		.word	1142292480
+ 1023 02dc 88000000 		.word	.LC10
+ 1024 02e0 00000000 		.word	.LANCHOR10
+ 1025 02e4 00000000 		.word	.LANCHOR11
+ 1026 02e8 00000000 		.word	.LANCHOR12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 19
+
+
+ 1027 02ec 74000000 		.word	.LC9
+ 1028 02f0 00000000 		.word	.LANCHOR9
+ 1029 02f4 00000000 		.word	.LANCHOR13
+ 1030 02f8 0C000000 		.word	.LC7
+ 1031              	.L127:
+ 1032 02fc 0023     		movs	r3, #0
+ 1033 02fe 2B60     		str	r3, [r5]
+ 1034 0300 B9E6     		b	.L173
+ 1035              	.L171:
+ 1036 0302 6079     		ldrb	r0, [r4, #5]	@ zero_extendqisi2
+ 1037 0304 334E     		ldr	r6, .L220
+ 1038 0306 60BB     		cbnz	r0, .L134
+ 1039 0308 4FF0010C 		mov	ip, #1
+ 1040 030c 3060     		str	r0, [r6]
+ 1041 030e C1F800C0 		str	ip, [r1]
+ 1042 0312 002B     		cmp	r3, #0
+ 1043 0314 7FF40CAF 		bne	.L138
+ 1044              	.L136:
+ 1045 0318 0123     		movs	r3, #1
+ 1046 031a 6371     		strb	r3, [r4, #5]
+ 1047              	.L135:
+ 1048 031c 002A     		cmp	r2, #0
+ 1049 031e 3FF407AF 		beq	.L138
+ 1050 0322 21E0     		b	.L174
+ 1051              	.L162:
+ 1052 0324 002D     		cmp	r5, #0
+ 1053 0326 7FF4D4AE 		bne	.L161
+ 1054 032a FFF7FEFF 		bl	millis
+ 1055 032e 0323     		movs	r3, #3
+ 1056 0330 6063     		str	r0, [r4, #52]
+ 1057 0332 84F84450 		strb	r5, [r4, #68]
+ 1058 0336 2362     		str	r3, [r4, #32]
+ 1059              	.L163:
+ 1060 0338 274B     		ldr	r3, .L220+4
+ 1061 033a 284A     		ldr	r2, .L220+8
+ 1062 033c 5868     		ldr	r0, [r3, #4]
+ 1063 033e 1021     		movs	r1, #16
+ 1064 0340 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 1065 0344 0123     		movs	r3, #1
+ 1066 0346 2362     		str	r3, [r4, #32]
+ 1067 0348 C6E6     		b	.L164
+ 1068              	.L169:
+ 1069 034a 0023     		movs	r3, #0
+ 1070 034c 0122     		movs	r2, #1
+ 1071 034e 84F84720 		strb	r2, [r4, #71]
+ 1072 0352 E370     		strb	r3, [r4, #3]
+ 1073 0354 84F84C30 		strb	r3, [r4, #76]
+ 1074 0358 1046     		mov	r0, r2
+ 1075 035a BDE8F843 		pop	{r3, r4, r5, r6, r7, r8, r9, lr}
+ 1076 035e FFF7FEBF 		b	_Z4Lockb
+ 1077              	.L134:
+ 1078 0362 3168     		ldr	r1, [r6]
+ 1079 0364 9942     		cmp	r1, r3
+ 1080 0366 D7D2     		bcs	.L136
+ 1081              	.L174:
+ 1082 0368 0020     		movs	r0, #0
+ 1083 036a FFF7FEFF 		bl	_Z4Lockb
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 20
+
+
+ 1084 036e E368     		ldr	r3, [r4, #12]
+ 1085 0370 3BBB     		cbnz	r3, .L217
+ 1086 0372 94F84920 		ldrb	r2, [r4, #73]	@ zero_extendqisi2
+ 1087 0376 002A     		cmp	r2, #0
+ 1088 0378 3FF491AE 		beq	.L142
+ 1089 037c EFE6     		b	.L175
+ 1090              	.L215:
+ 1091 037e DFED186A 		vldr.32	s13, .L220+12
+ 1092 0382 F4EE667A 		vcmp.f32	s15, s13
+ 1093 0386 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1094 038a 3FF433AF 		beq	.L167
+ 1095 038e F4EEC77A 		vcmpe.f32	s15, s14
+ 1096 0392 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1097 0396 FFF6E0AE 		blt	.L121
+ 1098 039a BCE6     		b	.L170
+ 1099              	.L216:
+ 1100 039c 0126     		movs	r6, #1
+ 1101 039e 84F84460 		strb	r6, [r4, #68]
+ 1102 03a2 FFF7FEFF 		bl	millis
+ 1103 03a6 2E60     		str	r6, [r5]
+ 1104 03a8 E061     		str	r0, [r4, #28]
+ 1105 03aa A268     		ldr	r2, [r4, #8]
+ 1106 03ac 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
+ 1107 03b0 54E7     		b	.L151
+ 1108              	.L125:
+ 1109 03b2 2B68     		ldr	r3, [r5]
+ 1110 03b4 0133     		adds	r3, r3, #1
+ 1111 03b6 2B60     		str	r3, [r5]
+ 1112 03b8 FFF7FEFF 		bl	millis
+ 1113 03bc C9F80000 		str	r0, [r9]
+ 1114 03c0 4EE6     		b	.L206
+ 1115              	.L217:
+ 1116 03c2 0120     		movs	r0, #1
+ 1117 03c4 FFF7FEFF 		bl	_Z4Lockb
+ 1118 03c8 064A     		ldr	r2, .L220+16
+ 1119 03ca 0023     		movs	r3, #0
+ 1120 03cc 1360     		str	r3, [r2]
+ 1121 03ce 3360     		str	r3, [r6]
+ 1122 03d0 6371     		strb	r3, [r4, #5]
+ 1123 03d2 ADE6     		b	.L138
+ 1124              	.L221:
+ 1125              		.align	2
+ 1126              	.L220:
+ 1127 03d4 00000000 		.word	.LANCHOR10
+ 1128 03d8 00000000 		.word	reprap
+ 1129 03dc 28000000 		.word	.LC8
+ 1130 03e0 0000FA44 		.word	1157234688
+ 1131 03e4 00000000 		.word	.LANCHOR11
+ 1132              		.size	_ZN7LynxMod12VerrouillageEv, .-_ZN7LynxMod12VerrouillageEv
+ 1133              		.section	.text._ZN7LynxMod10GetLastLogEv,"ax",%progbits
+ 1134              		.align	1
+ 1135              		.p2align 2,,3
+ 1136              		.global	_ZN7LynxMod10GetLastLogEv
+ 1137              		.syntax unified
+ 1138              		.thumb
+ 1139              		.thumb_func
+ 1140              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 21
+
+
+ 1141              		.type	_ZN7LynxMod10GetLastLogEv, %function
+ 1142              	_ZN7LynxMod10GetLastLogEv:
+ 1143              		@ args = 0, pretend = 0, frame = 264
+ 1144              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1145 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 1146 0002 534D     		ldr	r5, .L240
+ 1147 0004 534C     		ldr	r4, .L240+4
+ 1148 0006 544E     		ldr	r6, .L240+8
+ 1149 0008 95E80700 		ldm	r5, {r0, r1, r2}
+ 1150 000c 2346     		mov	r3, r4
+ 1151 000e 03C3     		stmia	r3!, {r0, r1}
+ 1152 0010 7068     		ldr	r0, [r6, #4]
+ 1153 0012 1A70     		strb	r2, [r3]
+ 1154 0014 C3B0     		sub	sp, sp, #268
+ 1155 0016 2946     		mov	r1, r5
+ 1156 0018 20AA     		add	r2, sp, #128
+ 1157 001a D0F81C0A 		ldr	r0, [r0, #2588]
+ 1158 001e FFF7FEFF 		bl	_ZN11MassStorage9FindFirstEPKcR8FileInfo
+ 1159 0022 4E4B     		ldr	r3, .L240+12
+ 1160 0024 0246     		mov	r2, r0
+ 1161 0026 93E80300 		ldm	r3, {r0, r1}
+ 1162 002a 2A23     		movs	r3, #42
+ 1163 002c 0090     		str	r0, [sp]
+ 1164 002e 8DF80410 		strb	r1, [sp, #4]
+ 1165 0032 8DF80830 		strb	r3, [sp, #8]
+ 1166 0036 002A     		cmp	r2, #0
+ 1167 0038 5BD0     		beq	.L223
+ 1168 003a 0025     		movs	r5, #0
+ 1169              	.L226:
+ 1170 003c 9DF88130 		ldrb	r3, [sp, #129]	@ zero_extendqisi2
+ 1171 0040 2E2B     		cmp	r3, #46
+ 1172 0042 00D1     		bne	.L235
+ 1173              	.L234:
+ 1174 0044 FEE7     		b	.L234
+ 1175              	.L235:
+ 1176 0046 9DF88030 		ldrb	r3, [sp, #128]	@ zero_extendqisi2
+ 1177 004a 002B     		cmp	r3, #0
+ 1178 004c 48D1     		bne	.L238
+ 1179 004e 0DF18100 		add	r0, sp, #129
+ 1180              	.L225:
+ 1181 0052 0779     		ldrb	r7, [r0, #4]	@ zero_extendqisi2
+ 1182 0054 C378     		ldrb	r3, [r0, #3]	@ zero_extendqisi2
+ 1183 0056 4279     		ldrb	r2, [r0, #5]	@ zero_extendqisi2
+ 1184 0058 303F     		subs	r7, r7, #48
+ 1185 005a 4FF47A71 		mov	r1, #1000
+ 1186 005e 01FB07F1 		mul	r1, r1, r7
+ 1187 0062 42F2107C 		movw	ip, #10000
+ 1188 0066 303B     		subs	r3, r3, #48
+ 1189 0068 0CFB0313 		mla	r3, ip, r3, r1
+ 1190 006c 8179     		ldrb	r1, [r0, #6]	@ zero_extendqisi2
+ 1191 006e C079     		ldrb	r0, [r0, #7]	@ zero_extendqisi2
+ 1192 0070 303A     		subs	r2, r2, #48
+ 1193 0072 6427     		movs	r7, #100
+ 1194 0074 3039     		subs	r1, r1, #48
+ 1195 0076 07FB0233 		mla	r3, r7, r2, r3
+ 1196 007a 01EB8101 		add	r1, r1, r1, lsl #2
+ 1197 007e 03EB4103 		add	r3, r3, r1, lsl #1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 22
+
+
+ 1198 0082 0344     		add	r3, r3, r0
+ 1199 0084 7268     		ldr	r2, [r6, #4]
+ 1200 0086 303B     		subs	r3, r3, #48
+ 1201 0088 9D42     		cmp	r5, r3
+ 1202 008a D2F81C0A 		ldr	r0, [r2, #2588]
+ 1203 008e 20A9     		add	r1, sp, #128
+ 1204 0090 B8BF     		it	lt
+ 1205 0092 1D46     		movlt	r5, r3
+ 1206 0094 FFF7FEFF 		bl	_ZN11MassStorage8FindNextER8FileInfo
+ 1207 0098 0028     		cmp	r0, #0
+ 1208 009a CFD1     		bne	.L226
+ 1209 009c 2D48     		ldr	r0, .L240+4
+ 1210 009e FFF7FEFF 		bl	strlen
+ 1211 00a2 2F4A     		ldr	r2, .L240+16
+ 1212 00a4 0346     		mov	r3, r0
+ 1213 00a6 0135     		adds	r5, r5, #1
+ 1214 00a8 1068     		ldr	r0, [r2]
+ 1215 00aa E050     		str	r0, [r4, r3]	@ unaligned
+ 1216 00ac 0A22     		movs	r2, #10
+ 1217 00ae 2846     		mov	r0, r5
+ 1218 00b0 6946     		mov	r1, sp
+ 1219 00b2 FFF7FEFF 		bl	itoa
+ 1220 00b6 42F20F73 		movw	r3, #9999
+ 1221 00ba 9D42     		cmp	r5, r3
+ 1222 00bc 38DD     		ble	.L239
+ 1223              	.L228:
+ 1224 00be 6946     		mov	r1, sp
+ 1225 00c0 2448     		ldr	r0, .L240+4
+ 1226 00c2 FFF7FEFF 		bl	strcat
+ 1227 00c6 2348     		ldr	r0, .L240+4
+ 1228 00c8 FFF7FEFF 		bl	strlen
+ 1229 00cc 254A     		ldr	r2, .L240+20
+ 1230 00ce 0346     		mov	r3, r0
+ 1231 00d0 2118     		adds	r1, r4, r0
+ 1232 00d2 1068     		ldr	r0, [r2]
+ 1233 00d4 E050     		str	r0, [r4, r3]	@ unaligned
+ 1234 00d6 1279     		ldrb	r2, [r2, #4]	@ zero_extendqisi2
+ 1235 00d8 1E48     		ldr	r0, .L240+4
+ 1236 00da 0A71     		strb	r2, [r1, #4]
+ 1237 00dc 43B0     		add	sp, sp, #268
+ 1238              		@ sp needed
+ 1239 00de F0BD     		pop	{r4, r5, r6, r7, pc}
+ 1240              	.L238:
+ 1241 00e0 0DF10900 		add	r0, sp, #9
+ 1242 00e4 7722     		movs	r2, #119
+ 1243 00e6 0DF18101 		add	r1, sp, #129
+ 1244 00ea FFF7FEFF 		bl	_Z11SafeStrncpyPcPKcj
+ 1245 00ee 02A8     		add	r0, sp, #8
+ 1246 00f0 AFE7     		b	.L225
+ 1247              	.L223:
+ 1248 00f2 2046     		mov	r0, r4
+ 1249 00f4 FFF7FEFF 		bl	strlen
+ 1250 00f8 194A     		ldr	r2, .L240+16
+ 1251 00fa 1B4E     		ldr	r6, .L240+24
+ 1252 00fc 0346     		mov	r3, r0
+ 1253 00fe 1068     		ldr	r0, [r2]
+ 1254 0100 E050     		str	r0, [r4, r3]	@ unaligned
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 23
+
+
+ 1255 0102 0A22     		movs	r2, #10
+ 1256 0104 6946     		mov	r1, sp
+ 1257 0106 0120     		movs	r0, #1
+ 1258 0108 FFF7FEFF 		bl	itoa
+ 1259 010c 2046     		mov	r0, r4
+ 1260 010e FFF7FEFF 		bl	strlen
+ 1261 0112 3788     		ldrh	r7, [r6]	@ unaligned
+ 1262 0114 2752     		strh	r7, [r4, r0]	@ unaligned
+ 1263 0116 2046     		mov	r0, r4
+ 1264 0118 FFF7FEFF 		bl	strlen
+ 1265 011c 2752     		strh	r7, [r4, r0]	@ unaligned
+ 1266 011e 0125     		movs	r5, #1
+ 1267              	.L230:
+ 1268 0120 431C     		adds	r3, r0, #1
+ 1269 0122 3288     		ldrh	r2, [r6]	@ unaligned
+ 1270 0124 E252     		strh	r2, [r4, r3]	@ unaligned
+ 1271 0126 092D     		cmp	r5, #9
+ 1272 0128 C9DC     		bgt	.L228
+ 1273 012a 0230     		adds	r0, r0, #2
+ 1274 012c 2252     		strh	r2, [r4, r0]	@ unaligned
+ 1275 012e C6E7     		b	.L228
+ 1276              	.L239:
+ 1277 0130 0848     		ldr	r0, .L240+4
+ 1278 0132 0D4E     		ldr	r6, .L240+24
+ 1279 0134 FFF7FEFF 		bl	strlen
+ 1280 0138 3788     		ldrh	r7, [r6]	@ unaligned
+ 1281 013a 2752     		strh	r7, [r4, r0]	@ unaligned
+ 1282 013c B5F57A7F 		cmp	r5, #1000
+ 1283 0140 BDDA     		bge	.L228
+ 1284 0142 0448     		ldr	r0, .L240+4
+ 1285 0144 FFF7FEFF 		bl	strlen
+ 1286 0148 632D     		cmp	r5, #99
+ 1287 014a 2752     		strh	r7, [r4, r0]	@ unaligned
+ 1288 014c E8DD     		ble	.L230
+ 1289 014e B6E7     		b	.L228
+ 1290              	.L241:
+ 1291              		.align	2
+ 1292              	.L240:
+ 1293 0150 00000000 		.word	.LC11
+ 1294 0154 00000000 		.word	.LANCHOR14
+ 1295 0158 00000000 		.word	reprap
+ 1296 015c 00000000 		.word	.LANCHOR15
+ 1297 0160 0C000000 		.word	.LC12
+ 1298 0164 14000000 		.word	.LC14
+ 1299 0168 10000000 		.word	.LC13
+ 1300              		.size	_ZN7LynxMod10GetLastLogEv, .-_ZN7LynxMod10GetLastLogEv
+ 1301              		.global	__aeabi_f2d
+ 1302              		.section	.text._ZN7LynxMod12LynxDataLogsEv,"ax",%progbits
+ 1303              		.align	1
+ 1304              		.p2align 2,,3
+ 1305              		.global	_ZN7LynxMod12LynxDataLogsEv
+ 1306              		.syntax unified
+ 1307              		.thumb
+ 1308              		.thumb_func
+ 1309              		.fpu fpv4-sp-d16
+ 1310              		.type	_ZN7LynxMod12LynxDataLogsEv, %function
+ 1311              	_ZN7LynxMod12LynxDataLogsEv:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 24
+
+
+ 1312              		@ args = 0, pretend = 0, frame = 1064
+ 1313              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1314 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 1315 0004 2DED028B 		vpush.64	{d8}
+ 1316 0008 C94E     		ldr	r6, .L292+8
+ 1317 000a 7368     		ldr	r3, [r6, #4]
+ 1318 000c 1B68     		ldr	r3, [r3]
+ 1319 000e 1B68     		ldr	r3, [r3]
+ 1320 0010 ADF2344D 		subw	sp, sp, #1076
+ 1321 0014 002B     		cmp	r3, #0
+ 1322 0016 00F0FE81 		beq	.L242
+ 1323 001a C64F     		ldr	r7, .L292+12
+ 1324 001c 0FCF     		ldmia	r7!, {r0, r1, r2, r3}
+ 1325 001e 12AC     		add	r4, sp, #72
+ 1326 0020 2546     		mov	r5, r4
+ 1327 0022 0FC5     		stmia	r5!, {r0, r1, r2, r3}
+ 1328 0024 3B68     		ldr	r3, [r7]
+ 1329 0026 2B70     		strb	r3, [r5]
+ 1330 0028 3046     		mov	r0, r6
+ 1331 002a FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 1332 002e 5328     		cmp	r0, #83
+ 1333 0030 00F00582 		beq	.L269
+ 1334 0034 4828     		cmp	r0, #72
+ 1335 0036 08BF     		it	eq
+ 1336 0038 5320     		moveq	r0, #83
+ 1337              	.L244:
+ 1338 003a 3B23     		movs	r3, #59
+ 1339 003c 8DF81000 		strb	r0, [sp, #16]
+ 1340 0040 04A9     		add	r1, sp, #16
+ 1341 0042 2046     		mov	r0, r4
+ 1342 0044 8DF81130 		strb	r3, [sp, #17]
+ 1343 0048 FFF7FEFF 		bl	strcat
+ 1344 004c 3069     		ldr	r0, [r6, #16]
+ 1345 004e 90F9D1A0 		ldrsb	r10, [r0, #209]
+ 1346 0052 BAF1FF3F 		cmp	r10, #-1
+ 1347 0056 00F0E781 		beq	.L270
+ 1348 005a 5146     		mov	r1, r10
+ 1349 005c FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 1350 0060 10EE100A 		vmov	r0, s0
+ 1351 0064 FFF7FEFF 		bl	__aeabi_f2d
+ 1352              	.L245:
+ 1353 0068 CDE90001 		strd	r0, [sp]
+ 1354 006c B24A     		ldr	r2, .L292+16
+ 1355 006e B34F     		ldr	r7, .L292+20
+ 1356 0070 0721     		movs	r1, #7
+ 1357 0072 04A8     		add	r0, sp, #16
+ 1358 0074 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1359 0078 04A9     		add	r1, sp, #16
+ 1360 007a 2046     		mov	r0, r4
+ 1361 007c FFF7FEFF 		bl	strcat
+ 1362 0080 2046     		mov	r0, r4
+ 1363 0082 FFF7FEFF 		bl	strlen
+ 1364 0086 96F8E650 		ldrb	r5, [r6, #230]	@ zero_extendqisi2
+ 1365 008a 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1366 008c 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1367 008e 012D     		cmp	r5, #1
+ 1368 0090 A946     		mov	r9, r5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 25
+
+
+ 1369 0092 20D9     		bls	.L249
+ 1370 0094 DFF8A0B2 		ldr	fp, .L292+16
+ 1371 0098 4FF00108 		mov	r8, #1
+ 1372              	.L246:
+ 1373 009c 4FFA88F1 		sxtb	r1, r8
+ 1374 00a0 3069     		ldr	r0, [r6, #16]
+ 1375 00a2 FFF7FEFF 		bl	_ZNK4Heat14GetTemperatureEa
+ 1376 00a6 10EE100A 		vmov	r0, s0
+ 1377 00aa FFF7FEFF 		bl	__aeabi_f2d
+ 1378 00ae 5A46     		mov	r2, fp
+ 1379 00b0 CDE90001 		strd	r0, [sp]
+ 1380 00b4 0721     		movs	r1, #7
+ 1381 00b6 04A8     		add	r0, sp, #16
+ 1382 00b8 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1383 00bc 04A9     		add	r1, sp, #16
+ 1384 00be 2046     		mov	r0, r4
+ 1385 00c0 FFF7FEFF 		bl	strcat
+ 1386 00c4 2046     		mov	r0, r4
+ 1387 00c6 FFF7FEFF 		bl	strlen
+ 1388 00ca 08F10108 		add	r8, r8, #1
+ 1389 00ce 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1390 00d0 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1391 00d2 A845     		cmp	r8, r5
+ 1392 00d4 E2D3     		bcc	.L246
+ 1393              	.L249:
+ 1394 00d6 032D     		cmp	r5, #3
+ 1395 00d8 12D8     		bhi	.L247
+ 1396 00da 994A     		ldr	r2, .L292+24
+ 1397 00dc 1368     		ldr	r3, [r2]
+ 1398 00de 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
+ 1399 00e2 0393     		str	r3, [sp, #12]
+ 1400 00e4 AB46     		mov	fp, r5
+ 1401              	.L248:
+ 1402 00e6 2046     		mov	r0, r4
+ 1403 00e8 FFF7FEFF 		bl	strlen
+ 1404 00ec 0BF1010B 		add	fp, fp, #1
+ 1405 00f0 2218     		adds	r2, r4, r0
+ 1406 00f2 039B     		ldr	r3, [sp, #12]
+ 1407 00f4 2350     		str	r3, [r4, r0]	@ unaligned
+ 1408 00f6 BBF1040F 		cmp	fp, #4
+ 1409 00fa 82F80480 		strb	r8, [r2, #4]
+ 1410 00fe F2D1     		bne	.L248
+ 1411              	.L247:
+ 1412 0100 BAF1FF3F 		cmp	r10, #-1
+ 1413 0104 00F09881 		beq	.L272
+ 1414 0108 3069     		ldr	r0, [r6, #16]
+ 1415 010a 5146     		mov	r1, r10
+ 1416 010c FFF7FEFF 		bl	_ZNK4Heat20GetActiveTemperatureEa
+ 1417 0110 10EE100A 		vmov	r0, s0
+ 1418 0114 FFF7FEFF 		bl	__aeabi_f2d
+ 1419              	.L250:
+ 1420 0118 CDE90001 		strd	r0, [sp]
+ 1421 011c 864A     		ldr	r2, .L292+16
+ 1422 011e 0721     		movs	r1, #7
+ 1423 0120 04A8     		add	r0, sp, #16
+ 1424 0122 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1425 0126 04A9     		add	r1, sp, #16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 26
+
+
+ 1426 0128 2046     		mov	r0, r4
+ 1427 012a FFF7FEFF 		bl	strcat
+ 1428 012e 2046     		mov	r0, r4
+ 1429 0130 FFF7FEFF 		bl	strlen
+ 1430 0134 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1431 0136 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1432 0138 012D     		cmp	r5, #1
+ 1433 013a 20D9     		bls	.L254
+ 1434 013c DFF8F8B1 		ldr	fp, .L292+16
+ 1435 0140 4FF00108 		mov	r8, #1
+ 1436              	.L251:
+ 1437 0144 4FFA88F1 		sxtb	r1, r8
+ 1438 0148 3069     		ldr	r0, [r6, #16]
+ 1439 014a FFF7FEFF 		bl	_ZNK4Heat20GetActiveTemperatureEa
+ 1440 014e 10EE100A 		vmov	r0, s0
+ 1441 0152 FFF7FEFF 		bl	__aeabi_f2d
+ 1442 0156 5A46     		mov	r2, fp
+ 1443 0158 CDE90001 		strd	r0, [sp]
+ 1444 015c 0721     		movs	r1, #7
+ 1445 015e 04A8     		add	r0, sp, #16
+ 1446 0160 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1447 0164 04A9     		add	r1, sp, #16
+ 1448 0166 2046     		mov	r0, r4
+ 1449 0168 FFF7FEFF 		bl	strcat
+ 1450 016c 2046     		mov	r0, r4
+ 1451 016e FFF7FEFF 		bl	strlen
+ 1452 0172 08F10108 		add	r8, r8, #1
+ 1453 0176 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1454 0178 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1455 017a A845     		cmp	r8, r5
+ 1456 017c E2D3     		bcc	.L251
+ 1457              	.L254:
+ 1458 017e 032D     		cmp	r5, #3
+ 1459 0180 12D8     		bhi	.L252
+ 1460 0182 6F4A     		ldr	r2, .L292+24
+ 1461 0184 1368     		ldr	r3, [r2]
+ 1462 0186 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
+ 1463 018a 0393     		str	r3, [sp, #12]
+ 1464 018c AB46     		mov	fp, r5
+ 1465              	.L253:
+ 1466 018e 2046     		mov	r0, r4
+ 1467 0190 FFF7FEFF 		bl	strlen
+ 1468 0194 0BF1010B 		add	fp, fp, #1
+ 1469 0198 2218     		adds	r2, r4, r0
+ 1470 019a 039B     		ldr	r3, [sp, #12]
+ 1471 019c 2350     		str	r3, [r4, r0]	@ unaligned
+ 1472 019e BBF1040F 		cmp	fp, #4
+ 1473 01a2 82F80480 		strb	r8, [r2, #4]
+ 1474 01a6 F2D1     		bne	.L253
+ 1475              	.L252:
+ 1476 01a8 BAF1FF3F 		cmp	r10, #-1
+ 1477 01ac 00F04181 		beq	.L274
+ 1478 01b0 3069     		ldr	r0, [r6, #16]
+ 1479 01b2 5146     		mov	r1, r10
+ 1480 01b4 FFF7FEFF 		bl	_ZNK4Heat21GetStandbyTemperatureEa
+ 1481 01b8 10EE100A 		vmov	r0, s0
+ 1482 01bc FFF7FEFF 		bl	__aeabi_f2d
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 27
+
+
+ 1483              	.L255:
+ 1484 01c0 CDE90001 		strd	r0, [sp]
+ 1485 01c4 5C4A     		ldr	r2, .L292+16
+ 1486 01c6 0721     		movs	r1, #7
+ 1487 01c8 04A8     		add	r0, sp, #16
+ 1488 01ca FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1489 01ce 04A9     		add	r1, sp, #16
+ 1490 01d0 2046     		mov	r0, r4
+ 1491 01d2 FFF7FEFF 		bl	strcat
+ 1492 01d6 2046     		mov	r0, r4
+ 1493 01d8 FFF7FEFF 		bl	strlen
+ 1494 01dc 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1495 01de 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1496 01e0 012D     		cmp	r5, #1
+ 1497 01e2 20D9     		bls	.L259
+ 1498 01e4 DFF850B1 		ldr	fp, .L292+16
+ 1499 01e8 4FF00108 		mov	r8, #1
+ 1500              	.L256:
+ 1501 01ec 4FFA88F1 		sxtb	r1, r8
+ 1502 01f0 3069     		ldr	r0, [r6, #16]
+ 1503 01f2 FFF7FEFF 		bl	_ZNK4Heat21GetStandbyTemperatureEa
+ 1504 01f6 10EE100A 		vmov	r0, s0
+ 1505 01fa FFF7FEFF 		bl	__aeabi_f2d
+ 1506 01fe 5A46     		mov	r2, fp
+ 1507 0200 CDE90001 		strd	r0, [sp]
+ 1508 0204 0721     		movs	r1, #7
+ 1509 0206 04A8     		add	r0, sp, #16
+ 1510 0208 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1511 020c 04A9     		add	r1, sp, #16
+ 1512 020e 2046     		mov	r0, r4
+ 1513 0210 FFF7FEFF 		bl	strcat
+ 1514 0214 2046     		mov	r0, r4
+ 1515 0216 FFF7FEFF 		bl	strlen
+ 1516 021a 08F10108 		add	r8, r8, #1
+ 1517 021e 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1518 0220 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1519 0222 A845     		cmp	r8, r5
+ 1520 0224 E2D3     		bcc	.L256
+ 1521              	.L259:
+ 1522 0226 032D     		cmp	r5, #3
+ 1523 0228 12D8     		bhi	.L257
+ 1524 022a 454A     		ldr	r2, .L292+24
+ 1525 022c 1368     		ldr	r3, [r2]
+ 1526 022e 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
+ 1527 0232 0393     		str	r3, [sp, #12]
+ 1528 0234 AB46     		mov	fp, r5
+ 1529              	.L258:
+ 1530 0236 2046     		mov	r0, r4
+ 1531 0238 FFF7FEFF 		bl	strlen
+ 1532 023c 0BF1010B 		add	fp, fp, #1
+ 1533 0240 2218     		adds	r2, r4, r0
+ 1534 0242 039B     		ldr	r3, [sp, #12]
+ 1535 0244 2350     		str	r3, [r4, r0]	@ unaligned
+ 1536 0246 BBF1040F 		cmp	fp, #4
+ 1537 024a 82F80480 		strb	r8, [r2, #4]
+ 1538 024e F2D1     		bne	.L258
+ 1539              	.L257:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 28
+
+
+ 1540 0250 BAF1FF3F 		cmp	r10, #-1
+ 1541 0254 00F0EB80 		beq	.L276
+ 1542 0258 5146     		mov	r1, r10
+ 1543 025a 3069     		ldr	r0, [r6, #16]
+ 1544 025c FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
+ 1545 0260 0346     		mov	r3, r0
+ 1546              	.L260:
+ 1547 0262 384A     		ldr	r2, .L292+28
+ 1548 0264 0721     		movs	r1, #7
+ 1549 0266 04A8     		add	r0, sp, #16
+ 1550 0268 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1551 026c 04A9     		add	r1, sp, #16
+ 1552 026e 2046     		mov	r0, r4
+ 1553 0270 FFF7FEFF 		bl	strcat
+ 1554 0274 2046     		mov	r0, r4
+ 1555 0276 FFF7FEFF 		bl	strlen
+ 1556 027a 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1557 027c 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1558 027e 012D     		cmp	r5, #1
+ 1559 0280 1BD9     		bls	.L264
+ 1560 0282 DFF8C0A0 		ldr	r10, .L292+28
+ 1561 0286 4FF00108 		mov	r8, #1
+ 1562              	.L261:
+ 1563 028a 4FFA88F1 		sxtb	r1, r8
+ 1564 028e 3069     		ldr	r0, [r6, #16]
+ 1565 0290 FFF7FEFF 		bl	_ZNK4Heat9GetStatusEa
+ 1566 0294 5246     		mov	r2, r10
+ 1567 0296 0346     		mov	r3, r0
+ 1568 0298 0721     		movs	r1, #7
+ 1569 029a 04A8     		add	r0, sp, #16
+ 1570 029c FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1571 02a0 04A9     		add	r1, sp, #16
+ 1572 02a2 2046     		mov	r0, r4
+ 1573 02a4 FFF7FEFF 		bl	strcat
+ 1574 02a8 2046     		mov	r0, r4
+ 1575 02aa FFF7FEFF 		bl	strlen
+ 1576 02ae 08F10108 		add	r8, r8, #1
+ 1577 02b2 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1578 02b4 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1579 02b6 A845     		cmp	r8, r5
+ 1580 02b8 E7D3     		bcc	.L261
+ 1581              	.L264:
+ 1582 02ba 032D     		cmp	r5, #3
+ 1583 02bc 0FD8     		bhi	.L262
+ 1584 02be 204A     		ldr	r2, .L292+24
+ 1585 02c0 1568     		ldr	r5, [r2]
+ 1586 02c2 92F80480 		ldrb	r8, [r2, #4]	@ zero_extendqisi2
+ 1587              	.L263:
+ 1588 02c6 2046     		mov	r0, r4
+ 1589 02c8 FFF7FEFF 		bl	strlen
+ 1590 02cc 09F10109 		add	r9, r9, #1
+ 1591 02d0 2318     		adds	r3, r4, r0
+ 1592 02d2 B9F1040F 		cmp	r9, #4
+ 1593 02d6 2550     		str	r5, [r4, r0]	@ unaligned
+ 1594 02d8 83F80480 		strb	r8, [r3, #4]
+ 1595 02dc F3D1     		bne	.L263
+ 1596              	.L262:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 29
+
+
+ 1597 02de 7369     		ldr	r3, [r6, #20]
+ 1598 02e0 9FED198A 		vldr.32	s16, .L292+32
+ 1599 02e4 DFF864B0 		ldr	fp, .L292+36
+ 1600 02e8 0FF23C09 		adr	r9, .L292
+ 1601 02ec D9E90089 		ldrd	r8, [r9]
+ 1602 02f0 03F1B805 		add	r5, r3, #184
+ 1603 02f4 03F1C40A 		add	r10, r3, #196
+ 1604              	.L267:
+ 1605 02f8 F5EC017A 		vldmia.32	r5!, {s15}
+ 1606 02fc F4EE677A 		vcmp.f32	s15, s15
+ 1607 0300 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1608 0304 B0EEE77A 		vabs.f32	s14, s15
+ 1609 0308 17EE900A 		vmov	r0, s15
+ 1610 030c 80F18980 		bvs	.L290
+ 1611 0310 B4EE487A 		vcmp.f32	s14, s16
+ 1612 0314 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 1613 0318 00F38380 		bgt	.L290
+ 1614 031c FFF7FEFF 		bl	__aeabi_f2d
+ 1615 0320 0246     		mov	r2, r0
+ 1616 0322 0B46     		mov	r3, r1
+ 1617 0324 14E0     		b	.L293
+ 1618              	.L294:
+ 1619 0326 00BF     		.align	3
+ 1620              	.L292:
+ 1621 0328 00000040 		.word	1073741824
+ 1622 032c F387C340 		.word	1086556147
+ 1623 0330 00000000 		.word	reprap
+ 1624 0334 00000000 		.word	.LC15
+ 1625 0338 14000000 		.word	.LC16
+ 1626 033c 1C000000 		.word	.LC17
+ 1627 0340 20000000 		.word	.LC18
+ 1628 0344 28000000 		.word	.LC19
+ 1629 0348 FFFF7F7F 		.word	2139095039
+ 1630 034c 2C000000 		.word	.LC20
+ 1631              	.L293:
+ 1632              	.L265:
+ 1633 0350 CDE90023 		strd	r2, [sp]
+ 1634 0354 0721     		movs	r1, #7
+ 1635 0356 5A46     		mov	r2, fp
+ 1636 0358 04A8     		add	r0, sp, #16
+ 1637 035a FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1638 035e 04A9     		add	r1, sp, #16
+ 1639 0360 2046     		mov	r0, r4
+ 1640 0362 FFF7FEFF 		bl	strcat
+ 1641 0366 2046     		mov	r0, r4
+ 1642 0368 FFF7FEFF 		bl	strlen
+ 1643 036c 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1644 036e 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1645 0370 AA45     		cmp	r10, r5
+ 1646 0372 C1D1     		bne	.L267
+ 1647 0374 3348     		ldr	r0, .L295
+ 1648 0376 F568     		ldr	r5, [r6, #12]
+ 1649 0378 DFF8D890 		ldr	r9, .L295+16
+ 1650 037c FFF7FEFF 		bl	_ZNK6RepRap15GetCurrentXAxesEv
+ 1651 0380 8046     		mov	r8, r0
+ 1652 0382 3048     		ldr	r0, .L295
+ 1653 0384 FFF7FEFF 		bl	_ZNK6RepRap15GetCurrentYAxesEv
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 30
+
+
+ 1654 0388 4246     		mov	r2, r8
+ 1655 038a 0346     		mov	r3, r0
+ 1656 038c 06A9     		add	r1, sp, #24
+ 1657 038e 2846     		mov	r0, r5
+ 1658 0390 FFF7FEFF 		bl	_ZN4Move15LiveCoordinatesEPfmm
+ 1659 0394 06AD     		add	r5, sp, #24
+ 1660 0396 0DF12408 		add	r8, sp, #36
+ 1661              	.L268:
+ 1662 039a 55F8040B 		ldr	r0, [r5], #4	@ float
+ 1663 039e FFF7FEFF 		bl	__aeabi_f2d
+ 1664 03a2 4A46     		mov	r2, r9
+ 1665 03a4 CDE90001 		strd	r0, [sp]
+ 1666 03a8 0721     		movs	r1, #7
+ 1667 03aa 04A8     		add	r0, sp, #16
+ 1668 03ac FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1669 03b0 04A9     		add	r1, sp, #16
+ 1670 03b2 2046     		mov	r0, r4
+ 1671 03b4 FFF7FEFF 		bl	strcat
+ 1672 03b8 2046     		mov	r0, r4
+ 1673 03ba FFF7FEFF 		bl	strlen
+ 1674 03be 3B88     		ldrh	r3, [r7]	@ unaligned
+ 1675 03c0 2352     		strh	r3, [r4, r0]	@ unaligned
+ 1676 03c2 4545     		cmp	r5, r8
+ 1677 03c4 E9D1     		bne	.L268
+ 1678 03c6 7069     		ldr	r0, [r6, #20]
+ 1679 03c8 FFF7FEFF 		bl	_ZNK6GCodes14GetSpeedFactorEv
+ 1680 03cc DFED1E7A 		vldr.32	s15, .L295+4
+ 1681 03d0 60EE277A 		vmul.f32	s15, s0, s15
+ 1682 03d4 3B25     		movs	r5, #59
+ 1683 03d6 17EE900A 		vmov	r0, s15
+ 1684 03da FFF7FEFF 		bl	__aeabi_f2d
+ 1685 03de 1B4A     		ldr	r2, .L295+8
+ 1686 03e0 CDE90001 		strd	r0, [sp]
+ 1687 03e4 0721     		movs	r1, #7
+ 1688 03e6 04A8     		add	r0, sp, #16
+ 1689 03e8 FFF7FEFF 		bl	_Z12SafeSnprintfPcjPKcz
+ 1690 03ec 04A9     		add	r1, sp, #16
+ 1691 03ee 2046     		mov	r0, r4
+ 1692 03f0 FFF7FEFF 		bl	strcat
+ 1693 03f4 2046     		mov	r0, r4
+ 1694 03f6 FFF7FEFF 		bl	strlen
+ 1695 03fa 154A     		ldr	r2, .L295+12
+ 1696 03fc 7368     		ldr	r3, [r6, #4]
+ 1697 03fe 1188     		ldrh	r1, [r2]	@ unaligned
+ 1698 0400 2554     		strb	r5, [r4, r0]
+ 1699 0402 421C     		adds	r2, r0, #1
+ 1700 0404 A152     		strh	r1, [r4, r2]	@ unaligned
+ 1701 0406 D3E90267 		ldrd	r6, [r3, #8]
+ 1702 040a 1868     		ldr	r0, [r3]
+ 1703 040c 0094     		str	r4, [sp]
+ 1704 040e 3246     		mov	r2, r6
+ 1705 0410 3B46     		mov	r3, r7
+ 1706 0412 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 1707              	.L242:
+ 1708 0416 0DF2344D 		addw	sp, sp, #1076
+ 1709              		@ sp needed
+ 1710 041a BDEC028B 		vldm	sp!, {d8}
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 31
+
+
+ 1711 041e BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 1712              	.L290:
+ 1713 0422 4246     		mov	r2, r8
+ 1714 0424 4B46     		mov	r3, r9
+ 1715 0426 93E7     		b	.L265
+ 1716              	.L270:
+ 1717 0428 0020     		movs	r0, #0
+ 1718 042a 0021     		movs	r1, #0
+ 1719 042c 1CE6     		b	.L245
+ 1720              	.L276:
+ 1721 042e 0023     		movs	r3, #0
+ 1722 0430 17E7     		b	.L260
+ 1723              	.L274:
+ 1724 0432 0020     		movs	r0, #0
+ 1725 0434 0021     		movs	r1, #0
+ 1726 0436 C3E6     		b	.L255
+ 1727              	.L272:
+ 1728 0438 0020     		movs	r0, #0
+ 1729 043a 0021     		movs	r1, #0
+ 1730 043c 6CE6     		b	.L250
+ 1731              	.L269:
+ 1732 043e 4120     		movs	r0, #65
+ 1733 0440 FBE5     		b	.L244
+ 1734              	.L296:
+ 1735 0442 00BF     		.align	2
+ 1736              	.L295:
+ 1737 0444 00000000 		.word	reprap
+ 1738 0448 0000C842 		.word	1120403456
+ 1739 044c 34000000 		.word	.LC21
+ 1740 0450 3C000000 		.word	.LC22
+ 1741 0454 2C000000 		.word	.LC20
+ 1742              		.size	_ZN7LynxMod12LynxDataLogsEv, .-_ZN7LynxMod12LynxDataLogsEv
+ 1743              		.section	.text._ZN7LynxMod7GetLEDsEv,"ax",%progbits
+ 1744              		.align	1
+ 1745              		.p2align 2,,3
+ 1746              		.global	_ZN7LynxMod7GetLEDsEv
+ 1747              		.syntax unified
+ 1748              		.thumb
+ 1749              		.thumb_func
+ 1750              		.fpu fpv4-sp-d16
+ 1751              		.type	_ZN7LynxMod7GetLEDsEv, %function
+ 1752              	_ZN7LynxMod7GetLEDsEv:
+ 1753              		@ args = 0, pretend = 0, frame = 0
+ 1754              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1755              		@ link register save eliminated.
+ 1756 0000 014B     		ldr	r3, .L298
+ 1757 0002 93F84D00 		ldrb	r0, [r3, #77]	@ zero_extendqisi2
+ 1758 0006 7047     		bx	lr
+ 1759              	.L299:
+ 1760              		.align	2
+ 1761              	.L298:
+ 1762 0008 00000000 		.word	.LANCHOR1
+ 1763              		.size	_ZN7LynxMod7GetLEDsEv, .-_ZN7LynxMod7GetLEDsEv
+ 1764              		.section	.text._ZN7LynxMod8LynxM968Ev,"ax",%progbits
+ 1765              		.align	1
+ 1766              		.p2align 2,,3
+ 1767              		.global	_ZN7LynxMod8LynxM968Ev
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 32
+
+
+ 1768              		.syntax unified
+ 1769              		.thumb
+ 1770              		.thumb_func
+ 1771              		.fpu fpv4-sp-d16
+ 1772              		.type	_ZN7LynxMod8LynxM968Ev, %function
+ 1773              	_ZN7LynxMod8LynxM968Ev:
+ 1774              		@ args = 0, pretend = 0, frame = 0
+ 1775              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1776 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 1777 0004 D0E90552 		ldrd	r5, r2, [r0, #20]
+ 1778 0008 9542     		cmp	r5, r2
+ 1779 000a 82B0     		sub	sp, sp, #8
+ 1780 000c 04D0     		beq	.L300
+ 1781 000e 026A     		ldr	r2, [r0, #32]
+ 1782 0010 B2F5727F 		cmp	r2, #968
+ 1783 0014 0446     		mov	r4, r0
+ 1784 0016 02D0     		beq	.L312
+ 1785              	.L300:
+ 1786 0018 02B0     		add	sp, sp, #8
+ 1787              		@ sp needed
+ 1788 001a BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 1789              	.L312:
+ 1790 001e 1E4E     		ldr	r6, .L315
+ 1791 0020 012D     		cmp	r5, #1
+ 1792 0022 7068     		ldr	r0, [r6, #4]
+ 1793 0024 0AD0     		beq	.L313
+ 1794 0026 0022     		movs	r2, #0
+ 1795 0028 C4E90652 		strd	r5, r2, [r4, #24]
+ 1796 002c 6261     		str	r2, [r4, #20]
+ 1797 002e 1B4A     		ldr	r2, .L315+4
+ 1798 0030 1021     		movs	r1, #16
+ 1799 0032 02B0     		add	sp, sp, #8
+ 1800              		@ sp needed
+ 1801 0034 BDE8F041 		pop	{r4, r5, r6, r7, r8, lr}
+ 1802 0038 FFF7FEBF 		b	_ZN8Platform8MessageFE11MessageTypePKcz
+ 1803              	.L313:
+ 1804 003c 1849     		ldr	r1, .L315+8
+ 1805 003e 194F     		ldr	r7, .L315+12
+ 1806 0040 D0E90223 		ldrd	r2, [r0, #8]
+ 1807 0044 2068     		ldr	r0, [r4]
+ 1808 0046 0091     		str	r1, [sp]
+ 1809 0048 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 1810 004c D7F80C80 		ldr	r8, [r7, #12]
+ 1811 0050 B8F1000F 		cmp	r8, #0
+ 1812 0054 05D0     		beq	.L314
+ 1813 0056 6369     		ldr	r3, [r4, #20]
+ 1814 0058 A361     		str	r3, [r4, #24]
+ 1815 005a 0023     		movs	r3, #0
+ 1816 005c E361     		str	r3, [r4, #28]
+ 1817 005e 6361     		str	r3, [r4, #20]
+ 1818 0060 DAE7     		b	.L300
+ 1819              	.L314:
+ 1820 0062 3046     		mov	r0, r6
+ 1821 0064 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 1822 0068 4D28     		cmp	r0, #77
+ 1823 006a 0BD0     		beq	.L305
+ 1824 006c 00F0FD00 		and	r0, r0, #253
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 33
+
+
+ 1825 0070 5028     		cmp	r0, #80
+ 1826 0072 6269     		ldr	r2, [r4, #20]
+ 1827 0074 07D0     		beq	.L306
+ 1828 0076 87F84950 		strb	r5, [r7, #73]
+ 1829 007a C4E90628 		strd	r2, r8, [r4, #24]
+ 1830 007e C4F81480 		str	r8, [r4, #20]
+ 1831 0082 C9E7     		b	.L300
+ 1832              	.L305:
+ 1833 0084 6269     		ldr	r2, [r4, #20]
+ 1834              	.L306:
+ 1835 0086 0023     		movs	r3, #0
+ 1836 0088 0321     		movs	r1, #3
+ 1837 008a 87F84410 		strb	r1, [r7, #68]
+ 1838 008e C4E90623 		strd	r2, r3, [r4, #24]
+ 1839 0092 6361     		str	r3, [r4, #20]
+ 1840 0094 C0E7     		b	.L300
+ 1841              	.L316:
+ 1842 0096 00BF     		.align	2
+ 1843              	.L315:
+ 1844 0098 00000000 		.word	reprap
+ 1845 009c 24000000 		.word	.LC24
+ 1846 00a0 00000000 		.word	.LC23
+ 1847 00a4 00000000 		.word	.LANCHOR1
+ 1848              		.size	_ZN7LynxMod8LynxM968Ev, .-_ZN7LynxMod8LynxM968Ev
+ 1849              		.section	.text._ZN7LynxMod8LynxM969Ev,"ax",%progbits
+ 1850              		.align	1
+ 1851              		.p2align 2,,3
+ 1852              		.global	_ZN7LynxMod8LynxM969Ev
+ 1853              		.syntax unified
+ 1854              		.thumb
+ 1855              		.thumb_func
+ 1856              		.fpu fpv4-sp-d16
+ 1857              		.type	_ZN7LynxMod8LynxM969Ev, %function
+ 1858              	_ZN7LynxMod8LynxM969Ev:
+ 1859              		@ args = 0, pretend = 0, frame = 0
+ 1860              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1861 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 1862 0002 D0E90532 		ldrd	r3, r2, [r0, #20]
+ 1863 0006 9342     		cmp	r3, r2
+ 1864 0008 83B0     		sub	sp, sp, #12
+ 1865 000a 0546     		mov	r5, r0
+ 1866 000c 04D0     		beq	.L320
+ 1867 000e 016A     		ldr	r1, [r0, #32]
+ 1868 0010 40F2C932 		movw	r2, #969
+ 1869 0014 9142     		cmp	r1, r2
+ 1870 0016 4FD0     		beq	.L391
+ 1871              	.L320:
+ 1872 0018 B14C     		ldr	r4, .L397
+ 1873 001a 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 1874 001e 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 1875 0022 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 1876 0026 0028     		cmp	r0, #0
+ 1877 0028 32D1     		bne	.L330
+ 1878              	.L356:
+ 1879 002a 4AB1     		cbz	r2, .L359
+ 1880 002c E36B     		ldr	r3, [r4, #60]
+ 1881 002e A069     		ldr	r0, [r4, #24]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 34
+
+
+ 1882 0030 0133     		adds	r3, r3, #1
+ 1883 0032 47F23052 		movw	r2, #30000
+ 1884 0036 B2FBF0F2 		udiv	r2, r2, r0
+ 1885 003a 9342     		cmp	r3, r2
+ 1886 003c E363     		str	r3, [r4, #60]
+ 1887 003e 36D2     		bcs	.L392
+ 1888              	.L359:
+ 1889 0040 69B1     		cbz	r1, .L317
+ 1890 0042 236C     		ldr	r3, [r4, #64]
+ 1891 0044 A169     		ldr	r1, [r4, #24]
+ 1892 0046 0133     		adds	r3, r3, #1
+ 1893 0048 42F21072 		movw	r2, #10000
+ 1894 004c B2FBF1F2 		udiv	r2, r2, r1
+ 1895 0050 9342     		cmp	r3, r2
+ 1896 0052 2364     		str	r3, [r4, #64]
+ 1897 0054 03D3     		bcc	.L317
+ 1898 0056 0023     		movs	r3, #0
+ 1899 0058 84F84B30 		strb	r3, [r4, #75]
+ 1900 005c AB61     		str	r3, [r5, #24]
+ 1901              	.L317:
+ 1902 005e 03B0     		add	sp, sp, #12
+ 1903              		@ sp needed
+ 1904 0060 F0BD     		pop	{r4, r5, r6, r7, pc}
+ 1905              	.L376:
+ 1906 0062 A04E     		ldr	r6, .L397+4
+ 1907              	.L324:
+ 1908 0064 7368     		ldr	r3, [r6, #4]
+ 1909 0066 A049     		ldr	r1, .L397+8
+ 1910 0068 1868     		ldr	r0, [r3]
+ 1911 006a 9D4C     		ldr	r4, .L397
+ 1912 006c D3E90223 		ldrd	r2, [r3, #8]
+ 1913 0070 0091     		str	r1, [sp]
+ 1914 0072 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 1915 0076 6869     		ldr	r0, [r5, #20]
+ 1916 0078 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 1917 007c 0023     		movs	r3, #0
+ 1918 007e 0122     		movs	r2, #1
+ 1919 0080 84F84820 		strb	r2, [r4, #72]
+ 1920 0084 A363     		str	r3, [r4, #56]
+ 1921 0086 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 1922 008a EB61     		str	r3, [r5, #28]
+ 1923 008c C5E90530 		strd	r3, r0, [r5, #20]
+ 1924              	.L330:
+ 1925 0090 A36B     		ldr	r3, [r4, #56]
+ 1926 0092 A669     		ldr	r6, [r4, #24]
+ 1927 0094 0133     		adds	r3, r3, #1
+ 1928 0096 47F23050 		movw	r0, #30000
+ 1929 009a B0FBF6F0 		udiv	r0, r0, r6
+ 1930 009e 8342     		cmp	r3, r0
+ 1931 00a0 A363     		str	r3, [r4, #56]
+ 1932 00a2 C2D3     		bcc	.L356
+ 1933 00a4 0023     		movs	r3, #0
+ 1934 00a6 84F84830 		strb	r3, [r4, #72]
+ 1935 00aa AB61     		str	r3, [r5, #24]
+ 1936 00ac BDE7     		b	.L356
+ 1937              	.L392:
+ 1938 00ae 0023     		movs	r3, #0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 35
+
+
+ 1939 00b0 84F84A30 		strb	r3, [r4, #74]
+ 1940 00b4 AB61     		str	r3, [r5, #24]
+ 1941 00b6 C3E7     		b	.L359
+ 1942              	.L391:
+ 1943 00b8 062B     		cmp	r3, #6
+ 1944 00ba 00F29880 		bhi	.L321
+ 1945 00be 01A2     		adr	r2, .L323
+ 1946 00c0 52F823F0 		ldr	pc, [r2, r3, lsl #2]
+ 1947              		.p2align 2
+ 1948              	.L323:
+ 1949 00c4 63010000 		.word	.L322+1
+ 1950 00c8 63000000 		.word	.L376+1
+ 1951 00cc E1000000 		.word	.L325+1
+ 1952 00d0 EF010000 		.word	.L321+1
+ 1953 00d4 19010000 		.word	.L326+1
+ 1954 00d8 71010000 		.word	.L327+1
+ 1955 00dc 43010000 		.word	.L328+1
+ 1956              		.p2align 1
+ 1957              	.L325:
+ 1958 00e0 804E     		ldr	r6, .L397+4
+ 1959 00e2 8249     		ldr	r1, .L397+12
+ 1960 00e4 7368     		ldr	r3, [r6, #4]
+ 1961 00e6 7E4C     		ldr	r4, .L397
+ 1962 00e8 0068     		ldr	r0, [r0]
+ 1963 00ea D3E90223 		ldrd	r2, [r3, #8]
+ 1964 00ee 0091     		str	r1, [sp]
+ 1965 00f0 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 1966 00f4 E368     		ldr	r3, [r4, #12]
+ 1967 00f6 002B     		cmp	r3, #0
+ 1968 00f8 00F0D080 		beq	.L331
+ 1969              	.L390:
+ 1970 00fc 6B69     		ldr	r3, [r5, #20]
+ 1971 00fe 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 1972 0102 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 1973 0106 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 1974              	.L329:
+ 1975 010a 0026     		movs	r6, #0
+ 1976 010c C5E90636 		strd	r3, r6, [r5, #24]
+ 1977 0110 6E61     		str	r6, [r5, #20]
+ 1978 0112 0028     		cmp	r0, #0
+ 1979 0114 89D0     		beq	.L356
+ 1980 0116 BBE7     		b	.L330
+ 1981              	.L326:
+ 1982 0118 724B     		ldr	r3, .L397+4
+ 1983 011a 7549     		ldr	r1, .L397+16
+ 1984 011c 5B68     		ldr	r3, [r3, #4]
+ 1985 011e 704C     		ldr	r4, .L397
+ 1986 0120 0068     		ldr	r0, [r0]
+ 1987 0122 D3E90223 		ldrd	r2, [r3, #8]
+ 1988 0126 0091     		str	r1, [sp]
+ 1989 0128 FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 1990 012c 0023     		movs	r3, #0
+ 1991 012e 0122     		movs	r2, #1
+ 1992 0130 E363     		str	r3, [r4, #60]
+ 1993 0132 84F84A20 		strb	r2, [r4, #74]
+ 1994 0136 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 1995 013a 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 36
+
+
+ 1996 013e 6B69     		ldr	r3, [r5, #20]
+ 1997 0140 E3E7     		b	.L329
+ 1998              	.L328:
+ 1999 0142 674C     		ldr	r4, .L397
+ 2000 0144 94F84D20 		ldrb	r2, [r4, #77]	@ zero_extendqisi2
+ 2001 0148 002A     		cmp	r2, #0
+ 2002 014a 00F09980 		beq	.L355
+ 2003 014e 0022     		movs	r2, #0
+ 2004 0150 84F84D20 		strb	r2, [r4, #77]
+ 2005 0154 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2006 0158 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2007 015c 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 2008 0160 D3E7     		b	.L329
+ 2009              	.L322:
+ 2010 0162 604E     		ldr	r6, .L397+4
+ 2011 0164 634A     		ldr	r2, .L397+20
+ 2012 0166 7068     		ldr	r0, [r6, #4]
+ 2013 0168 1021     		movs	r1, #16
+ 2014 016a FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2015 016e 79E7     		b	.L324
+ 2016              	.L327:
+ 2017 0170 5C4E     		ldr	r6, .L397+4
+ 2018 0172 6149     		ldr	r1, .L397+24
+ 2019 0174 7368     		ldr	r3, [r6, #4]
+ 2020 0176 0068     		ldr	r0, [r0]
+ 2021 0178 D3E90223 		ldrd	r2, [r3, #8]
+ 2022 017c 0091     		str	r1, [sp]
+ 2023 017e FFF7FEFF 		bl	_ZN6Logger10LogMessageExPKc
+ 2024 0182 EB69     		ldr	r3, [r5, #28]
+ 2025 0184 B3F58B6F 		cmp	r3, #1112
+ 2026 0188 39D2     		bcs	.L333
+ 2027 018a B3F57A7F 		cmp	r3, #1000
+ 2028 018e 544C     		ldr	r4, .L397
+ 2029 0190 80F09180 		bcs	.L334
+ 2030 0194 0022     		movs	r2, #0
+ 2031 0196 6262     		str	r2, [r4, #36]
+ 2032              	.L335:
+ 2033 0198 632B     		cmp	r3, #99
+ 2034 019a 40F29380 		bls	.L365
+ 2035 019e 626A     		ldr	r2, [r4, #36]
+ 2036 01a0 643B     		subs	r3, r3, #100
+ 2037 01a2 632B     		cmp	r3, #99
+ 2038 01a4 02F57F02 		add	r2, r2, #16711680
+ 2039 01a8 6262     		str	r2, [r4, #36]
+ 2040 01aa 94BF     		ite	ls
+ 2041 01ac 0027     		movls	r7, #0
+ 2042 01ae 0127     		movhi	r7, #1
+ 2043 01b0 EB61     		str	r3, [r5, #28]
+ 2044              	.L336:
+ 2045 01b2 092B     		cmp	r3, #9
+ 2046 01b4 6ED9     		bls	.L337
+ 2047 01b6 626A     		ldr	r2, [r4, #36]
+ 2048 01b8 0A3B     		subs	r3, r3, #10
+ 2049 01ba 02F57F42 		add	r2, r2, #65280
+ 2050 01be 092B     		cmp	r3, #9
+ 2051 01c0 6262     		str	r2, [r4, #36]
+ 2052 01c2 EB61     		str	r3, [r5, #28]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 37
+
+
+ 2053 01c4 66D9     		bls	.L337
+ 2054 01c6 0127     		movs	r7, #1
+ 2055              	.L338:
+ 2056 01c8 FF32     		adds	r2, r2, #255
+ 2057 01ca 013B     		subs	r3, r3, #1
+ 2058 01cc 6262     		str	r2, [r4, #36]
+ 2059 01ce EB61     		str	r3, [r5, #28]
+ 2060 01d0 002B     		cmp	r3, #0
+ 2061 01d2 49D0     		beq	.L339
+ 2062              	.L340:
+ 2063 01d4 7068     		ldr	r0, [r6, #4]
+ 2064 01d6 494A     		ldr	r2, .L397+28
+ 2065 01d8 1021     		movs	r1, #16
+ 2066 01da FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2067 01de 6B69     		ldr	r3, [r5, #20]
+ 2068 01e0 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2069 01e4 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2070 01e8 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 2071 01ec 8DE7     		b	.L329
+ 2072              	.L321:
+ 2073 01ee 3C4C     		ldr	r4, .L397
+ 2074 01f0 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2075 01f4 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2076 01f8 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 2077 01fc 85E7     		b	.L329
+ 2078              	.L333:
+ 2079 01fe 6B6A     		ldr	r3, [r5, #36]
+ 2080 0200 374C     		ldr	r4, .L397
+ 2081 0202 FF2B     		cmp	r3, #255
+ 2082 0204 40F2A480 		bls	.L393
+ 2083 0208 0127     		movs	r7, #1
+ 2084              	.L341:
+ 2085 020a 636A     		ldr	r3, [r4, #36]
+ 2086 020c A96A     		ldr	r1, [r5, #40]
+ 2087 020e 1B02     		lsls	r3, r3, #8
+ 2088 0210 FF29     		cmp	r1, #255
+ 2089 0212 6362     		str	r3, [r4, #36]
+ 2090 0214 40F29080 		bls	.L394
+ 2091 0218 0127     		movs	r7, #1
+ 2092              	.L342:
+ 2093 021a E96A     		ldr	r1, [r5, #44]
+ 2094 021c 1B02     		lsls	r3, r3, #8
+ 2095 021e FF29     		cmp	r1, #255
+ 2096 0220 6362     		str	r3, [r4, #36]
+ 2097 0222 7DD9     		bls	.L395
+ 2098 0224 0127     		movs	r7, #1
+ 2099              	.L343:
+ 2100 0226 296B     		ldr	r1, [r5, #48]
+ 2101 0228 1B02     		lsls	r3, r3, #8
+ 2102 022a FF29     		cmp	r1, #255
+ 2103 022c 6362     		str	r3, [r4, #36]
+ 2104 022e 69D9     		bls	.L344
+ 2105 0230 696B     		ldr	r1, [r5, #52]
+ 2106 0232 6F29     		cmp	r1, #111
+ 2107 0234 CED8     		bhi	.L340
+ 2108 0236 0127     		movs	r7, #1
+ 2109              	.L345:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 38
+
+
+ 2110 0238 6329     		cmp	r1, #99
+ 2111 023a CAB2     		uxtb	r2, r1
+ 2112 023c 88BF     		it	hi
+ 2113 023e 643A     		subhi	r2, r2, #100
+ 2114 0240 4FF00003 		mov	r3, #0
+ 2115 0244 88BF     		it	hi
+ 2116 0246 D2B2     		uxtbhi	r2, r2
+ 2117 0248 6B63     		str	r3, [r5, #52]
+ 2118 024a 88BF     		it	hi
+ 2119 024c 0423     		movhi	r3, #4
+ 2120 024e 092A     		cmp	r2, #9
+ 2121 0250 84F82930 		strb	r3, [r4, #41]
+ 2122 0254 00F28580 		bhi	.L349
+ 2123 0258 7068     		ldr	r0, [r6, #4]
+ 2124              	.L350:
+ 2125 025a 002A     		cmp	r2, #0
+ 2126 025c 40F08C80 		bne	.L396
+ 2127              	.L353:
+ 2128 0260 274A     		ldr	r2, .L397+32
+ 2129 0262 1021     		movs	r1, #16
+ 2130 0264 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2131              	.L339:
+ 2132 0268 002F     		cmp	r7, #0
+ 2133 026a B3D1     		bne	.L340
+ 2134 026c 0121     		movs	r1, #1
+ 2135 026e 2764     		str	r7, [r4, #64]
+ 2136 0270 84F84B10 		strb	r1, [r4, #75]
+ 2137 0274 6B69     		ldr	r3, [r5, #20]
+ 2138 0276 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2139 027a 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2140 027e 44E7     		b	.L329
+ 2141              	.L355:
+ 2142 0280 0126     		movs	r6, #1
+ 2143 0282 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2144 0286 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2145 028a 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 2146 028e 84F84D60 		strb	r6, [r4, #77]
+ 2147 0292 3AE7     		b	.L329
+ 2148              	.L337:
+ 2149 0294 002B     		cmp	r3, #0
+ 2150 0296 E7D0     		beq	.L339
+ 2151 0298 626A     		ldr	r2, [r4, #36]
+ 2152 029a 95E7     		b	.L338
+ 2153              	.L331:
+ 2154 029c 3046     		mov	r0, r6
+ 2155 029e FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 2156 02a2 4D28     		cmp	r0, #77
+ 2157 02a4 10D0     		beq	.L332
+ 2158 02a6 00F0FD00 		and	r0, r0, #253
+ 2159 02aa 5028     		cmp	r0, #80
+ 2160 02ac 0CD0     		beq	.L332
+ 2161 02ae 0123     		movs	r3, #1
+ 2162 02b0 84F84930 		strb	r3, [r4, #73]
+ 2163 02b4 22E7     		b	.L390
+ 2164              	.L334:
+ 2165 02b6 A3F57A73 		sub	r3, r3, #1000
+ 2166 02ba 4FF07F42 		mov	r2, #-16777216
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 39
+
+
+ 2167 02be 6262     		str	r2, [r4, #36]
+ 2168 02c0 EB61     		str	r3, [r5, #28]
+ 2169 02c2 69E7     		b	.L335
+ 2170              	.L365:
+ 2171 02c4 0027     		movs	r7, #0
+ 2172 02c6 74E7     		b	.L336
+ 2173              	.L332:
+ 2174 02c8 0323     		movs	r3, #3
+ 2175 02ca 84F84430 		strb	r3, [r4, #68]
+ 2176 02ce 6B69     		ldr	r3, [r5, #20]
+ 2177 02d0 94F84800 		ldrb	r0, [r4, #72]	@ zero_extendqisi2
+ 2178 02d4 94F84A20 		ldrb	r2, [r4, #74]	@ zero_extendqisi2
+ 2179 02d8 94F84B10 		ldrb	r1, [r4, #75]	@ zero_extendqisi2
+ 2180 02dc 15E7     		b	.L329
+ 2181              	.L398:
+ 2182 02de 00BF     		.align	2
+ 2183              	.L397:
+ 2184 02e0 00000000 		.word	.LANCHOR1
+ 2185 02e4 00000000 		.word	reprap
+ 2186 02e8 AC000000 		.word	.LC26
+ 2187 02ec 00000000 		.word	.LC23
+ 2188 02f0 B8000000 		.word	.LC27
+ 2189 02f4 00000000 		.word	.LC25
+ 2190 02f8 D0000000 		.word	.LC28
+ 2191 02fc 24000000 		.word	.LC24
+ 2192 0300 10010000 		.word	.LC33
+ 2193              	.L344:
+ 2194 0304 1944     		add	r1, r1, r3
+ 2195 0306 CBB2     		uxtb	r3, r1
+ 2196 0308 6162     		str	r1, [r4, #36]
+ 2197 030a 244A     		ldr	r2, .L399
+ 2198 030c 7068     		ldr	r0, [r6, #4]
+ 2199 030e 1021     		movs	r1, #16
+ 2200 0310 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2201 0314 696B     		ldr	r1, [r5, #52]
+ 2202 0316 0023     		movs	r3, #0
+ 2203 0318 6F29     		cmp	r1, #111
+ 2204 031a 2B63     		str	r3, [r5, #48]
+ 2205 031c A4D8     		bhi	.L339
+ 2206 031e 8BE7     		b	.L345
+ 2207              	.L395:
+ 2208 0320 1944     		add	r1, r1, r3
+ 2209 0322 CBB2     		uxtb	r3, r1
+ 2210 0324 6162     		str	r1, [r4, #36]
+ 2211 0326 1E4A     		ldr	r2, .L399+4
+ 2212 0328 7068     		ldr	r0, [r6, #4]
+ 2213 032a 1021     		movs	r1, #16
+ 2214 032c FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2215 0330 0023     		movs	r3, #0
+ 2216 0332 EB62     		str	r3, [r5, #44]
+ 2217 0334 636A     		ldr	r3, [r4, #36]
+ 2218 0336 76E7     		b	.L343
+ 2219              	.L394:
+ 2220 0338 1944     		add	r1, r1, r3
+ 2221 033a CBB2     		uxtb	r3, r1
+ 2222 033c 6162     		str	r1, [r4, #36]
+ 2223 033e 194A     		ldr	r2, .L399+8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 40
+
+
+ 2224 0340 7068     		ldr	r0, [r6, #4]
+ 2225 0342 1021     		movs	r1, #16
+ 2226 0344 FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2227 0348 0023     		movs	r3, #0
+ 2228 034a AB62     		str	r3, [r5, #40]
+ 2229 034c 636A     		ldr	r3, [r4, #36]
+ 2230 034e 64E7     		b	.L342
+ 2231              	.L393:
+ 2232 0350 154A     		ldr	r2, .L399+12
+ 2233 0352 7068     		ldr	r0, [r6, #4]
+ 2234 0354 6362     		str	r3, [r4, #36]
+ 2235 0356 1021     		movs	r1, #16
+ 2236 0358 0027     		movs	r7, #0
+ 2237 035a FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2238 035e 6F62     		str	r7, [r5, #36]
+ 2239 0360 53E7     		b	.L341
+ 2240              	.L349:
+ 2241 0362 0A3A     		subs	r2, r2, #10
+ 2242 0364 991C     		adds	r1, r3, #2
+ 2243 0366 D2B2     		uxtb	r2, r2
+ 2244 0368 C9B2     		uxtb	r1, r1
+ 2245 036a 092A     		cmp	r2, #9
+ 2246 036c 84F82910 		strb	r1, [r4, #41]
+ 2247 0370 7068     		ldr	r0, [r6, #4]
+ 2248 0372 0DD8     		bhi	.L351
+ 2249 0374 0B46     		mov	r3, r1
+ 2250 0376 70E7     		b	.L350
+ 2251              	.L396:
+ 2252 0378 0133     		adds	r3, r3, #1
+ 2253 037a DBB2     		uxtb	r3, r3
+ 2254 037c 012A     		cmp	r2, #1
+ 2255 037e 84F82930 		strb	r3, [r4, #41]
+ 2256 0382 3FF46DAF 		beq	.L353
+ 2257              	.L364:
+ 2258 0386 094A     		ldr	r2, .L399+16
+ 2259 0388 1021     		movs	r1, #16
+ 2260 038a FFF7FEFF 		bl	_ZN8Platform8MessageFE11MessageTypePKcz
+ 2261 038e 21E7     		b	.L340
+ 2262              	.L351:
+ 2263 0390 0333     		adds	r3, r3, #3
+ 2264 0392 DBB2     		uxtb	r3, r3
+ 2265 0394 84F82930 		strb	r3, [r4, #41]
+ 2266 0398 F5E7     		b	.L364
+ 2267              	.L400:
+ 2268 039a 00BF     		.align	2
+ 2269              	.L399:
+ 2270 039c 04010000 		.word	.LC32
+ 2271 03a0 F8000000 		.word	.LC31
+ 2272 03a4 EC000000 		.word	.LC30
+ 2273 03a8 E0000000 		.word	.LC29
+ 2274 03ac 10010000 		.word	.LC33
+ 2275              		.size	_ZN7LynxMod8LynxM969Ev, .-_ZN7LynxMod8LynxM969Ev
+ 2276              		.section	.text._ZN7LynxMod4SpinEv,"ax",%progbits
+ 2277              		.align	1
+ 2278              		.p2align 2,,3
+ 2279              		.global	_ZN7LynxMod4SpinEv
+ 2280              		.syntax unified
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 41
+
+
+ 2281              		.thumb
+ 2282              		.thumb_func
+ 2283              		.fpu fpv4-sp-d16
+ 2284              		.type	_ZN7LynxMod4SpinEv, %function
+ 2285              	_ZN7LynxMod4SpinEv:
+ 2286              		@ args = 0, pretend = 0, frame = 8
+ 2287              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2288 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 2289 0004 C44E     		ldr	r6, .L502
+ 2290 0006 C54C     		ldr	r4, .L502+4
+ 2291 0008 C54F     		ldr	r7, .L502+8
+ 2292 000a 83B0     		sub	sp, sp, #12
+ 2293 000c 0546     		mov	r5, r0
+ 2294 000e FFF7FEFF 		bl	millis
+ 2295 0012 3368     		ldr	r3, [r6]
+ 2296 0014 A269     		ldr	r2, [r4, #24]
+ 2297 0016 3860     		str	r0, [r7]
+ 2298 0018 C01A     		subs	r0, r0, r3
+ 2299 001a 9042     		cmp	r0, r2
+ 2300 001c 7AD3     		bcc	.L401
+ 2301 001e C148     		ldr	r0, .L502+12
+ 2302 0020 0368     		ldr	r3, [r0]
+ 2303 0022 0133     		adds	r3, r3, #1
+ 2304 0024 41F28831 		movw	r1, #5000
+ 2305 0028 B1FBF2F2 		udiv	r2, r1, r2
+ 2306 002c 9342     		cmp	r3, r2
+ 2307 002e 0360     		str	r3, [r0]
+ 2308 0030 6BD8     		bhi	.L488
+ 2309 0032 002B     		cmp	r3, #0
+ 2310 0034 6BD0     		beq	.L404
+ 2311              	.L405:
+ 2312 0036 BC48     		ldr	r0, .L502+16
+ 2313 0038 FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 2314 003c 4438     		subs	r0, r0, #68
+ 2315 003e C0B2     		uxtb	r0, r0
+ 2316 0040 1028     		cmp	r0, #16
+ 2317 0042 40F2A680 		bls	.L489
+ 2318              	.L406:
+ 2319 0046 0123     		movs	r3, #1
+ 2320 0048 84F84630 		strb	r3, [r4, #70]
+ 2321              	.L407:
+ 2322 004c 6320     		movs	r0, #99
+ 2323 004e FFF7FEFF 		bl	digitalRead
+ 2324 0052 E060     		str	r0, [r4, #12]
+ 2325 0054 2846     		mov	r0, r5
+ 2326 0056 FFF7FEFF 		bl	_ZN7LynxMod8LynxM968Ev
+ 2327 005a 4FF00008 		mov	r8, #0
+ 2328 005e 2846     		mov	r0, r5
+ 2329 0060 FFF7FEFF 		bl	_ZN7LynxMod8LynxM969Ev
+ 2330 0064 2846     		mov	r0, r5
+ 2331 0066 C5F82080 		str	r8, [r5, #32]
+ 2332 006a FFF7FEFF 		bl	_ZN7LynxMod14SetTempSafeLedEv
+ 2333 006e 2846     		mov	r0, r5
+ 2334 0070 FFF7FEFF 		bl	_ZN7LynxMod23SetSafeHeatedChamberFanEv
+ 2335 0074 2846     		mov	r0, r5
+ 2336 0076 FFF7FEFF 		bl	_ZN7LynxMod12VerrouillageEv
+ 2337 007a AB48     		ldr	r0, .L502+16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 42
+
+
+ 2338 007c FFF7FEFF 		bl	_ZNK6RepRap18GetStatusCharacterEv
+ 2339 0080 6379     		ldrb	r3, [r4, #5]	@ zero_extendqisi2
+ 2340 0082 8146     		mov	r9, r0
+ 2341 0084 002B     		cmp	r3, #0
+ 2342 0086 6ED1     		bne	.L490
+ 2343 0088 94F84A30 		ldrb	r3, [r4, #74]	@ zero_extendqisi2
+ 2344 008c 002B     		cmp	r3, #0
+ 2345 008e 40F08B80 		bne	.L491
+ 2346 0092 94F84B30 		ldrb	r3, [r4, #75]	@ zero_extendqisi2
+ 2347 0096 002B     		cmp	r3, #0
+ 2348 0098 3FD0     		beq	.L416
+ 2349 009a 94F82930 		ldrb	r3, [r4, #41]	@ zero_extendqisi2
+ 2350 009e 84F82830 		strb	r3, [r4, #40]
+ 2351              	.L410:
+ 2352 00a2 94F84830 		ldrb	r3, [r4, #72]	@ zero_extendqisi2
+ 2353 00a6 002B     		cmp	r3, #0
+ 2354 00a8 4DD1     		bne	.L492
+ 2355 00aa 94F84D30 		ldrb	r3, [r4, #77]	@ zero_extendqisi2
+ 2356 00ae 002B     		cmp	r3, #0
+ 2357 00b0 00F0BE80 		beq	.L493
+ 2358 00b4 94F84A30 		ldrb	r3, [r4, #74]	@ zero_extendqisi2
+ 2359 00b8 002B     		cmp	r3, #0
+ 2360 00ba 40F04981 		bne	.L494
+ 2361 00be 94F84B30 		ldrb	r3, [r4, #75]	@ zero_extendqisi2
+ 2362 00c2 002B     		cmp	r3, #0
+ 2363 00c4 40F02181 		bne	.L495
+ 2364 00c8 B9F1480F 		cmp	r9, #72
+ 2365 00cc 00F07681 		beq	.L441
+ 2366 00d0 B9F1530F 		cmp	r9, #83
+ 2367 00d4 00F07281 		beq	.L441
+ 2368 00d8 B9F1420F 		cmp	r9, #66
+ 2369 00dc 00F09881 		beq	.L445
+ 2370 00e0 B9F1490F 		cmp	r9, #73
+ 2371 00e4 00F09481 		beq	.L445
+ 2372 00e8 A9F14403 		sub	r3, r9, #68
+ 2373 00ec DBB2     		uxtb	r3, r3
+ 2374 00ee 102B     		cmp	r3, #16
+ 2375 00f0 40F29881 		bls	.L449
+ 2376 00f4 E168     		ldr	r1, [r4, #12]
+ 2377              	.L450:
+ 2378 00f6 0029     		cmp	r1, #0
+ 2379 00f8 00F0DA81 		beq	.L496
+ 2380 00fc FF23     		movs	r3, #255
+ 2381 00fe 2361     		str	r3, [r4, #16]
+ 2382              	.L456:
+ 2383 0100 4023     		movs	r3, #64
+ 2384 0102 2169     		ldr	r1, [r4, #16]
+ 2385 0104 84F82A30 		strb	r3, [r4, #42]
+ 2386 0108 23E0     		b	.L426
+ 2387              	.L488:
+ 2388 010a 0023     		movs	r3, #0
+ 2389 010c 0360     		str	r3, [r0]
+ 2390              	.L404:
+ 2391 010e 0323     		movs	r3, #3
+ 2392 0110 2B74     		strb	r3, [r5, #16]
+ 2393 0112 90E7     		b	.L405
+ 2394              	.L401:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 43
+
+
+ 2395 0114 03B0     		add	sp, sp, #12
+ 2396              		@ sp needed
+ 2397 0116 BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 2398              	.L416:
+ 2399 011a 94F84430 		ldrb	r3, [r4, #68]	@ zero_extendqisi2
+ 2400 011e 013B     		subs	r3, r3, #1
+ 2401 0120 012B     		cmp	r3, #1
+ 2402 0122 40F25681 		bls	.L497
+ 2403 0126 236A     		ldr	r3, [r4, #32]
+ 2404 0128 012B     		cmp	r3, #1
+ 2405 012a 00F05781 		beq	.L482
+ 2406 012e 94F84C20 		ldrb	r2, [r4, #76]	@ zero_extendqisi2
+ 2407 0132 22B9     		cbnz	r2, .L422
+ 2408 0134 022B     		cmp	r3, #2
+ 2409 0136 00F05181 		beq	.L482
+ 2410              	.L423:
+ 2411 013a 0723     		movs	r3, #7
+ 2412 013c 75E0     		b	.L483
+ 2413              	.L422:
+ 2414 013e 0223     		movs	r3, #2
+ 2415 0140 84F82830 		strb	r3, [r4, #40]
+ 2416 0144 ADE7     		b	.L410
+ 2417              	.L492:
+ 2418 0146 4FF0FF31 		mov	r1, #-1
+ 2419 014a 4023     		movs	r3, #64
+ 2420 014c 2161     		str	r1, [r4, #16]
+ 2421 014e 84F82A30 		strb	r3, [r4, #42]
+ 2422              	.L426:
+ 2423 0152 3868     		ldr	r0, [r7]
+ 2424 0154 94F82820 		ldrb	r2, [r4, #40]	@ zero_extendqisi2
+ 2425 0158 3060     		str	r0, [r6]
+ 2426 015a 2846     		mov	r0, r5
+ 2427 015c 03B0     		add	sp, sp, #12
+ 2428              		@ sp needed
+ 2429 015e BDE8F043 		pop	{r4, r5, r6, r7, r8, r9, lr}
+ 2430 0162 FFF7FEBF 		b	_ZN7LynxMod10LynxModComEmcc
+ 2431              	.L490:
+ 2432 0166 FFF7FEFF 		bl	millis
+ 2433 016a 704B     		ldr	r3, .L502+20
+ 2434 016c A3FB0023 		umull	r2, r3, r3, r0
+ 2435 0170 DB09     		lsrs	r3, r3, #7
+ 2436 0172 4FF4FA62 		mov	r2, #2000
+ 2437 0176 02FB1303 		mls	r3, r2, r3, r0
+ 2438 017a B3F5A56F 		cmp	r3, #1320
+ 2439 017e 05D3     		bcc	.L409
+ 2440 0180 B3F5C36F 		cmp	r3, #1560
+ 2441 0184 80F00C81 		bcs	.L498
+ 2442 0188 4FF00708 		mov	r8, #7
+ 2443              	.L409:
+ 2444 018c 84F82880 		strb	r8, [r4, #40]
+ 2445 0190 87E7     		b	.L410
+ 2446              	.L489:
+ 2447 0192 674B     		ldr	r3, .L502+24
+ 2448 0194 23FA00F0 		lsr	r0, r3, r0
+ 2449 0198 C043     		mvns	r0, r0
+ 2450 019a 10F00100 		ands	r0, r0, #1
+ 2451 019e 7FF452AF 		bne	.L406
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 44
+
+
+ 2452 01a2 84F84600 		strb	r0, [r4, #70]
+ 2453 01a6 51E7     		b	.L407
+ 2454              	.L491:
+ 2455 01a8 FFF7FEFF 		bl	millis
+ 2456 01ac 614A     		ldr	r2, .L502+28
+ 2457 01ae C308     		lsrs	r3, r0, #3
+ 2458 01b0 A2FB0323 		umull	r2, r3, r2, r3
+ 2459 01b4 5B0A     		lsrs	r3, r3, #9
+ 2460 01b6 46F67812 		movw	r2, #27000
+ 2461 01ba 02FB1303 		mls	r3, r2, r3, r0
+ 2462 01be 40F6B732 		movw	r2, #2999
+ 2463 01c2 9342     		cmp	r3, r2
+ 2464 01c4 40F21D81 		bls	.L460
+ 2465 01c8 41F26F72 		movw	r2, #5999
+ 2466 01cc 9342     		cmp	r3, r2
+ 2467 01ce 40F21A81 		bls	.L461
+ 2468 01d2 42F22732 		movw	r2, #8999
+ 2469 01d6 9342     		cmp	r3, r2
+ 2470 01d8 40F2F980 		bls	.L462
+ 2471 01dc 42F6DF62 		movw	r2, #11999
+ 2472 01e0 9342     		cmp	r3, r2
+ 2473 01e2 40F21D81 		bls	.L463
+ 2474 01e6 43F69722 		movw	r2, #14999
+ 2475 01ea 9342     		cmp	r3, r2
+ 2476 01ec 40F23681 		bls	.L464
+ 2477 01f0 44F24F62 		movw	r2, #17999
+ 2478 01f4 9342     		cmp	r3, r2
+ 2479 01f6 40F24081 		bls	.L465
+ 2480 01fa 45F20722 		movw	r2, #20999
+ 2481 01fe 9342     		cmp	r3, r2
+ 2482 0200 9BD9     		bls	.L423
+ 2483 0202 45F6BF52 		movw	r2, #23999
+ 2484 0206 9342     		cmp	r3, r2
+ 2485 0208 00F23981 		bhi	.L413
+ 2486 020c FFF7FEFF 		bl	millis
+ 2487 0210 464B     		ldr	r3, .L502+20
+ 2488 0212 A3FB0023 		umull	r2, r3, r3, r0
+ 2489 0216 9B09     		lsrs	r3, r3, #6
+ 2490 0218 4FF47A72 		mov	r2, #1000
+ 2491 021c 02FB1303 		mls	r3, r2, r3, r0
+ 2492 0220 B3F5FA7F 		cmp	r3, #500
+ 2493 0224 2CBF     		ite	cs
+ 2494 0226 0623     		movcs	r3, #6
+ 2495 0228 0023     		movcc	r3, #0
+ 2496              	.L483:
+ 2497 022a 84F82830 		strb	r3, [r4, #40]
+ 2498 022e 38E7     		b	.L410
+ 2499              	.L493:
+ 2500 0230 FFF7FEFF 		bl	millis
+ 2501 0234 404B     		ldr	r3, .L502+32
+ 2502 0236 DFED416A 		vldr.32	s13, .L502+36
+ 2503 023a A3FB0023 		umull	r2, r3, r3, r0
+ 2504 023e 1B0B     		lsrs	r3, r3, #12
+ 2505 0240 41F65832 		movw	r2, #7000
+ 2506 0244 02FB1303 		mls	r3, r2, r3, r0
+ 2507 0248 40F6AB51 		movw	r1, #3499
+ 2508 024c 8B42     		cmp	r3, r1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 45
+
+
+ 2509 024e 88BF     		it	hi
+ 2510 0250 D31A     		subhi	r3, r2, r3
+ 2511 0252 07EE903A 		vmov	s15, r3	@ int
+ 2512 0256 F8EEE77A 		vcvt.f32.s32	s15, s15
+ 2513 025a 87EEA67A 		vdiv.f32	s14, s15, s13
+ 2514 025e DFED387A 		vldr.32	s15, .L502+40
+ 2515 0262 67EE277A 		vmul.f32	s15, s14, s15
+ 2516 0266 FCEEE77A 		vcvt.u32.f32	s15, s15
+ 2517 026a CDED017A 		vstr.32	s15, [sp, #4]	@ int
+ 2518 026e 9DF80410 		ldrb	r1, [sp, #4]	@ zero_extendqisi2
+ 2519 0272 4FEA0128 		lsl	r8, r1, #8
+ 2520 0276 FFF7FEFF 		bl	millis
+ 2521 027a 2C4B     		ldr	r3, .L502+20
+ 2522 027c DFED316A 		vldr.32	s13, .L502+44
+ 2523 0280 A3FB0023 		umull	r2, r3, r3, r0
+ 2524 0284 DB09     		lsrs	r3, r3, #7
+ 2525 0286 4FF4FA62 		mov	r2, #2000
+ 2526 028a 02FB1303 		mls	r3, r2, r3, r0
+ 2527 028e B3F57A7F 		cmp	r3, #1000
+ 2528 0292 28BF     		it	cs
+ 2529 0294 C3F5FA63 		rsbcs	r3, r3, #2000
+ 2530 0298 07EE903A 		vmov	s15, r3	@ int
+ 2531 029c F8EEE77A 		vcvt.f32.s32	s15, s15
+ 2532 02a0 87EEA67A 		vdiv.f32	s14, s15, s13
+ 2533 02a4 DFED267A 		vldr.32	s15, .L502+40
+ 2534 02a8 67EE277A 		vmul.f32	s15, s14, s15
+ 2535 02ac FCEEE77A 		vcvt.u32.f32	s15, s15
+ 2536 02b0 17EE901A 		vmov	r1, s15	@ int
+ 2537 02b4 58FA81F1 		uxtab	r1, r8, r1
+ 2538 02b8 4FEA0128 		lsl	r8, r1, #8
+ 2539 02bc FFF7FEFF 		bl	millis
+ 2540 02c0 214B     		ldr	r3, .L502+48
+ 2541 02c2 DFED226A 		vldr.32	s13, .L502+52
+ 2542 02c6 A3FB0023 		umull	r2, r3, r3, r0
+ 2543 02ca 9B09     		lsrs	r3, r3, #6
+ 2544 02cc 40F6B832 		movw	r2, #3000
+ 2545 02d0 02FB1303 		mls	r3, r2, r3, r0
+ 2546 02d4 40F2DB51 		movw	r1, #1499
+ 2547 02d8 8B42     		cmp	r3, r1
+ 2548 02da 88BF     		it	hi
+ 2549 02dc D31A     		subhi	r3, r2, r3
+ 2550 02de 07EE903A 		vmov	s15, r3	@ int
+ 2551 02e2 F8EEE77A 		vcvt.f32.s32	s15, s15
+ 2552 02e6 2023     		movs	r3, #32
+ 2553 02e8 87EEA67A 		vdiv.f32	s14, s15, s13
+ 2554 02ec 84F82A30 		strb	r3, [r4, #42]
+ 2555 02f0 DFED137A 		vldr.32	s15, .L502+40
+ 2556 02f4 67EE277A 		vmul.f32	s15, s14, s15
+ 2557 02f8 FCEEE77A 		vcvt.u32.f32	s15, s15
+ 2558 02fc 17EE901A 		vmov	r1, s15	@ int
+ 2559 0300 58FA81F1 		uxtab	r1, r8, r1
+ 2560 0304 0902     		lsls	r1, r1, #8
+ 2561 0306 2161     		str	r1, [r4, #16]
+ 2562 0308 23E7     		b	.L426
+ 2563              	.L495:
+ 2564 030a 616A     		ldr	r1, [r4, #36]
+ 2565 030c 2161     		str	r1, [r4, #16]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 46
+
+
+ 2566 030e 4023     		movs	r3, #64
+ 2567 0310 84F82A30 		strb	r3, [r4, #42]
+ 2568 0314 1DE7     		b	.L426
+ 2569              	.L503:
+ 2570 0316 00BF     		.align	2
+ 2571              	.L502:
+ 2572 0318 00000000 		.word	.LANCHOR17
+ 2573 031c 00000000 		.word	.LANCHOR1
+ 2574 0320 00000000 		.word	.LANCHOR16
+ 2575 0324 00000000 		.word	.LANCHOR18
+ 2576 0328 00000000 		.word	reprap
+ 2577 032c D34D6210 		.word	274877907
+ 2578 0330 01520100 		.word	86529
+ 2579 0334 CF0DD626 		.word	651562447
+ 2580 0338 1BECCB95 		.word	-1781797861
+ 2581 033c 00C05A45 		.word	1163575296
+ 2582 0340 0000C842 		.word	1120403456
+ 2583 0344 00007A44 		.word	1148846080
+ 2584 0348 F1197605 		.word	91625969
+ 2585 034c 0080BB44 		.word	1153138688
+ 2586              	.L494:
+ 2587 0350 FFF7FEFF 		bl	millis
+ 2588 0354 584A     		ldr	r2, .L504
+ 2589 0356 C308     		lsrs	r3, r0, #3
+ 2590 0358 A2FB0323 		umull	r2, r3, r2, r3
+ 2591 035c 1B0A     		lsrs	r3, r3, #8
+ 2592 035e 46F2A812 		movw	r2, #25000
+ 2593 0362 02FB1303 		mls	r3, r2, r3, r0
+ 2594 0366 41F28732 		movw	r2, #4999
+ 2595 036a 9342     		cmp	r3, r2
+ 2596 036c 1ED9     		bls	.L499
+ 2597 036e 42F20F72 		movw	r2, #9999
+ 2598 0372 9342     		cmp	r3, r2
+ 2599 0374 C3EB0321 		rsb	r1, r3, r3, lsl #8
+ 2600 0378 60D9     		bls	.L500
+ 2601 037a 43F69722 		movw	r2, #14999
+ 2602 037e 9342     		cmp	r3, r2
+ 2603 0380 64D9     		bls	.L501
+ 2604 0382 44F61F62 		movw	r2, #19999
+ 2605 0386 9342     		cmp	r3, r2
+ 2606 0388 6AD8     		bhi	.L439
+ 2607 038a 4C4B     		ldr	r3, .L504+4
+ 2608 038c 4C4A     		ldr	r2, .L504+8
+ 2609 038e 0B44     		add	r3, r3, r1
+ 2610 0390 A2FB0323 		umull	r2, r3, r2, r3
+ 2611 0394 190B     		lsrs	r1, r3, #12
+ 2612              	.L436:
+ 2613 0396 1023     		movs	r3, #16
+ 2614 0398 2161     		str	r1, [r4, #16]
+ 2615 039a 84F82A30 		strb	r3, [r4, #42]
+ 2616 039e D8E6     		b	.L426
+ 2617              	.L498:
+ 2618 03a0 B3F5DC6F 		cmp	r3, #1760
+ 2619 03a4 28BF     		it	cs
+ 2620 03a6 4FF00708 		movcs	r8, #7
+ 2621 03aa EFE6     		b	.L409
+ 2622              	.L499:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 47
+
+
+ 2623 03ac 4449     		ldr	r1, .L504+8
+ 2624 03ae C3EB0323 		rsb	r3, r3, r3, lsl #8
+ 2625 03b2 A1FB0331 		umull	r3, r1, r1, r3
+ 2626 03b6 090B     		lsrs	r1, r1, #12
+ 2627 03b8 0906     		lsls	r1, r1, #24
+ 2628 03ba ECE7     		b	.L436
+ 2629              	.L441:
+ 2630 03bc E368     		ldr	r3, [r4, #12]
+ 2631 03be 23B3     		cbz	r3, .L443
+ 2632 03c0 8F23     		movs	r3, #143
+ 2633 03c2 2361     		str	r3, [r4, #16]
+ 2634              	.L444:
+ 2635 03c4 2023     		movs	r3, #32
+ 2636 03c6 84F82A30 		strb	r3, [r4, #42]
+ 2637 03ca 2169     		ldr	r1, [r4, #16]
+ 2638 03cc C1E6     		b	.L426
+ 2639              	.L462:
+ 2640 03ce 0623     		movs	r3, #6
+ 2641 03d0 2BE7     		b	.L483
+ 2642              	.L497:
+ 2643 03d2 94F84630 		ldrb	r3, [r4, #70]	@ zero_extendqisi2
+ 2644 03d6 002B     		cmp	r3, #0
+ 2645 03d8 7FF4B1AE 		bne	.L422
+ 2646              	.L482:
+ 2647 03dc FFF7FEFF 		bl	millis
+ 2648 03e0 384B     		ldr	r3, .L504+12
+ 2649 03e2 A3FB0023 		umull	r2, r3, r3, r0
+ 2650 03e6 9B09     		lsrs	r3, r3, #6
+ 2651 03e8 40F6B832 		movw	r2, #3000
+ 2652 03ec 02FB1303 		mls	r3, r2, r3, r0
+ 2653 03f0 40F2DB52 		movw	r2, #1499
+ 2654 03f4 9342     		cmp	r3, r2
+ 2655 03f6 8CBF     		ite	hi
+ 2656 03f8 0623     		movhi	r3, #6
+ 2657 03fa 0023     		movls	r3, #0
+ 2658 03fc 84F82830 		strb	r3, [r4, #40]
+ 2659 0400 4FE6     		b	.L410
+ 2660              	.L460:
+ 2661 0402 0423     		movs	r3, #4
+ 2662 0404 11E7     		b	.L483
+ 2663              	.L461:
+ 2664 0406 0223     		movs	r3, #2
+ 2665 0408 0FE7     		b	.L483
+ 2666              	.L443:
+ 2667 040a FF23     		movs	r3, #255
+ 2668 040c 2361     		str	r3, [r4, #16]
+ 2669 040e D9E7     		b	.L444
+ 2670              	.L445:
+ 2671 0410 E368     		ldr	r3, [r4, #12]
+ 2672 0412 83B1     		cbz	r3, .L487
+ 2673              	.L454:
+ 2674 0414 FF21     		movs	r1, #255
+ 2675 0416 2161     		str	r1, [r4, #16]
+ 2676              	.L455:
+ 2677 0418 2023     		movs	r3, #32
+ 2678 041a 84F82A30 		strb	r3, [r4, #42]
+ 2679 041e 98E6     		b	.L426
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 48
+
+
+ 2680              	.L463:
+ 2681 0420 0123     		movs	r3, #1
+ 2682 0422 02E7     		b	.L483
+ 2683              	.L449:
+ 2684 0424 284A     		ldr	r2, .L504+16
+ 2685 0426 E168     		ldr	r1, [r4, #12]
+ 2686 0428 22FA03F3 		lsr	r3, r2, r3
+ 2687 042c DB07     		lsls	r3, r3, #31
+ 2688 042e 7FF562AE 		bpl	.L450
+ 2689 0432 0029     		cmp	r1, #0
+ 2690 0434 EED0     		beq	.L454
+ 2691              	.L487:
+ 2692 0436 8F21     		movs	r1, #143
+ 2693 0438 2161     		str	r1, [r4, #16]
+ 2694 043a EDE7     		b	.L455
+ 2695              	.L500:
+ 2696 043c 234B     		ldr	r3, .L504+20
+ 2697 043e 204A     		ldr	r2, .L504+8
+ 2698 0440 0B44     		add	r3, r3, r1
+ 2699 0442 A2FB0331 		umull	r3, r1, r2, r3
+ 2700 0446 090B     		lsrs	r1, r1, #12
+ 2701 0448 0904     		lsls	r1, r1, #16
+ 2702 044a A4E7     		b	.L436
+ 2703              	.L501:
+ 2704 044c 204B     		ldr	r3, .L504+24
+ 2705 044e 1C4A     		ldr	r2, .L504+8
+ 2706 0450 0B44     		add	r3, r3, r1
+ 2707 0452 A2FB0331 		umull	r3, r1, r2, r3
+ 2708 0456 090B     		lsrs	r1, r1, #12
+ 2709 0458 0902     		lsls	r1, r1, #8
+ 2710 045a 9CE7     		b	.L436
+ 2711              	.L464:
+ 2712 045c 0523     		movs	r3, #5
+ 2713 045e E4E6     		b	.L483
+ 2714              	.L439:
+ 2715 0460 1C4B     		ldr	r3, .L504+28
+ 2716 0462 174A     		ldr	r2, .L504+8
+ 2717 0464 0B44     		add	r3, r3, r1
+ 2718 0466 A2FB0323 		umull	r2, r3, r2, r3
+ 2719 046a 1B0B     		lsrs	r3, r3, #12
+ 2720 046c 1904     		lsls	r1, r3, #16
+ 2721 046e 01EB0361 		add	r1, r1, r3, lsl #24
+ 2722 0472 1944     		add	r1, r1, r3
+ 2723 0474 01EB0321 		add	r1, r1, r3, lsl #8
+ 2724 0478 8DE7     		b	.L436
+ 2725              	.L465:
+ 2726 047a 0323     		movs	r3, #3
+ 2727 047c D5E6     		b	.L483
+ 2728              	.L413:
+ 2729 047e FFF7FEFF 		bl	millis
+ 2730 0482 154B     		ldr	r3, .L504+32
+ 2731 0484 A3FB0023 		umull	r2, r3, r3, r0
+ 2732 0488 9B09     		lsrs	r3, r3, #6
+ 2733 048a 4FF47A72 		mov	r2, #1000
+ 2734 048e 02FB1303 		mls	r3, r2, r3, r0
+ 2735 0492 B3F5257F 		cmp	r3, #660
+ 2736 0496 09D3     		bcc	.L468
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 49
+
+
+ 2737 0498 B3F5437F 		cmp	r3, #780
+ 2738 049c FFF44DAE 		bcc	.L423
+ 2739 04a0 B3F55C7F 		cmp	r3, #880
+ 2740 04a4 2CBF     		ite	cs
+ 2741 04a6 0723     		movcs	r3, #7
+ 2742 04a8 0023     		movcc	r3, #0
+ 2743 04aa BEE6     		b	.L483
+ 2744              	.L468:
+ 2745 04ac 0023     		movs	r3, #0
+ 2746 04ae BCE6     		b	.L483
+ 2747              	.L496:
+ 2748 04b0 8F23     		movs	r3, #143
+ 2749 04b2 2361     		str	r3, [r4, #16]
+ 2750 04b4 24E6     		b	.L456
+ 2751              	.L505:
+ 2752 04b6 00BF     		.align	2
+ 2753              	.L504:
+ 2754 04b8 89B5F814 		.word	351843721
+ 2755 04bc 98A2C5FF 		.word	-3825000
+ 2756 04c0 5917B7D1 		.word	-776530087
+ 2757 04c4 F1197605 		.word	91625969
+ 2758 04c8 01520100 		.word	86529
+ 2759 04cc 888BECFF 		.word	-1275000
+ 2760 04d0 1017D9FF 		.word	-2550000
+ 2761 04d4 202EB2FF 		.word	-5100000
+ 2762 04d8 D34D6210 		.word	274877907
+ 2763              		.size	_ZN7LynxMod4SpinEv, .-_ZN7LynxMod4SpinEv
+ 2764              		.section	.text._ZN7LynxMod9LynxCheckER11GCodeBuffer,"ax",%progbits
+ 2765              		.align	1
+ 2766              		.p2align 2,,3
+ 2767              		.global	_ZN7LynxMod9LynxCheckER11GCodeBuffer
+ 2768              		.syntax unified
+ 2769              		.thumb
+ 2770              		.thumb_func
+ 2771              		.fpu fpv4-sp-d16
+ 2772              		.type	_ZN7LynxMod9LynxCheckER11GCodeBuffer, %function
+ 2773              	_ZN7LynxMod9LynxCheckER11GCodeBuffer:
+ 2774              		@ args = 0, pretend = 0, frame = 0
+ 2775              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2776 0000 30B5     		push	{r4, r5, lr}
+ 2777 0002 037C     		ldrb	r3, [r0, #16]	@ zero_extendqisi2
+ 2778 0004 013B     		subs	r3, r3, #1
+ 2779 0006 83B0     		sub	sp, sp, #12
+ 2780 0008 0446     		mov	r4, r0
+ 2781 000a 032B     		cmp	r3, #3
+ 2782 000c 0AD8     		bhi	.L507
+ 2783 000e DFE803F0 		tbb	[pc, r3]
+ 2784              	.L509:
+ 2785 0012 02       		.byte	(.L508-.L509)/2
+ 2786 0013 2B       		.byte	(.L510-.L509)/2
+ 2787 0014 18       		.byte	(.L511-.L509)/2
+ 2788 0015 0D       		.byte	(.L512-.L509)/2
+ 2789              		.p2align 1
+ 2790              	.L508:
+ 2791 0016 1A4B     		ldr	r3, .L517
+ 2792 0018 1A4A     		ldr	r2, .L517+4
+ 2793 001a 5869     		ldr	r0, [r3, #20]
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 50
+
+
+ 2794 001c 0023     		movs	r3, #0
+ 2795 001e 0093     		str	r3, [sp]
+ 2796 0020 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
+ 2797              	.L507:
+ 2798 0024 0023     		movs	r3, #0
+ 2799 0026 2374     		strb	r3, [r4, #16]
+ 2800 0028 03B0     		add	sp, sp, #12
+ 2801              		@ sp needed
+ 2802 002a 30BD     		pop	{r4, r5, pc}
+ 2803              	.L512:
+ 2804 002c 144B     		ldr	r3, .L517
+ 2805 002e 164A     		ldr	r2, .L517+8
+ 2806 0030 5869     		ldr	r0, [r3, #20]
+ 2807 0032 0023     		movs	r3, #0
+ 2808 0034 0093     		str	r3, [sp]
+ 2809 0036 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
+ 2810 003a 0023     		movs	r3, #0
+ 2811 003c 2374     		strb	r3, [r4, #16]
+ 2812 003e 03B0     		add	sp, sp, #12
+ 2813              		@ sp needed
+ 2814 0040 30BD     		pop	{r4, r5, pc}
+ 2815              	.L511:
+ 2816 0042 0F4D     		ldr	r5, .L517
+ 2817 0044 0123     		movs	r3, #1
+ 2818 0046 6869     		ldr	r0, [r5, #20]
+ 2819 0048 4FF0FF32 		mov	r2, #-1
+ 2820 004c 0621     		movs	r1, #6
+ 2821 004e FFF7FEFF 		bl	_ZNK6GCodes26GenerateJsonStatusResponseEii14ResponseSource
+ 2822 0052 0028     		cmp	r0, #0
+ 2823 0054 E6D0     		beq	.L507
+ 2824 0056 0146     		mov	r1, r0
+ 2825 0058 0122     		movs	r2, #1
+ 2826 005a 6868     		ldr	r0, [r5, #4]
+ 2827 005c FFF7FEFF 		bl	_ZN8Platform14AppendAuxReplyEP12OutputBufferb
+ 2828 0060 0023     		movs	r3, #0
+ 2829 0062 2374     		strb	r3, [r4, #16]
+ 2830 0064 03B0     		add	sp, sp, #12
+ 2831              		@ sp needed
+ 2832 0066 30BD     		pop	{r4, r5, pc}
+ 2833              	.L510:
+ 2834 0068 054B     		ldr	r3, .L517
+ 2835 006a 084A     		ldr	r2, .L517+12
+ 2836 006c 5869     		ldr	r0, [r3, #20]
+ 2837 006e 0023     		movs	r3, #0
+ 2838 0070 0093     		str	r3, [sp]
+ 2839 0072 FFF7FEFF 		bl	_ZN6GCodes11DoFileMacroER11GCodeBufferPKcbi
+ 2840 0076 0023     		movs	r3, #0
+ 2841 0078 2374     		strb	r3, [r4, #16]
+ 2842 007a 03B0     		add	sp, sp, #12
+ 2843              		@ sp needed
+ 2844 007c 30BD     		pop	{r4, r5, pc}
+ 2845              	.L518:
+ 2846 007e 00BF     		.align	2
+ 2847              	.L517:
+ 2848 0080 00000000 		.word	reprap
+ 2849 0084 00000000 		.word	.LC34
+ 2850 0088 20000000 		.word	.LC36
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 51
+
+
+ 2851 008c 0C000000 		.word	.LC35
+ 2852              		.size	_ZN7LynxMod9LynxCheckER11GCodeBuffer, .-_ZN7LynxMod9LynxCheckER11GCodeBuffer
+ 2853              		.section	.text.startup._GLOBAL__sub_I_warningWarmDevices,"ax",%progbits
+ 2854              		.align	1
+ 2855              		.p2align 2,,3
+ 2856              		.syntax unified
+ 2857              		.thumb
+ 2858              		.thumb_func
+ 2859              		.fpu fpv4-sp-d16
+ 2860              		.type	_GLOBAL__sub_I_warningWarmDevices, %function
+ 2861              	_GLOBAL__sub_I_warningWarmDevices:
+ 2862              		@ args = 0, pretend = 0, frame = 0
+ 2863              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2864              		@ link register save eliminated.
+ 2865 0000 30B4     		push	{r4, r5}
+ 2866 0002 184B     		ldr	r3, .L521
+ 2867 0004 0022     		movs	r2, #0
+ 2868 0006 0024     		movs	r4, #0
+ 2869 0008 7D25     		movs	r5, #125
+ 2870 000a 1A60     		str	r2, [r3]
+ 2871 000c 9A80     		strh	r2, [r3, #4]	@ movhi
+ 2872 000e 83F82920 		strb	r2, [r3, #41]
+ 2873 0012 83F82A20 		strb	r2, [r3, #42]
+ 2874 0016 83F84420 		strb	r2, [r3, #68]
+ 2875 001a 0121     		movs	r1, #1
+ 2876 001c 9D61     		str	r5, [r3, #24]
+ 2877 001e DC62     		str	r4, [r3, #44]	@ float
+ 2878 0020 03F15400 		add	r0, r3, #84
+ 2879 0024 30BC     		pop	{r4, r5}
+ 2880 0026 5A61     		str	r2, [r3, #20]
+ 2881 0028 C3E90722 		strd	r2, r2, [r3, #28]
+ 2882 002c 5A62     		str	r2, [r3, #36]
+ 2883 002e C3E90C22 		strd	r2, r2, [r3, #48]
+ 2884 0032 C3E90E22 		strd	r2, r2, [r3, #56]
+ 2885 0036 1A64     		str	r2, [r3, #64]
+ 2886 0038 83F84520 		strb	r2, [r3, #69]
+ 2887 003c 83F84720 		strb	r2, [r3, #71]
+ 2888 0040 83F84820 		strb	r2, [r3, #72]
+ 2889 0044 83F84920 		strb	r2, [r3, #73]
+ 2890 0048 83F84A20 		strb	r2, [r3, #74]
+ 2891 004c 83F84B20 		strb	r2, [r3, #75]
+ 2892 0050 83F84C20 		strb	r2, [r3, #76]
+ 2893 0054 1A65     		str	r2, [r3, #80]
+ 2894 0056 83F84610 		strb	r1, [r3, #70]
+ 2895 005a 83F84D10 		strb	r1, [r3, #77]
+ 2896 005e FFF7FEBF 		b	_ZN6LoggerC1Ev
+ 2897              	.L522:
+ 2898 0062 00BF     		.align	2
+ 2899              	.L521:
+ 2900 0064 00000000 		.word	.LANCHOR1
+ 2901              		.size	_GLOBAL__sub_I_warningWarmDevices, .-_GLOBAL__sub_I_warningWarmDevices
+ 2902              		.section	.init_array,"aw",%init_array
+ 2903              		.align	2
+ 2904 0000 00000000 		.word	_GLOBAL__sub_I_warningWarmDevices(target1)
+ 2905              		.global	waitInputDoorSafeLock
+ 2906              		.global	Modlynx
+ 2907              		.global	Transmission
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 52
+
+
+ 2908              		.global	cpt_ip
+ 2909              		.global	egg_memoire
+ 2910              		.global	egg_state
+ 2911              		.global	egg_cpt
+ 2912              		.global	tempo_ouverture
+ 2913              		.global	reprise_relache
+ 2914              		.global	reprise_cpt
+ 2915              		.global	milli_test
+ 2916              		.global	tem
+ 2917              		.global	a
+ 2918              		.global	ti
+ 2919              		.global	prev
+ 2920              		.global	now
+ 2921              		.global	logname
+ 2922              		.global	Lynxmod_Value
+ 2923              		.global	LynxMod_old
+ 2924              		.global	LynxMod_now
+ 2925              		.global	nb_err
+ 2926              		.global	memoire
+ 2927              		.global	device
+ 2928              		.global	warningWarmDevices
+ 2929              		.section	.rodata
+ 2930              		.align	2
+ 2931              		.set	.LANCHOR15,. + 0
+ 2932              	.LC0:
+ 2933 0000 30       		.byte	48
+ 2934 0001 30       		.byte	48
+ 2935 0002 30       		.byte	48
+ 2936 0003 30       		.byte	48
+ 2937 0004 30       		.byte	48
+ 2938              		.section	.bss.LynxMod_now,"aw",%nobits
+ 2939              		.align	2
+ 2940              		.set	.LANCHOR3,. + 0
+ 2941              		.type	LynxMod_now, %object
+ 2942              		.size	LynxMod_now, 4
+ 2943              	LynxMod_now:
+ 2944 0000 00000000 		.space	4
+ 2945              		.section	.bss.LynxMod_old,"aw",%nobits
+ 2946              		.align	2
+ 2947              		.set	.LANCHOR4,. + 0
+ 2948              		.type	LynxMod_old, %object
+ 2949              		.size	LynxMod_old, 4
+ 2950              	LynxMod_old:
+ 2951 0000 00000000 		.space	4
+ 2952              		.section	.bss.Modlynx,"aw",%nobits
+ 2953              		.align	2
+ 2954              		.set	.LANCHOR1,. + 0
+ 2955              		.type	Modlynx, %object
+ 2956              		.size	Modlynx, 100
+ 2957              	Modlynx:
+ 2958 0000 00000000 		.space	100
+ 2958      00000000 
+ 2958      00000000 
+ 2958      00000000 
+ 2958      00000000 
+ 2959              		.section	.bss._ZL28cpu_irq_prev_interrupt_state,"aw",%nobits
+ 2960              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 53
+
+
+ 2961              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
+ 2962              	_ZL28cpu_irq_prev_interrupt_state:
+ 2963 0000 00       		.space	1
+ 2964              		.section	.bss._ZL32cpu_irq_critical_section_counter,"aw",%nobits
+ 2965              		.align	2
+ 2966              		.type	_ZL32cpu_irq_critical_section_counter, %object
+ 2967              		.size	_ZL32cpu_irq_critical_section_counter, 4
+ 2968              	_ZL32cpu_irq_critical_section_counter:
+ 2969 0000 00000000 		.space	4
+ 2970              		.section	.bss.a,"aw",%nobits
+ 2971              		.align	2
+ 2972              		.type	a, %object
+ 2973              		.size	a, 4
+ 2974              	a:
+ 2975 0000 00000000 		.space	4
+ 2976              		.section	.bss.device,"aw",%nobits
+ 2977              		.align	2
+ 2978              		.set	.LANCHOR0,. + 0
+ 2979              		.type	device, %object
+ 2980              		.size	device, 8
+ 2981              	device:
+ 2982 0000 00000000 		.space	8
+ 2982      00000000 
+ 2983              		.section	.bss.egg_cpt,"aw",%nobits
+ 2984              		.align	2
+ 2985              		.set	.LANCHOR9,. + 0
+ 2986              		.type	egg_cpt, %object
+ 2987              		.size	egg_cpt, 4
+ 2988              	egg_cpt:
+ 2989 0000 00000000 		.space	4
+ 2990              		.section	.bss.egg_memoire,"aw",%nobits
+ 2991              		.align	2
+ 2992              		.set	.LANCHOR13,. + 0
+ 2993              		.type	egg_memoire, %object
+ 2994              		.size	egg_memoire, 4
+ 2995              	egg_memoire:
+ 2996 0000 00000000 		.space	4
+ 2997              		.section	.bss.egg_state,"aw",%nobits
+ 2998              		.align	2
+ 2999              		.set	.LANCHOR8,. + 0
+ 3000              		.type	egg_state, %object
+ 3001              		.size	egg_state, 4
+ 3002              	egg_state:
+ 3003 0000 00000000 		.space	4
+ 3004              		.section	.bss.logname,"aw",%nobits
+ 3005              		.align	2
+ 3006              		.set	.LANCHOR14,. + 0
+ 3007              		.type	logname, %object
+ 3008              		.size	logname, 13
+ 3009              	logname:
+ 3010 0000 00000000 		.space	13
+ 3010      00000000 
+ 3010      00000000 
+ 3010      00
+ 3011              		.section	.bss.memoire,"aw",%nobits
+ 3012              		.align	2
+ 3013              		.set	.LANCHOR7,. + 0
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 54
+
+
+ 3014              		.type	memoire, %object
+ 3015              		.size	memoire, 4
+ 3016              	memoire:
+ 3017 0000 00000000 		.space	4
+ 3018              		.section	.bss.milli_test,"aw",%nobits
+ 3019              		.align	2
+ 3020              		.type	milli_test, %object
+ 3021              		.size	milli_test, 4
+ 3022              	milli_test:
+ 3023 0000 00000000 		.space	4
+ 3024              		.section	.bss.nb_err,"aw",%nobits
+ 3025              		.align	2
+ 3026              		.set	.LANCHOR6,. + 0
+ 3027              		.type	nb_err, %object
+ 3028              		.size	nb_err, 4
+ 3029              	nb_err:
+ 3030 0000 00000000 		.space	4
+ 3031              		.section	.bss.now,"aw",%nobits
+ 3032              		.align	2
+ 3033              		.set	.LANCHOR16,. + 0
+ 3034              		.type	now, %object
+ 3035              		.size	now, 4
+ 3036              	now:
+ 3037 0000 00000000 		.space	4
+ 3038              		.section	.bss.prev,"aw",%nobits
  3039              		.align	2
- 3040              	.LC9:
- 3041 0000 3B4C796E 		.ascii	";LynxLogRoutine;\000"
- 3041      784C6F67 
- 3041      526F7574 
- 3041      696E653B 
- 3041      00
- 3042 0011 000000   		.space	3
- 3043              	.LC10:
- 3044 0014 252E3166 		.ascii	"%.1f\000"
- 3044      00
- 3045 0019 000000   		.space	3
- 3046              	.LC11:
- 3047 001c 3B00     		.ascii	";\000"
- 3048 001e 0000     		.space	2
- 3049              	.LC12:
- 3050 0020 302E303B 		.ascii	"0.0;\000"
- 3050      00
- 3051 0025 000000   		.space	3
- 3052              	.LC13:
- 3053 0028 256400   		.ascii	"%d\000"
- 3054 002b 00       		.space	1
- 3055              	.LC14:
- 3056 002c 252E3266 		.ascii	"%.2f\000"
- 3056      00
- 3057 0031 000000   		.space	3
- 3058              	.LC15:
- 3059 0034 252E3066 		.ascii	"%.0f\000"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 56
+ 3040              		.set	.LANCHOR17,. + 0
+ 3041              		.type	prev, %object
+ 3042              		.size	prev, 4
+ 3043              	prev:
+ 3044 0000 00000000 		.space	4
+ 3045              		.section	.bss.reprise_cpt,"aw",%nobits
+ 3046              		.align	2
+ 3047              		.set	.LANCHOR10,. + 0
+ 3048              		.type	reprise_cpt, %object
+ 3049              		.size	reprise_cpt, 4
+ 3050              	reprise_cpt:
+ 3051 0000 00000000 		.space	4
+ 3052              		.section	.bss.reprise_relache,"aw",%nobits
+ 3053              		.align	2
+ 3054              		.set	.LANCHOR11,. + 0
+ 3055              		.type	reprise_relache, %object
+ 3056              		.size	reprise_relache, 4
+ 3057              	reprise_relache:
+ 3058 0000 00000000 		.space	4
+ 3059              		.section	.bss.tem,"aw",%nobits
+ 3060              		.align	2
+ 3061              		.type	tem, %object
+ 3062              		.size	tem, 4
+ 3063              	tem:
+ 3064 0000 00000000 		.space	4
+ 3065              		.section	.bss.tempo_ouverture,"aw",%nobits
+ 3066              		.align	2
+ 3067              		.set	.LANCHOR12,. + 0
+ 3068              		.type	tempo_ouverture, %object
+ 3069              		.size	tempo_ouverture, 4
+ 3070              	tempo_ouverture:
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 55
 
 
- 3059      00
- 3060 0039 000000   		.space	3
- 3061              	.LC16:
- 3062 003c 0A00     		.ascii	"\012\000"
- 3063              		.section	.rodata._ZN7LynxMod12VerrouillageEv.str1.4,"aMS",%progbits,1
- 3064              		.align	2
- 3065              	.LC1:
- 3066 0000 52657365 		.ascii	"Reset egg\012\000"
- 3066      74206567 
- 3066      670A00
- 3067 000b 00       		.space	1
- 3068              	.LC2:
- 3069 000c 4C612070 		.ascii	"La porte est d\351j\340 ouverte\012\000"
- 3069      6F727465 
- 3069      20657374 
- 3069      2064E96A 
- 3069      E0206F75 
- 3070 0027 00       		.space	1
- 3071              	.LC3:
- 3072 0028 4D657263 		.ascii	"Merci de mettre en pause la machine pour pouvoir la"
- 3072      69206465 
- 3072      206D6574 
- 3072      74726520 
- 3072      656E2070 
- 3073 005b 20642665 		.ascii	" d&eacute;verouiller\012\000"
- 3073      61637574 
- 3073      653B7665 
- 3073      726F7569 
- 3073      6C6C6572 
- 3074 0071 000000   		.space	3
- 3075              	.LC4:
- 3076 0074 456E7669 		.ascii	"Environnement trop chaud pour ouvrir la porte\012\000"
- 3076      726F6E6E 
- 3076      656D656E 
- 3076      74207472 
- 3076      6F702063 
- 3077              		.section	.rodata._ZN7LynxMod8LynxM968Ev.str1.4,"aMS",%progbits,1
- 3078              		.align	2
- 3079              	.LC17:
- 3080 0000 3B50616E 		.ascii	";Panel Due door opening request;\012\000"
- 3080      656C2044 
- 3080      75652064 
- 3080      6F6F7220 
- 3080      6F70656E 
- 3081              		.section	.rodata._ZN7LynxMod8LynxM969Ev.str1.4,"aMS",%progbits,1
- 3082              		.align	2
- 3083              	.LC18:
- 3084 0000 3B466C61 		.ascii	";Flash;\012\000"
- 3084      73683B0A 
- 3084      00
- 3085 0009 000000   		.space	3
- 3086              	.LC19:
- 3087 000c 4D393639 		.ascii	"M969 S2: Commande depreciee\012 Nouvelle commande M"
- 3087      2053323A 
- 3087      20436F6D 
- 3087      6D616E64 
- 3087      65206465 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 57
+ 3071 0000 00000000 		.space	4
+ 3072              		.section	.bss.ti,"aw",%nobits
+ 3073              		.align	2
+ 3074              		.type	ti, %object
+ 3075              		.size	ti, 4
+ 3076              	ti:
+ 3077 0000 00000000 		.space	4
+ 3078              		.section	.bss.waitInputDoorSafeLock,"aw",%nobits
+ 3079              		.align	2
+ 3080              		.type	waitInputDoorSafeLock, %object
+ 3081              		.size	waitInputDoorSafeLock, 4
+ 3082              	waitInputDoorSafeLock:
+ 3083 0000 00000000 		.space	4
+ 3084              		.section	.bss.warningWarmDevices,"aw",%nobits
+ 3085              		.set	.LANCHOR2,. + 0
+ 3086              		.type	warningWarmDevices, %object
+ 3087              		.size	warningWarmDevices, 1
+ 3088              	warningWarmDevices:
+ 3089 0000 00       		.space	1
+ 3090              		.section	.data.Lynxmod_Value,"aw",%progbits
+ 3091              		.align	2
+ 3092              		.type	Lynxmod_Value, %object
+ 3093              		.size	Lynxmod_Value, 4
+ 3094              	Lynxmod_Value:
+ 3095 0000 8E030000 		.word	910
+ 3096              		.section	.data.Transmission,"aw",%progbits
+ 3097              		.align	2
+ 3098              		.set	.LANCHOR5,. + 0
+ 3099              		.type	Transmission, %object
+ 3100              		.size	Transmission, 36
+ 3101              	Transmission:
+ 3102 0000 01       		.byte	1
+ 3103 0001 00       		.byte	0
+ 3104 0002 0000     		.space	2
+ 3105 0004 00000000 		.word	0
+ 3106 0008 00000000 		.word	0
+ 3107 000c 00       		.byte	0
+ 3108 000d 00       		.byte	0
+ 3109 000e 20       		.byte	32
+ 3110 000f 00       		.byte	0
+ 3111 0010 00       		.byte	0
+ 3112 0011 000000   		.space	3
+ 3113 0014 00000000 		.word	0
+ 3114 0018 00000000 		.word	0
+ 3115 001c 00000000 		.word	0
+ 3116 0020 0A000000 		.word	10
+ 3117              		.section	.data.cpt_ip,"aw",%progbits
+ 3118              		.align	2
+ 3119              		.set	.LANCHOR18,. + 0
+ 3120              		.type	cpt_ip, %object
+ 3121              		.size	cpt_ip, 4
+ 3122              	cpt_ip:
+ 3123 0000 401F0000 		.word	8000
+ 3124              		.section	.rodata._Z4Lockb.str1.4,"aMS",%progbits,1
+ 3125              		.align	2
+ 3126              	.LC5:
+ 3127 0000 54727969 		.ascii	"Trying to open the door\012\000"
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 56
 
 
- 3088 003c 39363820 		.ascii	"968 S1\012\000"
- 3088      53310A00 
- 3089              	.LC20:
- 3090 0044 3B4C4544 		.ascii	";LEDs sequence test;\012\000"
- 3090      73207365 
- 3090      7175656E 
- 3090      63652074 
- 3090      6573743B 
- 3091 005a 0000     		.space	2
- 3092              	.LC21:
- 3093 005c 3B4C4544 		.ascii	";LEDs update;\012\000"
- 3093      73207570 
- 3093      64617465 
- 3093      3B0A00
- 3094 006b 00       		.space	1
- 3095              	.LC22:
- 3096 006c 52656420 		.ascii	"Red %lu\012\000"
- 3096      256C750A 
- 3096      00
- 3097 0075 000000   		.space	3
- 3098              	.LC23:
- 3099 0078 47726565 		.ascii	"Green %lu\012\000"
- 3099      6E20256C 
- 3099      750A00
- 3100 0083 00       		.space	1
- 3101              	.LC24:
- 3102 0084 426C7565 		.ascii	"Blue %lu\012\000"
- 3102      20256C75 
- 3102      0A00
- 3103 008e 0000     		.space	2
- 3104              	.LC25:
- 3105 0090 57686974 		.ascii	"White %lu\012\000"
- 3105      6520256C 
- 3105      750A00
- 3106 009b 00       		.space	1
- 3107              	.LC26:
- 3108 009c 4C6F636B 		.ascii	"Lock %d\012\000"
- 3108      2025640A 
- 3108      00
- 3109 00a5 000000   		.space	3
- 3110              	.LC27:
- 3111 00a8 50207661 		.ascii	"P value incorrect\012\000"
- 3111      6C756520 
- 3111      696E636F 
- 3111      72726563 
- 3111      740A00
- 3112              		.section	.rodata._ZN7LynxMod9LynxCheckER11GCodeBuffer.str1.4,"aMS",%progbits,1
- 3113              		.align	2
- 3114              	.LC28:
- 3115 0000 72657072 		.ascii	"reprise.g\000"
- 3115      6973652E 
- 3115      6700
- 3116 000a 0000     		.space	2
- 3117              	.LC29:
- 3118 000c 6F757665 		.ascii	"ouverture_porte.g\000"
- 3118      72747572 
- 3118      655F706F 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccimZGws.s 			page 58
+ 3127      6E672074 
+ 3127      6F206F70 
+ 3127      656E2074 
+ 3127      68652064 
+ 3128              		.section	.rodata._ZN7LynxMod10GetLastLogEv.str1.4,"aMS",%progbits,1
+ 3129              		.align	2
+ 3130              	.LC11:
+ 3131 0000 303A2F6C 		.ascii	"0:/logs/\000"
+ 3131      6F67732F 
+ 3131      00
+ 3132 0009 000000   		.space	3
+ 3133              	.LC12:
+ 3134 000c 6C6F6700 		.ascii	"log\000"
+ 3135              	.LC13:
+ 3136 0010 3000     		.ascii	"0\000"
+ 3137 0012 0000     		.space	2
+ 3138              	.LC14:
+ 3139 0014 2E637376 		.ascii	".csv\000"
+ 3139      00
+ 3140              		.section	.rodata._ZN7LynxMod10LynxModComEmcc.str1.4,"aMS",%progbits,1
+ 3141              		.align	2
+ 3142              	.LC1:
+ 3143 0000 53504920 		.ascii	"SPI transmission error :\012Bus busy\012 trying %d "
+ 3143      7472616E 
+ 3143      736D6973 
+ 3143      73696F6E 
+ 3143      20657272 
+ 3144 002d 6D6F7265 		.ascii	"more times\012\000"
+ 3144      2074696D 
+ 3144      65730A00 
+ 3145 0039 000000   		.space	3
+ 3146              	.LC2:
+ 3147 003c 53504920 		.ascii	"SPI transmission error :\012Bus busy\012 trying in "
+ 3147      7472616E 
+ 3147      736D6973 
+ 3147      73696F6E 
+ 3147      20657272 
+ 3148 0069 2564730A 		.ascii	"%ds\012\000"
+ 3148      00
+ 3149 006e 0000     		.space	2
+ 3150              	.LC3:
+ 3151 0070 53504920 		.ascii	"SPI transmission error :\012Data not received\012 t"
+ 3151      7472616E 
+ 3151      736D6973 
+ 3151      73696F6E 
+ 3151      20657272 
+ 3152 009d 7279696E 		.ascii	"rying %d more times\012\000"
+ 3152      67202564 
+ 3152      206D6F72 
+ 3152      65207469 
+ 3152      6D65730A 
+ 3153 00b2 0000     		.space	2
+ 3154              	.LC4:
+ 3155 00b4 53504920 		.ascii	"SPI transmission error :\012Data not received\012 t"
+ 3155      7472616E 
+ 3155      736D6973 
+ 3155      73696F6E 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 57
 
 
- 3118      7274652E 
- 3118      6700
- 3119 001e 0000     		.space	2
- 3120              	.LC30:
- 3121 0020 6C6F6773 		.ascii	"logs.g\000"
- 3121      2E6700
- 3122              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR
+ 3155      20657272 
+ 3156 00e1 7279696E 		.ascii	"rying in %ds\012\000"
+ 3156      6720696E 
+ 3156      20256473 
+ 3156      0A00
+ 3157              		.section	.rodata._ZN7LynxMod12LynxDataLogsEv.str1.4,"aMS",%progbits,1
+ 3158              		.align	2
+ 3159              	.LC15:
+ 3160 0000 3B4C796E 		.ascii	";LynxLogRoutine;\000"
+ 3160      784C6F67 
+ 3160      526F7574 
+ 3160      696E653B 
+ 3160      00
+ 3161 0011 000000   		.space	3
+ 3162              	.LC16:
+ 3163 0014 252E3166 		.ascii	"%.1f\000"
+ 3163      00
+ 3164 0019 000000   		.space	3
+ 3165              	.LC17:
+ 3166 001c 3B00     		.ascii	";\000"
+ 3167 001e 0000     		.space	2
+ 3168              	.LC18:
+ 3169 0020 302E303B 		.ascii	"0.0;\000"
+ 3169      00
+ 3170 0025 000000   		.space	3
+ 3171              	.LC19:
+ 3172 0028 256400   		.ascii	"%d\000"
+ 3173 002b 00       		.space	1
+ 3174              	.LC20:
+ 3175 002c 252E3266 		.ascii	"%.2f\000"
+ 3175      00
+ 3176 0031 000000   		.space	3
+ 3177              	.LC21:
+ 3178 0034 252E3066 		.ascii	"%.0f\000"
+ 3178      00
+ 3179 0039 000000   		.space	3
+ 3180              	.LC22:
+ 3181 003c 0A00     		.ascii	"\012\000"
+ 3182              		.section	.rodata._ZN7LynxMod12VerrouillageEv.str1.4,"aMS",%progbits,1
+ 3183              		.align	2
+ 3184              	.LC6:
+ 3185 0000 52657365 		.ascii	"Reset egg\012\000"
+ 3185      74206567 
+ 3185      670A00
+ 3186 000b 00       		.space	1
+ 3187              	.LC7:
+ 3188 000c 4C612070 		.ascii	"La porte est d\351j\340 ouverte\012\000"
+ 3188      6F727465 
+ 3188      20657374 
+ 3188      2064E96A 
+ 3188      E0206F75 
+ 3189 0027 00       		.space	1
+ 3190              	.LC8:
+ 3191 0028 4D657263 		.ascii	"Merci de mettre en pause la machine pour pouvoir la"
+ 3191      69206465 
+ 3191      206D6574 
+ 3191      74726520 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 58
+
+
+ 3191      656E2070 
+ 3192 005b 20642665 		.ascii	" d&eacute;verouiller\012\000"
+ 3192      61637574 
+ 3192      653B7665 
+ 3192      726F7569 
+ 3192      6C6C6572 
+ 3193 0071 000000   		.space	3
+ 3194              	.LC9:
+ 3195 0074 4F757672 		.ascii	"Ouvrerture porte\012\000"
+ 3195      65727475 
+ 3195      72652070 
+ 3195      6F727465 
+ 3195      0A00
+ 3196 0086 0000     		.space	2
+ 3197              	.LC10:
+ 3198 0088 456E7669 		.ascii	"Environnement trop chaud pour ouvrir la porte\012\000"
+ 3198      726F6E6E 
+ 3198      656D656E 
+ 3198      74207472 
+ 3198      6F702063 
+ 3199              		.section	.rodata._ZN7LynxMod8LynxM968Ev.str1.4,"aMS",%progbits,1
+ 3200              		.align	2
+ 3201              	.LC23:
+ 3202 0000 3B50616E 		.ascii	";Panel Due door opening request;\012\000"
+ 3202      656C2044 
+ 3202      75652064 
+ 3202      6F6F7220 
+ 3202      6F70656E 
+ 3203 0022 0000     		.space	2
+ 3204              	.LC24:
+ 3205 0024 50207661 		.ascii	"P value incorrect\012\000"
+ 3205      6C756520 
+ 3205      696E636F 
+ 3205      72726563 
+ 3205      740A00
+ 3206              		.section	.rodata._ZN7LynxMod8LynxM969Ev.str1.4,"aMS",%progbits,1
+ 3207              		.align	2
+ 3208              	.LC25:
+ 3209 0000 53313A20 		.ascii	"S1: allumage du flash ('luminosit\351 max')\012 S4 "
+ 3209      616C6C75 
+ 3209      6D616765 
+ 3209      20647520 
+ 3209      666C6173 
+ 3210 002d 54657374 		.ascii	"Test leds \012S5 P[0000-1111]: Allumage manuel LED "
+ 3210      206C6564 
+ 3210      73200A53 
+ 3210      3520505B 
+ 3210      30303030 
+ 3211 005d 4F6C640A 		.ascii	"Old\012\011 R[0-255] V[0-255] B[0-255] W[0-255] L[0"
+ 3211      0920525B 
+ 3211      302D3235 
+ 3211      355D2056 
+ 3211      5B302D32 
+ 3212 008a 30302D31 		.ascii	"00-1111] Allumage manuel LED New\000"
+ 3212      3131315D 
+ 3212      20416C6C 
+ 3212      756D6167 
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 59
+
+
+ 3212      65206D61 
+ 3213 00ab 00       		.space	1
+ 3214              	.LC26:
+ 3215 00ac 3B466C61 		.ascii	";Flash;\012\000"
+ 3215      73683B0A 
+ 3215      00
+ 3216 00b5 000000   		.space	3
+ 3217              	.LC27:
+ 3218 00b8 3B4C4544 		.ascii	";LEDs sequence test;\012\000"
+ 3218      73207365 
+ 3218      7175656E 
+ 3218      63652074 
+ 3218      6573743B 
+ 3219 00ce 0000     		.space	2
+ 3220              	.LC28:
+ 3221 00d0 3B4C4544 		.ascii	";LEDs update;\012\000"
+ 3221      73207570 
+ 3221      64617465 
+ 3221      3B0A00
+ 3222 00df 00       		.space	1
+ 3223              	.LC29:
+ 3224 00e0 52656420 		.ascii	"Red %lu\012\000"
+ 3224      256C750A 
+ 3224      00
+ 3225 00e9 000000   		.space	3
+ 3226              	.LC30:
+ 3227 00ec 47726565 		.ascii	"Green %lu\012\000"
+ 3227      6E20256C 
+ 3227      750A00
+ 3228 00f7 00       		.space	1
+ 3229              	.LC31:
+ 3230 00f8 426C7565 		.ascii	"Blue %lu\012\000"
+ 3230      20256C75 
+ 3230      0A00
+ 3231 0102 0000     		.space	2
+ 3232              	.LC32:
+ 3233 0104 57686974 		.ascii	"White %lu\012\000"
+ 3233      6520256C 
+ 3233      750A00
+ 3234 010f 00       		.space	1
+ 3235              	.LC33:
+ 3236 0110 4C6F636B 		.ascii	"Lock %d\012\000"
+ 3236      2025640A 
+ 3236      00
+ 3237              		.section	.rodata._ZN7LynxMod9LynxCheckER11GCodeBuffer.str1.4,"aMS",%progbits,1
+ 3238              		.align	2
+ 3239              	.LC34:
+ 3240 0000 72657072 		.ascii	"reprise.g\000"
+ 3240      6973652E 
+ 3240      6700
+ 3241 000a 0000     		.space	2
+ 3242              	.LC35:
+ 3243 000c 6F757665 		.ascii	"ouverture_porte.g\000"
+ 3243      72747572 
+ 3243      655F706F 
+ 3243      7274652E 
+ 3243      6700
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccPNEW2I.s 			page 60
+
+
+ 3244 001e 0000     		.space	2
+ 3245              	.LC36:
+ 3246 0020 6C6F6773 		.ascii	"logs.g\000"
+ 3246      2E6700
+ 3247              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [AR

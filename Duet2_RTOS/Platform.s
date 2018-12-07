@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
   55              		.size	_ZL12FanInterrupt17CallbackParameter, .-_ZL12FanInterrupt17CallbackParameter
   56              		.section	.text._ZNK8Platform19AnyAxisMotorStalledEj.part.18,"ax",%progbits
   57              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 2
 
 
   58              		.p2align 2,,3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  112 0008 0446     		mov	r4, r0
  113 000a 08D9     		bls	.L24
  114 000c 0846     		mov	r0, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 3
 
 
  115 000e 0444     		add	r4, r4, r0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  169              		.section	.text._ZN8Platform16SetDriverCurrentEjfi.part.23,"ax",%progbits
  170              		.align	1
  171              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 4
 
 
  172              		.syntax unified
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  226              		.align	2
  227              	.L41:
  228 0070 0AD7233C 		.word	1008981770
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 5
 
 
  229              		.size	_ZN8Platform16SetDriverCurrentEjfi.part.23, .-_ZN8Platform16SetDriverCurrentEjfi.part.23
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  283 0068 02A8     		add	r0, sp, #8
  284 006a FFF7FEFF 		bl	_ZN11MutexLockerD1Ev
  285 006e 04B0     		add	sp, sp, #16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 6
 
 
  286              		@ sp needed
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  340              		.type	UrgentInit, %function
  341              	UrgentInit:
  342              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 7
 
 
  343              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  397 0012 C0F8CC50 		str	r5, [r0, #204]
  398 0016 80F89853 		strb	r5, [r0, #920]
  399 001a 80F89A53 		strb	r5, [r0, #922]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 8
 
 
  400 001e 80F89B53 		strb	r5, [r0, #923]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  454              		.thumb
  455              		.syntax unified
  456 0084 0023     		movs	r3, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 9
 
 
  457 0086 3370     		strb	r3, [r6]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  511              		.syntax unified
  512              	@ 456 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h
  513 00f0 BFF35F8F 		dmb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 10
 
 
  514              	@ 0 "" 2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  568              	.L86:
  569 0184 00000000 		.word	g_interrupt_enabled
  570 0188 00401C46 		.word	1176256512
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 11
 
 
  571              		.size	_ZN8PlatformC2Ev, .-_ZN8PlatformC2Ev
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  625              	@ 330 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h"
  626 0008 72B6     		cpsid i
  627              	@ 0 "" 2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 12
 
 
  628              	@ 456 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  682 007a A4F81634 		strh	r3, [r4, #1046]	@ movhi
  683 007e A4F81834 		strh	r3, [r4, #1048]	@ movhi
  684 0082 A4F81A34 		strh	r3, [r4, #1050]	@ movhi
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 13
 
 
  685 0086 21B9     		cbnz	r1, .L94
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  739 00f2 94F8C103 		ldrb	r0, [r4, #961]	@ zero_extendqisi2
  740 00f6 0022     		movs	r2, #0
  741 00f8 0421     		movs	r1, #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 14
 
 
  742 00fa BDE81040 		pop	{r4, lr}
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  796              		@ frame_needed = 0, uses_anonymous_args = 0
  797 0000 70B5     		push	{r4, r5, r6, lr}
  798 0002 90F8A030 		ldrb	r3, [r0, #160]	@ zero_extendqisi2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 15
 
 
  799 0006 082B     		cmp	r3, #8
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  853 0072 1342     		tst	r3, r2
  854 0074 0BD1     		bne	.L119
  855 0076 1B07     		lsls	r3, r3, #28
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 16
 
 
  856 0078 E9D5     		bpl	.L124
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  910              	.L142:
  911              		.align	2
  912              	.L141:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 17
 
 
  913 00f0 00000000 		.word	reprap
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  967 0018 04F10104 		add	r4, r4, #1
  968 001c 05DA     		bge	.L158
  969              	.L151:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 18
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 18
 
 
  970 001e 042C     		cmp	r4, #4
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1024              	.L167:
  1025 0040 00F17004 		add	r4, r0, #112
  1026 0044 FFF7FEFF 		bl	_ZN8Platform20GetZProbeTemperatureEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 19
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 19
 
 
  1027 0048 2046     		mov	r0, r4
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1081 0006 90F8A030 		ldrb	r3, [r0, #160]	@ zero_extendqisi2
  1082 000a 0A2B     		cmp	r3, #10
  1083 000c 08D8     		bhi	.L175
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 20
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 20
 
 
  1084 000e 0122     		movs	r2, #1
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1138 000e 40F22672 		movw	r2, #1830
  1139 0012 1342     		tst	r3, r2
  1140 0014 05D1     		bne	.L185
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 21
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 21
 
 
  1141 0016 1B07     		lsls	r3, r3, #28
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1195              		.size	_ZN8Platform10SetProbingEb, .-_ZN8Platform10SetProbingEb
  1196 0012 00BF     		.section	.text._ZNK8Platform19GetZProbeParametersE10ZProbeType,"ax",%progbits
  1197              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 22
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 22
 
 
  1198              		.p2align 2,,3
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1252              	.L201:
  1253 001a 1546     		mov	r5, r2
  1254 001c 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 23
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 23
 
 
  1255 001e 1034     		adds	r4, r4, #16
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1309 0036 1BD8     		bhi	.L211
  1310 0038 0023     		movs	r3, #0
  1311 003a 03E0     		b	.L212
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 24
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 24
 
 
  1312              	.L214:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1366              		.size	_ZNK8Platform17SetZProbeModStateEb, .-_ZNK8Platform17SetZProbeModStateEb
  1367              		.section	.text._ZNK8Platform16HomingZWithProbeEv,"ax",%progbits
  1368              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 25
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 25
 
 
  1369              		.p2align 2,,3
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1423 0026 2046     		mov	r0, r4
  1424 0028 FFF7FEFF 		bl	_ZN9FileStore5CloseEv
  1425 002c 042F     		cmp	r7, #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 26
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 26
 
 
  1426 002e 03D1     		bne	.L234
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1480              		.thumb
  1481              		.thumb_func
  1482              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 27
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 27
 
 
  1483              		.type	_ZNK8Platform9EmulatingEv, %function
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1537              		.type	_ZN8Platform12SetIPAddressEPh, %function
  1538              	_ZN8Platform12SetIPAddressEPh:
  1539              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 28
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 28
 
 
  1540              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1594 0002 5B69     		ldr	r3, [r3, #20]
  1595 0004 D3F89C32 		ldr	r3, [r3, #668]
  1596 0008 8B42     		cmp	r3, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 29
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 29
 
 
  1597 000a 01D9     		bls	.L253
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1651              		.global	_ZNK8Platform9IsPowerOkEv
  1652              		.syntax unified
  1653              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 30
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 30
 
 
  1654              		.thumb_func
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1708 0014 10EE102A 		vmov	r2, s0	@ int
  1709 0018 A0F8442A 		strh	r2, [r0, #2628]	@ movhi
  1710 001c 10EE902A 		vmov	r2, s1	@ int
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 31
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 31
 
 
  1711 0020 0123     		movs	r3, #1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1765              		@ args = 0, pretend = 0, frame = 0
  1766              		@ frame_needed = 0, uses_anonymous_args = 0
  1767 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 32
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 32
 
 
  1768 0002 0E46     		mov	r6, r1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1822              		.thumb_func
  1823              		.fpu fpv4-sp-d16
  1824              		.type	_ZN8Platform20InitialiseInterruptsEv, %function
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 33
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 33
 
 
  1825              	_ZN8Platform20InitialiseInterruptsEv:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1879 0098 4FF48073 		mov	r3, #256
  1880 009c 85F82A2A 		strb	r2, [r5, #2602]
  1881 00a0 C5F82C2A 		str	r2, [r5, #2604]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 34
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 34
 
 
  1882 00a4 4FF40051 		mov	r1, #8192
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1936 0026 C5F89C03 		str	r0, [r5, #924]
  1937 002a 85F89A33 		strb	r3, [r5, #922]
  1938 002e ECE7     		b	.L299
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 35
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 35
 
 
  1939              		.size	_ZN8Platform19DriverCoolingFansOnEm, .-_ZN8Platform19DriverCoolingFansOnEm
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  1993              		.thumb
  1994              		.thumb_func
  1995              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 36
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 36
 
 
  1996              		.type	_ZN8Platform23UpdateConfiguredHeatersEv, %function
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2050              	.L325:
  2051 0080 0134     		adds	r4, r4, #1
  2052 0082 082C     		cmp	r4, #8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 37
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 37
 
 
  2053 0084 F0D1     		bne	.L322
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2107 0020 1E43     		orrs	r6, r6, r3
  2108              	.L337:
  2109 0022 0134     		adds	r4, r4, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 38
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 38
 
 
  2110 0024 0C2C     		cmp	r4, #12
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2164 004c EAE7     		b	.L351
  2165              		.size	_ZNK8Platform15GetZProbeResultEv, .-_ZNK8Platform15GetZProbeResultEv
  2166 004e 00BF     		.section	.text._ZNK8Platform7StoppedEj,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 39
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 39
 
 
  2167              		.align	1
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2221              	.L405:
  2222 0054 2046     		mov	r0, r4
  2223 0056 FFF7FEFF 		bl	_ZNK8Platform19AnyAxisMotorStalledEj.part.18
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 40
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 40
 
 
  2224 005a 0028     		cmp	r0, #0
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2278 00c8 3946     		mov	r1, r7
  2279 00ca 2046     		mov	r0, r4
  2280 00cc FFF7FEFF 		bl	_ZNK8Platform19AnyAxisMotorStalledEj.part.18
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 41
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 41
 
 
  2281 00d0 0028     		cmp	r0, #0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2335 014a 0028     		cmp	r0, #0
  2336 014c 87D1     		bne	.L411
  2337 014e 75E7     		b	.L377
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 42
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 42
 
 
  2338              	.L415:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2392 005c AA42     		cmp	r2, r5
  2393 005e F7D8     		bhi	.L425
  2394              	.L421:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 43
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 43
 
 
  2395 0060 27B1     		cbz	r7, .L416
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2449              		.p2align 2,,3
  2450              		.global	_ZN8Platform12EnableDriverEj
  2451              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 44
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 44
 
 
  2452              		.thumb
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2506              	_ZN8Platform13DisableDriverEj:
  2507              		@ args = 0, pretend = 0, frame = 0
  2508              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 45
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 45
 
 
  2509              		@ link register save eliminated.
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2563 004c 00000000 		.word	reprap
  2564              		.size	_ZN8Platform11EnableDriveEj, .-_ZN8Platform11EnableDriveEj
  2565              		.section	.text._ZN8Platform12DisableDriveEj,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 46
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 46
 
 
  2566              		.align	1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2620              		.size	_ZN8Platform12DisableDriveEj, .-_ZN8Platform12DisableDriveEj
  2621              		.section	.text._ZN8Platform16DisableAllDrivesEv,"ax",%progbits
  2622              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 47
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 47
 
 
  2623              		.p2align 2,,3
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2677 0022 0134     		adds	r4, r4, #1
  2678 0024 FFF7FEFF 		bl	_ZN8Platform18UpdateMotorCurrentEj.part.21
  2679 0028 0C2C     		cmp	r4, #12
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 48
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 48
 
 
  2680 002a F1D1     		bne	.L484
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2734 0032 05F10105 		add	r5, r5, #1
  2735 0036 0FD9     		bls	.L498
  2736              	.L494:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 49
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 49
 
 
  2737 0038 AA42     		cmp	r2, r5
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2791              	_ZNK8Platform15GetMotorCurrentEji:
  2792              		@ args = 0, pretend = 0, frame = 0
  2793              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 50
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 50
 
 
  2794              		@ link register save eliminated.
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2848 007c 0000C842 		.word	1120403456
  2849              		.size	_ZNK8Platform15GetMotorCurrentEji, .-_ZNK8Platform15GetMotorCurrentEji
  2850              		.section	.text._ZN8Platform20SetIdleCurrentFactorEf,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 51
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 51
 
 
  2851              		.align	1
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2905 0010 0BD8     		bhi	.L531
  2906 0012 A1F11000 		sub	r0, r1, #16
  2907 0016 B0FA80F0 		clz	r0, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 52
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 52
 
 
  2908 001a 4009     		lsrs	r0, r0, #5
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  2962 0048 B0FA80F0 		clz	r0, r0
  2963 004c 4009     		lsrs	r0, r0, #5
  2964              	.L538:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 53
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 53
 
 
  2965 004e 08B9     		cbnz	r0, .L536
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3019              		.global	_ZNK8Platform22GetDriverMicrosteppingEjRb
  3020              		.syntax unified
  3021              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 54
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 54
 
 
  3022              		.thumb_func
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3076              	.L557:
  3077 0036 0023     		movs	r3, #0
  3078 0038 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 55
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 55
 
 
  3079 003a 1020     		movs	r0, #16
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3133              		.global	_ZN8Platform20SetAxisDriversConfigEjRK17AxisDriversConfig
  3134              		.syntax unified
  3135              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 56
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 56
 
 
  3136              		.thumb_func
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3190              		.thumb
  3191              		.thumb_func
  3192              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 57
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 57
 
 
  3193              		.type	_ZN8Platform17SetExtruderDriverEjh, %function
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3247              		@ link register save eliminated.
  3248 0000 0B29     		cmp	r1, #11
  3249 0002 F0B4     		push	{r4, r5, r6, r7}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 58
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 58
 
 
  3250 0004 50D8     		bhi	.L594
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3304 0094 0025     		movs	r5, #0
  3305 0096 E3E7     		b	.L592
  3306              	.L586:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 59
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 59
 
 
  3307 0098 1D46     		mov	r5, r3
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3361 003a 67EE867A 		vmul.f32	s15, s15, s12
  3362 003e 87EEA67A 		vdiv.f32	s14, s15, s13
  3363              	.L603:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 60
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 60
 
 
  3364 0042 0430     		adds	r0, r0, #4
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3418 0030 00000000 		.word	.LC16
  3419              		.size	_ZN8Platform12ConfigureFanEjiR11GCodeBufferRK9StringRefRb, .-_ZN8Platform12ConfigureFanEjiR1
  3420              		.section	.text._ZNK8Platform11GetFanValueEj,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 61
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 61
 
 
  3421              		.align	1
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3475              	_ZNK8Platform17IsFanControllableEj:
  3476              		@ args = 0, pretend = 0, frame = 0
  3477              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 62
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 62
 
 
  3478              		@ link register save eliminated.
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3532              	.L637:
  3533              		.align	2
  3534              	.L636:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 63
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 63
 
 
  3535 0030 00000000 		.word	.LANCHOR2
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3589 002c FFF7FEFF 		bl	_ZN3Fan19SetHeatersMonitoredEm
  3590 0030 2046     		mov	r0, r4
  3591 0032 B7EE000A 		vmov.f32	s0, #1.0e+0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 64
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 64
 
 
  3592 0036 FFF7FEFF 		bl	_ZN3Fan6SetPwmEf
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3646              		.syntax unified
  3647              		.thumb
  3648              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 65
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 65
 
 
  3649              		.fpu fpv4-sp-d16
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3703 0034 D4F8A839 		ldr	r3, [r4, #2472]
  3704 0038 D4F8A409 		ldr	r0, [r4, #2468]
  3705 003c 0199     		ldr	r1, [sp, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 66
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 66
 
 
  3706 003e 0133     		adds	r3, r3, #1
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3760 0038 15D0     		beq	.L680
  3761 003a 14F02007 		ands	r7, r4, #32
  3762 003e 01F10101 		add	r1, r1, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 67
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 67
 
 
  3763 0042 00D0     		beq	.L682
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3817 00b0 154B     		ldr	r3, .L725+4
  3818 00b2 0399     		ldr	r1, [sp, #12]
  3819 00b4 9868     		ldr	r0, [r3, #8]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 68
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 68
 
 
  3820 00b6 FFF7FEFF 		bl	_ZN7Network20HandleHttpGCodeReplyEP12OutputBuffer
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3874 000a 5321     		movs	r1, #83
  3875 000c 3046     		mov	r0, r6
  3876 000e 1746     		mov	r7, r2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 69
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 69
 
 
  3877 0010 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3931              	.L733:
  3932 0088 4046     		mov	r0, r8
  3933 008a 1349     		ldr	r1, .L744+16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 70
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 70
 
 
  3934 008c FFF7FEFF 		bl	_ZNK9StringRef4copyEPKc
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  3988              	.L746:
  3989 000e 7047     		bx	lr
  3990              		.size	_ZN8Platform11StopLoggingEv, .-_ZN8Platform11StopLoggingEv
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 71
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 71
 
 
  3991              		.section	.text._ZNK8Platform8AtxPowerEv,"ax",%progbits
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4045              		.section	.text._ZN8Platform18SetPressureAdvanceEjf,"ax",%progbits
  4046              		.align	1
  4047              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 72
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 72
 
 
  4048              		.global	_ZN8Platform18SetPressureAdvanceEjf
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4102              	_ZN8Platform21SetNonlinearExtrusionEjfff:
  4103              		@ args = 0, pretend = 0, frame = 0
  4104              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 73
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 73
 
 
  4105              		@ link register save eliminated.
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4159 000e 00BF     		.section	.text._ZN8Platform12SetBoardTypeE9BoardType,"ax",%progbits
  4160              		.align	1
  4161              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 74
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 74
 
 
  4162              		.global	_ZN8Platform12SetBoardTypeE9BoardType
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4216 0062 FFF7FEFF 		bl	digitalRead
  4217 0066 3A46     		mov	r2, r7
  4218 0068 0546     		mov	r5, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 75
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 75
 
 
  4219 006a 0221     		movs	r1, #2
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4273              		.syntax unified
  4274              		.thumb
  4275              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 76
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 76
 
 
  4276              		.fpu fpv4-sp-d16
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4330              		.thumb
  4331              		.thumb_func
  4332              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 77
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 77
 
 
  4333              		.type	_ZNK8Platform10IsDuetWiFiEv, %function
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4387 0034 96F9F53A 		ldrsb	r3, [r6, #2805]
  4388 0038 AB42     		cmp	r3, r5
  4389 003a 34D0     		beq	.L817
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 78
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 78
 
 
  4390              	.L837:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4444 00a6 0120     		movs	r0, #1
  4445 00a8 70BD     		pop	{r4, r5, r6, pc}
  4446              	.L803:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 79
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 79
 
 
  4447 00aa A1F13C04 		sub	r4, r1, #60
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4501              	.L840:
  4502 0116 00BF     		.align	2
  4503              	.L839:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 80
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 80
 
 
  4504 0118 00000000 		.word	reprap
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4558 0006 0222     		movs	r2, #2
  4559 0008 FFF7FEBF 		b	_ZN6IoPort3SetEt9PinAccessb
  4560              		.size	_ZN8Platform11SetLaserPinEtb, .-_ZN8Platform11SetLaserPinEtb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 81
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 81
 
 
  4561              		.section	.text._ZN8Platform20SetLaserPwmFrequencyEf,"ax",%progbits
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4615 0012 0122     		movs	r2, #1
  4616 0014 02FA01F1 		lsl	r1, r2, r1
  4617 0018 0B43     		orrs	r3, r3, r1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 82
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 82
 
 
  4618 001a C0F82C37 		str	r3, [r0, #1836]
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4672 002e F3EE0B7A 		vmov.f32	s15, #2.7e+1
  4673 0032 B0EE645A 		vmov.f32	s10, s9
  4674 0036 F0EE674A 		vmov.f32	s9, s15
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 83
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 83
 
 
  4675 003a E5EE264A 		vfma.f32	s9, s10, s13
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4729 0028 82ED007A 		vstr.32	s14, [r2]
  4730 002c B0F8402A 		ldrh	r2, [r0, #2624]
  4731 0030 07EE902A 		vmov	s15, r2	@ int
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 84
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 84
 
 
  4732 0034 F8EEE77A 		vcvt.f32.s32	s15, s15
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4786 0018 DFED057A 		vldr.32	s15, .L872
  4787 001c 9FED050A 		vldr.32	s0, .L872+4
  4788 0020 1942     		tst	r1, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 85
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 85
 
 
  4789 0022 08BF     		it	eq
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4843 004a 2846     		mov	r0, r5
  4844 004c 93F85E14 		ldrb	r1, [r3, #1118]	@ zero_extendqisi2
  4845 0050 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 86
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 86
 
 
  4846 0054 0028     		cmp	r0, #0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4900 00da 63D1     		bne	.L906
  4901 00dc D6F88433 		ldr	r3, [r6, #900]
  4902 00e0 002C     		cmp	r4, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 87
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 87
 
 
  4903 00e2 00F00681 		beq	.L974
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  4957 0162 5221     		movs	r1, #82
  4958 0164 2846     		mov	r0, r5
  4959 0166 FFF7FEFF 		bl	_ZN11GCodeBuffer4SeenEc
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 88
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 88
 
 
  4960 016a D8B1     		cbz	r0, .L906
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5014 01f2 8242     		cmp	r2, r0
  5015 01f4 F3D3     		bcc	.L878
  5016              	.L877:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 89
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 89
 
 
  5017 01f6 4846     		mov	r0, r9
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5071 0276 D6F88433 		ldr	r3, [r6, #900]
  5072 027a F0E7     		b	.L899
  5073              	.L972:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 90
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 90
 
 
  5074 027c 2846     		mov	r0, r5
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5128 02f2 0124     		movs	r4, #1
  5129 02f4 9C40     		lsls	r4, r4, r3
  5130 02f6 013C     		subs	r4, r4, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 91
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 91
 
 
  5131 02f8 F5E6     		b	.L907
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5185              		.global	_ZNK8Platform13IsDateTimeSetEv
  5186              		.syntax unified
  5187              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 92
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 92
 
 
  5188              		.thumb_func
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5242 001a 00BF     		.align	2
  5243              	.L988:
  5244 001c 00000000 		.word	Wire
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 93
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 93
 
 
  5245              		.size	_ZN8Platform7InitI2cEv, .-_ZN8Platform7InitI2cEv
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5299 001e 23B1     		cbz	r3, .L995
  5300              	.L996:
  5301 0020 2868     		ldr	r0, [r5]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 94
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 94
 
 
  5302 0022 FFF7FEFF 		bl	_ZN3DDA4StepEv
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5356 0020 95B1     		cbz	r5, .L1015
  5357 0022 30BC     		pop	{r4, r5}
  5358 0024 7047     		bx	lr
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 95
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 95
 
 
  5359              	.L1010:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5413              		@ link register save eliminated.
  5414 0000 024B     		ldr	r3, .L1020
  5415 0002 0422     		movs	r2, #4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 96
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 96
 
 
  5416 0004 C3F8A820 		str	r2, [r3, #168]
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5470 0038 0123     		movs	r3, #1
  5471 003a 2370     		strb	r3, [r4]
  5472              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 97
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 97
 
 
  5473              	@ 456 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5527              		.p2align 2,,3
  5528              		.global	_ZN8Platform4TickEv
  5529              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 98
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 98
 
 
  5530              		.thumb
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5584 0080 032B     		cmp	r3, #3
  5585 0082 C5D8     		bhi	.L1041
  5586 0084 DFE803F0 		tbb	[pc, r3]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 99
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 99
 
 
  5587              	.L1043:
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5641 00fc 891B     		subs	r1, r1, r6
  5642 00fe 0144     		add	r1, r1, r0
  5643 0100 202A     		cmp	r2, #32
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 100
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 100
 
 
  5644 0102 C3F86C14 		str	r1, [r3, #1132]
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5698 0190 DB1B     		subs	r3, r3, r7
  5699 0192 0B44     		add	r3, r3, r1
  5700 0194 082A     		cmp	r2, #8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 101
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 101
 
 
  5701 0196 C4F80434 		str	r3, [r4, #1028]
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5755 0226 D4F8CC30 		ldr	r3, [r4, #204]
  5756 022a 43F00103 		orr	r3, r3, #1
  5757 022e C4F8CC30 		str	r3, [r4, #204]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 102
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 102
 
 
  5758 0232 75E7     		b	.L1047
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5812 02b8 94F8A050 		ldrb	r5, [r4, #160]	@ zero_extendqisi2
  5813 02bc 5FE7     		b	.L1068
  5814              	.L1074:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 103
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 103
 
 
  5815 02be 94F8F600 		ldrb	r0, [r4, #246]	@ zero_extendqisi2
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5869              	.L1061:
  5870 033c 94F8F800 		ldrb	r0, [r4, #248]	@ zero_extendqisi2
  5871 0340 FFF7FEFF 		bl	_ZN6IoPort7ReadPinEh
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 104
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 104
 
 
  5872 0344 0028     		cmp	r0, #0
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5926              		.weak	_ZN6StringILj220EE6printfEPKcz
  5927              		.syntax unified
  5928              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 105
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 105
 
 
  5929              		.thumb_func
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  5983              		.align	1
  5984              		.p2align 2,,3
  5985              		.syntax unified
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 106
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 106
 
 
  5986              		.thumb
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6040              		@ sp needed
  6041 0074 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  6042              	.L1137:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 107
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 107
 
 
  6043              		.align	2
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6097 0024 D4F82817 		ldr	r1, [r4, #1832]
  6098 0028 59BB     		cbnz	r1, .L1146
  6099              	.L1149:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 108
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 108
 
 
  6100 002a D4F82C17 		ldr	r1, [r4, #1836]
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6154              		.thumb
  6155              		.thumb_func
  6156              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 109
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 109
 
 
  6157              		.type	_ZN8Platform4InitEv, %function
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6211 009c C4F8A110 		str	r1, [r4, #161]	@ unaligned
  6212 00a0 C4F8A520 		str	r2, [r4, #165]	@ unaligned
  6213 00a4 C4F8A930 		str	r3, [r4, #169]	@ unaligned
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 110
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 110
 
 
  6214 00a8 4560     		str	r5, [r0, #4]	@ unaligned
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6268 0118 4A40     		eors	r2, r2, r1
  6269 011a 0F28     		cmp	r0, #15
  6270 011c 83F8AD20 		strb	r2, [r3, #173]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 111
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 111
 
 
  6271 0120 EDD1     		bne	.L1170
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6325 019e 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
  6326 01a0 6545     		cmp	r5, ip
  6327 01a2 3060     		str	r0, [r6]	@ unaligned
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 112
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 112
 
 
  6328 01a4 7160     		str	r1, [r6, #4]	@ unaligned
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6382 022e 0121     		movs	r1, #1
  6383 0230 3520     		movs	r0, #53
  6384 0232 C4F82857 		str	r5, [r4, #1832]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 113
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 113
 
 
  6385 0236 C4F82C57 		str	r5, [r4, #1836]
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6439 02e2 0291     		str	r1, [sp, #8]
  6440 02e4 0192     		str	r2, [sp, #4]
  6441              	.L1179:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 114
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 114
 
 
  6442 02e6 C94B     		ldr	r3, .L1230
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6496 0380 A64E     		ldr	r6, .L1230+16
  6497 0382 C4F87C23 		str	r2, [r4, #892]
  6498 0386 0021     		movs	r1, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 115
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 115
 
 
  6499 0388 04F2FF20 		addw	r0, r4, #767
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6553 0426 C4F8AC63 		str	r6, [r4, #940]
  6554 042a C4F8A863 		str	r6, [r4, #936]
  6555 042e C4F8A463 		str	r6, [r4, #932]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 116
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 116
 
 
  6556 0432 C4F8BC63 		str	r6, [r4, #956]
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6610 04bc 4FF00002 		mov	r2, #0
  6611 04c0 4FF00301 		mov	r1, #3
  6612 04c4 01D0     		beq	.L1193
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 117
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 117
 
 
  6613 04c6 FFF7FEFF 		bl	pinModeDuet
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6667              	@ 456 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmInstr.h
  6668 0548 BFF35F8F 		dmb
  6669              	@ 0 "" 2
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 118
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 118
 
 
  6670              	@ 319 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h"
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6724              	.L1168:
  6725 05e4 174B     		ldr	r3, .L1230+56
  6726 05e6 1868     		ldr	r0, [r3]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 119
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 119
 
 
  6727 05e8 9B88     		ldrh	r3, [r3, #4]	@ unaligned
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6781 0018 D4F8A409 		ldr	r0, [r4, #2468]
  6782 001c 28B1     		cbz	r0, .L1234
  6783              	.L1235:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 120
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 120
 
 
  6784 001e FFF7FEFF 		bl	_ZN12OutputBuffer7ReleaseEPS_
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6838 0038 00000000 		.word	SerialUSB
  6839              		.size	_ZN8Platform12ResetChannelEj, .-_ZN8Platform12ResetChannelEj
  6840              		.section	.text._ZN8Platform11SetBaudRateEjm,"ax",%progbits
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 121
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 121
 
 
  6841              		.align	1
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6895              		.type	_ZN8Platform13SoftwareResetEtPKm, %function
  6896              	_ZN8Platform13SoftwareResetEtPKm:
  6897              		@ args = 0, pretend = 0, frame = 512
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 122
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 122
 
 
  6898              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  6952 006a 3CD0     		beq	.L1299
  6953              	.L1278:
  6954 006c 51F8045F 		ldr	r5, [r1, #4]!
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 123
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 123
 
 
  6955 0070 0135     		adds	r5, r5, #1
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7009 00fa 6846     		mov	r0, sp
  7010 00fc FFF7FEFF 		bl	memset
  7011 0100 0023     		movs	r3, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 124
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 124
 
 
  7012 0102 B9E7     		b	.L1275
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7066 0026 D5F80C21 		ldr	r2, [r5, #268]
  7067 002a D5F81031 		ldr	r3, [r5, #272]
  7068 002e D61A     		subs	r6, r2, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 125
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 125
 
 
  7069 0030 8642     		cmp	r6, r0
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7123 0000 F0B5     		push	{r4, r5, r6, r7, lr}
  7124 0002 85B0     		sub	sp, sp, #20
  7125 0004 0446     		mov	r4, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 126
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 126
 
 
  7126 0006 03A8     		add	r0, sp, #12
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7180 0010 0068     		ldr	r0, [r0]
  7181 0012 20B1     		cbz	r0, .L1325
  7182 0014 D6E90223 		ldrd	r2, [r6, #8]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 127
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 127
 
 
  7183 0018 0094     		str	r4, [sp]
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7237 0086 10B1     		cbz	r0, .L1337
  7238 0088 90F81431 		ldrb	r3, [r0, #276]	@ zero_extendqisi2
  7239 008c 43B1     		cbz	r3, .L1338
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 128
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 128
 
 
  7240              	.L1337:
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7294 0100 FFF7FEFF 		bl	_ZNK6RepRap19SpinTimeoutImminentEv
  7295 0104 2A46     		mov	r2, r5
  7296 0106 2146     		mov	r1, r4
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 129
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 129
 
 
  7297 0108 0028     		cmp	r0, #0
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7351              	.L1397:
  7352 002e 24F44071 		bic	r1, r4, #768
  7353 0032 2A46     		mov	r2, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 130
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 130
 
 
  7354 0034 3046     		mov	r0, r6
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7408              		.section	.text._ZN8Platform4BeepEii,"ax",%progbits
  7409              		.align	1
  7410              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 131
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 131
 
 
  7411              		.global	_ZN8Platform4BeepEii
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7465              	.L1414:
  7466 002c E307     		lsls	r3, r4, #31
  7467 002e F9D5     		bpl	.L1413
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 132
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 132
 
 
  7468 0030 2A46     		mov	r2, r5
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7522              		@ args = 0, pretend = 0, frame = 40
  7523              		@ frame_needed = 0, uses_anonymous_args = 0
  7524 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 133
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 133
 
 
  7525 0004 8BB0     		sub	sp, sp, #44
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7579 008a D8D9     		bls	.L1432
  7580 008c 04F13A03 		add	r3, r4, #58
  7581 0090 4E2B     		cmp	r3, #78
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 134
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 134
 
 
  7582 0092 D4D9     		bls	.L1432
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7636 0020 C4E90223 		strd	r2, [r4, #8]
  7637 0024 FFF7FEFF 		bl	millis64
  7638 0028 4FF47A72 		mov	r2, #1000
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 135
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 135
 
 
  7639 002c 0023     		movs	r3, #0
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7693 0018 18BF     		it	ne
  7694 001a 1946     		movne	r1, r3
  7695 001c 03AD     		add	r5, sp, #12
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 136
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 136
 
 
  7696 001e 0023     		movs	r3, #0
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7750              		.section	.text._ZN8Platform11DiagnosticsE11MessageType,"ax",%progbits
  7751              		.align	1
  7752              		.p2align 2,,3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 137
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 137
 
 
  7753              		.global	_ZN8Platform11DiagnosticsE11MessageType
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7807 008c FFF7FEFF 		bl	memset
  7808              		.syntax unified
  7809              	@ 470 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 138
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 138
 
 
  7810 0090 EFF31087 		MRS r7, primask
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7864 010e FFF7FEFF 		bl	_ZNK11MassStorage14IsCardDetectedEj
  7865 0112 A34B     		ldr	r3, .L1517+52
  7866 0114 0028     		cmp	r0, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 139
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 139
 
 
  7867 0116 08BF     		it	eq
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7921 01dc A8EE8A8A 		vfma.f32	s16, s17, s20
  7922 01e0 78EE297A 		vadd.f32	s15, s16, s19
  7923 01e4 17EE900A 		vmov	r0, s15
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 140
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 140
 
 
  7924 01e8 FFF7FEFF 		bl	__aeabi_f2d
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  7978 029a C7E90069 		strd	r6, r9, [r7]
  7979 029e FFF7FEFF 		bl	_ZN12SmartDrivers18AppendDriverStatusEjRK9StringRef
  7980 02a2 2B46     		mov	r3, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 141
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 141
 
 
  7981 02a4 0096     		str	r6, [sp]
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8035 0320 62B6     		cpsie i
  8036              	@ 0 "" 2
  8037              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 142
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 142
 
 
  8038              		.syntax unified
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8092 03c4 64000000 		.word	.LC54
  8093 03c8 5C000000 		.word	.LC53
  8094 03cc C5B3A291 		.word	-1851608123
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 143
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 143
 
 
  8095 03d0 89888888 		.word	-2004318071
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8149 0454 334A     		ldr	r2, .L1519+28
  8150 0456 51F82310 		ldr	r1, [r1, r3, lsl #2]
  8151 045a DAF80430 		ldr	r3, [r10, #4]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 144
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 144
 
 
  8152 045e 08BF     		it	eq
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8206 04ea DFF858B0 		ldr	fp, .L1519+60
  8207 04ee 89E7     		b	.L1472
  8208              	.L1491:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 145
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 145
 
 
  8209 04f0 DFF854B0 		ldr	fp, .L1519+64
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8263 0010 0792     		str	r2, [sp, #28]
  8264 0012 0E46     		mov	r6, r1
  8265 0014 0546     		mov	r5, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 146
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 146
 
 
  8266 0016 1C46     		mov	r4, r3
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8320 00b8 4FF0000A 		mov	r10, #0
  8321 00bc B146     		mov	r9, r6
  8322              	.L1563:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 147
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 147
 
 
  8323 00be 04FB05F3 		mul	r3, r4, r5
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8377 0152 9C42     		cmp	r4, r3
  8378 0154 0FD0     		beq	.L1534
  8379 0156 40F2EE33 		movw	r3, #1006
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 148
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 148
 
 
  8380 015a 9C42     		cmp	r4, r3
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8434 01ca D0F81C0A 		ldr	r0, [r0, #2588]
  8435 01ce B78E     		ldrh	r7, [r6, #52]
  8436 01d0 FFF7FEFF 		bl	_ZNK11MassStorage14IsCardDetectedEj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 149
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 149
 
 
  8437 01d4 8046     		mov	r8, r0
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8491 0284 9DED0B7A 		vldr.32	s14, [sp, #44]
  8492 0288 B4EEE77A 		vcmpe.f32	s14, s15
  8493 028c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 150
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 150
 
 
  8494 0290 40F1E680 		bpl	.L1587
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8548              	.L1551:
  8549 033e DFF8ACB0 		ldr	fp, .L1607+92
  8550 0342 0024     		movs	r4, #0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 151
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 151
 
 
  8551 0344 47F4807A 		orr	r10, r7, #256
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8604 03dc AC000000 		.word	.LC89
  8605 03e0 3333113C 		.word	1007760179
  8606 03e4 50010000 		.word	.LC94
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 152
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 152
 
 
  8607 03e8 00000940 		.word	1074331648
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8661 0464 2846     		mov	r0, r5
  8662 0466 FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
  8663 046a 21E7     		b	.L1543
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 153
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 153
 
 
  8664              	.L1606:
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8718 04e8 FFF7FEFF 		bl	_ZN8Platform7MessageE11MessageTypePKc
  8719 04ec 0024     		movs	r4, #0
  8720 04ee 3EE6     		b	.L1522
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 154
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 154
 
 
  8721              	.L1610:
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8775 0036 02B0     		add	sp, sp, #8
  8776              		@ sp needed
  8777 0038 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 155
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 155
 
 
  8778              	.L1626:
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8832 000a 04F6C411 		addw	r1, r4, #2500
  8833 000e 4FF0FF32 		mov	r2, #-1
  8834 0012 0546     		mov	r5, r0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 156
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 156
 
 
  8835 0014 04F51B64 		add	r4, r4, #2480
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8889 0092 FFF7FEFF 		bl	_ZNV11OutputStack12SetFirstItemEP12OutputBuffer
  8890 0096 D1E7     		b	.L1634
  8891              	.L1640:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 157
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 157
 
 
  8892 0098 0120     		movs	r0, #1
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  8946 003c 4FF48E04 		mov	r4, #4653056
  8947 0040 0027     		movs	r7, #0
  8948 0042 4FF00109 		mov	r9, #1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 158
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 158
 
 
  8949 0046 28E0     		b	.L1655
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9003              		.syntax unified
  9004              	@ 330 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h"
  9005 00ac 72B6     		cpsid i
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 159
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 159
 
 
  9006              	@ 0 "" 2
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9060 0112 4FF48E00 		mov	r0, #4653056
  9061 0116 FFF7FEFF 		bl	flash_lock
  9062 011a 4046     		mov	r0, r8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 160
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 160
 
 
  9063 011c FFF7FEFF 		bl	_ZN9FileStore5CloseEv
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9117 0190 5964     		str	r1, [r3, #68]
  9118 0192 4164     		str	r1, [r0, #68]
  9119 0194 5164     		str	r1, [r2, #68]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 161
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 161
 
 
  9120 0196 C3F84416 		str	r1, [r3, #1604]
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9174 01f8 BFF35F8F 		dmb
  9175              	@ 0 "" 2
  9176              	@ 319 "C:\Eclispe\RepRapFirmware-2.0_lynxrev-0.1\CoreNG\asf\thirdparty\CMSIS\Include/core_cmFunc.h"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 162
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 162
 
 
  9177 01fc 62B6     		cpsie i
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9231              		.size	_ZN8Platform14UpdateFirmwareEv, .-_ZN8Platform14UpdateFirmwareEv
  9232              		.section	.text._ZN8Platform4SpinEv,"ax",%progbits
  9233              		.align	1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 163
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 163
 
 
  9234              		.p2align 2,,3
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9288 007e FFF7FEFF 		bl	millis
  9289 0082 D4E90278 		ldrd	r7, [r4, #8]
  9290 0086 57EA0803 		orrs	r3, r7, r8
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 164
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 164
 
 
  9291 008a 0646     		mov	r6, r0
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9345 011e EAB1     		cbz	r2, .L1722
  9346 0120 D306     		lsls	r3, r2, #27
  9347 0122 22F01F01 		bic	r1, r2, #31
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 165
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 165
 
 
  9348 0126 08D0     		beq	.L1723
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9402 01c2 F8EEE77A 		vcvt.f32.s32	s15, s15
  9403 01c6 67EE877A 		vmul.f32	s15, s15, s14
  9404 01ca 17EE900A 		vmov	r0, s15
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 166
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 166
 
 
  9405 01ce FFF7FEFF 		bl	__aeabi_f2d
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9459 025e 0CE7     		b	.L1695
  9460              	.L1806:
  9461 0260 84F8F45A 		strb	r5, [r4, #2804]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 167
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 167
 
 
  9462 0264 2046     		mov	r0, r4
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9516 02fa 93F9E830 		ldrsb	r3, [r3, #232]
  9517 02fe 002B     		cmp	r3, #0
  9518 0300 38DA     		bge	.L1801
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 168
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 168
 
 
  9519 0302 D4F8BC53 		ldr	r5, [r4, #956]
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9573 038a 9340     		lsls	r3, r3, r2
  9574 038c 8707     		lsls	r7, r0, #30
  9575 038e 6FEA0301 		mvn	r1, r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 169
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 169
 
 
  9576 0392 33D5     		bpl	.L1698
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9630 0416 0B42     		tst	r3, r1
  9631 0418 42D0     		beq	.L1708
  9632 041a D4F8B813 		ldr	r1, [r4, #952]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 170
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 170
 
 
  9633 041e 1943     		orrs	r1, r1, r3
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9687 04a8 D4F8B413 		ldr	r1, [r4, #948]
  9688 04ac 1943     		orrs	r1, r1, r3
  9689 04ae C4F8B413 		str	r1, [r4, #948]
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 171
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 171
 
 
  9690 04b2 97E7     		b	.L1706
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9744              		.set	.LANCHOR25,. + 0
  9745              		.type	_ZN8Platform22softwareResetDebugInfoE, %object
  9746              		.size	_ZN8Platform22softwareResetDebugInfoE, 1
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 172
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 172
 
 
  9747              	_ZN8Platform22softwareResetDebugInfoE:
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9797 0000 4E       		.byte	78
  9798 0001 29       		.byte	41
  9799 0002 2A       		.byte	42
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 173
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 173
 
 
  9800 0003 31       		.byte	49
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9854 001c 00007A43 		.word	1132068864
  9855 0020 00007A43 		.word	1132068864
  9856 0024 00007A43 		.word	1132068864
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 174
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 174
 
 
  9857 0028 00007A43 		.word	1132068864
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9911 0000 4B       		.byte	75
  9912 0001 4C       		.byte	76
  9913 0002 4D       		.byte	77
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 175
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 175
 
 
  9914 0003 01       		.byte	1
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  9968 0005 CE       		.byte	-50
  9969 0006 CD       		.byte	-51
  9970 0007 CC       		.byte	-52
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 176
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 176
 
 
  9971 0008 D7       		.byte	-41
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10025 0010 0000D243 		.word	1137836032
  10026 0014 0000D243 		.word	1137836032
  10027 0018 0000D243 		.word	1137836032
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 177
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 177
 
 
  10028 001c 0000D243 		.word	1137836032
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10069      2074696D 
  10069      656F7574 
  10069      00
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 178
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 178
 
 
  10070 003d 000000   		.space	3
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10101      65742025 
  10101      3032643A 
  10101      25303264 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 179
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 179
 
 
  10102 00ea 0000     		.space	2
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10126 0218 4572726F 		.ascii	"Error status: %lu\012\000"
  10126      72207374 
  10126      61747573 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 180
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 180
 
 
  10126      3A20256C 
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10150      6E206D6F 
  10150      746F7228 
  10150      73292073 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 181
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 181
 
 
  10151 0375 000000   		.space	3
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10179      2076616C 
  10179      75652069 
  10180              	.LC9:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 182
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 182
 
 
  10181 0024 4E6F2070 		.ascii	"No program bytes provided\000"
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10209      65726174 
  10209      75726520 
  10209      252E3166 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 183
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 183
 
 
  10210 00a9 000000   		.space	3
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10232 01b8 44726976 		.ascii	"Driver %u reports short-to-ground\012\000"
  10232      65722025 
  10232      75207265 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 184
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 184
 
 
  10232      706F7274 
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10260              	.LC107:
  10261 0010 666C6173 		.ascii	"flash write failed, code=%lu, address=0x%08lx\012\000"
  10261      68207772 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 185
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 185
 
 
  10261      69746520 
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10287      00
  10288 0011 000000   		.space	3
  10289              	.LC19:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 186
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 186
 
 
  10290 0014 4D697373 		.ascii	"Missing filename in M929 command\000"
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10320      32436F6D 
  10320      62696E65 
  10320      64466972 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 187
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 187
 
 
  10320      6D776172 
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10347              	.LC114:
  10348 002c 68696768 		.ascii	"high temperature\000"
  10348      2074656D 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 188
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 188
 
 
  10348      70657261 
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10374      3220746F 
  10374      20636F6E 
  10374      74696E75 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 189
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 189
 
 
  10375              		.section	.rodata._ZNK8Platform14GetBoardStringEv.str1.4,"aMS",%progbits,1
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 1
  10408      65746865 
  10408      726E6574 
  10408      31303200 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccKNLQ4M.s 			page 190
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\cchZDzoC.s 			page 190
 
 
  10409              	.LC123:

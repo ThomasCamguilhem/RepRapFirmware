@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
   55              		.type	_ZN10Kinematics22SetCalibrationDefaultsEv, %function
   56              	_ZN10Kinematics22SetCalibrationDefaultsEv:
   57              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 2
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 2
 
 
   58              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  112 0002 7047     		bx	lr
  113              		.size	_ZNK10Kinematics23AxesToHomeBeforeProbingEv, .-_ZNK10Kinematics23AxesToHomeBeforeProbingEv
  114              		.section	.text._ZNK10Kinematics13GetMotionTypeEj,"axG",%progbits,_ZNK10Kinematics13GetMotionTypeEj
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 3
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 3
 
 
  115              		.align	1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  169              		.weak	_ZNK10Kinematics16AxesAssumedHomedEm
  170              		.syntax unified
  171              		.thumb
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 4
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 4
 
 
  172              		.thumb_func
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  226              	_ZNK10Kinematics24IsContinuousRotationAxisEj:
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 5
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 5
 
 
  229              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  283              		.syntax unified
  284              		.thumb
  285              		.thumb_func
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 6
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 6
 
 
  286              		.fpu fpv4-sp-d16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  340              		.type	_ZNK10Kinematics25GetAssumedInitialPositionEjPf, %function
  341              	_ZNK10Kinematics25GetAssumedInitialPositionEjPf:
  342              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 7
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 7
 
 
  343              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  397 003e 1B68     		ldr	r3, [r3]
  398 0040 2846     		mov	r0, r5
  399 0042 9847     		blx	r3
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 8
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 8
 
 
  400 0044 0449     		ldr	r1, .L68+4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  454              	.L70:
  455 0040 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  456              	.L90:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 9
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 9
 
 
  457 0044 0C4B     		ldr	r3, .L92+4
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  511 001e 4273     		strb	r2, [r0, #13]
  512 0020 8173     		strb	r1, [r0, #14]
  513 0022 30BC     		pop	{r4, r5}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 10
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 10
 
 
  514 0024 7047     		bx	lr
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  568 0054 70BC     		pop	{r4, r5, r6}
  569 0056 7047     		bx	lr
  570              	.L105:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 11
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 11
 
 
  571 0058 0020     		movs	r0, #0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  625 003c FFF7FEFF 		bl	_ZN16CoreXYKinematicsC1Ev
  626 0040 2046     		mov	r0, r4
  627 0042 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 12
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 12
 
 
  628              	.L122:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  682              		.type	_ZN10Kinematics11PrintMatrixEPKcRK10MathMatrixIdEjj, %function
  683              	_ZN10Kinematics11PrintMatrixEPKcRK10MathMatrixIdEjj:
  684              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 13
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 13
 
 
  685              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  739              	.L149:
  740 006e 2B68     		ldr	r3, [r5]
  741 0070 2846     		mov	r0, r5
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 14
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 14
 
 
  742 0072 1B68     		ldr	r3, [r3]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  796              		.type	_ZL28cpu_irq_prev_interrupt_state, %object
  797              		.size	_ZL28cpu_irq_prev_interrupt_state, 1
  798              	_ZL28cpu_irq_prev_interrupt_state:
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 15
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 15
 
 
  799 0000 00       		.space	1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  847              	.LC2:
  848 0014 4D257520 		.ascii	"M%u parameters do not apply to %s kinematics\000"
  848      70617261 
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 16
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 16
 
 
  848      6D657465 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 1
  895      782E6700 
  896              	.LC10:
  897 0008 686F6D65 		.ascii	"homey.g\000"
-ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccmzIWY0.s 			page 17
+ARM GAS  C:\Users\THOMAS~1.CAM\AppData\Local\Temp\ccedmfHI.s 			page 17
 
 
  897      792E6700 
